@@ -25,6 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="-EjcRYX3X_NGUHZI2THJf6U-XPNaYRfrHgFpjoLk8iY"
+        />
+      </head>
       <body className={`${spaceGrotesk.variable} ${dmMono.variable} antialiased`}>
         {children}
       </body>

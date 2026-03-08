@@ -3089,9 +3089,1102 @@ const tools: Tool[] = [
       },
     ],
   },
+  {
+    slug: "milwaukee-m18-onekey-34-impact-wrench",
+    brand: "Milwaukee",
+    name: "M18 FUEL ONE-KEY 3/4\" High Torque Impact Wrench (Body Only)",
+    modelNumber: "M18 ONEFHIWF34-0",
+    category: "impact-drivers",
+    description: "ONE-KEY enabled 3/4\" high torque impact wrench for heavy plant and HGV work. Customisable torque settings via ONE-KEY app. Bolt removal mode.",
+    retailers: [
+      {
+        name: "ITS",
+        price: 389.99,
+        originalPrice: 449.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Amazon UK",
+        price: 399.99,
+        originalPrice: 469.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B07HHFMNQG?tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 409.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 401.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 409.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-onekey-1-impact-wrench",
+    brand: "Milwaukee",
+    name: "M18 FUEL ONE-KEY 1\" High Torque Impact Wrench (Body Only)",
+    modelNumber: "M18 ONEFHIWP12-0",
+    category: "impact-drivers",
+    description: "Most powerful cordless 1\" impact wrench. ONE-KEY enabled with 2,576Nm nut-busting torque. For large-scale industrial and plant applications.",
+    retailers: [
+      {
+        name: "ITS",
+        price: 549.99,
+        originalPrice: 639.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Amazon UK",
+        price: 559.99,
+        originalPrice: 649.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B07F3T2NNP?tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 579.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 561.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 579.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-sds-max-hammer",
+    brand: "Milwaukee",
+    name: "M18 FUEL SDS Max Drilling & Breaking Hammer (Body Only)",
+    modelNumber: "M18 CHM-0",
+    category: "sds-drills",
+    description: "Powerful SDS Max combi hammer with 8J impact energy. 3 modes: hammer drill, chisel, vario-lock chisel. For heavy concrete and masonry work.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 449.99,
+        originalPrice: 529.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B01BKF2FVK?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 439.99,
+        originalPrice: 509.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 469.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 451.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 469.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-165mm-circular-saw",
+    brand: "Milwaukee",
+    name: "M18 FUEL 165mm Circular Saw (Body Only)",
+    modelNumber: "M18 FCSG66-0",
+    category: "saws",
+    description: "Compact 165mm circular saw with POWERSTATE brushless motor. 55mm cutting depth at 90°. Ideal for ripping sheet materials and cross-cutting timber.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 219.99,
+        originalPrice: 259.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B08HS2JB5N?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 209.99,
+        originalPrice: 249.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 229.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 221.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 229.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-125mm-slide-grinder",
+    brand: "Milwaukee",
+    name: "M18 FUEL 125mm Angle Grinder with Slide Switch (Body Only)",
+    modelNumber: "M18 FSAG125X-0",
+    category: "grinders",
+    description: "125mm angle grinder with slide switch. POWERSTATE brushless motor delivers corded-equivalent power. Electronic clutch and overload protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 154.99,
+        originalPrice: 189.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B095412VFS?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        originalPrice: 179.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 164.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 156.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 164.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-orbital-polisher",
+    brand: "Milwaukee",
+    name: "M18 FUEL Random Orbital Polisher 150mm (Body Only)",
+    modelNumber: "M18 FROP15-0",
+    category: "sanders",
+    description: "150mm random orbital polisher with variable speed 1,200-6,800 OPM. 15mm orbit for fast paint correction. Soft start and constant speed control.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 214.99,
+        originalPrice: 249.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B0B24V1W7L?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 204.99,
+        originalPrice: 239.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 219.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 216.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 219.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-belt-sander",
+    brand: "Milwaukee",
+    name: "M18 FUEL 75mm Belt Sander (Body Only)",
+    modelNumber: "M18 FBTS75-0",
+    category: "sanders",
+    description: "Cordless 75 x 533mm belt sander with variable speed and soft start. POWERSTATE motor matches corded performance. On-board dust bag.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 229.99,
+        originalPrice: 269.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B0B7WZKXZR?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 219.99,
+        originalPrice: 259.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 239.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 231.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 239.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-narrow-crown-stapler",
+    brand: "Milwaukee",
+    name: "M18 FUEL 18 Gauge Narrow Crown Stapler (Body Only)",
+    modelNumber: "M18 FNCS18GS-0",
+    category: "nail-guns",
+    description: "Cordless 18 gauge narrow crown stapler for 12-38mm staples. Clean air technology eliminates gas cartridges. Dry fire lockout protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 319.99,
+        originalPrice: 379.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B08595R5XZ?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 309.99,
+        originalPrice: 359.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 329.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 321.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 329.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-magnetic-drill",
+    brand: "Milwaukee",
+    name: "M18 FUEL Magnetic Drill Press (Body Only)",
+    modelNumber: "M18 FMDP-0",
+    category: "specialist",
+    description: "Cordless magnetic drill press for steel fabrication. Permanent magnet base with 11,575N holding force. Accepts up to 38mm annular cutters.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 689.99,
+        originalPrice: 799.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B06XQ6THLV?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 669.99,
+        originalPrice: 779.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 709.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 691.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 709.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-threaded-rod-cutter",
+    brand: "Milwaukee",
+    name: "M18 Brushless Threaded Rod Cutter (Body Only)",
+    modelNumber: "M18 BLTRC-0",
+    category: "specialist",
+    description: "Cordless threaded rod cutter for M6-M12 threaded rod. Clean cuts with no burrs or thread damage. Cuts in under 3 seconds.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 289.99,
+        originalPrice: 339.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B082FPN9TB?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 279.99,
+        originalPrice: 329.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 299.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 291.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 299.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-packout-vacuum",
+    brand: "Milwaukee",
+    name: "M18 FUEL PACKOUT Vacuum Cleaner (Body Only)",
+    modelNumber: "M18 FPOVCL-0",
+    category: "specialist",
+    description: "PACKOUT compatible wet/dry vacuum with HEPA filter. 11L capacity. Stacks with PACKOUT modular storage system. Low profile design.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 199.99,
+        originalPrice: 239.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B08WHG8X6K?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 189.99,
+        originalPrice: 229.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 209.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 201.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 209.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-wet-dry-vacuum",
+    brand: "Milwaukee",
+    name: "M18 FUEL Wet/Dry Vacuum (Body Only)",
+    modelNumber: "M18 FVC2-0",
+    category: "specialist",
+    description: "Versatile wet and dry vacuum cleaner with HEPA filter. 7.5L capacity. Integrated hose, crevice and nozzle storage. Runs on M18 batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 149.99,
+        originalPrice: 179.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B07F3RLNZQ?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 139.99,
+        originalPrice: 169.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 154.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-chainsaw",
+    brand: "Milwaukee",
+    name: "M18 FUEL 16\" Chainsaw (Body Only)",
+    modelNumber: "M18 FCHS-0",
+    category: "outdoor",
+    description: "Powerful 16\" cordless chainsaw with POWERSTATE brushless motor. Auto chain oiler and tool-free chain tensioning. Low kickback bar.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 299.99,
+        originalPrice: 359.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B07NS84WS3?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 289.99,
+        originalPrice: 339.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 309.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 301.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 309.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-hedge-trimmer",
+    brand: "Milwaukee",
+    name: "M18 FUEL 450mm Hedge Trimmer (Body Only)",
+    modelNumber: "M18 FHT45-0",
+    category: "outdoor",
+    description: "450mm dual-action blade hedge trimmer with 20mm cutting capacity. Anti-vibration design. Hardened steel blades for clean cuts.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 179.99,
+        originalPrice: 214.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B09VL5THS4?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 169.99,
+        originalPrice: 199.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 184.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 181.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 184.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-string-trimmer",
+    brand: "Milwaukee",
+    name: "M18 FUEL Line Trimmer / Strimmer (Body Only)",
+    modelNumber: "M18 FOPHLTKIT-0",
+    category: "outdoor",
+    description: "Powerful cordless line trimmer with QUIK-LOK attachment system. Variable speed trigger and EASY LOAD trimmer head. Runs on M18 batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 179.99,
+        originalPrice: 219.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B07NZD42VN?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 174.99,
+        originalPrice: 209.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 189.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 181.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 189.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-area-light",
+    brand: "Milwaukee",
+    name: "M18 TRUEVIEW Area Light (Body Only)",
+    modelNumber: "M18 TAL-0",
+    category: "lighting",
+    description: "High output area light with TRUEVIEW technology for accurate colour rendering. 3 brightness modes and adjustable light head. 360° hanger.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 79.99,
+        originalPrice: 99.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B07K8BFZRK?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 74.99,
+        originalPrice: 89.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 84.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 81.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 84.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-lantern",
+    brand: "Milwaukee",
+    name: "M18 LED Lantern / Area Light (Body Only)",
+    modelNumber: "M18 LL-0",
+    category: "lighting",
+    description: "Compact LED lantern with 360° illumination. TRUEVIEW technology for natural colour rendering. Integrated hanging hook and magnetic base.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 44.99,
+        originalPrice: 59.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B00TNGJUEE?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 39.99,
+        originalPrice: 49.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 47.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 46.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 47.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-dab-radio",
+    brand: "Milwaukee",
+    name: "M18 DAB+ Jobsite Radio (Body Only)",
+    modelNumber: "M18 JSRDAB+-0",
+    category: "radio",
+    description: "Rugged DAB+ and FM jobsite radio with Bluetooth streaming. 10 preset stations. Charges M12 and M18 batteries. IP54 rated.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 149.99,
+        originalPrice: 179.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B01BKFJ4NM?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 139.99,
+        originalPrice: 169.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 154.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m12-m18-bluetooth-speaker",
+    brand: "Milwaukee",
+    name: "M12/M18 Bluetooth Jobsite Speaker (Body Only)",
+    modelNumber: "M12-18 JSSP-0",
+    category: "radio",
+    description: "Rugged Bluetooth speaker compatible with both M12 and M18 batteries. 40W output with passive bass radiator. IP54 water and dust resistant.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 89.99,
+        originalPrice: 109.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B06WGT8BWT?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 84.99,
+        originalPrice: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 94.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 91.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 94.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-transfer-pump",
+    brand: "Milwaukee",
+    name: "M18 Transfer Pump (Body Only)",
+    modelNumber: "M18 BTP-0",
+    category: "specialist",
+    description: "Cordless transfer pump for water, diesel and other non-corrosive fluids. Self-priming up to 3m. Flow rate up to 32L/min.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 109.99,
+        originalPrice: 134.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B0854JJH6G?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 104.99,
+        originalPrice: 124.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 114.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 111.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 114.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-pipe-threader",
+    brand: "Milwaukee",
+    name: "M18 FUEL Pipe Threader (Body Only)",
+    modelNumber: "M18 FPT114-0",
+    category: "specialist",
+    description: "Cordless pipe threader for 1/2\" to 1-1/4\" pipe. Forged aluminium die head. Self-opening die heads for clean thread completion.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 1299.99,
+        originalPrice: 1499.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B0BNQH8GDG?tag=toolcheckeruk-21",
+      },
+      {
+        name: "ITS",
+        price: 1259.99,
+        originalPrice: 1449.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 1279.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Screwfix",
+        price: 1349.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 1349.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
 
   // ============================================================
   // DEWALT 18V XR RANGE
+  // ============================================================
   // ============================================================
   {
     slug: "dewalt-18v-xr-combi-drill",

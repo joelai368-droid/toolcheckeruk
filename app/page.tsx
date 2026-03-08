@@ -1,32 +1,12 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-
-const SAMPLE_RESULTS: Record<string, Result[]> = {
-  "milwaukee m12 fuel impact driver": [
-    { retailer: "Screwfix", price: 129.99, originalPrice: 159.99, inStock: true, delivery: "Free over £50", clickCollect: true, url: "#" },
-    { retailer: "Toolstation", price: 134.99, originalPrice: null, inStock: true, delivery: "£5.00", clickCollect: true, url: "#" },
-    { retailer: "Amazon UK", price: 127.49, originalPrice: 149.99, inStock: true, delivery: "Free (Prime)", clickCollect: false, url: "#" },
-    { retailer: "FFX Tools", price: 131.99, originalPrice: 155.00, inStock: true, delivery: "Free over £99", clickCollect: false, url: "#" },
-    { retailer: "ITS", price: 126.99, originalPrice: null, inStock: false, delivery: "£4.99", clickCollect: false, url: "#" },
-  ],
-  "dewalt 18v combi drill": [
-    { retailer: "Screwfix", price: 149.99, originalPrice: 179.99, inStock: true, delivery: "Free over £50", clickCollect: true, url: "#" },
-    { retailer: "Toolstation", price: 154.99, originalPrice: null, inStock: true, delivery: "£5.00", clickCollect: true, url: "#" },
-    { retailer: "Amazon UK", price: 142.00, originalPrice: 169.99, inStock: true, delivery: "Free (Prime)", clickCollect: false, url: "#" },
-    { retailer: "FFX Tools", price: 147.50, originalPrice: null, inStock: true, delivery: "Free over £99", clickCollect: false, url: "#" },
-  ],
-  "makita dhs680z circular saw": [
-    { retailer: "Amazon UK", price: 174.99, originalPrice: 209.99, inStock: true, delivery: "Free (Prime)", clickCollect: false, url: "#" },
-    { retailer: "Screwfix", price: 189.99, originalPrice: null, inStock: true, delivery: "Free over £50", clickCollect: true, url: "#" },
-    { retailer: "ITS", price: 169.99, originalPrice: 199.99, inStock: true, delivery: "£4.99", clickCollect: false, url: "#" },
-    { retailer: "Powertool World", price: 172.50, originalPrice: null, inStock: true, delivery: "Free over £100", clickCollect: false, url: "#" },
-  ],
-};
+import { searchTools, getAllTools, type Tool, type Retailer } from "@/lib/tools-db";
 
 const POPULAR_SEARCHES = [
-  "Milwaukee M12 Fuel Impact Driver",
-  "DeWalt 18V Combi Drill",
-  "Makita DHS680Z Circular Saw",
+  "Milwaukee M12 impact",
+  "DeWalt 18V combi drill",
+  "Makita circular saw",
+  "Bosch SDS drill",
 ];
 
 const RETAILER_COLORS: Record<string, string> = {
@@ -38,16 +18,6 @@ const RETAILER_COLORS: Record<string, string> = {
   "Powertool World": "#1a1a2e",
   "Machine Mart": "#cc0000",
 };
-
-interface Result {
-  retailer: string;
-  price: number;
-  originalPrice: number | null;
-  inStock: boolean;
-  delivery: string;
-  clickCollect: boolean;
-  url: string;
-}
 
 function SearchIcon({ size = 20 }: { size?: number }) {
   return (
@@ -104,10 +74,10 @@ function StoreIcon() {
   );
 }
 
-function ResultCard({ result, index, bestPrice }: { result: Result; index: number; bestPrice: number | null }) {
+function ResultCard({ result, index, bestPrice }: { result: Retailer; index: number; bestPrice: number | null }) {
   const isBest = result.price === bestPrice;
   const saving = result.originalPrice ? (result.originalPrice - result.price).toFixed(2) : null;
-  const accentColor = RETAILER_COLORS[result.retailer] || "#666";
+  const accentColor = RETAILER_COLORS[result.name] || "#666";
 
   return (
     <div
@@ -131,7 +101,7 @@ function ResultCard({ result, index, bestPrice }: { result: Result; index: numbe
         <div className="flex justify-between items-start mb-4">
           <div className="flex items-center gap-2 text-base font-bold text-gray-900" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
             <div className="w-2 h-2 rounded-full shrink-0" style={{ background: accentColor }} />
-            {result.retailer}
+            {result.name}
           </div>
           <div className="text-right">
             <div className="text-[28px] font-extrabold text-gray-900 leading-none" style={{ fontFamily: "'DM Mono', monospace" }}>
@@ -165,9 +135,54 @@ function ResultCard({ result, index, bestPrice }: { result: Result; index: numbe
           )}
         </div>
 
-        <button className="w-full py-3 bg-gray-900 text-white rounded-lg text-sm font-semibold cursor-pointer transition-colors hover:bg-gray-700" style={{ fontFamily: "'Space Grotesk', sans-serif", letterSpacing: "0.02em" }}>
+        <a
+          href={result.url}
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          className="block w-full py-3 bg-gray-900 text-white rounded-lg text-sm font-semibold cursor-pointer transition-colors hover:bg-gray-700 text-center no-underline"
+          style={{ fontFamily: "'Space Grotesk', sans-serif", letterSpacing: "0.02em" }}
+        >
           View Deal →
-        </button>
+        </a>
+      </div>
+    </div>
+  );
+}
+
+function ToolResultCard({ tool, onClick }: { tool: Tool; onClick: () => void }) {
+  const sortedRetailers = [...tool.retailers].sort((a, b) => a.price - b.price);
+  const bestPrice = sortedRetailers[0]?.price;
+  const worstPrice = sortedRetailers[sortedRetailers.length - 1]?.price;
+
+  return (
+    <div
+      className="bg-white rounded-xl border border-gray-200 p-5 cursor-pointer transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
+      onClick={onClick}
+      style={{ opacity: 0, animation: `cardSlideIn 0.4s ease forwards` }}
+    >
+      <div className="flex justify-between items-start mb-2">
+        <div>
+          <div className="text-xs text-gray-400 font-medium mb-1">{tool.brand} · {tool.modelNumber}</div>
+          <div className="text-base font-bold text-gray-900" style={{ letterSpacing: "-0.02em" }}>
+            {tool.name}
+          </div>
+        </div>
+        <div className="text-right">
+          <div className="text-xl font-extrabold text-gray-900" style={{ fontFamily: "'DM Mono', monospace" }}>
+            £{bestPrice?.toFixed(2)}
+          </div>
+          <div className="text-[11px] text-gray-400">best of {sortedRetailers.length}</div>
+        </div>
+      </div>
+      <div className="flex items-center justify-between">
+        <div className="text-xs text-gray-400">
+          Price range: £{bestPrice?.toFixed(2)} — £{worstPrice?.toFixed(2)}
+        </div>
+        {bestPrice && worstPrice && worstPrice > bestPrice && (
+          <div className="text-xs font-semibold text-green-600 bg-green-50 px-2 py-0.5 rounded" style={{ fontFamily: "'DM Mono', monospace" }}>
+            Save up to £{(worstPrice - bestPrice).toFixed(2)}
+          </div>
+        )}
       </div>
     </div>
   );
@@ -175,47 +190,57 @@ function ResultCard({ result, index, bestPrice }: { result: Result; index: numbe
 
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<Result[] | null>(null);
+  const [matchedTools, setMatchedTools] = useState<Tool[]>([]);
+  const [selectedTool, setSelectedTool] = useState<Tool | null>(null);
   const [searching, setSearching] = useState(false);
-  const [resolvedName, setResolvedName] = useState("");
+  const [hasSearched, setHasSearched] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleSearch = (searchQuery?: string) => {
-    const q = (searchQuery || query).trim().toLowerCase();
+    const q = (searchQuery || query).trim();
     if (!q) return;
 
     setSearching(true);
-    setResults(null);
+    setSelectedTool(null);
+    setHasSearched(true);
 
     setTimeout(() => {
-      const key = Object.keys(SAMPLE_RESULTS).find((k) => {
-        const words = q.split(" ");
-        return words.some((w) => k.includes(w)) || k.includes(q);
-      });
+      const results = searchTools(q);
+      setMatchedTools(results);
 
-      if (key) {
-        const sorted = [...SAMPLE_RESULTS[key]].sort((a, b) => a.price - b.price);
-        setResults(sorted);
-        setResolvedName(
-          key === "milwaukee m12 fuel impact driver"
-            ? 'Milwaukee M12 FIWF12-0 — M12 FUEL 1/2" Stubby Impact Wrench (Body Only)'
-            : key === "dewalt 18v combi drill"
-            ? "DeWalt DCD796N — 18V XR Brushless Combi Drill (Body Only)"
-            : "Makita DHS680Z — 18V LXT Brushless 165mm Circular Saw (Body Only)"
-        );
-      } else {
-        setResults([]);
-        setResolvedName("");
+      // If only one result, show it directly
+      if (results.length === 1) {
+        setSelectedTool(results[0]);
       }
+
       setSearching(false);
-    }, 1200);
+    }, 600);
+  };
+
+  const handleSelectTool = (tool: Tool) => {
+    setSelectedTool(tool);
+  };
+
+  const handleBack = () => {
+    setSelectedTool(null);
+  };
+
+  const handleReset = () => {
+    setMatchedTools([]);
+    setSelectedTool(null);
+    setQuery("");
+    setHasSearched(false);
   };
 
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
 
-  const bestPrice = results?.length ? Math.min(...results.map((r) => r.price)) : null;
+  const sortedRetailers = selectedTool
+    ? [...selectedTool.retailers].sort((a, b) => a.price - b.price)
+    : [];
+  const bestPrice = sortedRetailers.length ? sortedRetailers[0].price : null;
+  const showingResults = hasSearched && !searching;
 
   return (
     <div className="min-h-screen bg-[#fafafa]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
@@ -237,10 +262,7 @@ export default function Home() {
 
       {/* Header */}
       <header className="px-6 py-4 flex justify-between items-center border-b border-gray-200 bg-white">
-        <div
-          className="flex items-center gap-2 cursor-pointer"
-          onClick={() => { setResults(null); setQuery(""); setResolvedName(""); }}
-        >
+        <div className="flex items-center gap-2 cursor-pointer" onClick={handleReset}>
           <div
             className="w-8 h-8 rounded-lg flex items-center justify-center font-extrabold text-lg text-gray-900"
             style={{ background: "#D4F43E", fontFamily: "'DM Mono', monospace" }}
@@ -249,6 +271,7 @@ export default function Home() {
           </div>
           <span className="text-lg font-bold text-gray-900" style={{ letterSpacing: "-0.02em" }}>
             tool<span className="text-gray-400">checker</span>
+            <span className="text-[10px] font-normal text-gray-300 ml-1">UK</span>
           </span>
         </div>
         <div className="text-xs text-gray-400 bg-gray-100 px-2.5 py-1 rounded-full" style={{ fontFamily: "'DM Mono', monospace" }}>
@@ -257,7 +280,7 @@ export default function Home() {
       </header>
 
       {/* Hero / Search */}
-      {!results && !searching ? (
+      {!showingResults && !searching ? (
         <div className="flex flex-col items-center justify-center px-6 pt-28 pb-20" style={{ animation: "heroIn 0.6s ease forwards" }}>
           <div className="text-[13px] font-semibold text-gray-400 uppercase tracking-[0.15em] mb-4" style={{ fontFamily: "'DM Mono', monospace" }}>
             Compare prices across UK tool retailers
@@ -315,7 +338,7 @@ export default function Home() {
           <div className="mt-16 flex gap-8 flex-wrap justify-center">
             {[
               { num: "10+", label: "UK Retailers" },
-              { num: "1000s", label: "Tools Compared" },
+              { num: String(getAllTools().length) + "+", label: "Tools Compared" },
               { num: "£0", label: "Always Free" },
             ].map(({ num, label }) => (
               <div key={label} className="text-center">
@@ -372,15 +395,28 @@ export default function Home() {
                 Checking prices across UK retailers...
               </div>
             </div>
-          ) : results && results.length > 0 ? (
+          ) : selectedTool ? (
+            /* Single tool detail view */
             <>
+              {matchedTools.length > 1 && (
+                <button
+                  onClick={handleBack}
+                  className="text-sm text-gray-400 hover:text-gray-600 mb-4 cursor-pointer"
+                >
+                  ← Back to results
+                </button>
+              )}
+
               <div className="mb-6">
                 <div className="text-[13px] text-gray-400 mb-1" style={{ fontFamily: "'DM Mono', monospace" }}>
-                  {results.length} retailers found
+                  {selectedTool.brand} · {selectedTool.modelNumber} · {sortedRetailers.length} retailers found
                 </div>
                 <h2 className="text-xl font-bold text-gray-900 leading-snug" style={{ letterSpacing: "-0.02em" }}>
-                  {resolvedName}
+                  {selectedTool.brand} {selectedTool.name}
                 </h2>
+                <p className="text-sm text-gray-400 mt-2 leading-relaxed">
+                  {selectedTool.description}
+                </p>
               </div>
 
               {/* Price range bar */}
@@ -388,25 +424,43 @@ export default function Home() {
                 <div>
                   <div className="text-xs text-gray-400 mb-0.5">Price range</div>
                   <div className="text-lg font-bold" style={{ fontFamily: "'DM Mono', monospace" }}>
-                    £{Math.min(...results.map(r => r.price)).toFixed(2)} — £{Math.max(...results.map(r => r.price)).toFixed(2)}
+                    £{Math.min(...sortedRetailers.map(r => r.price)).toFixed(2)} — £{Math.max(...sortedRetailers.map(r => r.price)).toFixed(2)}
                   </div>
                 </div>
                 <div className="bg-green-50 text-green-600 px-3.5 py-1.5 rounded-lg text-[13px] font-semibold" style={{ fontFamily: "'DM Mono', monospace" }}>
-                  Save up to £{(Math.max(...results.map(r => r.price)) - Math.min(...results.map(r => r.price))).toFixed(2)}
+                  Save up to £{(Math.max(...sortedRetailers.map(r => r.price)) - Math.min(...sortedRetailers.map(r => r.price))).toFixed(2)}
                 </div>
               </div>
 
               <div className="flex flex-col gap-3">
-                {results.map((result, i) => (
-                  <ResultCard key={result.retailer} result={result} index={i} bestPrice={bestPrice} />
+                {sortedRetailers.map((retailer, i) => (
+                  <ResultCard key={retailer.name} result={retailer} index={i} bestPrice={bestPrice} />
                 ))}
               </div>
 
               <div className="mt-8 p-4 bg-white rounded-xl border border-dashed border-gray-300 text-center text-[13px] text-gray-400">
-                Prices updated moments ago · VAT included · We may earn a commission from purchases
+                Prices updated regularly · VAT included · We may earn a commission from purchases
               </div>
             </>
-          ) : results && results.length === 0 ? (
+          ) : matchedTools.length > 0 ? (
+            /* Multiple tools found */
+            <>
+              <div className="mb-6">
+                <div className="text-[13px] text-gray-400 mb-1" style={{ fontFamily: "'DM Mono', monospace" }}>
+                  {matchedTools.length} tools found
+                </div>
+                <h2 className="text-xl font-bold text-gray-900" style={{ letterSpacing: "-0.02em" }}>
+                  Select a tool to compare prices
+                </h2>
+              </div>
+              <div className="flex flex-col gap-3">
+                {matchedTools.map((tool) => (
+                  <ToolResultCard key={tool.slug} tool={tool} onClick={() => handleSelectTool(tool)} />
+                ))}
+              </div>
+            </>
+          ) : (
+            /* No results */
             <div className="text-center py-20">
               <div className="text-5xl mb-4">🔧</div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">No results found</h3>
@@ -426,7 +480,7 @@ export default function Home() {
                 ))}
               </div>
             </div>
-          ) : null}
+          )}
         </div>
       )}
 

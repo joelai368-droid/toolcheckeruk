@@ -110,7 +110,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B08L5JQ3CH?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07GQJHXMT?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -155,7 +155,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09BFTGVBN?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BDF5BHTF?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -203,7 +203,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B0BN21QHSG?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0C5XWC12N?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -264,7 +264,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B0BN1Z4BGQ?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BTXCYRLD?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -316,7 +316,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01LZJ6IMH?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00QMAP1GK?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -360,7 +360,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09BFPX13Z?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07GDPMCHC?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -376,7 +376,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-fuel-reciprocating-saw",
     brand: "Milwaukee",
     name: "M18 FUEL SAWZALL Reciprocating Saw (Body Only)",
-    modelNumber: "M18 FSZ-0",
+    modelNumber: "M18 ONEFSZ-0X",
     category: "saws",
     description: "Powerful brushless reciprocating saw with 32mm stroke length. POWERSTATE motor delivers faster cuts. Tool-free blade change.",
     retailers: [
@@ -387,7 +387,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B0797MR2MN?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08Z79RWMR?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -431,7 +431,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09BFQ2FPW?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HGY636Z?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -475,7 +475,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09BFPXLG2?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07ZRW4C3N?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -519,7 +519,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B0797N3KR5?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08WBYTMH7?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -552,7 +552,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-fuel-planer",
     brand: "Milwaukee",
     name: "M18 FUEL 82mm Planer (Body Only)",
-    modelNumber: "M18 FBL-0",
+    modelNumber: "M18 BP-0",
     category: "planers",
     description: "Brushless 82mm planer with 0-2mm cutting depth. 14,000 RPM for smooth finish. Dual-mount guide fence included.",
     retailers: [
@@ -563,7 +563,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09BFQ81WK?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B013XCFSYY?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -588,7 +588,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-fuel-orbital-sander",
     brand: "Milwaukee",
     name: "M18 FUEL 125mm Random Orbital Sander (Body Only)",
-    modelNumber: "M18 FROS125-0",
+    modelNumber: "M18 BOS125-0",
     category: "sanders",
     description: "Brushless 125mm random orbital sander with variable speed 7,000-12,000 OPM. 2.5mm orbit diameter for aggressive material removal.",
     retailers: [
@@ -599,7 +599,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09BFQ5WXG?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07GQ11768?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -643,7 +643,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B07JN4PJNV?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07ZRR8N1H?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -687,7 +687,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B08L5JSZZR?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0859DLGZ8?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -735,7 +735,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01N9JG7GY?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B099624362?tag=toolcheckeruk-21",
       },
       {
         name: "FFX Tools",
@@ -779,7 +779,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01N5NHC91?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01D4J5JMC?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -831,7 +831,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B074DP36DD?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00VXN7TUW?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -875,7 +875,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B00Q1AVWW6?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B006XBSXAE?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -918,7 +918,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B074DPF8WP?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B074V6QSNH?tag=toolcheckeruk-21",
       },
       {
         name: "FFX Tools",
@@ -962,7 +962,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01ERQIFGE?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00HER8E5A?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1014,7 +1014,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B074DPXBST?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B06XYTJJLX?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1058,7 +1058,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B07BFHF8TL?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07JQ6S5SB?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1102,7 +1102,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B074DPYPX5?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00V166X9O?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1154,7 +1154,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01ERQIGAK?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01AI0X2OW?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1198,7 +1198,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01ETEQPEM?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00KAFRDKK?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1242,7 +1242,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01ERQIHCG?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0120YMP4M?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1290,7 +1290,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09C2GKKWD?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B099NSX8MN?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1351,7 +1351,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B076WXSW9F?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01LQUIGL2?tag=toolcheckeruk-21",
       },
       {
         name: "Toolstation",
@@ -1403,7 +1403,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01LEDRR6Y?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00WW83F4Q?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1430,7 +1430,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01LEDRRHG?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00S6OMGY0?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1482,7 +1482,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09C2H3VKT?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B096S524M2?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1526,7 +1526,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B00G4EGKLA?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01H5TAXFU?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1570,7 +1570,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01LEDRR3Q?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00M215F6E?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1614,7 +1614,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B014GIQY6I?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00GIIBAE8?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1666,7 +1666,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01LEDRQSE?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0848LHJKV?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1710,7 +1710,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B0797N57NX?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07MNH7XKG?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1754,7 +1754,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B00G4EGKIC?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00H7ET42M?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1798,7 +1798,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B07DR17QGK?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07NXZBJKG?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1854,7 +1854,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B085RV1MLJ?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0822295DF?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1897,7 +1897,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B085RWXCPZ?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B093ZSKXZM?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1940,7 +1940,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09MRG1WXP?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B088P38QN4?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -1993,7 +1993,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B01MY75LR1?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01MZ12T44?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -2020,7 +2020,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B08FB5MTKR?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B086B7XW3C?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -2064,7 +2064,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B085RVDCMC?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B018YP97DI?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -2107,7 +2107,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B00M3URXK0?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B008RN09MG?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -2155,7 +2155,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B08LZFBL3C?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HL1D62M?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -2198,7 +2198,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B08LZFCR5M?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BB2Q3JK8?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -2242,7 +2242,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B08LZFH6XF?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0869PFZ7T?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -2286,7 +2286,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B08LZFF45J?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07LGT326C?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -2330,7 +2330,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B07VFR8PQR?tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07TMPQCV6?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",

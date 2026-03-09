@@ -38,6 +38,7 @@ const CATEGORY_NAMES: Record<string, string> = {
   "outdoor": "Outdoor & Garden",
   "radio": "Radios & Speakers",
   "specialist": "Specialist Trade Tools",
+  "batteries": "Batteries & Chargers",
 };
 
 export function getCategoryDisplayName(category: string): string {
@@ -5818,6 +5819,7242 @@ const tools: Tool[] = [
         name: "ITS",
         price: 214.99,
         originalPrice: 249.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+
+
+  // ============================================================
+  // DEWALT 18V XR RANGE - ADDITIONAL TOOLS
+  // ============================================================
+  {
+    slug: "dewalt-18v-xr-drill-driver",
+    brand: "DeWalt",
+    name: "18V XR Brushless Drill Driver (Body Only)",
+    modelNumber: "DCD791N",
+    category: "drills",
+    description: "Compact brushless drill driver with 2-speed gearbox and 15 torque settings. Lightweight at 1.5kg.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 94.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCD791N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 99.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 104.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 97.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 96.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-compact-brushless-drill",
+    brand: "DeWalt",
+    name: "18V XR Brushless Compact Drill Driver (Body Only)",
+    modelNumber: "DCD800N",
+    category: "drills",
+    description: "Ultra-compact brushless drill driver with 60Nm torque. Ideal for working in confined spaces.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 108.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCD800N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 114.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 119.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 112.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 110.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-combi-drill-high-torque",
+    brand: "DeWalt",
+    name: "18V XR Brushless High Torque Combi Drill (Body Only)",
+    modelNumber: "DCD805N",
+    category: "drills",
+    description: "High torque brushless combi drill with 95Nm and 3-speed transmission. Anti-kickback protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 158.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCD805N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 164.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 169.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 162.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 160.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-brushless-impact-driver-dcf787",
+    brand: "DeWalt",
+    name: "18V XR Brushless Impact Driver (Body Only)",
+    modelNumber: "DCF787N",
+    category: "impact-drivers",
+    description: "Compact brushless impact driver with 205Nm torque. 3 LED work lights and belt clip included.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 98.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCF787N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 104.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 109.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 101.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-3speed-impact-driver",
+    brand: "DeWalt",
+    name: "18V XR Brushless 3-Speed Impact Driver (Body Only)",
+    modelNumber: "DCF850N",
+    category: "impact-drivers",
+    description: "3-speed brushless impact driver with 245Nm torque. Features precision drive mode to prevent overdriving screws.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 128.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCF850N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 134.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 139.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 131.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 129.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-impact-wrench-dcf891",
+    brand: "DeWalt",
+    name: "18V XR Brushless 1/2\" Impact Wrench (Body Only)",
+    modelNumber: "DCF891N",
+    category: "impact-drivers",
+    description: "Brushless 1/2\" impact wrench with 339Nm max torque. Compact design for access in tight spaces.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 168.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCF891N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 174.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 179.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 171.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 169.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-high-torque-impact-wrench-dcf894",
+    brand: "DeWalt",
+    name: "18V XR Brushless High Torque 1/2\" Impact Wrench (Body Only)",
+    modelNumber: "DCF894N",
+    category: "impact-drivers",
+    description: "High torque brushless 1/2\" impact wrench with 678Nm max torque. Ideal for automotive and heavy-duty fastening.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 218.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCF894N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 224.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 229.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 221.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 219.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-compact-impact-wrench-dcf922",
+    brand: "DeWalt",
+    name: "18V XR Brushless Compact 1/2\" Impact Wrench (Body Only)",
+    modelNumber: "DCF922N",
+    category: "impact-drivers",
+    description: "Compact brushless 1/2\" impact wrench with 542Nm max torque. Short anvil design for tight access.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 188.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCF922N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 194.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 199.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 191.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 189.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-sds-plus-compact",
+    brand: "DeWalt",
+    name: "18V XR Brushless SDS Plus Compact Hammer Drill (Body Only)",
+    modelNumber: "DCH133N",
+    category: "sds-drills",
+    description: "Compact SDS Plus rotary hammer with 1.9J impact energy. Brushless motor for maximum runtime.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCH133N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-sds-plus-28mm",
+    brand: "DeWalt",
+    name: "18V XR Brushless SDS Plus Hammer Drill 28mm (Body Only)",
+    modelNumber: "DCH283N",
+    category: "sds-drills",
+    description: "28mm SDS Plus rotary hammer with 3.0J impact energy and 3 operating modes. Active vibration control.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 228.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCH283N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 234.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 239.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 231.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 229.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-54v-flexvolt-sds-max",
+    brand: "DeWalt",
+    name: "54V XR FlexVolt SDS Max Hammer Drill (Body Only)",
+    modelNumber: "DCH481NT",
+    category: "sds-drills",
+    description: "Powerful FlexVolt SDS Max rotary hammer with 8.6J impact energy. 5-mode operation for heavy demolition and drilling.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 398.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCH481NT+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 409.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 419.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 404.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 399.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-circular-saw-165mm-brushless",
+    brand: "DeWalt",
+    name: "18V XR Brushless 165mm Circular Saw (Body Only)",
+    modelNumber: "DCS565N",
+    category: "saws",
+    description: "165mm brushless circular saw with 57mm cutting depth at 90°. Left-blade design for improved cut line visibility.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 174.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCS565N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 184.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 189.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 179.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 176.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-54v-flexvolt-circular-saw-190mm",
+    brand: "DeWalt",
+    name: "54V XR FlexVolt 190mm Circular Saw (Body Only)",
+    modelNumber: "DCS578N",
+    category: "saws",
+    description: "FlexVolt 190mm circular saw with 67mm cutting depth at 90°. Equivalent power to a corded saw.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 278.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCS578N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 289.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 294.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 282.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 279.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-reciprocating-saw-dcs382",
+    brand: "DeWalt",
+    name: "18V XR Brushless Reciprocating Saw (Body Only)",
+    modelNumber: "DCS382N",
+    category: "saws",
+    description: "Brushless reciprocating saw with 32mm stroke length. Variable speed trigger and keyless blade change.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 178.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCS382N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 184.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 189.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 181.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 179.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-mitre-saw-184mm",
+    brand: "DeWalt",
+    name: "18V XR 184mm Single Bevel Mitre Saw (Body Only)",
+    modelNumber: "DCS365N",
+    category: "saws",
+    description: "184mm cordless mitre saw with single bevel up to 48°. Compact and portable for site use.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 298.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCS365N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 309.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 314.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 302.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 299.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-54v-flexvolt-mitre-saw-305mm",
+    brand: "DeWalt",
+    name: "54V XR FlexVolt 305mm Double Bevel Mitre Saw (Body Only)",
+    modelNumber: "DHS780N",
+    category: "saws",
+    description: "Large format FlexVolt 305mm double bevel sliding mitre saw. XPS LED cut line indicator and GUARD FLEXVOLT safety system.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 598.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DHS780N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 614.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 619.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 604.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 599.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-guide-rail-1500mm",
+    brand: "DeWalt",
+    name: "1.5m Guide Rail for Plunge Saws",
+    modelNumber: "DWS5022",
+    category: "saws",
+    description: "1.5m aluminium guide rail compatible with DeWalt plunge saws. Anti-slip strips for precise cuts.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 64.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DWS5022+guide+rail&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 69.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 72.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 67.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 65.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-angle-grinder-dcg409",
+    brand: "DeWalt",
+    name: "18V XR Brushless 125mm Angle Grinder with Slide Switch (Body Only)",
+    modelNumber: "DCG409N",
+    category: "grinders",
+    description: "125mm brushless angle grinder with slide switch for improved safety. Kickback brake and e-clutch protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCG409N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-54v-flexvolt-angle-grinder-125mm",
+    brand: "DeWalt",
+    name: "54V XR FlexVolt 125mm Angle Grinder (Body Only)",
+    modelNumber: "DCG418N",
+    category: "grinders",
+    description: "FlexVolt 125mm angle grinder with 9000rpm no-load speed. Electronic brake and kickback detection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 198.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCG418N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 209.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 214.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 203.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 199.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-54v-flexvolt-angle-grinder-230mm",
+    brand: "DeWalt",
+    name: "54V XR FlexVolt 230mm Large Angle Grinder (Body Only)",
+    modelNumber: "DCG460N",
+    category: "grinders",
+    description: "Large 230mm FlexVolt angle grinder for heavy-duty grinding tasks. Electronic brake and anti-kickback protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 348.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCG460N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 359.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 364.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 352.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 349.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-router-trimmer",
+    brand: "DeWalt",
+    name: "18V XR Brushless 1/4\" Router Trimmer (Body Only)",
+    modelNumber: "DCW604N",
+    category: "routers",
+    description: "Compact 1/4\" router trimmer with brushless motor. Depth adjustment ring and LED work light.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCW604N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-router-dcw600",
+    brand: "DeWalt",
+    name: "18V XR Brushless Router (Body Only)",
+    modelNumber: "DCW600N",
+    category: "routers",
+    description: "Full-size brushless router with plunge base. 1/4\" and 1/2\" collet included. Variable speed 16,000-24,000rpm.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 218.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCW600N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 224.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 229.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 221.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 219.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-random-orbital-sander",
+    brand: "DeWalt",
+    name: "18V XR Brushless 125mm Random Orbital Sander (Body Only)",
+    modelNumber: "DCW210N",
+    category: "sanders",
+    description: "125mm brushless random orbital sander with dust-sealed power switch and 8-hole pad.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 108.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCW210N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 114.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 119.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 112.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 110.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-belt-sander",
+    brand: "DeWalt",
+    name: "18V XR Brushless Belt Sander (Body Only)",
+    modelNumber: "DCW220N",
+    category: "sanders",
+    description: "Brushless belt sander using 65 x 394mm belts. Variable speed and automatic belt tracking.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCW220N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-brad-nailer-18ga",
+    brand: "DeWalt",
+    name: "18V XR Brushless 18 Gauge Brad Nailer (Body Only)",
+    modelNumber: "DCN681N",
+    category: "nail-guns",
+    description: "Brushless 18ga brad nailer for 15-64mm brads. Stall release lever for jam clearing without tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 258.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCN681N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 269.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 274.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 262.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 259.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-concrete-nailer",
+    brand: "DeWalt",
+    name: "18V XR Cordless Concrete Nailer (Body Only)",
+    modelNumber: "DCN890N",
+    category: "nail-guns",
+    description: "Cordless concrete nailer for fixing into concrete, block and steel. Fires 40-57mm concrete nails.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 448.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCN890N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 459.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 469.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 452.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 449.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-led-torch",
+    brand: "DeWalt",
+    name: "18V LED Torch/Flashlight",
+    modelNumber: "DCL040",
+    category: "lighting",
+    description: "18V LED torch with 500 lumen output and pivoting head. Hang hook for hands-free use.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 34.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCL040+dewalt+torch&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 37.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 39.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 35.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 35.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-dab-radio",
+    brand: "DeWalt",
+    name: "18V/12V DAB Job Site Radio",
+    modelNumber: "DCR020",
+    category: "radio",
+    description: "DAB/FM job site radio compatible with 18V and 12V batteries. Bluetooth connectivity and USB charging port.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 78.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCR020+dewalt+radio&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 84.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 89.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 81.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 79.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-wet-dry-vacuum",
+    brand: "DeWalt",
+    name: "18V/14.4V XR Wet and Dry Vacuum (Body Only)",
+    modelNumber: "DCV582N",
+    category: "specialist",
+    description: "Compact wet and dry vacuum with 14L tank. Compatible with 18V and 14.4V batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 88.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCV582N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 94.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 99.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 91.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 89.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-green-laser-level",
+    brand: "DeWalt",
+    name: "18V XR 3 x 360° Green Laser Level",
+    modelNumber: "DCE089D1G",
+    category: "specialist",
+    description: "Self-levelling green laser with 3 x 360° planes. Visible up to 30m indoors. IP54 rated.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 298.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCE089D1G+green+laser&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 309.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 314.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 302.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 299.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-collated-screwgun",
+    brand: "DeWalt",
+    name: "18V XR Brushless Collated Screwgun (Body Only)",
+    modelNumber: "DCF620N",
+    category: "specialist",
+    description: "Brushless collated screwgun for drywall and decking. Depth-setting nose piece and auto-feed magazine.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 178.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCF620N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 184.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 189.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 181.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 179.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-xr-die-grinder",
+    brand: "DeWalt",
+    name: "18V XR Brushless Die Grinder (Body Only)",
+    modelNumber: "DCG200N",
+    category: "grinders",
+    description: "Brushless die grinder with 1/4\" collet. Variable speed 5,000-25,000rpm for precision grinding.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 118.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCG200N+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 124.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 129.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 121.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 119.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+
+  // ============================================================
+  // MAKITA 18V LXT / 40V XGT RANGE - ADDITIONAL TOOLS
+  // ============================================================
+  {
+    slug: "makita-18v-lxt-drill-driver-ddf486",
+    brand: "Makita",
+    name: "18V LXT Brushless Drill Driver (Body Only)",
+    modelNumber: "DDF486Z",
+    category: "drills",
+    description: "Compact brushless drill driver with 80Nm torque and 2-speed gearbox. 13mm auto-locking chuck.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 114.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DDF486Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 119.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 124.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 117.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 115.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-combi-drill-dhp487",
+    brand: "Makita",
+    name: "18V LXT Brushless Combi Drill (Body Only)",
+    modelNumber: "DHP487Z",
+    category: "drills",
+    description: "Next-generation LXT brushless combi drill with 91Nm torque. Ultra-compact body at only 187mm length.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 138.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DHP487Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 144.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 149.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 141.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 139.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-drill-driver-ddf487",
+    brand: "Makita",
+    name: "18V LXT Brushless Drill Driver Gen2 (Body Only)",
+    modelNumber: "DDF487Z",
+    category: "drills",
+    description: "Second generation LXT brushless drill driver. 80Nm torque in an ultra-compact 187mm body length.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 128.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DDF487Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 134.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 139.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 131.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 129.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-xgt-combi-drill",
+    brand: "Makita",
+    name: "40V XGT Brushless Combi Drill (Body Only)",
+    modelNumber: "HP001GZ",
+    category: "drills",
+    description: "40V XGT brushless combi drill with 130Nm torque. Next-generation platform for maximum performance.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 218.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=HP001GZ+40v+xgt+combi&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 224.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 229.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 221.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 219.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-impact-driver-dtd172",
+    brand: "Makita",
+    name: "18V LXT Brushless Impact Driver (Body Only)",
+    modelNumber: "DTD172Z",
+    category: "impact-drivers",
+    description: "Compact brushless impact driver with 180Nm torque. 4-speed plus auto mode for precise driving.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 128.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DTD172Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 134.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 139.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 131.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 129.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-impact-wrench-dtw300",
+    brand: "Makita",
+    name: "18V LXT Brushless 1/2\" Impact Wrench (Body Only)",
+    modelNumber: "DTW300Z",
+    category: "impact-drivers",
+    description: "Brushless 1/2\" impact wrench with 330Nm max torque. Compact design for automotive and construction use.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DTW300Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-impact-wrench-34-dtw700",
+    brand: "Makita",
+    name: "18V LXT Brushless 3/4\" Impact Wrench (Body Only)",
+    modelNumber: "DTW700Z",
+    category: "impact-drivers",
+    description: "High-capacity 3/4\" brushless impact wrench with 700Nm max torque. For heavy-duty fastening tasks.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 228.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DTW700Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 234.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 239.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 231.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 229.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-impact-wrench-dtw1002",
+    brand: "Makita",
+    name: "18V LXT Brushless High Torque 1/2\" Impact Wrench (Body Only)",
+    modelNumber: "DTW1002Z",
+    category: "impact-drivers",
+    description: "High torque 1/2\" brushless impact wrench with 1000Nm max torque. 4-speed mode with auto-stop.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 258.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DTW1002Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 264.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 269.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 261.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 259.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-xgt-impact-wrench",
+    brand: "Makita",
+    name: "40V XGT Brushless 1/2\" Impact Wrench (Body Only)",
+    modelNumber: "TW001GZ",
+    category: "impact-drivers",
+    description: "40V XGT brushless 1/2\" impact wrench with 1050Nm max torque for the most demanding fastening applications.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 288.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=TW001GZ+40v+xgt+impact+wrench&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 299.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 304.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 292.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 289.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-sds-plus-dhr171",
+    brand: "Makita",
+    name: "18V LXT Brushless SDS Plus Hammer Drill (Body Only)",
+    modelNumber: "DHR171Z",
+    category: "sds-drills",
+    description: "Compact SDS Plus rotary hammer with 1.5J impact energy. 3 operating modes and anti-vibration technology.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DHR171Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-sds-plus-dhr243",
+    brand: "Makita",
+    name: "18V LXT Brushless SDS Plus Hammer Drill 24mm (Body Only)",
+    modelNumber: "DHR243Z",
+    category: "sds-drills",
+    description: "24mm SDS Plus hammer drill with 2.4J impact energy. AVT anti-vibration system for reduced operator fatigue.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 198.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DHR243Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 204.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 209.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 201.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 199.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-twin-18v-lxt-sds-plus-dhr283",
+    brand: "Makita",
+    name: "2x18V LXT Brushless SDS Plus Hammer Drill 28mm (Body Only)",
+    modelNumber: "DHR283Z",
+    category: "sds-drills",
+    description: "Twin 18V LXT 28mm SDS Plus hammer drill with 3.2J impact energy. Equivalent to a 36V machine.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 278.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DHR283Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 289.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 294.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 282.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 279.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-twin-18v-lxt-sds-max-dhr400",
+    brand: "Makita",
+    name: "2x18V LXT Brushless SDS Max Hammer Drill (Body Only)",
+    modelNumber: "DHR400Z",
+    category: "sds-drills",
+    description: "Heavy-duty twin 18V SDS Max rotary hammer with 8.7J impact energy. For the most demanding masonry work.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 498.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DHR400Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 514.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 519.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 504.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 499.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-xgt-sds-plus",
+    brand: "Makita",
+    name: "40V XGT Brushless SDS Plus Hammer Drill (Body Only)",
+    modelNumber: "HR003GZ",
+    category: "sds-drills",
+    description: "40V XGT brushless SDS Plus hammer drill with 3.2J impact energy. Next-generation platform for maximum power.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 288.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=HR003GZ+40v+xgt+sds&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 299.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 304.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 292.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 289.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-circular-saw-165mm-dss611",
+    brand: "Makita",
+    name: "18V LXT 165mm Circular Saw (Body Only)",
+    modelNumber: "DSS611Z",
+    category: "saws",
+    description: "165mm LXT circular saw with 57mm max cutting depth at 90°. Lightweight at 2.9kg for reduced operator fatigue.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 98.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DSS611Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 104.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 109.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 101.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-twin-18v-lxt-mitre-saw-305mm",
+    brand: "Makita",
+    name: "2x18V LXT Brushless 305mm Sliding Compound Mitre Saw (Body Only)",
+    modelNumber: "DLS211Z",
+    category: "saws",
+    description: "Large format twin 18V LXT 305mm sliding compound mitre saw. Laser cut line guide for precision cutting.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 698.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DLS211Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 714.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 719.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 704.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 699.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-twin-18v-lxt-mitre-saw-260mm",
+    brand: "Makita",
+    name: "2x18V LXT Brushless 260mm Sliding Mitre Saw (Body Only)",
+    modelNumber: "DLS110Z",
+    category: "saws",
+    description: "Twin 18V LXT 260mm sliding mitre saw with brushless motor. Compact and portable for site work.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 548.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DLS110Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 564.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 569.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 554.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 549.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-twin-18v-lxt-plunge-saw",
+    brand: "Makita",
+    name: "2x18V LXT Brushless 165mm Plunge Saw (Body Only)",
+    modelNumber: "DSP600Z",
+    category: "saws",
+    description: "Twin 18V LXT brushless 165mm plunge saw compatible with guide rails. 56mm max cutting depth.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 398.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DSP600Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 409.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 414.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 404.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 399.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-angle-grinder-dga513",
+    brand: "Makita",
+    name: "18V LXT Brushless 125mm Angle Grinder (Body Only)",
+    modelNumber: "DGA513Z",
+    category: "grinders",
+    description: "125mm brushless LXT angle grinder with 8500rpm no-load speed. Electronic current limiter and brake.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 138.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DGA513Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 144.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 149.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 141.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 139.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-angle-grinder-paddle-dga519",
+    brand: "Makita",
+    name: "18V LXT Brushless 125mm Paddle Switch Angle Grinder (Body Only)",
+    modelNumber: "DGA519Z",
+    category: "grinders",
+    description: "125mm brushless angle grinder with paddle switch for improved operator safety. Automatic speed control.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DGA519Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-twin-18v-lxt-angle-grinder-180mm",
+    brand: "Makita",
+    name: "2x18V LXT Brushless 180mm Angle Grinder (Body Only)",
+    modelNumber: "DGA700Z",
+    category: "grinders",
+    description: "Twin 18V LXT 180mm brushless angle grinder for heavy grinding tasks. Soft start and auto-stop safety features.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 298.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DGA700Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 309.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 314.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 302.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 299.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-xgt-angle-grinder-125mm",
+    brand: "Makita",
+    name: "40V XGT Brushless 125mm Angle Grinder (Body Only)",
+    modelNumber: "GA023GZ",
+    category: "grinders",
+    description: "40V XGT brushless 125mm angle grinder with Active Feedback Sensing Technology (AFT). Automatic speed control.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 218.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GA023GZ+40v+xgt+grinder&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 229.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 234.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 222.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 219.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-xgt-router",
+    brand: "Makita",
+    name: "40V XGT Brushless Router (Body Only)",
+    modelNumber: "RT001GZ",
+    category: "routers",
+    description: "40V XGT brushless router with 1/4\" and 1/2\" collets. Variable speed 8,000-24,000rpm with soft start.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 278.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=RT001GZ+40v+xgt+router&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 289.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 294.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 282.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 279.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-brushless-orbital-sander-dbo382",
+    brand: "Makita",
+    name: "18V LXT Brushless 125mm Random Orbital Sander (Body Only)",
+    modelNumber: "DBO382Z",
+    category: "sanders",
+    description: "Brushless 125mm random orbital sander with variable speed and dust bag. Only 1.3kg without battery.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 98.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DBO382Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 104.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 109.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 101.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-pin-nailer-dpt353",
+    brand: "Makita",
+    name: "18V LXT 23 Gauge Pin Nailer (Body Only)",
+    modelNumber: "DPT353Z",
+    category: "nail-guns",
+    description: "23 gauge cordless pin nailer for 15-35mm headless pins. Adjustable depth of drive and sequential fire.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 188.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DPT353Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 194.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 199.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 191.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 189.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-led-torch",
+    brand: "Makita",
+    name: "18V LXT LED Torch/Flashlight",
+    modelNumber: "DML812",
+    category: "lighting",
+    description: "18V LXT LED torch with 200 lumen output. Pivoting head and magnetic base for hands-free use.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 28.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DML812+makita+torch&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 31.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 34.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 29.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 29.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-dab-radio",
+    brand: "Makita",
+    name: "18V LXT DAB+ Job Site Radio",
+    modelNumber: "DMR115",
+    category: "radio",
+    description: "DAB+/FM job site radio with Bluetooth. Compatible with 18V LXT batteries. USB charging and IP54 rated.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 88.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DMR115+makita+radio&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 94.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 99.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 91.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 89.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-brushless-vacuum-dvc750",
+    brand: "Makita",
+    name: "18V LXT Brushless L-Class Vacuum Cleaner (Body Only)",
+    modelNumber: "DVC750Z",
+    category: "specialist",
+    description: "L-class rated 18V brushless vacuum with 0.5L dust container. Suitable for use with dust-producing tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DVC750Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-lxt-inflator-dmp180",
+    brand: "Makita",
+    name: "18V LXT Digital Inflator (Body Only)",
+    modelNumber: "DMP180Z",
+    category: "specialist",
+    description: "18V LXT digital tyre inflator with auto-stop at preset pressure. Inflates car, bike and ball tyres.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 78.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DMP180Z+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 84.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 89.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 81.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 79.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-xgt-green-laser-level",
+    brand: "Makita",
+    name: "40V XGT Self-Levelling Cross Line Green Laser (Body Only)",
+    modelNumber: "SK700GDZ",
+    category: "specialist",
+    description: "40V XGT self-levelling green cross-line laser with 4 x 360° planes. Visible up to 40m with detector.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 348.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=SK700GDZ+makita+laser+level&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 359.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 364.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 352.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 349.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+
+  // ============================================================
+  // BOSCH PROFESSIONAL 18V RANGE - ADDITIONAL TOOLS
+  // ============================================================
+  {
+    slug: "bosch-18v-combi-drill-90c",
+    brand: "Bosch Professional",
+    name: "18V Brushless Combi Drill Connected (Body Only)",
+    modelNumber: "GSB 18V-90 C",
+    category: "drills",
+    description: "Connected brushless combi drill with 90Nm torque. Bluetooth connectivity for tool management via app.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 138.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GSB+18V-90+C+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 144.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 149.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 141.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 139.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-drill-driver-55",
+    brand: "Bosch Professional",
+    name: "18V Brushless Drill Driver (Body Only)",
+    modelNumber: "GSR 18V-55",
+    category: "drills",
+    description: "Compact brushless drill driver with 55Nm torque. 13mm keyless chuck and 2-speed gearbox.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 78.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GSR+18V-55+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 84.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 89.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 81.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 79.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-drill-driver-90c",
+    brand: "Bosch Professional",
+    name: "18V Brushless Drill Driver Connected (Body Only)",
+    modelNumber: "GSR 18V-90 C",
+    category: "drills",
+    description: "Connected brushless drill driver with 90Nm torque. Bluetooth connectivity for professional tool tracking.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 128.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GSR+18V-90+C+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 134.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 139.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 131.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 129.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-impact-driver-210c",
+    brand: "Bosch Professional",
+    name: "18V Brushless Impact Driver Connected (Body Only)",
+    modelNumber: "GDR 18V-210 C",
+    category: "impact-drivers",
+    description: "Brushless impact driver with 210Nm torque and Bluetooth connectivity. Electronic motor protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 108.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GDR+18V-210+C+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 114.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 119.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 112.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 110.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-impact-wrench-34",
+    brand: "Bosch Professional",
+    name: "18V BITURBO Brushless 3/4\" Impact Wrench (Body Only)",
+    modelNumber: "GDS 18V-1050 H",
+    category: "impact-drivers",
+    description: "BITURBO brushless 3/4\" impact wrench with 1050Nm max torque. For the heaviest fastening applications.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 298.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GDS+18V-1050+H+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 309.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 314.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 302.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 299.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-impact-wrench-450hc",
+    brand: "Bosch Professional",
+    name: "18V Brushless 1/2\" Impact Wrench (Body Only)",
+    modelNumber: "GDS 18V-450 HC",
+    category: "impact-drivers",
+    description: "Brushless 1/2\" impact wrench with 450Nm max torque. High-performance for automotive and structural work.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 198.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GDS+18V-450+HC+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 209.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 214.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 203.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 199.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-sds-plus-34cf",
+    brand: "Bosch Professional",
+    name: "18V Brushless SDS Plus Hammer Drill with Forward Control (Body Only)",
+    modelNumber: "GBH 18V-34 CF",
+    category: "sds-drills",
+    description: "SDS Plus hammer drill with 3.4J impact energy and Vibration Control. Forward control for overhead work.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 278.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GBH+18V-34+CF+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 289.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 294.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 282.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 279.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-sds-max-45c",
+    brand: "Bosch Professional",
+    name: "18V BITURBO Brushless SDS Max Hammer Drill (Body Only)",
+    modelNumber: "GBH 18V-45 C",
+    category: "sds-drills",
+    description: "BITURBO SDS Max hammer drill with 8.5J impact energy. Equivalent power to corded 45V machine.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 448.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GBH+18V-45+C+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 459.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 469.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 452.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 449.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-circular-saw-165mm",
+    brand: "Bosch Professional",
+    name: "18V 165mm Circular Saw (Body Only)",
+    modelNumber: "GKS 18V-57",
+    category: "saws",
+    description: "165mm cordless circular saw with 57mm cutting depth at 90°. Parallel guide and dust port included.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GKS+18V-57+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-jigsaw-155bc",
+    brand: "Bosch Professional",
+    name: "18V Brushless Jigsaw (Body Only)",
+    modelNumber: "GST 18V-155 BC",
+    category: "saws",
+    description: "Brushless jigsaw with 155mm cutting depth in wood. 4-stage pendulum action and tool-free blade change.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GST+18V-155+BC+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-reciprocating-saw-32",
+    brand: "Bosch Professional",
+    name: "18V Brushless Reciprocating Saw (Body Only)",
+    modelNumber: "GSA 18V-32",
+    category: "saws",
+    description: "Brushless reciprocating saw with 32mm stroke length. Tool-free blade change and variable speed trigger.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 138.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GSA+18V-32+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 144.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 149.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 141.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 139.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-multi-tool-34",
+    brand: "Bosch Professional",
+    name: "18V Brushless Multi-Tool (Body Only)",
+    modelNumber: "GOP 18V-34",
+    category: "multi-tools",
+    description: "Brushless oscillating multi-tool with 3.4° oscillation angle. StarlockMax accessory system for quick changes.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 158.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GOP+18V-34+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 164.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 169.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 162.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 159.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-mitre-saw-216",
+    brand: "Bosch Professional",
+    name: "18V BITURBO Brushless 216mm Mitre Saw (Body Only)",
+    modelNumber: "GCM 18V-216",
+    category: "saws",
+    description: "BITURBO 216mm single bevel mitre saw with brushless motor. Equivalent to corded performance.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 498.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GCM+18V-216+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 514.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 519.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 504.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 499.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-plunge-saw",
+    brand: "Bosch Professional",
+    name: "18V Brushless 165mm Plunge Saw with Guide Rail (Body Only)",
+    modelNumber: "GKT 18V-52 GC",
+    category: "saws",
+    description: "Brushless 165mm plunge saw compatible with Bosch guide rails. 55mm max cutting depth with splinter guard.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 348.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GKT+18V-52+GC+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 359.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 364.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 352.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 349.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-angle-grinder-15c",
+    brand: "Bosch Professional",
+    name: "18V BITURBO 125mm Angle Grinder Connected (Body Only)",
+    modelNumber: "GWS 18V-15 C",
+    category: "grinders",
+    description: "BITURBO 125mm angle grinder with Bluetooth connectivity. Electronic kickback protection and soft start.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 198.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GWS+18V-15+C+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 209.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 214.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 203.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 199.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-angle-grinder-180mm",
+    brand: "Bosch Professional",
+    name: "18V BITURBO 180mm Large Angle Grinder (Body Only)",
+    modelNumber: "GWS 18V-180 PC",
+    category: "grinders",
+    description: "Large 180mm BITURBO brushless angle grinder for heavy-duty tasks. Electronic protection system.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 298.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GWS+18V-180+PC+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 309.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 314.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 302.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 299.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-router",
+    brand: "Bosch Professional",
+    name: "18V Brushless Palm Router (Body Only)",
+    modelNumber: "GKF 18V-8",
+    category: "routers",
+    description: "Compact brushless palm router with 1/4\" collet. Micro-adjustable depth setting for precision work.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 128.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GKF+18V-8+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 134.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 139.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 131.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 129.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-orbital-sander",
+    brand: "Bosch Professional",
+    name: "18V Brushless Sheet Orbital Sander (Body Only)",
+    modelNumber: "GSS 18V-13",
+    category: "sanders",
+    description: "Brushless 1/3 sheet orbital sander with micro-filter dust collector. Variable speed 6,000-14,000rpm.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 98.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GSS+18V-13+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 104.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 109.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 101.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-random-orbital-sander",
+    brand: "Bosch Professional",
+    name: "18V Brushless 125mm Random Orbital Sander (Body Only)",
+    modelNumber: "GEX 18V-125",
+    category: "sanders",
+    description: "125mm brushless random orbital sander with 8-hole abrasive pad. Eccentric motion for swirl-free results.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 138.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GEX+18V-125+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 144.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 149.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 141.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 139.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-work-light",
+    brand: "Bosch Professional",
+    name: "18V LED Work Light Connected",
+    modelNumber: "GLI 18V-4000 C",
+    category: "lighting",
+    description: "18V LED work light with 4000 lumen output and Bluetooth connectivity. 180° adjustable head.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 78.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GLI+18V-4000+C+bosch+work+light&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 84.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 89.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 81.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 79.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-dab-radio",
+    brand: "Bosch Professional",
+    name: "18V DAB+ Professional Radio",
+    modelNumber: "GML 18V-120",
+    category: "radio",
+    description: "DAB+/FM job site radio with 120W peak power. Bluetooth streaming and twin USB charging ports.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 98.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GML+18V-120+bosch+radio&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 104.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 109.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 101.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-vacuum",
+    brand: "Bosch Professional",
+    name: "18V Professional Wet/Dry Vacuum (Body Only)",
+    modelNumber: "GAS 18V-12 MC",
+    category: "specialist",
+    description: "Compact 18V wet/dry vacuum with 4L container. Multi-colour filter and tool-triggered start.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 88.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GAS+18V-12+MC+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 94.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 99.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 91.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 89.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+
+  // ============================================================
+  // HIKOKI 36V MULTIVOLT RANGE - ADDITIONAL TOOLS
+  // ============================================================
+  {
+    slug: "hikoki-36v-drill-driver-ds3620da",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless Drill Driver (Body Only)",
+    modelNumber: "DS3620DA",
+    category: "drills",
+    description: "36V MultiVolt brushless drill driver with 80Nm torque. Accepts both 36V MultiVolt and 18V batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 128.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DS3620DA+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 134.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 139.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 131.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 129.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-impact-wrench-12",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless 1/2\" Impact Wrench (Body Only)",
+    modelNumber: "WR36DC",
+    category: "impact-drivers",
+    description: "36V MultiVolt brushless 1/2\" impact wrench with 490Nm max torque. 4-speed control with LED indicator.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 198.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=WR36DC+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 204.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 209.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 201.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 199.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-impact-wrench-34",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless 3/4\" Impact Wrench (Body Only)",
+    modelNumber: "WR36DD",
+    category: "impact-drivers",
+    description: "36V MultiVolt brushless 3/4\" impact wrench with 1100Nm max torque for heavy-duty applications.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 258.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=WR36DD+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 269.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 274.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 262.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 259.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-sds-plus-dh3628da",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless SDS Plus Hammer Drill (Body Only)",
+    modelNumber: "DH3628DA",
+    category: "sds-drills",
+    description: "36V MultiVolt SDS Plus rotary hammer with 3.5J impact energy and 3 operating modes.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 248.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DH3628DA+body+only&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 259.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 264.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 252.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 249.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-circular-saw-165mm",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless 165mm Circular Saw (Body Only)",
+    modelNumber: "C3606DA",
+    category: "saws",
+    description: "36V MultiVolt 165mm brushless circular saw with 57mm cutting depth at 90°. Left blade design.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 178.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=C3606DA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 184.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 189.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 181.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 179.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-jigsaw",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless Jigsaw (Body Only)",
+    modelNumber: "CJ36DA",
+    category: "saws",
+    description: "36V MultiVolt brushless jigsaw with 135mm max cutting depth in wood. 4-stage pendulum action.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 168.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=CJ36DA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 174.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 179.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 171.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 169.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-reciprocating-saw",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless Reciprocating Saw (Body Only)",
+    modelNumber: "CR36DA",
+    category: "saws",
+    description: "36V MultiVolt brushless reciprocating saw with 32mm stroke length. Tool-free blade clamp.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 158.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=CR36DA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 164.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 169.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 161.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 159.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-18v-multi-tool",
+    brand: "HiKOKI",
+    name: "18V Brushless Multi-Tool (Body Only)",
+    modelNumber: "CV18DA",
+    category: "multi-tools",
+    description: "18V brushless oscillating multi-tool with variable speed. Universal accessory adapter for all major brands.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 118.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=CV18DA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 124.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 129.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 121.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 119.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-mitre-saw-255mm",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless 255mm Mitre Saw (Body Only)",
+    modelNumber: "C3610DRA",
+    category: "saws",
+    description: "36V MultiVolt 255mm sliding compound mitre saw. Dual bevel and 0-52° mitre angle range.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 548.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=C3610DRA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 564.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 569.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 554.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 549.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-table-saw",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless Table Saw (Body Only)",
+    modelNumber: "C3607DRA",
+    category: "saws",
+    description: "36V MultiVolt brushless table saw with 190mm blade. Rip fence and mitre gauge included.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 698.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=C3607DRA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 714.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 719.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 704.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 699.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-angle-grinder-230mm",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless 230mm Angle Grinder (Body Only)",
+    modelNumber: "G3623DA",
+    category: "grinders",
+    description: "36V MultiVolt 230mm brushless angle grinder for heavy-duty cutting and grinding. Vibration reducing handle.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 318.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=G3623DA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 329.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 334.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 322.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 319.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-planer",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless 82mm Planer (Body Only)",
+    modelNumber: "P3608DA",
+    category: "planers",
+    description: "36V MultiVolt 82mm brushless planer with 2mm max cutting depth. Rebate depth up to 9mm.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 218.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=P3608DA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 229.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 234.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 222.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 219.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-router",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless Router (Body Only)",
+    modelNumber: "M3612DA",
+    category: "routers",
+    description: "36V MultiVolt brushless router with 1/4\" and 1/2\" collets. Variable speed 8,000-24,000rpm.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 258.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=M3612DA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 269.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 274.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 262.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 259.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-blower",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Brushless Blower (Body Only)",
+    modelNumber: "RB36DA",
+    category: "outdoor",
+    description: "36V MultiVolt brushless leaf blower with 3 speed settings. Max airflow of 17m3/min.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 98.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=RB36DA+body+only+hikoki&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 104.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 109.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 101.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-18v-dab-radio",
+    brand: "HiKOKI",
+    name: "18V DAB/DAB+ Bluetooth Radio",
+    modelNumber: "R18DA",
+    category: "radio",
+    description: "18V DAB+ job site radio with Bluetooth streaming. Compatible with 18V and 36V MultiVolt batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 88.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=R18DA+hikoki+radio&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 94.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 99.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 91.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 89.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+
+  // ============================================================
+  // BATTERIES & CHARGERS - ALL BRANDS
+  // ============================================================
+  // ============================================================
+  // MILWAUKEE BATTERIES & CHARGERS
+  // ============================================================
+  {
+    slug: "milwaukee-m12-b2-battery",
+    brand: "Milwaukee",
+    name: "M12 2.0Ah Compact Battery",
+    modelNumber: "M12 B2",
+    category: "batteries",
+    description: "M12 2.0Ah REDLITHIUM-ION compact battery. Lightweight for use with all M12 tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 34.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12+B2+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 36.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 37.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 35.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 35.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m12-b4-battery",
+    brand: "Milwaukee",
+    name: "M12 4.0Ah Battery",
+    modelNumber: "M12 B4",
+    category: "batteries",
+    description: "M12 4.0Ah REDLITHIUM-ION battery for extended runtime. Compatible with all M12 tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 48.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12+B4+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 51.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 52.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 49.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 49.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m12-b6-battery",
+    brand: "Milwaukee",
+    name: "M12 6.0Ah Battery",
+    modelNumber: "M12 B6",
+    category: "batteries",
+    description: "M12 6.0Ah REDLITHIUM-ION high capacity battery for maximum runtime with M12 tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 64.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12+B6+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 67.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 69.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 65.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 65.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-b2-battery",
+    brand: "Milwaukee",
+    name: "M18 2.0Ah Compact Battery",
+    modelNumber: "M18 B2",
+    category: "batteries",
+    description: "M18 2.0Ah REDLITHIUM-ION compact battery. Lightweight for applications where weight matters.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 34.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+B2+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 36.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 37.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 35.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 35.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-b5-battery",
+    brand: "Milwaukee",
+    name: "M18 5.0Ah Battery",
+    modelNumber: "M18 B5",
+    category: "batteries",
+    description: "M18 5.0Ah REDLITHIUM-ION battery with built-in charge level indicator. Works with all M18 tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 54.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+B5+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 57.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 59.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 56.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 55.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-hb5-battery",
+    brand: "Milwaukee",
+    name: "M18 REDLITHIUM-ION HIGH OUTPUT 5.0Ah Battery",
+    modelNumber: "M18 HB5",
+    category: "batteries",
+    description: "M18 HIGH OUTPUT 5.0Ah battery with 50% more power and runs cooler than standard. For demanding applications.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 68.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+HB5+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 71.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 74.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 69.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 69.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-b6-battery",
+    brand: "Milwaukee",
+    name: "M18 6.0Ah Battery",
+    modelNumber: "M18 B6",
+    category: "batteries",
+    description: "M18 6.0Ah REDLITHIUM-ION battery for extended runtime. Compatible with all M18 and M18 FUEL tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 64.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+B6+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 67.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 69.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 65.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 65.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-hb8-battery",
+    brand: "Milwaukee",
+    name: "M18 REDLITHIUM-ION HIGH OUTPUT 8.0Ah Battery",
+    modelNumber: "M18 HB8",
+    category: "batteries",
+    description: "M18 HIGH OUTPUT 8.0Ah battery for maximum runtime and power. Ideal for FUEL tools in demanding conditions.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 88.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+HB8+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 91.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 94.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 89.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 89.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-hb12-battery",
+    brand: "Milwaukee",
+    name: "M18 REDLITHIUM-ION HIGH OUTPUT 12.0Ah Battery",
+    modelNumber: "M18 HB12",
+    category: "batteries",
+    description: "M18 HIGH OUTPUT 12.0Ah battery - the highest capacity M18 battery. For all-day operation with FUEL tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 138.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+HB12+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 144.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 149.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 141.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 139.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m12-c-charger",
+    brand: "Milwaukee",
+    name: "M12 Compact Charger",
+    modelNumber: "M12 C",
+    category: "batteries",
+    description: "M12 compact charger for all M12 batteries. LED charge indicator and overload protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 24.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12+C+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 26.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 27.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 25.49,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 25.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fc-charger",
+    brand: "Milwaukee",
+    name: "M18 Fast Charger",
+    modelNumber: "M18 FC",
+    category: "batteries",
+    description: "M18 fast charger charges a 5.0Ah battery in 60 minutes. Charges all M18 batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 44.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+FC+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 46.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 48.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 45.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 45.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-dfc-charger",
+    brand: "Milwaukee",
+    name: "M18 Dual Bay Fast Charger",
+    modelNumber: "M18 DFC",
+    category: "batteries",
+    description: "M18 dual bay fast charger with two independent charging ports. Charges two batteries simultaneously.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 78.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+DFC+dual+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 81.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 84.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 79.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 79.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m12-m18-sc-charger",
+    brand: "Milwaukee",
+    name: "M12-M18 Super Charger (Rapid Multi-Voltage)",
+    modelNumber: "M12-18SC",
+    category: "batteries",
+    description: "Super charger compatible with both M12 and M18 batteries. Fastest charge times available for Milwaukee batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 98.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12-18SC+super+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 104.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 109.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 101.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-starter-pack",
+    brand: "Milwaukee",
+    name: "M18 Starter Pack (2x5.0Ah Batteries + Fast Charger)",
+    modelNumber: "M18 BPP2F-502B",
+    category: "batteries",
+    description: "M18 starter pack including two 5.0Ah batteries and a fast charger. Excellent value for expanding your M18 system.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+BPP2F-502B+starter+pack&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  // ============================================================
+  // DEWALT BATTERIES & CHARGERS
+  // ============================================================
+  {
+    slug: "dewalt-18v-2ah-battery",
+    brand: "DeWalt",
+    name: "18V XR 2.0Ah Lithium-Ion Battery",
+    modelNumber: "DCB183",
+    category: "batteries",
+    description: "18V XR 2.0Ah compact battery with fuel gauge indicator. Compatible with all DeWalt 18V XR tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 34.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB183+dewalt+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 36.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 37.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 35.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 35.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-4ah-battery",
+    brand: "DeWalt",
+    name: "18V XR 4.0Ah Lithium-Ion Battery",
+    modelNumber: "DCB182",
+    category: "batteries",
+    description: "18V XR 4.0Ah battery with 3-LED fuel gauge. Lightweight at 0.59kg for reduced fatigue.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 48.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB182+dewalt+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 51.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 52.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 49.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 49.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-5ah-battery",
+    brand: "DeWalt",
+    name: "18V XR 5.0Ah Lithium-Ion Battery",
+    modelNumber: "DCB184",
+    category: "batteries",
+    description: "18V XR 5.0Ah battery with 3-LED fuel gauge indicator. The most popular DeWalt 18V battery.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 58.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB184+dewalt+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 62.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 64.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 60.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 59.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-5ah-powerstack-battery",
+    brand: "DeWalt",
+    name: "18V XR 5.0Ah POWERSTACK Lithium-Ion Battery",
+    modelNumber: "DCBP518",
+    category: "batteries",
+    description: "18V XR POWERSTACK 5.0Ah battery using pouch cell technology. 2x more power delivery and faster charging.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 88.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCBP518+powerstack+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 94.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 99.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 91.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 89.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-flexvolt-6ah-battery",
+    brand: "DeWalt",
+    name: "54V/18V XR FlexVolt 6.0Ah Battery",
+    modelNumber: "DCB546",
+    category: "batteries",
+    description: "FlexVolt 6.0Ah battery that automatically changes voltage when switching between tools. Works as 54V or 18V.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 118.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB546+flexvolt+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 124.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 129.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 121.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 119.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-flexvolt-9ah-battery",
+    brand: "DeWalt",
+    name: "54V/18V XR FlexVolt 9.0Ah Battery",
+    modelNumber: "DCB547",
+    category: "batteries",
+    description: "FlexVolt 9.0Ah high capacity battery for maximum runtime with FlexVolt tools. Also works as 18V.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 168.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB547+flexvolt+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 174.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 179.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 171.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 169.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-flexvolt-12ah-battery",
+    brand: "DeWalt",
+    name: "54V/18V XR FlexVolt 12.0Ah Battery",
+    modelNumber: "DCB548",
+    category: "batteries",
+    description: "FlexVolt 12.0Ah maximum capacity battery for all-day operation with FlexVolt and 18V tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 218.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB548+flexvolt+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 224.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 229.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 221.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 219.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-single-charger",
+    brand: "DeWalt",
+    name: "18V XR Single Port Battery Charger",
+    modelNumber: "DCB115",
+    category: "batteries",
+    description: "18V XR single port charger compatible with all DeWalt 18V batteries. LED charge indicator.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 34.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB115+dewalt+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 36.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 37.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 35.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 35.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-dual-charger",
+    brand: "DeWalt",
+    name: "18V XR Dual Port Battery Charger",
+    modelNumber: "DCB132",
+    category: "batteries",
+    description: "18V XR dual port charger for charging two batteries simultaneously. Compatible with all DeWalt 18V batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 64.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB132+dewalt+dual+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 67.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 69.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 65.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 65.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "dewalt-18v-fast-charger",
+    brand: "DeWalt",
+    name: "18V XR Fast Battery Charger",
+    modelNumber: "DCB116",
+    category: "batteries",
+    description: "18V XR fast charger with active cooling fan. Charges a 5.0Ah battery in under 60 minutes.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 44.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DCB116+dewalt+fast+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 46.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 48.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 45.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 45.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  // ============================================================
+  // MAKITA BATTERIES & CHARGERS
+  // ============================================================
+  {
+    slug: "makita-18v-3ah-battery",
+    brand: "Makita",
+    name: "18V LXT 3.0Ah Lithium-Ion Battery",
+    modelNumber: "BL1830B",
+    category: "batteries",
+    description: "18V LXT 3.0Ah battery with battery protection circuit and charge level indicator. Compatible with all LXT tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 38.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BL1830B+makita+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 41.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 42.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 39.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 39.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-4ah-battery",
+    brand: "Makita",
+    name: "18V LXT 4.0Ah Lithium-Ion Battery",
+    modelNumber: "BL1840B",
+    category: "batteries",
+    description: "18V LXT 4.0Ah battery with built-in charge level indicator. Star Protection Computer Controls.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 48.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BL1840B+makita+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 51.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 52.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 49.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 49.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-5ah-battery",
+    brand: "Makita",
+    name: "18V LXT 5.0Ah Lithium-Ion Battery",
+    modelNumber: "BL1850B",
+    category: "batteries",
+    description: "18V LXT 5.0Ah battery with charge level indicator and Star Protection Computer Controls for tool protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 58.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BL1850B+makita+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 62.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 64.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 60.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 59.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-6ah-battery",
+    brand: "Makita",
+    name: "18V LXT 6.0Ah Lithium-Ion Battery",
+    modelNumber: "BL1860B",
+    category: "batteries",
+    description: "18V LXT 6.0Ah high capacity battery for maximum runtime. Built-in charge level indicator.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 74.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BL1860B+makita+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 77.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 79.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 75.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 75.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-25ah-battery",
+    brand: "Makita",
+    name: "40V XGT 2.5Ah Lithium-Ion Battery",
+    modelNumber: "BL4025",
+    category: "batteries",
+    description: "40V XGT 2.5Ah compact battery for the XGT platform. Lightweight option for lighter applications.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 78.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BL4025+makita+40v+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 81.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 84.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 79.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 79.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-4ah-battery",
+    brand: "Makita",
+    name: "40V XGT 4.0Ah Lithium-Ion Battery",
+    modelNumber: "BL4040",
+    category: "batteries",
+    description: "40V XGT 4.0Ah battery for the XGT platform tools. Built-in charge level indicator.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 118.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BL4040+makita+40v+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 124.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 129.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 121.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 119.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-5ah-battery",
+    brand: "Makita",
+    name: "40V XGT 5.0Ah Lithium-Ion Battery",
+    modelNumber: "BL4050F",
+    category: "batteries",
+    description: "40V XGT 5.0Ah high capacity battery with fast charging support. For maximum runtime on XGT tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BL4050F+makita+40v+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-single-charger",
+    brand: "Makita",
+    name: "18V LXT Rapid Battery Charger",
+    modelNumber: "DC18RC",
+    category: "batteries",
+    description: "18V LXT rapid charger with cooling fan. Charges a 3.0Ah battery in 22 minutes. Star Protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 34.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DC18RC+makita+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 36.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 37.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 35.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 35.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-18v-dual-charger",
+    brand: "Makita",
+    name: "18V LXT Dual Port Rapid Charger",
+    modelNumber: "DC18RD",
+    category: "batteries",
+    description: "18V LXT dual port rapid charger. Charges two batteries simultaneously with cooling fans.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 64.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DC18RD+makita+dual+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 67.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 69.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 65.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 65.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "makita-40v-charger",
+    brand: "Makita",
+    name: "40V XGT Rapid Battery Charger",
+    modelNumber: "DC40RA",
+    category: "batteries",
+    description: "40V XGT rapid charger with cooling fan. Charges a 2.5Ah battery in 28 minutes.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 54.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=DC40RA+makita+40v+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 57.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 59.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 55.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 55.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  // ============================================================
+  // BOSCH PROFESSIONAL BATTERIES & CHARGERS
+  // ============================================================
+  {
+    slug: "bosch-18v-2ah-battery",
+    brand: "Bosch Professional",
+    name: "18V 2.0Ah ProCORE Battery",
+    modelNumber: "GBA 18V 2.0Ah",
+    category: "batteries",
+    description: "18V ProCORE 2.0Ah compact battery for all Bosch Professional 18V tools. Charge level indicator.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 28.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+2.0Ah+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 31.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 32.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 29.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 29.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-4ah-battery",
+    brand: "Bosch Professional",
+    name: "18V 4.0Ah ProCORE Battery",
+    modelNumber: "GBA 18V 4.0Ah",
+    category: "batteries",
+    description: "18V ProCORE 4.0Ah battery for all Bosch Professional 18V tools. Electronic cell protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 44.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+4.0Ah+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 47.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 49.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 45.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 45.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-5ah-battery",
+    brand: "Bosch Professional",
+    name: "18V 5.0Ah ProCORE Battery",
+    modelNumber: "GBA 18V 5.0Ah",
+    category: "batteries",
+    description: "18V ProCORE 5.0Ah battery compatible with all Bosch Professional 18V tools. Electronic cell protection.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 58.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+5.0Ah+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 62.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 64.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 60.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 59.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-8ah-battery",
+    brand: "Bosch Professional",
+    name: "18V 8.0Ah ProCORE 18V Battery",
+    modelNumber: "GBA 18V 8.0Ah",
+    category: "batteries",
+    description: "18V ProCORE 8.0Ah high capacity battery for maximum runtime. Optimised for BITURBO tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 98.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+8.0Ah+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 104.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 109.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 101.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 99.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-12ah-battery",
+    brand: "Bosch Professional",
+    name: "18V 12.0Ah ProCORE 18V Battery",
+    modelNumber: "GBA 18V 12.0Ah",
+    category: "batteries",
+    description: "18V ProCORE 12.0Ah maximum capacity battery. For all-day operation with professional tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+12.0Ah+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-fast-charger",
+    brand: "Bosch Professional",
+    name: "18V 4A Fast Charger",
+    modelNumber: "GAL 18V-40",
+    category: "batteries",
+    description: "18V fast charger with 4A charging current. Charges a 2.0Ah battery in 30 minutes.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 48.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GAL+18V-40+bosch+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 51.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 52.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 49.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 49.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "bosch-18v-dual-charger",
+    brand: "Bosch Professional",
+    name: "18V 8A Connected Dual Bay Charger",
+    modelNumber: "GAL 18V-160 C",
+    category: "batteries",
+    description: "18V dual bay connected charger with 8A per bay. Bluetooth connectivity and simultaneous charging.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 88.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=GAL+18V-160+C+bosch+dual+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 91.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 94.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 89.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 89.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  // ============================================================
+  // HIKOKI BATTERIES & CHARGERS
+  // ============================================================
+  {
+    slug: "hikoki-36v-25ah-battery",
+    brand: "HiKOKI",
+    name: "36V MultiVolt 2.5Ah Battery",
+    modelNumber: "BSL3625",
+    category: "batteries",
+    description: "36V MultiVolt 2.5Ah battery compatible with all 36V MultiVolt and 18V HiKOKI tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 58.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BSL3625+hikoki+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 61.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 64.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 59.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 59.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-4ah-battery",
+    brand: "HiKOKI",
+    name: "36V MultiVolt 4.0Ah Battery",
+    modelNumber: "BSL3640",
+    category: "batteries",
+    description: "36V MultiVolt 4.0Ah battery for extended runtime with all MultiVolt tools. Cell voltage monitoring.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 88.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BSL3640+hikoki+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 91.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 94.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 89.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 89.49,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-8ah-battery",
+    brand: "HiKOKI",
+    name: "36V MultiVolt 8.0Ah Battery",
+    modelNumber: "BSL3680",
+    category: "batteries",
+    description: "36V MultiVolt 8.0Ah high capacity battery for all-day operation with MultiVolt tools.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 148.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=BSL3680+hikoki+battery&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 154.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 159.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 151.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 149.99,
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "hikoki-36v-rapid-charger",
+    brand: "HiKOKI",
+    name: "36V MultiVolt Rapid Charger",
+    modelNumber: "UC18YSL3",
+    category: "batteries",
+    description: "36V MultiVolt rapid charger compatible with all HiKOKI 18V and 36V MultiVolt batteries.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        price: 54.99,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/s?k=UC18YSL3+hikoki+charger&tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        price: 57.99,
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "Toolstation",
+        price: 59.99,
+        inStock: true,
+        delivery: "£5.00",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
+        price: 55.99,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        price: 55.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,

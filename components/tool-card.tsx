@@ -2,7 +2,7 @@ import Link from "next/link";
 import { type Tool } from "@/lib/tools-db";
 
 export function ToolCard({ tool }: { tool: Tool }) {
-  const sortedRetailers = [...tool.retailers].sort((a, b) => a.price - b.price);
+  const sortedRetailers = [...tool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price);
   const bestPrice = sortedRetailers[0]?.price;
   const worstPrice = sortedRetailers[sortedRetailers.length - 1]?.price;
 

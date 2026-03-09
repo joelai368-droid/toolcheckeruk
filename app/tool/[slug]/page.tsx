@@ -17,12 +17,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tool = getToolBySlug(slug);
   if (!tool) return { title: "Tool Not Found | ToolCheckerUK" };
 
-  const sortedRetailers = [...tool.retailers].sort((a, b) => a.price - b.price);
+  const sortedRetailers = [...tool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price);
   const bestPrice = sortedRetailers[0]?.price;
 
   return {
     title: `${tool.brand} ${tool.name} — Best Price UK | ToolCheckerUK`,
-    description: `Compare prices for the ${tool.brand} ${tool.name} (${tool.modelNumber}) across ${tool.retailers.length} UK retailers. Best price: £${bestPrice?.toFixed(2)}. Free delivery available.`,
+    description: `Compare prices for the ${tool.brand} ${tool.name} (${tool.modelNumber}) across ${sortedRetailers.length} UK retailers. Best price: £${bestPrice?.toFixed(2)}. Free delivery available.`,
   };
 }
 
@@ -31,7 +31,7 @@ export default async function ToolPage({ params }: PageProps) {
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
 
-  const sortedRetailers = [...tool.retailers].sort((a, b) => a.price - b.price);
+  const sortedRetailers = [...tool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price);
   const bestPrice = sortedRetailers[0]?.price ?? 0;
   const worstPrice = sortedRetailers[sortedRetailers.length - 1]?.price ?? 0;
 

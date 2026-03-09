@@ -237,7 +237,7 @@ export default function Home() {
   }, []);
 
   const sortedRetailers = selectedTool
-    ? [...selectedTool.retailers].sort((a, b) => a.price - b.price)
+    ? [...selectedTool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price)
     : [];
   const bestPrice = sortedRetailers.length ? sortedRetailers[0].price : null;
   const showingResults = hasSearched && !searching;

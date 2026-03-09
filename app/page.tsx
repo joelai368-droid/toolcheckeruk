@@ -382,7 +382,7 @@ export default function Home() {
               textAlign: "center", color: "#8E8E96", fontSize: "16px",
               lineHeight: 1.6, maxWidth: "460px", margin: "0 auto 44px",
             }}>
-              We check Screwfix, Toolstation, Amazon, FFX, ITS and more so you don&apos;t have to.
+              We compare prices across UK tool retailers so you don&apos;t have to.
             </p>
 
             {/* Search */}

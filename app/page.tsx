@@ -2,145 +2,124 @@
 import { useState, useEffect, useRef } from "react";
 import { searchTools, getAllTools, type Tool, type Retailer } from "@/lib/tools-db";
 
-const POPULAR_SEARCHES = [
-  "Milwaukee M12 impact",
-  "DeWalt 18V combi drill",
-  "Makita circular saw",
-  "Bosch SDS drill",
+const BRANDS = [
+  { name: "Milwaukee", color: "#DB0032", slug: "milwaukee" },
+  { name: "DeWalt", color: "#FEBD17", slug: "dewalt" },
+  { name: "Makita", color: "#00A8A6", slug: "makita" },
+  { name: "Bosch", color: "#005DAA", slug: "bosch" },
+  { name: "HiKOKI", color: "#3DAE2B", slug: "hikoki" },
+];
+
+const CATEGORIES = [
+  { name: "Drills", slug: "drills" },
+  { name: "Impact Drivers", slug: "impact-drivers" },
+  { name: "Saws", slug: "saws" },
+  { name: "Grinders", slug: "grinders" },
+  { name: "SDS Drills", slug: "sds-drills" },
+  { name: "Multi-Tools", slug: "multi-tools" },
+  { name: "Sanders", slug: "sanders" },
+  { name: "Nail Guns", slug: "nail-guns" },
+  { name: "Routers", slug: "routers" },
+  { name: "Planers", slug: "planers" },
 ];
 
 const RETAILER_COLORS: Record<string, string> = {
   "Screwfix": "#ff6900",
-  "Toolstation": "#0054a6",
+  "Toolstation": "#4488cc",
   "Amazon UK": "#ff9900",
   "FFX Tools": "#e31e24",
   "ITS": "#00a651",
-  "Powertool World": "#1a1a2e",
+  "Powertool World": "#8888aa",
   "Machine Mart": "#cc0000",
 };
 
 function SearchIcon({ size = 20 }: { size?: number }) {
   return (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="11" cy="11" r="8" />
       <line x1="21" y1="21" x2="16.65" y2="16.65" />
     </svg>
   );
 }
 
-function CheckIcon() {
+function ChevronRight() {
   return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-      <polyline points="20 6 9 17 4 12" />
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <polyline points="9 18 15 12 9 6" />
     </svg>
   );
 }
 
-function XIcon() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-      <line x1="18" y1="6" x2="6" y2="18" />
-      <line x1="6" y1="6" x2="18" y2="18" />
-    </svg>
-  );
-}
-
-function TagIcon() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
-      <line x1="7" y1="7" x2="7.01" y2="7" />
-    </svg>
-  );
-}
-
-function TruckIcon() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="1" y="3" width="15" height="13" />
-      <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
-      <circle cx="5.5" cy="18.5" r="2.5" />
-      <circle cx="18.5" cy="18.5" r="2.5" />
-    </svg>
-  );
-}
-
-function StoreIcon() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-      <polyline points="9 22 9 12 15 12 15 22" />
-    </svg>
-  );
-}
-
-function ResultCard({ result, index, bestPrice }: { result: Retailer; index: number; bestPrice: number | null }) {
-  const isBest = result.price === bestPrice;
-  const saving = result.originalPrice ? (result.originalPrice - result.price).toFixed(2) : null;
-  const accentColor = RETAILER_COLORS[result.name] || "#666";
+function RetailerResultCard({ retailer, isBest }: { retailer: Retailer; isBest: boolean }) {
+  const saving = retailer.originalPrice ? (retailer.originalPrice - retailer.price).toFixed(2) : null;
 
   return (
-    <div
-      className="bg-white rounded-xl overflow-hidden transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-      style={{
-        border: isBest ? "2px solid #D4F43E" : "1px solid #e8e8e8",
-        opacity: 0,
-        animation: `cardSlideIn 0.4s ease forwards ${index * 0.08}s`,
-      }}
-    >
+    <div style={{
+      background: "#111114",
+      border: isBest ? "1px solid #CFFF04" : "1px solid #222228",
+      borderRadius: "10px",
+      overflow: "hidden",
+      opacity: 0,
+      animation: "cardSlideIn 0.4s ease forwards",
+    }}>
       {isBest && (
-        <div
-          className="text-[11px] font-bold uppercase tracking-wider px-4 py-1"
-          style={{ background: "#D4F43E", color: "#1a1a1a", fontFamily: "'DM Mono', monospace", letterSpacing: "0.08em" }}
-        >
-          Best Price
-        </div>
+        <div style={{
+          background: "#CFFF04", color: "#0A0A0C",
+          padding: "4px 16px", fontSize: "11px", fontWeight: 700,
+          letterSpacing: "0.08em", fontFamily: "'JetBrains Mono', monospace",
+        }}>BEST PRICE</div>
       )}
-
-      <div className="p-5">
-        <div className="flex justify-between items-start mb-4">
-          <div className="flex items-center gap-2 text-base font-bold text-gray-900" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-            <div className="w-2 h-2 rounded-full shrink-0" style={{ background: accentColor }} />
-            {result.name}
+      <div style={{ padding: "20px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "14px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "15px", fontWeight: 600, color: "#E4E4E7" }}>
+            <div style={{ width: "8px", height: "8px", borderRadius: "50%", background: RETAILER_COLORS[retailer.name] || "#555", flexShrink: 0 }} />
+            {retailer.name}
           </div>
-          <div className="text-right">
-            <div className="text-[28px] font-extrabold text-gray-900 leading-none" style={{ fontFamily: "'DM Mono', monospace" }}>
-              £{result.price.toFixed(2)}
+          <div style={{ textAlign: "right" }}>
+            <div style={{ fontSize: "26px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace", lineHeight: 1 }}>
+              £{retailer.price.toFixed(2)}
             </div>
-            {result.originalPrice && (
-              <div className="text-[13px] text-gray-400 line-through" style={{ fontFamily: "'DM Mono', monospace" }}>
-                £{result.originalPrice.toFixed(2)}
+            {retailer.originalPrice && (
+              <div style={{ fontSize: "13px", color: "#4E4E56", textDecoration: "line-through", fontFamily: "'JetBrains Mono', monospace" }}>
+                £{retailer.originalPrice.toFixed(2)}
               </div>
             )}
           </div>
         </div>
-
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "14px" }}>
           {saving && (
-            <span className="inline-flex items-center gap-1 text-xs font-semibold text-green-600 bg-green-50 px-2.5 py-1 rounded-md" style={{ fontFamily: "'DM Mono', monospace" }}>
-              <TagIcon /> Save £{saving}
+            <span style={{ fontSize: "12px", fontWeight: 600, color: "#CFFF04", background: "rgba(207, 255, 4, 0.08)", padding: "4px 10px", borderRadius: "5px", fontFamily: "'JetBrains Mono', monospace" }}>
+              Save £{saving}
             </span>
           )}
-          <span className={`inline-flex items-center gap-1 text-xs font-medium px-2.5 py-1 rounded-md ${result.inStock ? "text-green-600 bg-green-50" : "text-red-600 bg-red-50"}`}>
-            {result.inStock ? <CheckIcon /> : <XIcon />}
-            {result.inStock ? "In Stock" : "Out of Stock"}
+          <span style={{
+            fontSize: "12px",
+            color: retailer.inStock ? "#4ADE80" : "#F87171",
+            background: retailer.inStock ? "rgba(74, 222, 128, 0.08)" : "rgba(248, 113, 113, 0.08)",
+            padding: "4px 10px", borderRadius: "5px",
+          }}>
+            {retailer.inStock ? "In Stock" : "Out of Stock"}
           </span>
-          <span className="inline-flex items-center gap-1 text-xs text-gray-500 bg-gray-100 px-2.5 py-1 rounded-md">
-            <TruckIcon /> {result.delivery}
+          <span style={{ fontSize: "12px", color: "#8E8E96", background: "#19191D", padding: "4px 10px", borderRadius: "5px" }}>
+            {retailer.delivery}
           </span>
-          {result.clickCollect && (
-            <span className="inline-flex items-center gap-1 text-xs text-gray-500 bg-gray-100 px-2.5 py-1 rounded-md">
-              <StoreIcon /> Click & Collect
+          {retailer.clickCollect && (
+            <span style={{ fontSize: "12px", color: "#8E8E96", background: "#19191D", padding: "4px 10px", borderRadius: "5px" }}>
+              Click &amp; Collect
             </span>
           )}
         </div>
-
         <a
-          href={result.url}
+          href={retailer.url}
           target="_blank"
           rel="noopener noreferrer nofollow"
-          className="block w-full py-3 bg-gray-900 text-white rounded-lg text-sm font-semibold cursor-pointer transition-colors hover:bg-gray-700 text-center no-underline"
-          style={{ fontFamily: "'Space Grotesk', sans-serif", letterSpacing: "0.02em" }}
+          style={{
+            display: "block", width: "100%", padding: "12px",
+            background: "#CFFF04", color: "#0A0A0C",
+            borderRadius: "7px", fontSize: "14px", fontWeight: 700,
+            textAlign: "center", textDecoration: "none",
+            boxSizing: "border-box", fontFamily: "'Outfit', sans-serif",
+          }}
         >
           View Deal →
         </a>
@@ -149,40 +128,48 @@ function ResultCard({ result, index, bestPrice }: { result: Retailer; index: num
   );
 }
 
-function ToolResultCard({ tool, onClick }: { tool: Tool; onClick: () => void }) {
-  const sortedRetailers = [...tool.retailers].sort((a, b) => a.price - b.price);
-  const bestPrice = sortedRetailers[0]?.price;
-  const worstPrice = sortedRetailers[sortedRetailers.length - 1]?.price;
+function ToolResultCard({ tool, onClick, delay }: { tool: Tool; onClick: () => void; delay: number }) {
+  const retailers = [...tool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price);
+  const bestPrice = retailers[0]?.price;
+  const worstPrice = retailers[retailers.length - 1]?.price;
 
   return (
     <div
-      className="bg-white rounded-xl border border-gray-200 p-5 cursor-pointer transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
       onClick={onClick}
-      style={{ opacity: 0, animation: `cardSlideIn 0.4s ease forwards` }}
+      style={{
+        background: "#111114",
+        border: "1px solid #222228",
+        borderRadius: "10px",
+        padding: "20px",
+        cursor: "pointer",
+        opacity: 0,
+        animation: `cardSlideIn 0.4s ease forwards ${delay}s`,
+      }}
+      className="tool-card-link"
     >
-      <div className="flex justify-between items-start mb-2">
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "8px" }}>
         <div>
-          <div className="text-xs text-gray-400 font-medium mb-1">{tool.brand} · {tool.modelNumber}</div>
-          <div className="text-base font-bold text-gray-900" style={{ letterSpacing: "-0.02em" }}>
-            {tool.name}
+          <div style={{ fontSize: "12px", color: "#4E4E56", marginBottom: "4px", fontFamily: "'JetBrains Mono', monospace" }}>
+            {tool.brand} · {tool.modelNumber}
           </div>
+          <div style={{ fontSize: "15px", fontWeight: 600, color: "#E4E4E7" }}>{tool.name}</div>
         </div>
-        <div className="text-right">
-          <div className="text-xl font-extrabold text-gray-900" style={{ fontFamily: "'DM Mono', monospace" }}>
+        <div style={{ textAlign: "right", flexShrink: 0, marginLeft: "16px" }}>
+          <div style={{ fontSize: "20px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace" }}>
             £{bestPrice?.toFixed(2)}
           </div>
-          <div className="text-[11px] text-gray-400">best of {sortedRetailers.length}</div>
+          <div style={{ fontSize: "11px", color: "#4E4E56", fontFamily: "'JetBrains Mono', monospace" }}>
+            best of {retailers.length}
+          </div>
+          {bestPrice && worstPrice && worstPrice > bestPrice && (
+            <div style={{ fontSize: "11px", color: "#CFFF04", background: "rgba(207,255,4,0.08)", padding: "2px 8px", borderRadius: "4px", marginTop: "4px", fontFamily: "'JetBrains Mono', monospace" }}>
+              save £{(worstPrice - bestPrice).toFixed(2)}
+            </div>
+          )}
         </div>
       </div>
-      <div className="flex items-center justify-between">
-        <div className="text-xs text-gray-400">
-          Price range: £{bestPrice?.toFixed(2)} — £{worstPrice?.toFixed(2)}
-        </div>
-        {bestPrice && worstPrice && worstPrice > bestPrice && (
-          <div className="text-xs font-semibold text-green-600 bg-green-50 px-2 py-0.5 rounded" style={{ fontFamily: "'DM Mono', monospace" }}>
-            Save up to £{(worstPrice - bestPrice).toFixed(2)}
-          </div>
-        )}
+      <div style={{ fontSize: "12px", color: "#4E4E56", fontFamily: "'JetBrains Mono', monospace" }}>
+        £{bestPrice?.toFixed(2)} — £{worstPrice?.toFixed(2)}
       </div>
     </div>
   );
@@ -197,34 +184,26 @@ export default function Home() {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleSearch = (searchQuery?: string) => {
-    const q = (searchQuery || query).trim();
+    const q = (searchQuery ?? query).trim();
     if (!q) return;
-
     setSearching(true);
     setSelectedTool(null);
     setHasSearched(true);
-
     setTimeout(() => {
       const results = searchTools(q);
       setMatchedTools(results);
-
-      // If only one result, show it directly
-      if (results.length === 1) {
-        setSelectedTool(results[0]);
-      }
-
+      if (results.length === 1) setSelectedTool(results[0]);
       setSearching(false);
     }, 600);
   };
 
-  const handleSelectTool = (tool: Tool) => {
-    setSelectedTool(tool);
+  const handleBrandClick = (brandSlug: string) => {
+    setQuery(brandSlug);
+    handleSearch(brandSlug);
   };
 
-  const handleBack = () => {
-    setSelectedTool(null);
-  };
-
+  const handleSelectTool = (tool: Tool) => setSelectedTool(tool);
+  const handleBack = () => setSelectedTool(null);
   const handleReset = () => {
     setMatchedTools([]);
     setSelectedTool(null);
@@ -232,262 +211,376 @@ export default function Home() {
     setHasSearched(false);
   };
 
-  useEffect(() => {
-    inputRef.current?.focus();
-  }, []);
+  useEffect(() => { inputRef.current?.focus(); }, []);
 
   const sortedRetailers = selectedTool
     ? [...selectedTool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price)
     : [];
-  const bestPrice = sortedRetailers.length ? sortedRetailers[0].price : null;
+  const bestPrice = sortedRetailers[0]?.price ?? null;
+  const worstPrice = sortedRetailers[sortedRetailers.length - 1]?.price ?? null;
   const showingResults = hasSearched && !searching;
+  const toolCount = getAllTools().length;
 
   return (
-    <div className="min-h-screen bg-[#fafafa]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: "#0A0A0C", color: "#E4E4E7", fontFamily: "'Outfit', sans-serif", display: "flex", flexDirection: "column", position: "relative", overflowX: "hidden" }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
         @keyframes cardSlideIn {
-          from { opacity: 0; transform: translateY(16px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes heroIn {
-          from { opacity: 0; transform: translateY(20px); }
+          from { opacity: 0; transform: translateY(14px); }
           to { opacity: 1; transform: translateY(0); }
         }
         @keyframes dotBounce {
           0%, 80%, 100% { transform: scale(0); }
           40% { transform: scale(1); }
         }
+
+        .tc-search-box {
+          background: #111114;
+          border: 1px solid #222228;
+          border-radius: 10px;
+          padding: 6px;
+          display: flex;
+          align-items: center;
+          transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .tc-search-box:focus-within {
+          border-color: #CFFF04;
+          box-shadow: 0 0 0 1px #CFFF04, 0 4px 24px rgba(207, 255, 4, 0.06);
+        }
+        .tc-input {
+          flex: 1;
+          background: none;
+          border: none;
+          padding: 12px 14px;
+          font-size: 15px;
+          color: #E4E4E7;
+          font-family: 'Outfit', sans-serif;
+          outline: none;
+        }
+        .tc-input::placeholder { color: #4E4E56; }
+        .tc-btn {
+          padding: 12px 24px;
+          background: #CFFF04;
+          color: #0A0A0C;
+          border: none;
+          border-radius: 7px;
+          font-size: 14px;
+          font-weight: 700;
+          cursor: pointer;
+          font-family: 'Outfit', sans-serif;
+          transition: background 0.15s, transform 0.15s;
+          white-space: nowrap;
+        }
+        .tc-btn:hover { background: #DFFF44; transform: translateY(-1px); }
+        .tc-btn-sm {
+          padding: 10px 20px;
+          background: #CFFF04;
+          color: #0A0A0C;
+          border: none;
+          border-radius: 7px;
+          font-size: 13px;
+          font-weight: 700;
+          cursor: pointer;
+          font-family: 'Outfit', sans-serif;
+          white-space: nowrap;
+        }
+        .tc-btn-sm:hover { background: #DFFF44; }
+
+        .brand-pill {
+          position: relative;
+          overflow: hidden;
+          padding: 9px 18px 9px 21px;
+          background: #111114;
+          border: 1px solid #222228;
+          border-radius: 6px;
+          font-size: 13px;
+          font-weight: 600;
+          color: #8E8E96;
+          cursor: pointer;
+          font-family: 'Outfit', sans-serif;
+          transition: all 0.2s;
+        }
+        .brand-pill:hover { color: #E4E4E7; border-color: #333339; background: #19191D; }
+
+        .cat-tile {
+          background: #111114;
+          border: 1px solid #222228;
+          border-radius: 8px;
+          padding: 14px 16px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          cursor: pointer;
+          transition: all 0.2s;
+          text-decoration: none;
+          color: inherit;
+        }
+        .cat-tile:hover { background: #19191D; border-color: #333339; }
+        .cat-arr { color: #4E4E56; transition: color 0.2s, transform 0.2s; }
+        .cat-tile:hover .cat-arr { color: #CFFF04; transform: translateX(2px); }
+
+        .tc-sep {
+          height: 1px;
+          background: linear-gradient(to right, transparent, #222228, transparent);
+          margin: 52px 0;
+        }
       `}</style>
 
-      {/* Header */}
-      <header className="px-6 py-4 flex justify-between items-center border-b border-gray-200 bg-white">
-        <div className="flex items-center gap-2 cursor-pointer" onClick={handleReset}>
-          <div
-            className="w-8 h-8 rounded-lg flex items-center justify-center font-extrabold text-lg text-gray-900"
-            style={{ background: "#D4F43E", fontFamily: "'DM Mono', monospace" }}
-          >
-            T
+      {/* Ambient glow */}
+      <div style={{
+        position: "absolute", top: "-200px", left: "50%", transform: "translateX(-50%)",
+        width: "900px", height: "500px",
+        background: "radial-gradient(ellipse, rgba(207, 255, 4, 0.035) 0%, transparent 65%)",
+        pointerEvents: "none", zIndex: 0,
+      }} />
+
+      <div style={{ position: "relative", zIndex: 2, flex: 1, display: "flex", flexDirection: "column" }}>
+
+        {/* Header */}
+        <header style={{
+          padding: "18px 28px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          borderBottom: "1px solid #222228",
+        }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "10px", cursor: "pointer" }} onClick={handleReset}>
+            <div style={{
+              width: "34px", height: "34px", background: "#CFFF04", borderRadius: "6px",
+              display: "flex", alignItems: "center", justifyContent: "center",
+              fontWeight: 800, fontSize: "19px", color: "#0A0A0C",
+              fontFamily: "'JetBrains Mono', monospace",
+            }}>T</div>
+            <span style={{ fontSize: "19px", fontWeight: 700, letterSpacing: "-0.03em" }}>
+              tool<span style={{ color: "#4E4E56" }}>checker</span>
+              <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "10px", color: "#555", marginLeft: "5px", verticalAlign: "super" }}>UK</span>
+            </span>
           </div>
-          <span className="text-lg font-bold text-gray-900" style={{ letterSpacing: "-0.02em" }}>
-            tool<span className="text-gray-400">checker</span>
-            <span className="text-[10px] font-normal text-gray-300 ml-1">UK</span>
+          <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "11px", color: "#555", letterSpacing: "0.06em" }}>
+            UK PRICES · VAT INCL.
           </span>
-        </div>
-        <div className="text-xs text-gray-400 bg-gray-100 px-2.5 py-1 rounded-full" style={{ fontFamily: "'DM Mono', monospace" }}>
-          UK prices · VAT incl.
-        </div>
-      </header>
+        </header>
 
-      {/* Hero / Search */}
-      {!showingResults && !searching ? (
-        <div className="flex flex-col items-center justify-center px-6 pt-28 pb-20" style={{ animation: "heroIn 0.6s ease forwards" }}>
-          <div className="text-[13px] font-semibold text-gray-400 uppercase tracking-[0.15em] mb-4" style={{ fontFamily: "'DM Mono', monospace" }}>
-            Compare prices across UK tool retailers
-          </div>
+        {!showingResults && !searching ? (
+          /* ── HOMEPAGE ── */
+          <main style={{ maxWidth: "700px", margin: "0 auto", padding: "72px 24px 56px", width: "100%" }}>
 
-          <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 text-center leading-tight mb-3 max-w-xl" style={{ letterSpacing: "-0.03em" }}>
-            Find the best deal<br />
-            <span className="text-gray-400">on any power tool</span>
-          </h1>
+            <h1 style={{
+              fontSize: "clamp(34px, 6.5vw, 58px)",
+              fontWeight: 800,
+              textAlign: "center",
+              lineHeight: 1.08,
+              letterSpacing: "-0.035em",
+              marginBottom: "16px",
+            }}>
+              Compare prices on{" "}
+              <span style={{ color: "#CFFF04" }}>every power tool</span>
+            </h1>
 
-          <p className="text-base text-gray-400 text-center mb-10 max-w-md leading-relaxed">
-            Search by name, model number, or just describe what you&apos;re after. We&apos;ll check Screwfix, Toolstation, Amazon, and more.
-          </p>
+            <p style={{
+              textAlign: "center", color: "#8E8E96", fontSize: "16px",
+              lineHeight: 1.6, maxWidth: "460px", margin: "0 auto 44px",
+            }}>
+              We check Screwfix, Toolstation, Amazon, FFX, ITS and more so you don&apos;t have to.
+            </p>
 
-          <div className="w-full max-w-xl relative mb-8">
-            <div className="flex bg-white rounded-[14px] border-2 border-gray-200 overflow-hidden focus-within:border-[#D4F43E] focus-within:shadow-[0_0_0_4px_rgba(212,244,62,0.15)] transition-all">
-              <div className="pl-4 flex items-center text-gray-300">
-                <SearchIcon size={22} />
+            {/* Search */}
+            <div className="tc-search-box">
+              <div style={{ padding: "0 8px 0 14px", color: "#555", display: "flex", alignItems: "center" }}>
+                <SearchIcon size={20} />
               </div>
               <input
                 ref={inputRef}
                 type="text"
-                placeholder='Try "Milwaukee M12 impact" or "Makita circular saw"'
+                className="tc-input"
+                placeholder='Try "M18 impact driver" or "DCD796"'
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-                className="flex-1 border-none py-4 px-3 text-base text-gray-900 bg-transparent outline-none placeholder:text-gray-400"
-                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
               />
-              <button
-                onClick={() => handleSearch()}
-                className="m-2 px-6 py-2.5 bg-gray-900 text-white rounded-[10px] text-[15px] font-semibold cursor-pointer transition-colors hover:bg-gray-700 whitespace-nowrap"
-                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-              >
-                Search
-              </button>
+              <button className="tc-btn" onClick={() => handleSearch()}>Search</button>
             </div>
-          </div>
 
-          <div className="flex flex-wrap gap-2 justify-center">
-            <span className="text-[13px] text-gray-400 py-1.5">Popular:</span>
-            {POPULAR_SEARCHES.map((term) => (
-              <button
-                key={term}
-                onClick={() => { setQuery(term); handleSearch(term); }}
-                className="px-3.5 py-1.5 bg-white border border-gray-200 rounded-full text-[13px] text-gray-500 cursor-pointer transition-all hover:border-[#D4F43E] hover:bg-[#fbffe6]"
-                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-              >
-                {term}
-              </button>
-            ))}
-          </div>
-
-          {/* Trust signals */}
-          <div className="mt-16 flex gap-8 flex-wrap justify-center">
-            {[
-              { num: "10+", label: "UK Retailers" },
-              { num: String(getAllTools().length) + "+", label: "Tools Compared" },
-              { num: "£0", label: "Always Free" },
-            ].map(({ num, label }) => (
-              <div key={label} className="text-center">
-                <div className="text-2xl font-extrabold text-gray-900" style={{ fontFamily: "'DM Mono', monospace" }}>
-                  {num}
-                </div>
-                <div className="text-[13px] text-gray-400">{label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      ) : (
-        /* Results / Loading view */
-        <div className="max-w-2xl mx-auto px-6 pt-8 pb-20">
-          {/* Inline search bar */}
-          <div className="flex bg-white rounded-xl border border-gray-200 overflow-hidden mb-8">
-            <div className="pl-4 flex items-center text-gray-300">
-              <SearchIcon size={18} />
+            {/* Brand pills */}
+            <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "10px", marginTop: "28px", flexWrap: "wrap" }}>
+              <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "11px", color: "#555", letterSpacing: "0.08em" }}>BRANDS</span>
+              {BRANDS.map((b) => (
+                <button key={b.slug} className="brand-pill" onClick={() => handleBrandClick(b.slug)}>
+                  <span style={{ position: "absolute", left: 0, top: 0, height: "100%", width: "3px", background: b.color, opacity: 0.7 }} />
+                  {b.name}
+                </button>
+              ))}
             </div>
-            <input
-              type="text"
-              placeholder="Search for another tool..."
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-              className="flex-1 border-none py-3.5 px-3 text-[15px] text-gray-900 bg-transparent outline-none placeholder:text-gray-400"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-            />
-            <button
-              onClick={() => handleSearch()}
-              className="m-1.5 px-5 py-2 bg-gray-900 text-white rounded-lg text-sm font-semibold cursor-pointer"
-              style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-            >
-              Search
-            </button>
-          </div>
 
-          {searching ? (
-            <div className="flex flex-col items-center justify-center py-20">
-              <div className="flex gap-1.5 mb-4">
-                {[0, 1, 2].map((i) => (
-                  <div
-                    key={i}
-                    className="w-2.5 h-2.5 rounded-full"
-                    style={{
-                      background: "#D4F43E",
-                      animation: `dotBounce 1.4s infinite ease-in-out both`,
-                      animationDelay: `${i * 0.16}s`,
-                    }}
-                  />
+            <div className="tc-sep" />
+
+            {/* Categories */}
+            <div style={{ marginBottom: "52px" }}>
+              <h2 style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "11px", fontWeight: 600, color: "#555", letterSpacing: "0.14em", marginBottom: "16px" }}>
+                CATEGORIES
+              </h2>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(150px, 1fr))", gap: "10px" }}>
+                {CATEGORIES.map((cat) => (
+                  <a key={cat.slug} href={`/category/${cat.slug}`} className="cat-tile">
+                    <span style={{ flex: 1, fontSize: "13px", fontWeight: 500, color: "#CCC" }}>{cat.name}</span>
+                    <span className="cat-arr"><ChevronRight /></span>
+                  </a>
                 ))}
               </div>
-              <div className="text-[15px] text-gray-400">
-                Checking prices across UK retailers...
-              </div>
             </div>
-          ) : selectedTool ? (
-            /* Single tool detail view */
-            <>
-              {matchedTools.length > 1 && (
-                <button
-                  onClick={handleBack}
-                  className="text-sm text-gray-400 hover:text-gray-600 mb-4 cursor-pointer"
-                >
-                  ← Back to results
-                </button>
-              )}
 
-              <div className="mb-6">
-                <div className="text-[13px] text-gray-400 mb-1" style={{ fontFamily: "'DM Mono', monospace" }}>
-                  {selectedTool.brand} · {selectedTool.modelNumber} · {sortedRetailers.length} retailers found
-                </div>
-                <h2 className="text-xl font-bold text-gray-900 leading-snug" style={{ letterSpacing: "-0.02em" }}>
-                  {selectedTool.brand} {selectedTool.name}
-                </h2>
-                <p className="text-sm text-gray-400 mt-2 leading-relaxed">
-                  {selectedTool.description}
-                </p>
-              </div>
+            <div className="tc-sep" />
 
-              {/* Price range bar */}
-              <div className="bg-white rounded-xl border border-gray-200 px-5 py-4 mb-5 flex justify-between items-center">
-                <div>
-                  <div className="text-xs text-gray-400 mb-0.5">Price range</div>
-                  <div className="text-lg font-bold" style={{ fontFamily: "'DM Mono', monospace" }}>
-                    £{Math.min(...sortedRetailers.map(r => r.price)).toFixed(2)} — £{Math.max(...sortedRetailers.map(r => r.price)).toFixed(2)}
+            {/* Stats */}
+            <div style={{ display: "flex", justifyContent: "center", gap: "56px", flexWrap: "wrap" }}>
+              {[
+                { val: `${toolCount}+`, label: "TOOLS" },
+                { val: "£0", label: "ALWAYS FREE" },
+              ].map((s) => (
+                <div key={s.label} style={{ textAlign: "center" }}>
+                  <div style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "28px", fontWeight: 700, color: "#CFFF04", marginBottom: "6px" }}>
+                    {s.val}
+                  </div>
+                  <div style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "10px", color: "#555", letterSpacing: "0.15em" }}>
+                    {s.label}
                   </div>
                 </div>
-                <div className="bg-green-50 text-green-600 px-3.5 py-1.5 rounded-lg text-[13px] font-semibold" style={{ fontFamily: "'DM Mono', monospace" }}>
-                  Save up to £{(Math.max(...sortedRetailers.map(r => r.price)) - Math.min(...sortedRetailers.map(r => r.price))).toFixed(2)}
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-3">
-                {sortedRetailers.map((retailer, i) => (
-                  <ResultCard key={retailer.name} result={retailer} index={i} bestPrice={bestPrice} />
-                ))}
-              </div>
-
-              <div className="mt-8 p-4 bg-white rounded-xl border border-dashed border-gray-300 text-center text-[13px] text-gray-400">
-                Prices updated regularly · VAT included · We may earn a commission from purchases
-              </div>
-            </>
-          ) : matchedTools.length > 0 ? (
-            /* Multiple tools found */
-            <>
-              <div className="mb-6">
-                <div className="text-[13px] text-gray-400 mb-1" style={{ fontFamily: "'DM Mono', monospace" }}>
-                  {matchedTools.length} tools found
-                </div>
-                <h2 className="text-xl font-bold text-gray-900" style={{ letterSpacing: "-0.02em" }}>
-                  Select a tool to compare prices
-                </h2>
-              </div>
-              <div className="flex flex-col gap-3">
-                {matchedTools.map((tool) => (
-                  <ToolResultCard key={tool.slug} tool={tool} onClick={() => handleSelectTool(tool)} />
-                ))}
-              </div>
-            </>
-          ) : (
-            /* No results */
-            <div className="text-center py-20">
-              <div className="text-5xl mb-4">🔧</div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2">No results found</h3>
-              <p className="text-sm text-gray-400 mb-6">
-                Try searching by brand and model, e.g. &quot;Milwaukee M12 impact driver&quot;
-              </p>
-              <div className="flex flex-wrap gap-2 justify-center">
-                {POPULAR_SEARCHES.map((term) => (
-                  <button
-                    key={term}
-                    onClick={() => { setQuery(term); handleSearch(term); }}
-                    className="px-4 py-2 bg-white border border-gray-200 rounded-full text-[13px] text-gray-500 cursor-pointer"
-                    style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-                  >
-                    {term}
-                  </button>
-                ))}
-              </div>
+              ))}
             </div>
-          )}
-        </div>
-      )}
+          </main>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-200 py-6 text-center text-xs text-gray-300" style={{ fontFamily: "'DM Mono', monospace" }}>
-        toolcheckeruk.co.uk — compare power tool prices across UK retailers
-      </footer>
+        ) : (
+          /* ── RESULTS VIEW ── */
+          <div style={{ maxWidth: "680px", margin: "0 auto", padding: "32px 24px 80px", width: "100%" }}>
+
+            {/* Compact search bar */}
+            <div className="tc-search-box" style={{ marginBottom: "32px" }}>
+              <div style={{ padding: "0 8px 0 14px", color: "#555", display: "flex", alignItems: "center" }}>
+                <SearchIcon size={18} />
+              </div>
+              <input
+                type="text"
+                className="tc-input"
+                style={{ padding: "10px 14px" }}
+                placeholder="Search for another tool..."
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && handleSearch()}
+              />
+              <button className="tc-btn-sm" onClick={() => handleSearch()}>Search</button>
+            </div>
+
+            {searching ? (
+              <div style={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "80px 0" }}>
+                <div style={{ display: "flex", gap: "6px", marginBottom: "16px" }}>
+                  {[0, 1, 2].map((i) => (
+                    <div key={i} style={{
+                      width: "10px", height: "10px", borderRadius: "50%", background: "#CFFF04",
+                      animation: "dotBounce 1.4s infinite ease-in-out both",
+                      animationDelay: `${i * 0.16}s`,
+                    }} />
+                  ))}
+                </div>
+                <div style={{ color: "#8E8E96", fontSize: "15px" }}>Checking prices across UK retailers...</div>
+              </div>
+
+            ) : selectedTool ? (
+              <>
+                {matchedTools.length > 1 && (
+                  <button onClick={handleBack} style={{ background: "none", border: "none", color: "#8E8E96", cursor: "pointer", marginBottom: "16px", fontSize: "14px", padding: 0, fontFamily: "'Outfit', sans-serif" }}>
+                    ← Back to results
+                  </button>
+                )}
+
+                <div style={{ marginBottom: "24px" }}>
+                  <div style={{ fontSize: "12px", color: "#4E4E56", marginBottom: "6px", fontFamily: "'JetBrains Mono', monospace" }}>
+                    {selectedTool.brand} · {selectedTool.modelNumber} · {sortedRetailers.length} retailers
+                  </div>
+                  <h2 style={{ fontSize: "20px", fontWeight: 700, color: "#E4E4E7", letterSpacing: "-0.02em", marginBottom: "8px" }}>
+                    {selectedTool.brand} {selectedTool.name}
+                  </h2>
+                  <p style={{ fontSize: "14px", color: "#8E8E96", lineHeight: 1.6 }}>
+                    {selectedTool.description}
+                  </p>
+                </div>
+
+                {bestPrice !== null && worstPrice !== null && (
+                  <div style={{
+                    background: "#111114", border: "1px solid #222228", borderRadius: "10px",
+                    padding: "16px 20px", marginBottom: "16px",
+                    display: "flex", justifyContent: "space-between", alignItems: "center",
+                  }}>
+                    <div>
+                      <div style={{ fontSize: "12px", color: "#4E4E56", marginBottom: "4px" }}>Price range</div>
+                      <div style={{ fontSize: "18px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace" }}>
+                        £{bestPrice.toFixed(2)} — £{worstPrice.toFixed(2)}
+                      </div>
+                    </div>
+                    {worstPrice > bestPrice && (
+                      <div style={{ fontSize: "13px", fontWeight: 600, color: "#CFFF04", background: "rgba(207, 255, 4, 0.08)", padding: "8px 14px", borderRadius: "7px", fontFamily: "'JetBrains Mono', monospace" }}>
+                        Save up to £{(worstPrice - bestPrice).toFixed(2)}
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                  {sortedRetailers.map((retailer) => (
+                    <RetailerResultCard key={retailer.name} retailer={retailer} isBest={retailer.price === bestPrice} />
+                  ))}
+                </div>
+
+                <div style={{ marginTop: "32px", padding: "16px", border: "1px dashed #222228", borderRadius: "10px", textAlign: "center", fontSize: "13px", color: "#4E4E56", fontFamily: "'JetBrains Mono', monospace" }}>
+                  Prices updated regularly · VAT included · We may earn a commission from purchases
+                </div>
+              </>
+
+            ) : matchedTools.length > 0 ? (
+              <>
+                <div style={{ marginBottom: "24px" }}>
+                  <div style={{ fontSize: "12px", color: "#4E4E56", marginBottom: "4px", fontFamily: "'JetBrains Mono', monospace" }}>
+                    {matchedTools.length} tools found
+                  </div>
+                  <h2 style={{ fontSize: "20px", fontWeight: 700, color: "#E4E4E7", letterSpacing: "-0.02em" }}>
+                    Select a tool to compare prices
+                  </h2>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                  {matchedTools.map((tool, i) => (
+                    <ToolResultCard key={tool.slug} tool={tool} onClick={() => handleSelectTool(tool)} delay={i * 0.06} />
+                  ))}
+                </div>
+              </>
+
+            ) : (
+              <div style={{ textAlign: "center", padding: "80px 0" }}>
+                <div style={{ fontSize: "48px", marginBottom: "16px" }}>🔧</div>
+                <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#E4E4E7", marginBottom: "8px" }}>No results found</h3>
+                <p style={{ fontSize: "14px", color: "#8E8E96", marginBottom: "24px" }}>
+                  Try searching by brand and model, e.g. &quot;Milwaukee M12 impact driver&quot;
+                </p>
+                <button onClick={handleReset} style={{ background: "none", border: "1px solid #222228", borderRadius: "7px", color: "#8E8E96", cursor: "pointer", padding: "10px 20px", fontSize: "14px", fontFamily: "'Outfit', sans-serif" }}>
+                  ← Back to home
+                </button>
+              </div>
+            )}
+          </div>
+        )}
+
+        <footer style={{
+          borderTop: "1px solid #1A1A1F",
+          padding: "24px",
+          textAlign: "center",
+          fontSize: "11px",
+          color: "#333",
+          marginTop: "auto",
+          letterSpacing: "0.04em",
+          fontFamily: "'JetBrains Mono', monospace",
+        }}>
+          toolcheckeruk.co.uk — compare power tool prices across UK retailers
+        </footer>
+      </div>
     </div>
   );
 }

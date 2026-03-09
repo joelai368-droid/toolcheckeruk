@@ -9,28 +9,41 @@ export function ToolCard({ tool }: { tool: Tool }) {
   return (
     <Link
       href={`/tool/${tool.slug}`}
-      className="block bg-white rounded-xl border border-gray-200 p-5 transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 no-underline"
+      className="tool-card-link"
+      style={{
+        display: "block",
+        background: "#111114",
+        border: "1px solid #222228",
+        borderRadius: "10px",
+        padding: "20px",
+        textDecoration: "none",
+        transition: "border-color 0.2s, background 0.2s",
+      }}
     >
-      <div className="flex justify-between items-start mb-2">
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "10px" }}>
         <div>
-          <div className="text-xs text-gray-400 font-medium mb-1">{tool.brand} &middot; {tool.modelNumber}</div>
-          <div className="text-base font-bold text-gray-900" style={{ letterSpacing: "-0.02em" }}>
+          <div style={{ fontSize: "12px", color: "#4E4E56", marginBottom: "4px", fontFamily: "'JetBrains Mono', monospace" }}>
+            {tool.brand} &middot; {tool.modelNumber}
+          </div>
+          <div style={{ fontSize: "15px", fontWeight: 600, color: "#E4E4E7", letterSpacing: "-0.01em", fontFamily: "'Outfit', sans-serif" }}>
             {tool.name}
           </div>
         </div>
-        <div className="text-right">
-          <div className="text-xl font-extrabold text-gray-900" style={{ fontFamily: "'DM Mono', monospace" }}>
+        <div style={{ textAlign: "right", flexShrink: 0, marginLeft: "16px" }}>
+          <div style={{ fontSize: "20px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace" }}>
             &pound;{bestPrice?.toFixed(2)}
           </div>
-          <div className="text-[11px] text-gray-400">best of {sortedRetailers.length}</div>
+          <div style={{ fontSize: "11px", color: "#4E4E56", fontFamily: "'JetBrains Mono', monospace" }}>
+            best of {sortedRetailers.length}
+          </div>
         </div>
       </div>
-      <div className="flex items-center justify-between">
-        <div className="text-xs text-gray-400">
-          Price range: &pound;{bestPrice?.toFixed(2)} &mdash; &pound;{worstPrice?.toFixed(2)}
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <div style={{ fontSize: "12px", color: "#4E4E56", fontFamily: "'JetBrains Mono', monospace" }}>
+          &pound;{bestPrice?.toFixed(2)} &mdash; &pound;{worstPrice?.toFixed(2)}
         </div>
         {bestPrice && worstPrice && worstPrice > bestPrice && (
-          <div className="text-xs font-semibold text-green-600 bg-green-50 px-2 py-0.5 rounded" style={{ fontFamily: "'DM Mono', monospace" }}>
+          <div style={{ fontSize: "12px", fontWeight: 600, color: "#CFFF04", background: "rgba(207, 255, 4, 0.08)", padding: "3px 10px", borderRadius: "5px", fontFamily: "'JetBrains Mono', monospace" }}>
             Save up to &pound;{(worstPrice - bestPrice).toFixed(2)}
           </div>
         )}

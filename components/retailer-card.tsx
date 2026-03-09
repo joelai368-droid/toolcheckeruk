@@ -1,13 +1,12 @@
 import { type Retailer } from "@/lib/tools-db";
-import { CheckIcon, XIcon, TagIcon, TruckIcon, StoreIcon } from "./icons";
 
 const RETAILER_COLORS: Record<string, string> = {
   "Screwfix": "#ff6900",
-  "Toolstation": "#0054a6",
+  "Toolstation": "#4488cc",
   "Amazon UK": "#ff9900",
   "FFX Tools": "#e31e24",
   "ITS": "#00a651",
-  "Powertool World": "#1a1a2e",
+  "Powertool World": "#8888aa",
   "Machine Mart": "#cc0000",
 };
 
@@ -16,55 +15,64 @@ export function RetailerCard({ result, isBest }: { result: Retailer; isBest: boo
   const accentColor = RETAILER_COLORS[result.name] || "#666";
 
   return (
-    <div
-      className="bg-white rounded-xl overflow-hidden transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-      style={{
-        border: isBest ? "2px solid #D4F43E" : "1px solid #e8e8e8",
-      }}
-    >
+    <div style={{
+      background: "#111114",
+      border: isBest ? "1px solid #CFFF04" : "1px solid #222228",
+      borderRadius: "10px",
+      overflow: "hidden",
+    }}>
       {isBest && (
-        <div
-          className="text-[11px] font-bold uppercase tracking-wider px-4 py-1"
-          style={{ background: "#D4F43E", color: "#1a1a1a", fontFamily: "'DM Mono', monospace", letterSpacing: "0.08em" }}
-        >
-          Best Price
+        <div style={{
+          background: "#CFFF04",
+          color: "#0A0A0C",
+          padding: "4px 16px",
+          fontSize: "11px",
+          fontWeight: 700,
+          letterSpacing: "0.08em",
+          fontFamily: "'JetBrains Mono', monospace",
+        }}>
+          BEST PRICE
         </div>
       )}
-
-      <div className="p-5">
-        <div className="flex justify-between items-start mb-4">
-          <div className="flex items-center gap-2 text-base font-bold text-gray-900" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-            <div className="w-2 h-2 rounded-full shrink-0" style={{ background: accentColor }} />
+      <div style={{ padding: "20px" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "16px" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: "8px", fontSize: "15px", fontWeight: 600, color: "#E4E4E7", fontFamily: "'Outfit', sans-serif" }}>
+            <div style={{ width: "8px", height: "8px", borderRadius: "50%", background: accentColor, flexShrink: 0 }} />
             {result.name}
           </div>
-          <div className="text-right">
-            <div className="text-[28px] font-extrabold text-gray-900 leading-none" style={{ fontFamily: "'DM Mono', monospace" }}>
+          <div style={{ textAlign: "right" }}>
+            <div style={{ fontSize: "26px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace", lineHeight: 1 }}>
               &pound;{result.price.toFixed(2)}
             </div>
             {result.originalPrice && (
-              <div className="text-[13px] text-gray-400 line-through" style={{ fontFamily: "'DM Mono', monospace" }}>
+              <div style={{ fontSize: "13px", color: "#4E4E56", textDecoration: "line-through", fontFamily: "'JetBrains Mono', monospace" }}>
                 &pound;{result.originalPrice.toFixed(2)}
               </div>
             )}
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginBottom: "16px" }}>
           {saving && (
-            <span className="inline-flex items-center gap-1 text-xs font-semibold text-green-600 bg-green-50 px-2.5 py-1 rounded-md" style={{ fontFamily: "'DM Mono', monospace" }}>
-              <TagIcon /> Save &pound;{saving}
+            <span style={{ fontSize: "12px", fontWeight: 600, color: "#CFFF04", background: "rgba(207, 255, 4, 0.08)", padding: "4px 10px", borderRadius: "5px", fontFamily: "'JetBrains Mono', monospace" }}>
+              Save &pound;{saving}
             </span>
           )}
-          <span className={`inline-flex items-center gap-1 text-xs font-medium px-2.5 py-1 rounded-md ${result.inStock ? "text-green-600 bg-green-50" : "text-red-600 bg-red-50"}`}>
-            {result.inStock ? <CheckIcon /> : <XIcon />}
+          <span style={{
+            fontSize: "12px",
+            color: result.inStock ? "#4ADE80" : "#F87171",
+            background: result.inStock ? "rgba(74, 222, 128, 0.08)" : "rgba(248, 113, 113, 0.08)",
+            padding: "4px 10px",
+            borderRadius: "5px",
+          }}>
             {result.inStock ? "In Stock" : "Out of Stock"}
           </span>
-          <span className="inline-flex items-center gap-1 text-xs text-gray-500 bg-gray-100 px-2.5 py-1 rounded-md">
-            <TruckIcon /> {result.delivery}
+          <span style={{ fontSize: "12px", color: "#8E8E96", background: "#19191D", padding: "4px 10px", borderRadius: "5px" }}>
+            {result.delivery}
           </span>
           {result.clickCollect && (
-            <span className="inline-flex items-center gap-1 text-xs text-gray-500 bg-gray-100 px-2.5 py-1 rounded-md">
-              <StoreIcon /> Click &amp; Collect
+            <span style={{ fontSize: "12px", color: "#8E8E96", background: "#19191D", padding: "4px 10px", borderRadius: "5px" }}>
+              Click &amp; Collect
             </span>
           )}
         </div>
@@ -73,8 +81,20 @@ export function RetailerCard({ result, isBest }: { result: Retailer; isBest: boo
           href={result.url}
           target="_blank"
           rel="noopener noreferrer nofollow"
-          className="block w-full py-3 bg-gray-900 text-white rounded-lg text-sm font-semibold cursor-pointer transition-colors hover:bg-gray-700 text-center no-underline"
-          style={{ fontFamily: "'Space Grotesk', sans-serif", letterSpacing: "0.02em" }}
+          style={{
+            display: "block",
+            width: "100%",
+            padding: "12px",
+            background: "#CFFF04",
+            color: "#0A0A0C",
+            borderRadius: "7px",
+            fontSize: "14px",
+            fontWeight: 700,
+            textAlign: "center",
+            textDecoration: "none",
+            boxSizing: "border-box",
+            fontFamily: "'Outfit', sans-serif",
+          }}
         >
           View Deal &rarr;
         </a>

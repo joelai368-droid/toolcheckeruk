@@ -36,80 +36,118 @@ export default async function ToolPage({ params }: PageProps) {
   const worstPrice = sortedRetailers[sortedRetailers.length - 1]?.price ?? 0;
 
   return (
-    <div className="min-h-screen bg-[#fafafa]" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: "#0A0A0C", color: "#E4E4E7", fontFamily: "'Outfit', sans-serif" }}>
       {/* Header */}
-      <header className="px-6 py-4 flex justify-between items-center border-b border-gray-200 bg-white">
-        <Link href="/" className="flex items-center gap-2 no-underline">
-          <div
-            className="w-8 h-8 rounded-lg flex items-center justify-center font-extrabold text-lg text-gray-900"
-            style={{ background: "#D4F43E", fontFamily: "'DM Mono', monospace" }}
-          >
-            T
-          </div>
-          <span className="text-lg font-bold text-gray-900" style={{ letterSpacing: "-0.02em" }}>
-            tool<span className="text-gray-400">checker</span>
-            <span className="text-[10px] font-normal text-gray-300 ml-1">UK</span>
+      <header style={{
+        padding: "18px 28px",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        borderBottom: "1px solid #222228",
+      }}>
+        <Link href="/" style={{ display: "flex", alignItems: "center", gap: "10px", textDecoration: "none" }}>
+          <div style={{
+            width: "34px", height: "34px",
+            background: "#CFFF04",
+            borderRadius: "6px",
+            display: "flex", alignItems: "center", justifyContent: "center",
+            fontWeight: 800, fontSize: "19px", color: "#0A0A0C",
+            fontFamily: "'JetBrains Mono', monospace",
+          }}>T</div>
+          <span style={{ fontSize: "19px", fontWeight: 700, letterSpacing: "-0.03em", color: "#E4E4E7" }}>
+            tool<span style={{ color: "#4E4E56" }}>checker</span>
+            <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "10px", color: "#555", marginLeft: "5px", verticalAlign: "super" }}>UK</span>
           </span>
         </Link>
-        <div className="text-xs text-gray-400 bg-gray-100 px-2.5 py-1 rounded-full" style={{ fontFamily: "'DM Mono', monospace" }}>
-          UK prices &middot; VAT incl.
-        </div>
+        <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: "11px", color: "#555", letterSpacing: "0.06em" }}>
+          UK PRICES · VAT INCL.
+        </span>
       </header>
 
-      <div className="max-w-2xl mx-auto px-6 pt-8 pb-20">
+      <div style={{ maxWidth: "680px", margin: "0 auto", padding: "32px 24px 80px" }}>
         {/* Breadcrumb */}
-        <nav className="text-sm text-gray-400 mb-6 flex gap-1.5 items-center">
-          <Link href="/" className="hover:text-gray-600 no-underline text-gray-400">Home</Link>
+        <nav style={{ fontSize: "13px", color: "#4E4E56", marginBottom: "24px", display: "flex", gap: "6px", alignItems: "center" }}>
+          <Link href="/" style={{ color: "#4E4E56", textDecoration: "none" }}>Home</Link>
           <span>&rsaquo;</span>
-          <Link href={`/category/${tool.category}`} className="hover:text-gray-600 no-underline text-gray-400">
+          <Link href={`/category/${tool.category}`} style={{ color: "#4E4E56", textDecoration: "none" }}>
             {getCategoryDisplayName(tool.category)}
           </Link>
           <span>&rsaquo;</span>
-          <span className="text-gray-600">{tool.brand} {tool.modelNumber}</span>
+          <span style={{ color: "#8E8E96" }}>{tool.brand} {tool.modelNumber}</span>
         </nav>
 
         {/* Tool info */}
-        <div className="mb-6">
-          <div className="text-[13px] text-gray-400 mb-1" style={{ fontFamily: "'DM Mono', monospace" }}>
+        <div style={{ marginBottom: "24px" }}>
+          <div style={{ fontSize: "12px", color: "#4E4E56", marginBottom: "6px", fontFamily: "'JetBrains Mono', monospace" }}>
             {tool.brand} &middot; {tool.modelNumber} &middot; {sortedRetailers.length} retailers found
           </div>
-          <h1 className="text-xl font-bold text-gray-900 leading-snug" style={{ letterSpacing: "-0.02em" }}>
+          <h1 style={{ fontSize: "22px", fontWeight: 700, color: "#E4E4E7", letterSpacing: "-0.02em", marginBottom: "10px" }}>
             {tool.brand} {tool.name}
           </h1>
-          <p className="text-sm text-gray-400 mt-2 leading-relaxed">
+          <p style={{ fontSize: "14px", color: "#8E8E96", lineHeight: 1.6 }}>
             {tool.description}
           </p>
         </div>
 
-        {/* Price range bar */}
-        <div className="bg-white rounded-xl border border-gray-200 px-5 py-4 mb-5 flex justify-between items-center">
+        {/* Price range */}
+        <div style={{
+          background: "#111114",
+          border: "1px solid #222228",
+          borderRadius: "10px",
+          padding: "16px 20px",
+          marginBottom: "16px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}>
           <div>
-            <div className="text-xs text-gray-400 mb-0.5">Price range</div>
-            <div className="text-lg font-bold" style={{ fontFamily: "'DM Mono', monospace" }}>
+            <div style={{ fontSize: "12px", color: "#4E4E56", marginBottom: "4px" }}>Price range</div>
+            <div style={{ fontSize: "18px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace" }}>
               &pound;{bestPrice.toFixed(2)} &mdash; &pound;{worstPrice.toFixed(2)}
             </div>
           </div>
           {worstPrice > bestPrice && (
-            <div className="bg-green-50 text-green-600 px-3.5 py-1.5 rounded-lg text-[13px] font-semibold" style={{ fontFamily: "'DM Mono', monospace" }}>
+            <div style={{
+              fontSize: "13px", fontWeight: 600, color: "#CFFF04",
+              background: "rgba(207, 255, 4, 0.08)",
+              padding: "8px 14px", borderRadius: "7px",
+              fontFamily: "'JetBrains Mono', monospace",
+            }}>
               Save up to &pound;{(worstPrice - bestPrice).toFixed(2)}
             </div>
           )}
         </div>
 
         {/* Retailer cards */}
-        <div className="flex flex-col gap-3">
+        <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           {sortedRetailers.map((retailer) => (
             <RetailerCard key={retailer.name} result={retailer} isBest={retailer.price === bestPrice} />
           ))}
         </div>
 
-        <div className="mt-8 p-4 bg-white rounded-xl border border-dashed border-gray-300 text-center text-[13px] text-gray-400">
+        <div style={{
+          marginTop: "32px",
+          padding: "16px",
+          border: "1px dashed #222228",
+          borderRadius: "10px",
+          textAlign: "center",
+          fontSize: "13px",
+          color: "#4E4E56",
+          fontFamily: "'JetBrains Mono', monospace",
+        }}>
           Prices updated regularly &middot; VAT included &middot; We may earn a commission from purchases
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="border-t border-gray-200 py-6 text-center text-xs text-gray-300" style={{ fontFamily: "'DM Mono', monospace" }}>
+      <footer style={{
+        borderTop: "1px solid #1A1A1F",
+        padding: "24px",
+        textAlign: "center",
+        fontSize: "11px",
+        color: "#333",
+        letterSpacing: "0.04em",
+        fontFamily: "'JetBrains Mono', monospace",
+      }}>
         toolcheckeruk.co.uk &mdash; compare power tool prices across UK retailers
       </footer>
     </div>

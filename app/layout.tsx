@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, DM_Mono } from "next/font/google";
+import { Outfit, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space",
+const outfit = Outfit({
+  variable: "--font-outfit",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
-const dmMono = DM_Mono({
-  weight: ["400", "500"],
+const jetbrainsMono = JetBrains_Mono({
+  weight: ["400", "500", "600", "700"],
   variable: "--font-mono",
   subsets: ["latin"],
 });
@@ -31,7 +32,10 @@ export default function RootLayout({
           content="-EjcRYX3X_NGUHZI2THJf6U-XPNaYRfrHgFpjoLk8iY"
         />
       </head>
-      <body className={`${spaceGrotesk.variable} ${dmMono.variable} antialiased`}>
+      <body
+        className={`${outfit.variable} ${jetbrainsMono.variable} antialiased`}
+        style={{ background: "#0C0C0E", margin: 0, padding: 0 }}
+      >
         {children}
       </body>
     </html>

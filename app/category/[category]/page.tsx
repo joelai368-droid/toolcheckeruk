@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tools = getToolsByCategory(category);
   if (tools.length === 0) return { title: "Category Not Found | ToolCheckerUK" };
 
-  const prices = tools.flatMap((t) => t.retailers.filter((r) => r.url !== "#").map((r) => r.price));
+  const prices = tools.flatMap((t) => t.retailers.filter((r) => r.url !== "#" && !r.checkPrice && r.price !== undefined).map((r) => r.price!));
   const bestPrice = prices.length ? Math.min(...prices) : 0;
 
   return {

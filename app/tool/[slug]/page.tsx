@@ -17,8 +17,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tool = getToolBySlug(slug);
   if (!tool) return { title: "Tool Not Found | ToolCheckerUK" };
 
-  const sortedRetailers = [...tool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price);
-  const bestPrice = sortedRetailers[0]?.price;
+  const pricedRetailers = [...tool.retailers].filter((r) => r.url !== "#" && !r.checkPrice).sort((a, b) => a.price! - b.price!);
+  const sortedRetailers = [...pricedRetailers, ...tool.retailers.filter((r) => r.url !== "#" && r.checkPrice)];
+  const bestPrice = pricedRetailers[0]?.price;
 
   return {
     title: `${tool.brand} ${tool.name} — Best Price UK | ToolCheckerUK`,
@@ -31,9 +32,10 @@ export default async function ToolPage({ params }: PageProps) {
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
 
-  const sortedRetailers = [...tool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price);
-  const bestPrice = sortedRetailers[0]?.price ?? 0;
-  const worstPrice = sortedRetailers[sortedRetailers.length - 1]?.price ?? 0;
+  const pricedRetailers = [...tool.retailers].filter((r) => r.url !== "#" && !r.checkPrice).sort((a, b) => a.price! - b.price!);
+  const sortedRetailers = [...pricedRetailers, ...tool.retailers.filter((r) => r.url !== "#" && r.checkPrice)];
+  const bestPrice = pricedRetailers[0]?.price ?? 0;
+  const worstPrice = pricedRetailers[pricedRetailers.length - 1]?.price ?? 0;
 
   return (
     <div style={{ minHeight: "100vh", background: "#0A0A0C", color: "#E4E4E7", fontFamily: "'Outfit', sans-serif" }}>
@@ -121,7 +123,7 @@ export default async function ToolPage({ params }: PageProps) {
         {/* Retailer cards */}
         <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
           {sortedRetailers.map((retailer) => (
-            <RetailerCard key={retailer.name} result={retailer} isBest={retailer.price === bestPrice} />
+            <RetailerCard key={retailer.name} result={retailer} isBest={!retailer.checkPrice && retailer.price === bestPrice} />
           ))}
         </div>
 

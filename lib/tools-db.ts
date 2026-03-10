@@ -1,7 +1,8 @@
 export interface Retailer {
   name: string;
-  price: number;
+  price?: number;
   originalPrice?: number;
+  checkPrice?: boolean;
   inStock: boolean;
   delivery: string;
   clickCollect: boolean;
@@ -131,8 +132,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 127.49,
-        originalPrice: 149.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -176,8 +176,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 99.99,
-        originalPrice: 119.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -224,8 +223,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 159.99,
-        originalPrice: 189.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -285,8 +283,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 144.99,
-        originalPrice: 169.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -337,8 +334,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 189.99,
-        originalPrice: 219.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -381,8 +377,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 249.99,
-        originalPrice: 289.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -408,8 +403,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 179.99,
-        originalPrice: 209.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -452,8 +446,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 194.99,
-        originalPrice: 229.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -496,8 +489,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 189.99,
-        originalPrice: 219.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -540,8 +532,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 164.99,
-        originalPrice: 189.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -584,8 +575,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 274.99,
-        originalPrice: 319.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -620,8 +610,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 154.99,
-        originalPrice: 179.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -664,8 +653,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 299.99,
-        originalPrice: 349.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -708,8 +696,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 399.99,
-        originalPrice: 459.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -765,8 +752,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 94.99,
-        originalPrice: 119.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -808,8 +794,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 199.99,
-        originalPrice: 239.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -860,8 +845,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 54.99,
-        originalPrice: 69.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -912,8 +896,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 109.99,
-        originalPrice: 129.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -964,8 +947,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 139.99,
-        originalPrice: 169.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1025,8 +1007,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 99.99,
-        originalPrice: 119.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1068,8 +1049,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 119.99,
-        originalPrice: 144.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1120,8 +1100,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 118.99,
-        originalPrice: 139.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1172,8 +1151,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 129.99,
-        originalPrice: 154.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1224,8 +1202,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 109.99,
-        originalPrice: 134.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1276,8 +1253,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 109.99,
-        originalPrice: 129.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1328,8 +1304,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 154.99,
-        originalPrice: 184.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1380,8 +1355,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 229.99,
-        originalPrice: 269.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1432,8 +1406,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 119.99,
-        originalPrice: 144.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1484,8 +1457,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 129.99,
-        originalPrice: 154.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1536,8 +1508,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 69.99,
-        originalPrice: 89.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1588,8 +1559,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 114.99,
-        originalPrice: 139.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1640,8 +1610,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 149.99,
-        originalPrice: 179.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1692,8 +1661,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 219.99,
-        originalPrice: 259.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1744,8 +1712,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 29.99,
-        originalPrice: 39.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1796,8 +1763,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 139.99,
-        originalPrice: 164.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1848,8 +1814,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 59.99,
-        originalPrice: 79.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1904,8 +1869,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 74.99,
-        originalPrice: 94.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -1956,8 +1920,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 169.99,
-        originalPrice: 199.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2008,8 +1971,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 279.99,
-        originalPrice: 329.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2060,8 +2022,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 329.99,
-        originalPrice: 389.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2112,8 +2073,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 149.99,
-        originalPrice: 179.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2164,8 +2124,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 174.99,
-        originalPrice: 209.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2216,8 +2175,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 199.99,
-        originalPrice: 239.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2268,8 +2226,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 289.99,
-        originalPrice: 349.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2320,8 +2277,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 159.99,
-        originalPrice: 189.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2372,8 +2328,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 239.99,
-        originalPrice: 279.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2424,8 +2379,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 249.99,
-        originalPrice: 299.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2476,8 +2430,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 34.99,
-        originalPrice: 44.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2528,8 +2481,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 149.99,
-        originalPrice: 179.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2580,8 +2532,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 79.99,
-        originalPrice: 99.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2632,8 +2583,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 309.99,
-        originalPrice: 359.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2684,8 +2634,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 349.99,
-        originalPrice: 409.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2736,8 +2685,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 649.99,
-        originalPrice: 749.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2788,8 +2736,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 799.99,
-        originalPrice: 929.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2840,8 +2787,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 599.99,
-        originalPrice: 699.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2892,8 +2838,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 349.99,
-        originalPrice: 409.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2944,8 +2889,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 159.99,
-        originalPrice: 189.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -2996,8 +2940,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 179.99,
-        originalPrice: 219.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3048,8 +2991,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 459.99,
-        originalPrice: 539.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3109,8 +3051,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 399.99,
-        originalPrice: 469.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3161,8 +3102,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 559.99,
-        originalPrice: 649.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3204,8 +3144,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 449.99,
-        originalPrice: 529.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3256,8 +3195,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 219.99,
-        originalPrice: 259.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3308,8 +3246,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 154.99,
-        originalPrice: 189.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3360,8 +3297,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 214.99,
-        originalPrice: 249.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3412,8 +3348,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 229.99,
-        originalPrice: 269.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3464,8 +3399,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 319.99,
-        originalPrice: 379.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3516,8 +3450,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 689.99,
-        originalPrice: 799.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3568,8 +3501,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 289.99,
-        originalPrice: 339.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3620,8 +3552,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 199.99,
-        originalPrice: 239.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3672,8 +3603,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 149.99,
-        originalPrice: 179.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3724,8 +3654,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 299.99,
-        originalPrice: 359.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3776,8 +3705,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 179.99,
-        originalPrice: 214.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3828,8 +3756,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 179.99,
-        originalPrice: 219.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3880,8 +3807,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 79.99,
-        originalPrice: 99.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3932,8 +3858,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 44.99,
-        originalPrice: 59.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -3984,8 +3909,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 149.99,
-        originalPrice: 179.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4036,8 +3960,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 89.99,
-        originalPrice: 109.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4088,8 +4011,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 109.99,
-        originalPrice: 134.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4140,8 +4062,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 1299.99,
-        originalPrice: 1499.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4197,8 +4118,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 142.00,
-        originalPrice: 169.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4241,8 +4161,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 109.00,
-        originalPrice: 139.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4293,8 +4212,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 209.99,
-        originalPrice: 249.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4337,8 +4255,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 159.99,
-        originalPrice: 189.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4380,8 +4297,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 134.00,
-        originalPrice: 159.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4424,8 +4340,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 129.99,
-        originalPrice: 159.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4476,8 +4391,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 164.99,
-        originalPrice: 199.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4520,8 +4434,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 174.99,
-        originalPrice: 209.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4564,8 +4477,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 179.99,
-        originalPrice: 214.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4616,8 +4528,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 219.99,
-        originalPrice: 259.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4660,8 +4571,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 389.99,
-        originalPrice: 449.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4704,8 +4614,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 299.99,
-        originalPrice: 349.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4752,8 +4661,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 139.99,
-        originalPrice: 169.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4813,8 +4721,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 89.99,
-        originalPrice: 109.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4865,8 +4772,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 174.99,
-        originalPrice: 209.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4892,8 +4798,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 119.99,
-        originalPrice: 149.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4944,8 +4849,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 154.99,
-        originalPrice: 184.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -4988,8 +4892,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 124.99,
-        originalPrice: 149.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5032,8 +4935,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 154.99,
-        originalPrice: 189.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5076,8 +4978,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 179.99,
-        originalPrice: 214.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5128,8 +5029,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 209.99,
-        originalPrice: 249.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5172,8 +5072,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 269.99,
-        originalPrice: 319.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5216,8 +5115,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 84.99,
-        originalPrice: 99.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5260,8 +5158,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 189.99,
-        originalPrice: 224.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5316,8 +5213,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 84.99,
-        originalPrice: 109.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5359,8 +5255,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 89.99,
-        originalPrice: 114.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5402,8 +5297,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 249.99,
-        originalPrice: 299.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5455,8 +5349,7 @@ const tools: Tool[] = [
       },
       {
         name: "Amazon UK",
-        price: 199.99,
-        originalPrice: 239.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5482,8 +5375,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 169.99,
-        originalPrice: 199.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5526,8 +5418,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 134.99,
-        originalPrice: 164.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5569,8 +5460,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 169.99,
-        originalPrice: 199.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5617,8 +5507,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 149.99,
-        originalPrice: 179.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5660,8 +5549,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 119.99,
-        originalPrice: 149.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5704,8 +5592,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 199.99,
-        originalPrice: 239.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5748,8 +5635,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 154.99,
-        originalPrice: 184.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5792,8 +5678,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 219.99,
-        originalPrice: 259.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5841,7 +5726,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 94.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5891,7 +5776,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 108.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5941,7 +5826,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 158.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -5991,7 +5876,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 98.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6041,7 +5926,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 128.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6091,7 +5976,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 168.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6141,7 +6026,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 218.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6191,7 +6076,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 188.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6241,7 +6126,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6291,7 +6176,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 228.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6341,7 +6226,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 398.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6391,7 +6276,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 174.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6441,7 +6326,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 278.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6491,7 +6376,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 178.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6541,7 +6426,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 298.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6591,7 +6476,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 598.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6641,7 +6526,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 64.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6691,7 +6576,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6741,7 +6626,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 198.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6791,7 +6676,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 348.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6841,7 +6726,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6891,7 +6776,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 218.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6941,7 +6826,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 108.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -6991,7 +6876,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7041,7 +6926,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 258.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7091,7 +6976,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 448.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7141,7 +7026,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 34.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7191,7 +7076,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 78.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7241,7 +7126,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 88.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7291,7 +7176,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 298.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7341,7 +7226,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 178.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7391,7 +7276,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 118.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7445,7 +7330,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 114.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7495,7 +7380,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 138.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7545,7 +7430,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 128.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7595,7 +7480,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 218.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7645,7 +7530,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 128.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7695,7 +7580,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7745,7 +7630,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 228.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7795,7 +7680,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 258.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7845,7 +7730,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 288.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7895,7 +7780,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7945,7 +7830,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 198.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -7995,7 +7880,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 278.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8045,7 +7930,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 498.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8095,7 +7980,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 288.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8145,7 +8030,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 98.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8195,7 +8080,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 698.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8245,7 +8130,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 548.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8295,7 +8180,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 398.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8345,7 +8230,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 138.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8395,7 +8280,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8445,7 +8330,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 298.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8495,7 +8380,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 218.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8545,7 +8430,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 278.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8595,7 +8480,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 98.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8645,7 +8530,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 188.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8695,7 +8580,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 28.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8745,7 +8630,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 88.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8795,7 +8680,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8845,7 +8730,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 78.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8895,7 +8780,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 348.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8949,7 +8834,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 138.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -8999,7 +8884,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 78.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9049,7 +8934,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 128.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9099,7 +8984,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 108.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9149,7 +9034,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 298.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9199,7 +9084,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 198.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9249,7 +9134,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 278.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9299,7 +9184,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 448.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9349,7 +9234,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9399,7 +9284,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9449,7 +9334,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 138.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9499,7 +9384,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 158.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9549,7 +9434,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 498.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9599,7 +9484,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 348.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9649,7 +9534,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 198.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9699,7 +9584,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 298.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9749,7 +9634,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 128.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9799,7 +9684,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 98.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9849,7 +9734,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 138.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9899,7 +9784,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 78.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9949,7 +9834,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 98.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -9999,7 +9884,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 88.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10053,7 +9938,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 128.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10103,7 +9988,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 198.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10153,7 +10038,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 258.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10203,7 +10088,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 248.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10253,7 +10138,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 178.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10303,7 +10188,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 168.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10353,7 +10238,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 158.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10403,7 +10288,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 118.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10453,7 +10338,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 548.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10503,7 +10388,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 698.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10553,7 +10438,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 318.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10603,7 +10488,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 218.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10653,7 +10538,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 258.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10703,7 +10588,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 98.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10753,7 +10638,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 88.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10810,7 +10695,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 34.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10860,7 +10745,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 48.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10910,7 +10795,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 64.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -10960,7 +10845,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 34.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11010,7 +10895,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 54.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11060,7 +10945,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 68.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11110,7 +10995,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 64.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11160,7 +11045,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 88.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11210,7 +11095,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 138.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11260,7 +11145,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 24.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11310,7 +11195,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 44.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11360,7 +11245,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 78.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11410,7 +11295,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 98.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11460,7 +11345,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11513,7 +11398,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 34.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11563,7 +11448,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 48.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11613,7 +11498,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 58.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11663,7 +11548,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 88.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11713,7 +11598,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 118.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11763,7 +11648,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 168.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11813,7 +11698,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 218.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11863,7 +11748,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 34.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11913,7 +11798,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 64.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -11963,7 +11848,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 44.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12016,7 +11901,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 38.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12066,7 +11951,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 48.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12116,7 +12001,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 58.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12166,7 +12051,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 74.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12216,7 +12101,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 78.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12266,7 +12151,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 118.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12316,7 +12201,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12366,7 +12251,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 34.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12416,7 +12301,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 64.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12466,7 +12351,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 54.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12519,7 +12404,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 28.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12569,7 +12454,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 44.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12619,7 +12504,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 58.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12669,7 +12554,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 98.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12719,7 +12604,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12769,7 +12654,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 48.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12819,7 +12704,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 88.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12872,7 +12757,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 58.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12922,7 +12807,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 88.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -12972,7 +12857,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 148.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
@@ -13022,7 +12907,7 @@ const tools: Tool[] = [
     retailers: [
       {
         name: "Amazon UK",
-        price: 54.99,
+        checkPrice: true,
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,

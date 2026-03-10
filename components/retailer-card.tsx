@@ -11,7 +11,7 @@ const RETAILER_COLORS: Record<string, string> = {
 };
 
 export function RetailerCard({ result, isBest }: { result: Retailer; isBest: boolean }) {
-  const saving = result.originalPrice ? (result.originalPrice - result.price).toFixed(2) : null;
+  const saving = result.originalPrice && result.price ? (result.originalPrice - result.price).toFixed(2) : null;
   const accentColor = RETAILER_COLORS[result.name] || "#666";
 
   return (
@@ -41,13 +41,21 @@ export function RetailerCard({ result, isBest }: { result: Retailer; isBest: boo
             {result.name}
           </div>
           <div style={{ textAlign: "right" }}>
-            <div style={{ fontSize: "26px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace", lineHeight: 1 }}>
-              &pound;{result.price.toFixed(2)}
-            </div>
-            {result.originalPrice && (
-              <div style={{ fontSize: "13px", color: "#4E4E56", textDecoration: "line-through", fontFamily: "'JetBrains Mono', monospace" }}>
-                &pound;{result.originalPrice.toFixed(2)}
+            {result.checkPrice ? (
+              <div style={{ fontSize: "14px", fontWeight: 600, color: "#ff9900", fontFamily: "'Outfit', sans-serif" }}>
+                Check price on Amazon
               </div>
+            ) : (
+              <>
+                <div style={{ fontSize: "26px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace", lineHeight: 1 }}>
+                  &pound;{result.price!.toFixed(2)}
+                </div>
+                {result.originalPrice && (
+                  <div style={{ fontSize: "13px", color: "#4E4E56", textDecoration: "line-through", fontFamily: "'JetBrains Mono', monospace" }}>
+                    &pound;{result.originalPrice.toFixed(2)}
+                  </div>
+                )}
+              </>
             )}
           </div>
         </div>

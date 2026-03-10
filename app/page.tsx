@@ -51,7 +51,7 @@ function ChevronRight() {
 }
 
 function RetailerResultCard({ retailer, isBest }: { retailer: Retailer; isBest: boolean }) {
-  const saving = retailer.originalPrice ? (retailer.originalPrice - retailer.price).toFixed(2) : null;
+  const saving = retailer.originalPrice && retailer.price ? (retailer.originalPrice - retailer.price).toFixed(2) : null;
 
   return (
     <div style={{
@@ -76,13 +76,21 @@ function RetailerResultCard({ retailer, isBest }: { retailer: Retailer; isBest: 
             {retailer.name}
           </div>
           <div style={{ textAlign: "right" }}>
-            <div style={{ fontSize: "26px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace", lineHeight: 1 }}>
-              £{retailer.price.toFixed(2)}
-            </div>
-            {retailer.originalPrice && (
-              <div style={{ fontSize: "13px", color: "#4E4E56", textDecoration: "line-through", fontFamily: "'JetBrains Mono', monospace" }}>
-                £{retailer.originalPrice.toFixed(2)}
+            {retailer.checkPrice ? (
+              <div style={{ fontSize: "14px", fontWeight: 600, color: "#ff9900", fontFamily: "'Outfit', sans-serif" }}>
+                Check price on Amazon
               </div>
+            ) : (
+              <>
+                <div style={{ fontSize: "26px", fontWeight: 700, color: "#E4E4E7", fontFamily: "'JetBrains Mono', monospace", lineHeight: 1 }}>
+                  £{retailer.price!.toFixed(2)}
+                </div>
+                {retailer.originalPrice && (
+                  <div style={{ fontSize: "13px", color: "#4E4E56", textDecoration: "line-through", fontFamily: "'JetBrains Mono', monospace" }}>
+                    £{retailer.originalPrice.toFixed(2)}
+                  </div>
+                )}
+              </>
             )}
           </div>
         </div>
@@ -129,7 +137,7 @@ function RetailerResultCard({ retailer, isBest }: { retailer: Retailer; isBest: 
 }
 
 function ToolResultCard({ tool, onClick, delay }: { tool: Tool; onClick: () => void; delay: number }) {
-  const retailers = [...tool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price);
+  const retailers = [...tool.retailers].filter((r) => r.url !== "#" && !r.checkPrice).sort((a, b) => a.price! - b.price!);
   const bestPrice = retailers[0]?.price;
   const worstPrice = retailers[retailers.length - 1]?.price;
 
@@ -213,11 +221,14 @@ export default function Home() {
 
   useEffect(() => { inputRef.current?.focus(); }, []);
 
-  const sortedRetailers = selectedTool
-    ? [...selectedTool.retailers].filter((r) => r.url !== "#").sort((a, b) => a.price - b.price)
+  const pricedRetailers = selectedTool
+    ? [...selectedTool.retailers].filter((r) => r.url !== "#" && !r.checkPrice).sort((a, b) => a.price! - b.price!)
     : [];
-  const bestPrice = sortedRetailers[0]?.price ?? null;
-  const worstPrice = sortedRetailers[sortedRetailers.length - 1]?.price ?? null;
+  const sortedRetailers = selectedTool
+    ? [...pricedRetailers, ...selectedTool.retailers.filter((r) => r.url !== "#" && r.checkPrice)]
+    : [];
+  const bestPrice = pricedRetailers[0]?.price ?? null;
+  const worstPrice = pricedRetailers[pricedRetailers.length - 1]?.price ?? null;
   const showingResults = hasSearched && !searching;
   const toolCount = getAllTools().length;
 
@@ -527,7 +538,7 @@ export default function Home() {
 
                 <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                   {sortedRetailers.map((retailer) => (
-                    <RetailerResultCard key={retailer.name} retailer={retailer} isBest={retailer.price === bestPrice} />
+                    <RetailerResultCard key={retailer.name} retailer={retailer} isBest={!retailer.checkPrice && retailer.price === bestPrice} />
                   ))}
                 </div>
 

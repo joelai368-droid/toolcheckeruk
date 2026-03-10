@@ -5845,7 +5845,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCD791N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01C85KPKE?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -5895,7 +5895,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCD800N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B09ZB6938S?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -5945,7 +5945,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCD805N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BYW6Y4N5?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -5995,7 +5995,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCF787N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08S3RVHT8?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6045,7 +6045,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCF850N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0B1DKZCF5?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6095,7 +6095,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCF891N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0B7GKFKDJ?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6145,7 +6145,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCF894N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07C2NZHLM?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6195,7 +6195,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCF922N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B09YHSF6KP?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6245,7 +6245,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCH133N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07C7N2JKH?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6295,7 +6295,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCH283N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07RTKTX2S?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6345,7 +6345,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCH481NT+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B06WGLKKFS?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6395,7 +6395,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCS565N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B099X7HBQF?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6445,7 +6445,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCS578N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08LNGR2R5?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6495,7 +6495,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCS382N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B097ZYM4FP?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6545,7 +6545,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCS365N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01AI1N8T0?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6595,7 +6595,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DHS780N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0C15R7VCF?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6645,7 +6645,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DWS5022+guide+rail&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0013LLDQK?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6695,7 +6695,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCG409N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B096M9CQPN?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6745,7 +6745,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCG418N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08LLCYK9G?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6795,7 +6795,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCG460N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0CFXM3RXY?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6845,7 +6845,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCW604N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07R6TR7X6?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6895,7 +6895,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCW600N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B083ZM59H3?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6945,7 +6945,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCW210N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07QX92YBQ?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -6995,7 +6995,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCW220N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BZ88XZ4G?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7045,7 +7045,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCN681N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B075V5WX24?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7095,7 +7095,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCN890N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0767N1ZG3?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7145,7 +7145,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCL040+dewalt+torch&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0051HEBAW?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7195,7 +7195,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCR020+dewalt+radio&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00KCU756A?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7245,7 +7245,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCV582N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00NMIAIPE?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7295,7 +7295,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCE089D1G+green+laser&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B016QUEA2G?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7345,7 +7345,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCF620N+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00W80ZIOI?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7449,7 +7449,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DDF486Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0999HKJW2?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7499,7 +7499,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DHP487Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B099NRHWZ5?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7549,7 +7549,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DDF487Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B099NSD35X?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7599,7 +7599,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=HP001GZ+40v+xgt+combi&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B082HV5XG9?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7649,7 +7649,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DTD172Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B09X1ZRJY7?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7699,7 +7699,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DTW300Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08DHY6CVD?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7749,7 +7749,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DTW700Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08HN48666?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7799,7 +7799,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DTW1002Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01AVXACYO?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7849,7 +7849,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=TW001GZ+40v+xgt+impact+wrench&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08HN55SNF?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7899,7 +7899,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DHR171Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0759BCVK9?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7949,7 +7949,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DHR243Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00HOD3AJY?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -7999,7 +7999,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DHR283Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07KWM5GR1?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8049,7 +8049,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DHR400Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07C9FVJXZ?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8099,7 +8099,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=HR003GZ+40v+xgt+sds&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B089NZ9M9V?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8149,7 +8149,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DSS611Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00ID86YVK?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8199,7 +8199,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DLS211Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07Y59KK1W?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8249,7 +8249,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DLS110Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B077WHB1N1?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8299,7 +8299,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DSP600Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0776X1P58?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8349,7 +8349,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DGA513Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B079GWTMC2?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8399,7 +8399,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DGA519Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B087SCGJQ6?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8449,7 +8449,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DGA700Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B076BVQ8Z1?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8499,7 +8499,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GA023GZ+40v+xgt+grinder&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08DL25YPM?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8549,7 +8549,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=RT001GZ+40v+xgt+router&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BCPTHW53?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8599,7 +8599,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DBO382Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0C2VDFHTJ?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8649,7 +8649,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DPT353Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0722YW99S?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8699,7 +8699,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DML812+makita+torch&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B085VTRG7L?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8749,7 +8749,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DMR115+makita+radio&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07ZJ3TS3C?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8799,7 +8799,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DVC750Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07MK3JRZH?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8849,7 +8849,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DMP180Z+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B085M2C6CP?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8899,7 +8899,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=SK700GDZ+makita+laser+level&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B098FJ3G4B?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -8953,7 +8953,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GSB+18V-90+C+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BC92JY57?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9003,7 +9003,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GSR+18V-55+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08221SD6W?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9053,7 +9053,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GSR+18V-90+C+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BC99HFWS?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9103,7 +9103,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GDR+18V-210+C+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B09Q3FYQ64?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9153,7 +9153,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GDS+18V-1050+H+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08QZ8WDL4?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9203,7 +9203,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GDS+18V-450+HC+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BGBQSHPK?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9253,7 +9253,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GBH+18V-34+CF+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B088P2R5T4?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9303,7 +9303,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GBH+18V-45+C+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08L7LMWB4?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9353,7 +9353,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GKS+18V-57+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01KWJMTIO?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9403,7 +9403,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GST+18V-155+BC+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BC9889JH?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9453,7 +9453,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GSA+18V-32+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07RCXC6PH?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9503,7 +9503,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GOP+18V-34+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0CPQ5KNQ3?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9553,7 +9553,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GCM+18V-216+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07WTH5WW2?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9603,7 +9603,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GKT+18V-52+GC+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B087S1K2XB?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9653,7 +9653,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GWS+18V-15+C+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07RN9FNDV?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9703,7 +9703,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GWS+18V-180+PC+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BFBN1HQQ?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9753,7 +9753,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GKF+18V-8+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0DG5L8KXS?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9803,7 +9803,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GSS+18V-13+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BS9Q2Z1R?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9853,7 +9853,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GEX+18V-125+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B093H12667?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9903,7 +9903,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GLI+18V-4000+C+bosch+work+light&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08222SJJB?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -9953,7 +9953,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GML+18V-120+bosch+radio&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0913KY24F?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10003,7 +10003,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GAS+18V-12+MC+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0CPQ5JYH8?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10057,7 +10057,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DS3620DA+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HKXSMMD?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10107,7 +10107,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=WR36DC+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HNS44XB?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10157,7 +10157,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=WR36DD+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HNXRJ4K?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10207,7 +10207,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DH3628DA+body+only&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07NQLBTF3?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10257,7 +10257,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=C3606DA+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HL3P3H3?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10307,7 +10307,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=CJ36DA+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08WRC7Q92?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10357,7 +10357,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=CR36DA+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B086K1QLZ9?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10407,7 +10407,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=CV18DA+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07JHB21XJ?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10457,7 +10457,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=C3610DRA+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07XSB221D?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10507,7 +10507,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=C3607DRA+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08HSMGSC9?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10657,7 +10657,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=M3612DA+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B09MZGK58W?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10707,7 +10707,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=RB36DA+body+only+hikoki&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HNRQRSC?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10757,7 +10757,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=R18DA+hikoki+radio&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HNRNR1G?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10814,7 +10814,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12+B2+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00CFNJMFO?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10864,7 +10864,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12+B4+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00CFNJ93E?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10914,7 +10914,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12+B6+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B095NT3RPD?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -10964,7 +10964,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+B2+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00CFNIYWQ?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11014,7 +11014,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+B5+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00TPJMZ2I?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11114,7 +11114,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+B6+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01BKFV84A?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11164,7 +11164,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+HB8+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07RX2DV2Z?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11214,7 +11214,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+HB12+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07GBBMGRN?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11264,7 +11264,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12+C+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B075FCQJCY?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11314,7 +11314,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+FC+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B019DW4NS0?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11364,7 +11364,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+DFC+dual+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08H1W99BT?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11414,7 +11414,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M12-18SC+super+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B093BGYX85?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11464,7 +11464,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Milwaukee+M18+BPP2F-502B+starter+pack&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07H92LBSG?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11517,7 +11517,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB183+dewalt+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00EQCFYWM?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11567,7 +11567,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB182+dewalt+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B008LAFV32?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11617,7 +11617,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB184+dewalt+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00XEUVS8G?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11667,7 +11667,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCBP518+powerstack+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0BL6ZQWG7?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11717,7 +11717,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB546+flexvolt+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07H3V4QFR?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11767,7 +11767,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB547+flexvolt+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B06WWLT1Z7?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11817,7 +11817,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB548+flexvolt+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07F23X428?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11867,7 +11867,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB115+dewalt+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01AIOMN8O?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11917,7 +11917,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB132+dewalt+dual+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01I08Z6YI?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -11967,7 +11967,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DCB116+dewalt+fast+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0D56BKJ29?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12020,7 +12020,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=BL1830B+makita+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01N0R8UMA?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12070,7 +12070,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=BL1840B+makita+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00GSMBTJA?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12120,7 +12120,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=BL1850B+makita+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B01JP78596?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12170,7 +12170,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=BL1860B+makita+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B0042CVBLO?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12220,7 +12220,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=BL4025+makita+40v+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08CKSDY2L?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12270,7 +12270,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=BL4040+makita+40v+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08CKPXQSD?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12320,7 +12320,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=BL4050F+makita+40v+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B09N7LHMRX?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12370,7 +12370,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DC18RC+makita+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B008KXATOG?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12420,7 +12420,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DC18RD+makita+dual+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00R82KU4O?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12470,7 +12470,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=DC40RA+makita+40v+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B08CKVYBZN?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12523,7 +12523,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+2.0Ah+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00FAMADXW?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12573,7 +12573,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+4.0Ah+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07FYZFFWW?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12623,7 +12623,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+5.0Ah+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00IKI352E?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12673,7 +12673,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+8.0Ah+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07FYY5WWY?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12723,7 +12723,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=Bosch+GBA+18V+12.0Ah+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07FYXMF4W?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12773,7 +12773,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GAL+18V-40+bosch+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07M6QQCWM?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12823,7 +12823,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=GAL+18V-160+C+bosch+dual+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07FWCLRWB?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -12876,7 +12876,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=BSL3625+hikoki+battery&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B00UNN73UO?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",
@@ -13026,7 +13026,7 @@ const tools: Tool[] = [
         inStock: true,
         delivery: "Free (Prime)",
         clickCollect: false,
-        url: "https://www.amazon.co.uk/s?k=UC18YSL3+hikoki+charger&tag=toolcheckeruk-21",
+        url: "https://www.amazon.co.uk/dp/B07HRGX318?tag=toolcheckeruk-21",
       },
       {
         name: "Screwfix",

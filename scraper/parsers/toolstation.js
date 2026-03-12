@@ -158,11 +158,17 @@ function buildKeywordQuery(modelNumber, entry) {
  * Returns { score } where score >= 2 means a potential match.
  * Returns score -1 for hard rejections (wrong platform, wrong Ah, etc.).
  */
-function scoreCandidate(title, url, tokens) {
+function scoreCandidate(title, url, tokens, brand) {
   const titleLower = title.toLowerCase();
 
-  // Must contain Milwaukee
-  if (!titleLower.includes('milwaukee')) return { score: -1, reason: 'no milwaukee' };
+  // Must contain the expected brand (accuracy-first)
+  const brandLower = (brand || 'Milwaukee').toLowerCase();
+  if (brandLower === 'dewalt') {
+    if (!/de\s*walt/i.test(title)) return { score: -1, reason: 'no dewalt' };
+  } else {
+    if (!titleLower.includes(brandLower)) return { score: -1, reason: `no ${brandLower}` };
+  }
+
 
   let matched = 0;
 
@@ -281,7 +287,7 @@ async function findUrlViaKeyword(keywordQuery, modelNumber, entry, fetchPage) {
     for (const doc of docs) {
       const title = doc.title || '';
       const productUrl = doc.url || '';
-      const result = scoreCandidate(title, productUrl, tokens);
+      const result = scoreCandidate(title, productUrl, tokens, entry.brand);
       if (result.score >= 2) {
         const fullUrl = productUrl.startsWith('http')
           ? productUrl

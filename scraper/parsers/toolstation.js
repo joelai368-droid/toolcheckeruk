@@ -17,13 +17,37 @@ function normalizeModel(model) {
 }
 
 /**
- * Check if a normalized model appears in text with boundary semantics.
- * Prevents prefix matches (e.g. FHIR14 matching FHIR14LR) by requiring
- * the model NOT be followed by a letter.
+ * Generate a set of normalized model variants to increase recall without guessing.
+ * Example: "DCD796N" -> ["dcd796n", "dcd796"]
+ */
+function modelVariants(modelNumber) {
+  const full = normalizeModel(modelNumber);
+  const variants = new Set([full]);
+
+  // DeWalt-style: add base letters+digits code so we can match listings that add suffixes
+  // (e.g. dcd800nt, dcw600nt, etc.) without having to guess the exact suffix.
+  const base = full.match(/^[a-z]+\d+/i)?.[0];
+  if (base && base.length >= 5) variants.add(base);
+
+  return [...variants];
+}
+
+/**
+ * Check if a normalized model appears in text.
+ * Default: boundary semantics to avoid prefix matches.
+ * If the model is a base letters+digits code (e.g. dcd800), allow suffixes.
  */
 function modelMatchesText(normalizedModel, text) {
   const normalizedText = text.replace(/[^a-z0-9]/gi, '').toLowerCase();
   const escaped = normalizedModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  // Base letters+digits: allow suffixes in titles/URLs (e.g. dcd800nt)
+  if (/^[a-z]+\d+$/.test(normalizedModel)) {
+    const re = new RegExp(escaped);
+    return re.test(normalizedText);
+  }
+
+  // Default: boundary semantics (avoid prefix matches)
   const re = new RegExp(escaped + '(?![a-z])');
   return re.test(normalizedText);
 }
@@ -298,6 +322,7 @@ async function findUrlViaKeyword(keywordQuery, modelNumber, entry, fetchPage) {
  */
 async function findUrl(modelNumber, fetchPage, fetchPageWithBrowser, entry) {
   const normalizedModel = normalizeModel(modelNumber);
+  const variants = modelVariants(modelNumber);
   const query = encodeURIComponent(modelNumber);
 
   // Determine brand from entry (default Milwaukee)
@@ -305,11 +330,11 @@ async function findUrl(modelNumber, fetchPage, fetchPageWithBrowser, entry) {
   if (entry) entry.brand = brand;
 
   // Primary path: model-code validation
-  const url = await findUrlViaApi(normalizedModel, query, fetchPage);
+  const url = await findUrlViaApi(variants, query, fetchPage);
   if (url) return url;
 
   // Fallback 1: HTML search with model-code validation
-  const htmlUrl = await findUrlViaHtml(normalizedModel, query, fetchPage);
+  const htmlUrl = await findUrlViaHtml(variants, query, fetchPage);
   if (htmlUrl) return htmlUrl;
 
   // Fallback 2: keyword search for batteries/chargers with weak model codes
@@ -325,7 +350,7 @@ async function findUrl(modelNumber, fetchPage, fetchPageWithBrowser, entry) {
 /**
  * Search via Toolstation's JSON search API.
  */
-async function findUrlViaApi(normalizedModel, query, fetchPage) {
+async function findUrlViaApi(modelVariantList, query, fetchPage) {
   const apiUrl = `https://www.toolstation.com/api/search/crs?domain_key=toolstation&view_id=gb&request_type=search&q=${query}&rows=10&start=0&search_type=keyword&groupby=variant_group&request_id=${Date.now()}&url=https://www.toolstation.com`;
 
   try {
@@ -341,22 +366,24 @@ async function findUrlViaApi(normalizedModel, query, fetchPage) {
     const docs = data.response && data.response.docs;
     if (!docs || docs.length === 0) return null;
 
-    // Validate each result against the model number
+    // Validate each result against the model number (via variants)
     for (const doc of docs) {
       const title = doc.title || '';
       const productUrl = doc.url || '';
       const slug = doc.slug || '';
 
-      if (
-        modelMatchesText(normalizedModel, title) ||
-        modelMatchesText(normalizedModel, productUrl) ||
-        modelMatchesText(normalizedModel, slug)
-      ) {
-        const fullUrl = productUrl.startsWith('http')
-          ? productUrl
-          : `https://www.toolstation.com${productUrl.startsWith('/') ? productUrl : '/' + productUrl}`;
-        console.log(`[Toolstation] API: "${decodeURIComponent(query)}" → validated: ${fullUrl}`);
-        return fullUrl;
+      for (const v of modelVariantList) {
+        if (
+          modelMatchesText(v, title) ||
+          modelMatchesText(v, productUrl) ||
+          modelMatchesText(v, slug)
+        ) {
+          const fullUrl = productUrl.startsWith('http')
+            ? productUrl
+            : `https://www.toolstation.com${productUrl.startsWith('/') ? productUrl : '/' + productUrl}`;
+          console.log(`[Toolstation] API: "${decodeURIComponent(query)}" → validated(${v}): ${fullUrl}`);
+          return fullUrl;
+        }
       }
     }
 
@@ -371,7 +398,7 @@ async function findUrlViaApi(normalizedModel, query, fetchPage) {
 /**
  * Fallback: search via Toolstation HTML search page.
  */
-async function findUrlViaHtml(normalizedModel, query, fetchPage) {
+async function findUrlViaHtml(modelVariantList, query, fetchPage) {
   const searchUrl = `https://www.toolstation.com/search?q=${query}`;
 
   try {
@@ -393,10 +420,12 @@ async function findUrlViaHtml(normalizedModel, query, fetchPage) {
     });
 
     for (const { href, text } of candidates) {
-      if (modelMatchesText(normalizedModel, href) || modelMatchesText(normalizedModel, text)) {
-        const fullUrl = href.startsWith('http') ? href : `https://www.toolstation.com${href}`;
-        console.log(`[Toolstation] HTML: "${decodeURIComponent(query)}" → validated: ${fullUrl}`);
-        return fullUrl;
+      for (const v of modelVariantList) {
+        if (modelMatchesText(v, href) || modelMatchesText(v, text)) {
+          const fullUrl = href.startsWith('http') ? href : `https://www.toolstation.com${href}`;
+          console.log(`[Toolstation] HTML: "${decodeURIComponent(query)}" → validated(${v}): ${fullUrl}`);
+          return fullUrl;
+        }
       }
     }
 

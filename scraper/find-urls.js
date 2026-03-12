@@ -16,7 +16,6 @@ const { fetchPage, fetchPageWithBrowser, closeBrowser } = require('./core');
 const parsers = {
   'Screwfix': require('./parsers/screwfix'),
   'Toolstation': require('./parsers/toolstation'),
-  'FFX Tools': require('./parsers/ffx'),
   'ITS': require('./parsers/its'),
   'Powertool Mate': require('./parsers/powertoolmate'),
   'Machine Mart': require('./parsers/machinemart'),

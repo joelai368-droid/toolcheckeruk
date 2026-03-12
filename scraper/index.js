@@ -20,7 +20,7 @@ const { fetchPage } = require('./core');
 const parsers = {
   'Screwfix': require('./parsers/screwfix'),
   'Toolstation': require('./parsers/toolstation'),
-  // NOTE: FFX has effectively merged into ITS; we scrape ITS only to avoid duplicate rows.
+  // NOTE: FFX has effectively merged into ITS; do not scrape FFX (avoid duplicates).
   'ITS': require('./parsers/its'),
   'Powertool Mate': require('./parsers/powertoolmate'),
   'Machine Mart': require('./parsers/machinemart'),

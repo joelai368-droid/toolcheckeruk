@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 /**
- * URL Finder — searches each retailer for Milwaukee tools and populates the mapping file.
+ * URL Finder — searches each retailer for tools in a mapping file and populates retailer URLs.
  * Run this once to seed the mapping, then the main scraper uses the saved URLs.
  *
  * Usage:
- *   node scraper/find-urls.js                  # search all tools, all retailers
- *   node scraper/find-urls.js --slug milwaukee-m18-fuel-combi-drill  # one tool
+ *   node scraper/find-urls.js                                   # search all tools, all retailers (default mapping: milwaukee)
+ *   node scraper/find-urls.js --mapping scraper/mappings/dewalt.json  # search all DeWalt tools
+ *   node scraper/find-urls.js --slug milwaukee-m18-fuel-combi-drill    # one tool
  *   node scraper/find-urls.js --retailer Screwfix                    # one retailer only
  */
 
@@ -21,7 +22,15 @@ const parsers = {
   'Machine Mart': require('./parsers/machinemart'),
 };
 
-const MAPPING_FILE = path.join(__dirname, 'mappings/milwaukee.json');
+const DEFAULT_MAPPING_FILE = path.join(__dirname, 'mappings/milwaukee.json');
+
+function getMappingFileFromArgs(args) {
+  const i = args.indexOf('--mapping');
+  if (i !== -1 && args[i + 1]) return args[i + 1];
+  return DEFAULT_MAPPING_FILE;
+}
+
+const MAPPING_FILE = getMappingFileFromArgs(process.argv.slice(2));
 
 function loadMapping() {
   return JSON.parse(fs.readFileSync(MAPPING_FILE, 'utf8'));

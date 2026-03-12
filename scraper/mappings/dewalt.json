@@ -1,0 +1,276 @@
+{
+  "dewalt-18v-xr-combi-drill": {
+    "model": "DCD796N",
+    "name": "18V XR Brushless Combi Drill (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcd796p2-gb-18v-2-x-5-0ah-li-ion-xr-brushless-cordless-combi-drill/1358j"
+    }
+  },
+  "dewalt-18v-xr-impact-driver": {
+    "model": "DCF887N",
+    "name": "18V XR Brushless Impact Driver (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf887n-xj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/551fu#product_additional_details_container"
+    }
+  },
+  "dewalt-18v-xr-impact-wrench": {
+    "model": "DCF899N",
+    "name": "18V XR Brushless High Torque Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-circular-saw": {
+    "model": "DCS391N",
+    "name": "18V XR Brushless 165mm Circular Saw (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-angle-grinder": {
+    "model": "DCG405N",
+    "name": "18V XR Brushless 125mm Angle Grinder (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-multi-tool": {
+    "model": "DCS355N",
+    "name": "18V XR Brushless Oscillating Multi-Tool (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-reciprocating-saw": {
+    "model": "DCS367N",
+    "name": "18V XR Brushless Reciprocating Saw (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-jigsaw": {
+    "model": "DCS334N",
+    "name": "18V XR Brushless Jigsaw (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-sds-plus-drill": {
+    "model": "DCH273N",
+    "name": "18V XR Brushless SDS Plus Hammer Drill (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-planer": {
+    "model": "DCP580N",
+    "name": "18V XR Brushless 82mm Planer (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-first-fix-nailer": {
+    "model": "DCN692N",
+    "name": "18V XR Brushless First Fix Framing Nailer (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-second-fix-nailer": {
+    "model": "DCN660N",
+    "name": "18V XR Brushless 16 Gauge Second Fix Nailer (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-drill-driver": {
+    "model": "DCD791N",
+    "name": "18V XR Brushless Drill Driver (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-compact-brushless-drill": {
+    "model": "DCD800N",
+    "name": "18V XR Brushless Compact Drill Driver (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-combi-drill-high-torque": {
+    "model": "DCD805N",
+    "name": "18V XR Brushless High Torque Combi Drill (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-brushless-impact-driver-dcf787": {
+    "model": "DCF787N",
+    "name": "18V XR Brushless Impact Driver (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-3speed-impact-driver": {
+    "model": "DCF850N",
+    "name": "18V XR Brushless 3-Speed Impact Driver (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-impact-wrench-dcf891": {
+    "model": "DCF891N",
+    "name": "18V XR Brushless 1/2\" Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-high-torque-impact-wrench-dcf894": {
+    "model": "DCF894N",
+    "name": "18V XR Brushless High Torque 1/2\" Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-compact-impact-wrench-dcf922": {
+    "model": "DCF922N",
+    "name": "18V XR Brushless Compact 1/2\" Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-sds-plus-compact": {
+    "model": "DCH133N",
+    "name": "18V XR Brushless SDS Plus Compact Hammer Drill (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-sds-plus-28mm": {
+    "model": "DCH283N",
+    "name": "18V XR Brushless SDS Plus Hammer Drill 28mm (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-54v-flexvolt-sds-max": {
+    "model": "DCH481NT",
+    "name": "54V XR FlexVolt SDS Max Hammer Drill (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-circular-saw-165mm-brushless": {
+    "model": "DCS565N",
+    "name": "18V XR Brushless 165mm Circular Saw (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-54v-flexvolt-circular-saw-190mm": {
+    "model": "DCS578N",
+    "name": "54V XR FlexVolt 190mm Circular Saw (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-reciprocating-saw-dcs382": {
+    "model": "DCS382N",
+    "name": "18V XR Brushless Reciprocating Saw (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-mitre-saw-184mm": {
+    "model": "DCS365N",
+    "name": "18V XR 184mm Single Bevel Mitre Saw (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-54v-flexvolt-mitre-saw-305mm": {
+    "model": "DHS780N",
+    "name": "54V XR FlexVolt 305mm Double Bevel Mitre Saw (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-guide-rail-1500mm": {
+    "model": "DWS5022",
+    "name": "1.5m Guide Rail for Plunge Saws",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-angle-grinder-dcg409": {
+    "model": "DCG409N",
+    "name": "18V XR Brushless 125mm Angle Grinder with Slide Switch (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-54v-flexvolt-angle-grinder-125mm": {
+    "model": "DCG418N",
+    "name": "54V XR FlexVolt 125mm Angle Grinder (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-54v-flexvolt-angle-grinder-230mm": {
+    "model": "DCG460N",
+    "name": "54V XR FlexVolt 230mm Large Angle Grinder (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-router-trimmer": {
+    "model": "DCW604N",
+    "name": "18V XR Brushless 1/4\" Router Trimmer (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-router-dcw600": {
+    "model": "DCW600N",
+    "name": "18V XR Brushless Router (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-random-orbital-sander": {
+    "model": "DCW210N",
+    "name": "18V XR Brushless 125mm Random Orbital Sander (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-belt-sander": {
+    "model": "DCW220N",
+    "name": "18V XR Brushless Belt Sander (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-brad-nailer-18ga": {
+    "model": "DCN681N",
+    "name": "18V XR Brushless 18 Gauge Brad Nailer (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-concrete-nailer": {
+    "model": "DCN890N",
+    "name": "18V XR Cordless Concrete Nailer (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-led-torch": {
+    "model": "DCL040",
+    "name": "18V LED Torch/Flashlight",
+    "retailers": {}
+  },
+  "dewalt-18v-dab-radio": {
+    "model": "DCR020",
+    "name": "18V/12V DAB Job Site Radio",
+    "retailers": {}
+  },
+  "dewalt-18v-wet-dry-vacuum": {
+    "model": "DCV582N",
+    "name": "18V/14.4V XR Wet and Dry Vacuum (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-green-laser-level": {
+    "model": "DCE089D1G",
+    "name": "18V XR 3 x 360° Green Laser Level",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-collated-screwgun": {
+    "model": "DCF620N",
+    "name": "18V XR Brushless Collated Screwgun (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-xr-die-grinder": {
+    "model": "DCG200N",
+    "name": "18V XR Brushless Die Grinder (Body Only)",
+    "retailers": {}
+  },
+  "dewalt-18v-2ah-battery": {
+    "model": "DCB183",
+    "name": "18V XR 2.0Ah Lithium-Ion Battery",
+    "retailers": {}
+  },
+  "dewalt-18v-4ah-battery": {
+    "model": "DCB182",
+    "name": "18V XR 4.0Ah Lithium-Ion Battery",
+    "retailers": {}
+  },
+  "dewalt-18v-5ah-battery": {
+    "model": "DCB184",
+    "name": "18V XR 5.0Ah Lithium-Ion Battery",
+    "retailers": {}
+  },
+  "dewalt-18v-5ah-powerstack-battery": {
+    "model": "DCBP518",
+    "name": "18V XR 5.0Ah POWERSTACK Lithium-Ion Battery",
+    "retailers": {}
+  },
+  "dewalt-flexvolt-6ah-battery": {
+    "model": "DCB546",
+    "name": "54V/18V XR FlexVolt 6.0Ah Battery",
+    "retailers": {}
+  },
+  "dewalt-flexvolt-9ah-battery": {
+    "model": "DCB547",
+    "name": "54V/18V XR FlexVolt 9.0Ah Battery",
+    "retailers": {}
+  },
+  "dewalt-flexvolt-12ah-battery": {
+    "model": "DCB548",
+    "name": "54V/18V XR FlexVolt 12.0Ah Battery",
+    "retailers": {}
+  },
+  "dewalt-18v-single-charger": {
+    "model": "DCB115",
+    "name": "18V XR Single Port Battery Charger",
+    "retailers": {}
+  },
+  "dewalt-18v-dual-charger": {
+    "model": "DCB132",
+    "name": "18V XR Dual Port Battery Charger",
+    "retailers": {}
+  },
+  "dewalt-18v-fast-charger": {
+    "model": "DCB116",
+    "name": "18V XR Fast Battery Charger",
+    "retailers": {}
+  }
+}

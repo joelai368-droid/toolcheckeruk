@@ -6,7 +6,8 @@
  * saves results to data/prices/[slug].json, then optionally git commits.
  *
  * Usage:
- *   node scraper/index.js                           # scrape all
+ *   node scraper/index.js                           # scrape all (default mapping: milwaukee)
+ *   node scraper/index.js --mapping scraper/mappings/dewalt.json # scrape all DeWalt tools
  *   node scraper/index.js --slug milwaukee-m18-fuel-combi-drill  # one tool
  *   node scraper/index.js --dry-run                 # scrape but don't save/commit
  *   node scraper/index.js --no-commit               # save JSON but skip git commit
@@ -26,12 +27,18 @@ const parsers = {
   'Machine Mart': require('./parsers/machinemart'),
 };
 
-const MAPPING_FILE = path.join(__dirname, 'mappings/milwaukee.json');
+const DEFAULT_MAPPING_FILE = path.join(__dirname, 'mappings/milwaukee.json');
+
+function getMappingFileFromArgs(args) {
+  const i = args.indexOf('--mapping');
+  if (i !== -1 && args[i + 1]) return args[i + 1];
+  return DEFAULT_MAPPING_FILE;
+}
 const PRICES_DIR = path.join(__dirname, '../data/prices');
 const CACHE_MAX_AGE_MS = 4 * 60 * 60 * 1000; // 4 hours
 
-function loadMapping() {
-  return JSON.parse(fs.readFileSync(MAPPING_FILE, 'utf8'));
+function loadMapping(mappingFile) {
+  return JSON.parse(fs.readFileSync(mappingFile, 'utf8'));
 }
 
 function loadExistingPrices(slug) {
@@ -187,7 +194,8 @@ async function main() {
   const dryRun = args.includes('--dry-run');
   const noCommit = args.includes('--no-commit');
 
-  const mapping = loadMapping();
+  const mappingFile = getMappingFileFromArgs(process.argv.slice(2));
+  const mapping = loadMapping(mappingFile);
   const slugs = slugFilter ? [slugFilter] : Object.keys(mapping);
 
   // Filter to only tools that have at least one retailer URL

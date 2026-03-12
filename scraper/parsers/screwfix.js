@@ -24,9 +24,17 @@ function normalizeModel(model) {
  */
 function modelVariants(modelNumber) {
   const full = normalizeModel(modelNumber);
-  const noPrefix = full.replace(/^m\d+(?:\d+)?/i, '');
   const variants = new Set([full]);
+
+  // Milwaukee-style platform prefixes (M18/M12 etc)
+  const noPrefix = full.replace(/^m\d+(?:\d+)?/i, '');
   if (noPrefix && noPrefix.length >= 3) variants.add(noPrefix);
+
+  // DeWalt-style kit suffixes often appear in URLs/titles (e.g. DCD796N vs DCD796P2)
+  // Add the base alnum prefix (letters+digits) as a *search validation* variant.
+  const base = full.match(/^[a-z]+\d+/i)?.[0];
+  if (base && base.length >= 5) variants.add(base);
+
   return [...variants];
 }
 
@@ -38,6 +46,15 @@ function modelVariants(modelNumber) {
 function modelMatchesText(normalizedModel, text) {
   const normalizedText = text.replace(/[^a-z0-9]/gi, '').toLowerCase();
   const escaped = normalizedModel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  // If the model is a base letters+digits code (e.g. dcd796), allow kit suffixes in URLs/titles
+  // like dcd796p2, dcd796nt, etc. Still avoid matching within longer letter-prefix strings.
+  if (/^[a-z]+\d+$/.test(normalizedModel)) {
+    const re = new RegExp(escaped);
+    return re.test(normalizedText);
+  }
+
+  // Default: boundary semantics (avoid prefix matches)
   const re = new RegExp(escaped + '(?![a-z])');
   return re.test(normalizedText);
 }
@@ -63,6 +80,10 @@ async function findUrl(modelNumber, fetchPage) {
       '.product-list-item a[href*="/p/"]',
       'a[data-product-code]',
       '.product-listing a[href*="/p/"]',
+      // Newer Screwfix layouts
+      'a[data-testid="product-card-link"][href*="/p/"]',
+      'a[data-qaid="product-card-title"][href*="/p/"]',
+      'a[data-qaid="product-link"][href*="/p/"]',
     ];
 
     const candidates = [];
@@ -87,6 +108,20 @@ async function findUrl(modelNumber, fetchPage) {
           candidates.push({ href, text: $(el).text().trim() });
         }
       });
+    }
+
+    // If we still have no candidates but we can see /p/ links (some layouts hide text),
+    // collect unique /p/ links directly.
+    if (candidates.length === 0) {
+      const direct = [];
+      $('a[href*="/p/"]').each((_, el) => {
+        const href = $(el).attr('href');
+        if (href && href.includes('/p/') && !seen.has(href)) {
+          seen.add(href);
+          direct.push({ href, text: '' });
+        }
+      });
+      if (direct.length > 0) candidates.push(...direct);
     }
 
     // Validate each candidate against model variants (full + no-prefix)

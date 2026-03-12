@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fc-charger",
   "model": "M18 FC",
-  "lastScraped": "2026-03-12T12:03:51.596Z",
+  "lastScraped": "2026-03-12T17:04:48.431Z",
   "retailers": {
     "Toolstation": {
       "price": 39.98,
       "inStock": true,
       "name": "Milwaukee Fast Charger M12 - M18",
       "url": "https://www.toolstation.com/milwaukee-fast-charger/p18266",
-      "lastScraped": "2026-03-12T12:03:54.239Z"
+      "lastScraped": "2026-03-12T17:04:50.974Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-4ah-battery",
   "model": "DCB182",
-  "lastScraped": "2026-03-12T14:39:55.948Z",
+  "lastScraped": "2026-03-12T15:00:39.008Z",
   "retailers": {
     "Screwfix": {
       "price": 59.99,
@@ -16,6 +16,13 @@
       "name": "Dewalt DCB182 4.0Ah 18V XR Li-Ion Battery",
       "url": "https://its.co.uk/pd/DCB182-Dewalt-DCB182-40Ah-18V-XR-Li-Ion-Battery-_DEWDCB182.htm",
       "lastScraped": "2026-03-12T14:39:59.400Z"
+    },
+    "Powertool Mate": {
+      "price": 64.99,
+      "inStock": true,
+      "name": "DeWalt DCB182 18V XR 4.0Ah Battery and DCB1104 12-18V Multi-Voltage Charger",
+      "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/batteries-and-chargers/dewalt-dcb182-18v-xr-4-0ah-battery-and-dcb115-12-18v-multi-voltage-charger.htm",
+      "lastScraped": "2026-03-12T15:00:42.012Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-fast-charger",
   "model": "DCB116",
-  "lastScraped": "2026-03-12T14:40:19.431Z",
+  "lastScraped": "2026-03-12T15:01:01.684Z",
   "retailers": {
     "ITS": {
       "price": 24,
@@ -9,6 +9,13 @@
       "name": "Dewalt DCB116 XR Multi Voltage Battery Charger",
       "url": "https://its.co.uk/pd/DCB116-Dewalt-DCB116-18V-and-54V-Battery-Charger-_DEWDCB116.htm",
       "lastScraped": "2026-03-12T14:40:22.354Z"
+    },
+    "Powertool Mate": {
+      "price": 49.99,
+      "inStock": true,
+      "name": "Dewalt DCB116 18v / 54v XR Flexvolt Intelligent Fast Battery Charger LK DCB118",
+      "url": "https://www.powertoolmate.co.uk/dewalt-dcb116-18v-54v-xr-flexvolt-intelligent-fast-battery-charger-lk-dcb118.htm",
+      "lastScraped": "2026-03-12T15:01:05.111Z"
     }
   }
 }

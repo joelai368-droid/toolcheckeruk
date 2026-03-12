@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-compact-impact-wrench-dcf922",
   "model": "DCF922N",
-  "lastScraped": "2026-03-12T14:39:14.161Z",
+  "lastScraped": "2026-03-12T15:00:16.991Z",
   "retailers": {
     "Screwfix": {
       "price": 164.99,
@@ -16,6 +16,13 @@
       "name": "Dewalt DCF922N 18V XR Brushless 1/2\" Compact Impact Wrench - Body (Detent Pin)",
       "url": "https://its.co.uk/pd/Dewalt-DCF922N-18V-XR-Brushless-12-Compact-Impact-Wrench---Body-Detent-Pin_DEWDCF922N.htm",
       "lastScraped": "2026-03-12T14:39:17.593Z"
+    },
+    "Powertool Mate": {
+      "price": 134.99,
+      "inStock": true,
+      "name": "Dewalt DCF922N 18v Brushless 1/2\" Impact Wrench BODY ONLY",
+      "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-wrenches-ratchets/dewalt-dcf922n-18v-brushless-1-2-impact-wrench-body-only.htm",
+      "lastScraped": "2026-03-12T15:00:20.305Z"
     }
   }
 }

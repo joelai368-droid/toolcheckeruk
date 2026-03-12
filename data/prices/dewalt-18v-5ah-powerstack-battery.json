@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-5ah-powerstack-battery",
   "model": "DCBP518",
-  "lastScraped": "2026-03-12T14:40:02.729Z",
+  "lastScraped": "2026-03-12T15:00:45.067Z",
   "retailers": {
     "Screwfix": {
       "price": 199.99,
@@ -16,6 +16,13 @@
       "name": "Dewalt DCBP518 5.0Ah 18V XR Powerstack Battery",
       "url": "https://its.co.uk/pd/Dewalt-DCBP518-50Ah-18V-XR-Powerstack-Battery_DEWDCBP518.htm",
       "lastScraped": "2026-03-12T14:40:05.914Z"
+    },
+    "Powertool Mate": {
+      "price": 82.99,
+      "inStock": true,
+      "name": "Dewalt DCBP518 18V XR Powerstack 5ah Battery",
+      "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/batteries-and-chargers/dewalt-dcbp518-18v-xr-powerstack-5ah-battery.htm",
+      "lastScraped": "2026-03-12T15:00:48.526Z"
     }
   }
 }

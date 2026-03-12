@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-collated-screwgun",
   "model": "DCF620N",
-  "lastScraped": "2026-03-12T14:39:49.763Z",
+  "lastScraped": "2026-03-12T15:00:33.650Z",
   "retailers": {
     "Screwfix": {
       "price": 159.99,
@@ -16,6 +16,13 @@
       "name": "Dewalt DCF620N 18V XR Brushless Drywall Screwdriver - Body",
       "url": "https://its.co.uk/pd/DCF620-Dewalt-DCF620N-18V-XR-Brushless-Drywall-Screwdriver---Body-_DEWDCF620N.htm",
       "lastScraped": "2026-03-12T14:39:52.878Z"
+    },
+    "Powertool Mate": {
+      "price": 113.99,
+      "inStock": true,
+      "name": "Dewalt DCF620N 18V XR Collated Brushless Drywall Screwdriver Screw Gun",
+      "url": "https://www.powertoolmate.co.uk/power-tools/cordless-drywall-collated-guns/dewalt-dcf620n-xr-18v-collated-brushless-drywall-screwdriver-screw-gun-dcf6202-c.htm",
+      "lastScraped": "2026-03-12T15:00:35.629Z"
     }
   }
 }

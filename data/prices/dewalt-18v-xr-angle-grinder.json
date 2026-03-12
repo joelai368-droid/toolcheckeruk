@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-angle-grinder",
   "model": "DCG405N",
-  "lastScraped": "2026-03-12T14:38:44.196Z",
+  "lastScraped": "2026-03-12T14:59:50.350Z",
   "retailers": {
     "Screwfix": {
       "price": 139.99,
@@ -16,6 +16,13 @@
       "name": "Dewalt DCG405N 18V XR 125mm Brushless Grinder - Body",
       "url": "https://its.co.uk/pd/DCG405-Dewalt-DCG405N-18V-XR-125mm-Brushless-Grinder---Body-_DEWDCG405N.htm",
       "lastScraped": "2026-03-12T14:38:47.553Z"
+    },
+    "Powertool Mate": {
+      "price": 109.99,
+      "inStock": true,
+      "name": "DeWalt DCG405N 18V XR Brushless 125mm Angle Grinder (Body Only)",
+      "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-grinders-disc-cutters/dewalt-dcg405n-18v-xr-brushless-125mm-angle-grinder-body-only.htm",
+      "lastScraped": "2026-03-12T14:59:53.691Z"
     }
   }
 }

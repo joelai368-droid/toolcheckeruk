@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-sds-plus-drill",
   "model": "DCH273N",
-  "lastScraped": "2026-03-12T14:38:54.123Z",
+  "lastScraped": "2026-03-12T15:00:00.478Z",
   "retailers": {
     "Screwfix": {
       "price": 199.99,
@@ -16,6 +16,13 @@
       "name": "Dewalt DCH273N 18V XR Brushless SDS+ Hammer Drill - Body",
       "url": "https://its.co.uk/pd/DCH273-Dewalt-DCH273N-18V-XR-Brushless-SDSplus-Hammer-Drill---Body-_DEWDCH273N.htm",
       "lastScraped": "2026-03-12T14:38:57.367Z"
+    },
+    "Powertool Mate": {
+      "price": 169.99,
+      "inStock": true,
+      "name": "DeWalt DCH273N 18V XR SDS+ Hammer Drill (Body Only)",
+      "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-sds-drills/dewalt-dch273n-18v-xr-sds-hammer-drill-body-only.htm",
+      "lastScraped": "2026-03-12T15:00:03.866Z"
     }
   }
 }

@@ -5767,56 +5767,6 @@ const tools: Tool[] = [
     ],
   },
   {
-    slug: "dewalt-18v-xr-compact-brushless-drill",
-    brand: "DeWalt",
-    name: "18V XR Brushless Compact Drill Driver (Body Only)",
-    modelNumber: "DCD800N",
-    category: "drills",
-    description: "Ultra-compact brushless drill driver with 60Nm torque. Ideal for working in confined spaces.",
-    retailers: [
-      {
-        name: "Amazon UK",
-        checkPrice: true,
-        inStock: true,
-        delivery: "Free (Prime)",
-        clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B09ZB6938S?tag=toolcheckeruk-21",
-      },
-      {
-        name: "Screwfix",
-        price: 114.99,
-        inStock: true,
-        delivery: "Free over £50",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "Toolstation",
-        price: 119.99,
-        inStock: true,
-        delivery: "£5.00",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 112.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "ITS",
-        price: 110.99,
-        inStock: true,
-        delivery: "£4.99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
-  },
-  {
     slug: "dewalt-18v-xr-combi-drill-high-torque",
     brand: "DeWalt",
     name: "18V XR Brushless High Torque Combi Drill (Body Only)",

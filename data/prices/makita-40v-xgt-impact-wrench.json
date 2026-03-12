@@ -1,14 +1,14 @@
 {
   "slug": "makita-40v-xgt-impact-wrench",
   "model": "TW001GZ",
-  "lastScraped": "2026-03-12T16:43:26.740Z",
+  "lastScraped": "2026-03-12T21:37:24.899Z",
   "retailers": {
     "ITS": {
       "price": 299.99,
       "inStock": true,
       "name": "Makita TW001GZ 40V XGT Brushless 3/4\" Impact Wrench - Body",
       "url": "https://its.co.uk/pd/TW001GZ-Makita-TW001GZ-40V-XGT-Brushless-34-Impact-Wrench---Body-_MAKTW001GZ.htm",
-      "lastScraped": "2026-03-12T15:10:18.960Z"
+      "lastScraped": "2026-03-12T21:37:27.075Z"
     }
   }
 }

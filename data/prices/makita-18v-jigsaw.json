@@ -1,21 +1,28 @@
 {
   "slug": "makita-18v-jigsaw",
   "model": "DJV182Z",
-  "lastScraped": "2026-03-12T16:42:53.032Z",
+  "lastScraped": "2026-03-12T21:36:44.341Z",
   "retailers": {
     "Screwfix": {
       "price": 189.99,
       "inStock": true,
       "name": "Makita DJV182Z 18V Li-Ion LXT Brushless Cordless Jigsaw - Bare (8926J)",
       "url": "https://www.screwfix.com/p/makita-djv182z-18v-li-ion-lxt-brushless-cordless-jigsaw-bare/8926j#product_additional_details_container",
-      "lastScraped": "2026-03-12T15:09:49.158Z"
+      "lastScraped": "2026-03-12T21:36:44.780Z"
     },
     "Powertool Mate": {
       "price": 159.99,
       "inStock": true,
       "name": "Makita DJV182Z 18V LXT Brushless Jigsaw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-jigsaws/makita-djv182z-18v-lxt-brushless-jigsaw-body-only.htm",
-      "lastScraped": "2026-03-12T16:42:56.492Z"
+      "lastScraped": "2026-03-12T21:36:47.199Z"
+    },
+    "ITS": {
+      "price": 179.99,
+      "inStock": true,
+      "name": "Makita DJV182Z 18V LXT Brushless Jigsaw - Body",
+      "url": "https://its.co.uk/pd/DJV182Z-Makita-DJV182Z-18V-LXT-Brushless-Jigsaw---Body-_MAKDJV182Z.htm",
+      "lastScraped": "2026-03-12T21:36:47.996Z"
     }
   }
 }

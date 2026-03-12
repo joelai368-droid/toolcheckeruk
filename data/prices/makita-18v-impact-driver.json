@@ -1,28 +1,28 @@
 {
   "slug": "makita-18v-impact-driver",
   "model": "DTD153Z",
-  "lastScraped": "2026-03-12T16:42:39.550Z",
+  "lastScraped": "2026-03-12T21:36:27.181Z",
   "retailers": {
     "Screwfix": {
       "price": 114.99,
       "inStock": true,
       "name": "Makita DTD153Z 18V Li-Ion LXT Brushless Cordless Impact Driver - Bare (1053V)",
       "url": "https://www.screwfix.com/p/makita-dtd153z-18v-li-ion-lxt-brushless-cordless-impact-driver-bare/1053v#product_additional_details_container",
-      "lastScraped": "2026-03-12T15:09:35.015Z"
+      "lastScraped": "2026-03-12T21:36:28.257Z"
     },
     "ITS": {
       "price": 69.98,
       "inStock": true,
       "name": "Makita DTD153Z 18V LXT Brushless Impact Driver - Body",
       "url": "https://its.co.uk/pd/DTD153Z-Makita-DTD153Z-18V-LXT-Brushless-Impact-Driver---Body-_MAKDTD153Z.htm",
-      "lastScraped": "2026-03-12T15:09:36.159Z"
+      "lastScraped": "2026-03-12T21:36:30.165Z"
     },
     "Powertool Mate": {
       "price": 62.99,
       "inStock": true,
       "name": "Makita DTD153Z 18V Brushless Compact Impact Driver (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-impact-drivers/makita-dtd153z-18v-compact-brushless-impact-driver-body-only.htm",
-      "lastScraped": "2026-03-12T16:42:40.818Z"
+      "lastScraped": "2026-03-12T21:36:31.374Z"
     }
   }
 }

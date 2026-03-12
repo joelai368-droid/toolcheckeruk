@@ -1,28 +1,28 @@
 {
   "slug": "makita-18v-lxt-inflator-dmp180",
   "model": "DMP180Z",
-  "lastScraped": "2026-03-12T16:43:49.481Z",
+  "lastScraped": "2026-03-12T21:38:17.291Z",
   "retailers": {
     "Screwfix": {
       "price": 57.99,
       "inStock": true,
       "name": "Makita DMP180Z 18V Li-Ion LXT  Cordless Inflator - Bare (662PR)",
       "url": "https://www.screwfix.com/p/makita-dmp180z-18v-li-ion-lxt-cordless-inflator-bare/662pr#product_additional_details_container",
-      "lastScraped": "2026-03-12T15:11:00.116Z"
+      "lastScraped": "2026-03-12T21:38:20.508Z"
     },
     "ITS": {
       "price": 64.99,
       "inStock": true,
       "name": "Makita DMP180Z 18V LXT Inflator - Body",
       "url": "https://its.co.uk/pd/DMP180Z-Makita-DMP180Z-18V-LXT-Inflator---Body-_MAKDMP180.htm",
-      "lastScraped": "2026-03-12T15:11:01.560Z"
+      "lastScraped": "2026-03-12T21:38:21.351Z"
     },
     "Powertool Mate": {
       "price": 58.99,
       "inStock": true,
       "name": "Makita DMP180Z 18V LXT Inflator Bare Unit",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/home-and-garden/makita-dmp180z-18v-lxt-inflator-bare-unit.htm",
-      "lastScraped": "2026-03-12T16:43:52.931Z"
+      "lastScraped": "2026-03-12T21:38:22.180Z"
     }
   }
 }

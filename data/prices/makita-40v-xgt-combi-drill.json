@@ -1,14 +1,14 @@
 {
   "slug": "makita-40v-xgt-combi-drill",
   "model": "HP001GZ",
-  "lastScraped": "2026-03-12T16:43:15.909Z",
+  "lastScraped": "2026-03-12T21:37:09.140Z",
   "retailers": {
     "ITS": {
       "price": 159.98,
       "inStock": true,
       "name": "Makita HP001GZ 40V XGT Brushless Combi Drill - Body",
       "url": "https://its.co.uk/pd/HP001G-Makita-HP001GZ-40V-XGT-Brushless-Combi-Drill---Body-_MAKHP001GZ.htm",
-      "lastScraped": "2026-03-12T15:10:05.996Z"
+      "lastScraped": "2026-03-12T21:37:10.137Z"
     }
   }
 }

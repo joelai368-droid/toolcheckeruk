@@ -1,21 +1,21 @@
 {
   "slug": "makita-40v-25ah-battery",
   "model": "BL4025",
-  "lastScraped": "2026-03-12T16:43:56.127Z",
+  "lastScraped": "2026-03-12T21:38:37.194Z",
   "retailers": {
     "ITS": {
       "price": 92.99,
       "inStock": true,
       "name": "Makita BL4025 2.5Ah 40V XGT Li-Ion Battery",
       "url": "https://its.co.uk/pd/191B36-3-Makita-BL4025-25Ah-40V-XGT-Li-Ion-Battery-_MAKBL4025.htm",
-      "lastScraped": "2026-03-12T15:11:20.009Z"
+      "lastScraped": "2026-03-12T21:38:40.512Z"
     },
     "Powertool Mate": {
       "price": 63.99,
       "inStock": true,
       "name": "Makita BL4025 40Vmax 2.5Ah XGT Li-ion Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl4025-40vmax-2-5ah-xgt-li-ion-battery.htm",
-      "lastScraped": "2026-03-12T16:43:59.488Z"
+      "lastScraped": "2026-03-12T21:38:41.613Z"
     }
   }
 }

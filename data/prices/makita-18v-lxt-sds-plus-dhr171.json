@@ -1,21 +1,21 @@
 {
   "slug": "makita-18v-lxt-sds-plus-dhr171",
   "model": "DHR171Z",
-  "lastScraped": "2026-03-12T16:43:26.740Z",
+  "lastScraped": "2026-03-12T21:37:27.076Z",
   "retailers": {
     "ITS": {
       "price": 139.99,
       "inStock": true,
       "name": "Makita DHR171Z 18V LXT Brushless SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/DHR171Z-Makita-DHR171Z-18V-LXT-Brushless-SDSplus-Drill---Body-_MAKDHR171Z.htm",
-      "lastScraped": "2026-03-12T15:10:22.255Z"
+      "lastScraped": "2026-03-12T21:37:30.236Z"
     },
     "Powertool Mate": {
       "price": 116.99,
       "inStock": true,
       "name": "Makita DHR171Z 18V Brushless Cordless SDS+ Rotary Hammer Drill (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sds-drills/makita-dhr171z-18v-cordless-brushless-sds-plus-rotary-hammer-drill-body-only.htm",
-      "lastScraped": "2026-03-12T16:43:29.852Z"
+      "lastScraped": "2026-03-12T21:37:31.186Z"
     }
   }
 }

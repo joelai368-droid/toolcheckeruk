@@ -1,28 +1,28 @@
 {
   "slug": "makita-18v-lxt-angle-grinder-paddle-dga519",
   "model": "DGA519Z",
-  "lastScraped": "2026-03-12T16:43:39.391Z",
+  "lastScraped": "2026-03-12T21:37:54.439Z",
   "retailers": {
     "Screwfix": {
       "price": 188.99,
       "inStock": true,
       "name": "Makita DGA519Z 18V Li-Ion LXT 5\" Brushless Cordless Angle Grinder - Bare (832XJ)",
       "url": "https://www.screwfix.com/p/makita-dga519z-18v-li-ion-lxt-5-brushless-cordless-angle-grinder-bare/832xj#product_additional_details_container",
-      "lastScraped": "2026-03-12T15:10:39.583Z"
+      "lastScraped": "2026-03-12T21:37:55.700Z"
     },
     "ITS": {
       "price": 209.99,
       "inStock": true,
       "name": "Makita DGA519Z 18V LXT 125mm Brushless X-LOCK Grinder - Body",
       "url": "https://its.co.uk/pd/DGA519Z-Makita-DGA519Z-18V-LXT-125mm-Brushless-X-LOCK-Grinder---Body-_MAKDGA519Z.htm",
-      "lastScraped": "2026-03-12T15:10:40.514Z"
+      "lastScraped": "2026-03-12T21:37:56.963Z"
     },
     "Powertool Mate": {
       "price": 182.99,
       "inStock": true,
       "name": "Makita DGA519Z 18V LXT Brushless 125mm X-Lock Angle Grinder (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-grinders-disc-cutters/makita-dga519z-18v-125mm-bl-lxt-x-lock-angle-grinder-bare-unit.htm",
-      "lastScraped": "2026-03-12T16:43:43.906Z"
+      "lastScraped": "2026-03-12T21:37:57.859Z"
     }
   }
 }

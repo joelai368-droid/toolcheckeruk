@@ -1,14 +1,14 @@
 {
   "slug": "makita-18v-lxt-brushless-vacuum-dvc750",
   "model": "DVC750Z",
-  "lastScraped": "2026-03-12T16:43:49.480Z",
+  "lastScraped": "2026-03-12T21:38:16.252Z",
   "retailers": {
     "Screwfix": {
       "price": 149.99,
       "inStock": true,
       "name": "Makita DVC750LZ 18V Li-Ion LXT Brushless Cordless L Class Vacuum Cleaner - Bare (725KG)",
       "url": "https://www.screwfix.com/p/makita-dvc750lz-18v-li-ion-lxt-brushless-cordless-l-class-vacuum-cleaner-bare/725kg",
-      "lastScraped": "2026-03-12T15:10:57.154Z"
+      "lastScraped": "2026-03-12T21:38:17.290Z"
     }
   }
 }

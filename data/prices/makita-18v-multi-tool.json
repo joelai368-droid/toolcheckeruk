@@ -1,28 +1,28 @@
 {
   "slug": "makita-18v-multi-tool",
   "model": "DTM52Z",
-  "lastScraped": "2026-03-12T16:42:46.682Z",
+  "lastScraped": "2026-03-12T21:36:37.116Z",
   "retailers": {
     "Screwfix": {
       "price": 149.99,
       "inStock": true,
       "name": "Makita DTM52Z 18V Li-Ion LXT Brushless Cordless Multi-Tool - Bare (767XJ)",
       "url": "https://www.screwfix.com/p/makita-dtm52z-18v-li-ion-lxt-brushless-cordless-multi-tool-bare/767xj",
-      "lastScraped": "2026-03-12T15:09:42.968Z"
+      "lastScraped": "2026-03-12T21:36:37.879Z"
     },
     "ITS": {
       "price": 164.99,
       "inStock": true,
       "name": "Makita DTM52Z 18V LXT Brushless Multi-Tool - Body",
       "url": "https://its.co.uk/pd/MAKDTM52Z-Makita-DTM52Z-18V-LXT-Brushless-Multi-Tool---Body-_MAKDTM52Z.htm",
-      "lastScraped": "2026-03-12T15:09:45.071Z"
+      "lastScraped": "2026-03-12T21:36:39.862Z"
     },
     "Powertool Mate": {
       "price": 152.99,
       "inStock": true,
       "name": "Makita DTM52Z 18V Brushless LXT Multi-Tool - Body Only",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-multi-tools/makita-dtm52z-18v-brushless-lxt-multi-tool-body-only.htm",
-      "lastScraped": "2026-03-12T16:42:49.929Z"
+      "lastScraped": "2026-03-12T21:36:40.713Z"
     }
   }
 }

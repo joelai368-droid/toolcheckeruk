@@ -1,14 +1,14 @@
 {
   "slug": "makita-18v-lxt-brushless-orbital-sander-dbo382",
   "model": "DBO382Z",
-  "lastScraped": "2026-03-12T16:43:43.907Z",
+  "lastScraped": "2026-03-12T21:38:03.693Z",
   "retailers": {
     "ITS": {
       "price": 155.99,
       "inStock": true,
       "name": "Makita DBO382Z 18V LXT Brushless Finishing Sander - Body",
       "url": "https://its.co.uk/pd/makita-dbo382z-18v-lxt-brushless-finishing-sander-body-_makdbo382z.htm",
-      "lastScraped": "2026-03-12T15:10:46.714Z"
+      "lastScraped": "2026-03-12T21:38:06.670Z"
     }
   }
 }

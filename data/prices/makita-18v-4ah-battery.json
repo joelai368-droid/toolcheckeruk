@@ -1,14 +1,14 @@
 {
   "slug": "makita-18v-4ah-battery",
   "model": "BL1840B",
-  "lastScraped": "2026-03-12T16:43:56.126Z",
+  "lastScraped": "2026-03-12T21:38:27.438Z",
   "retailers": {
     "ITS": {
       "price": 71.99,
       "inStock": true,
       "name": "Makita BL1840B 4.0Ah 18V LXT Li-Ion Battery",
       "url": "https://its.co.uk/pd/BL1840B-Makita-BL1840B-40Ah-18V-LXT-Li-Ion-Battery-_MAKBL1840B.htm",
-      "lastScraped": "2026-03-12T15:11:10.521Z"
+      "lastScraped": "2026-03-12T21:38:30.744Z"
     }
   }
 }

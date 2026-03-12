@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-circular-saw",
   "model": "DCS391N",
-  "lastScraped": "2026-03-12T14:03:00.982Z",
+  "lastScraped": "2026-03-12T14:38:41.045Z",
   "retailers": {
     "Screwfix": {
       "price": 99.99,
@@ -9,6 +9,13 @@
       "name": "DEWALT DCS391 165mm 18V Li-Ion XR  Cordless Circular Saw - Bare (23296)",
       "url": "https://www.screwfix.com/p/dewalt-dcs391-165mm-18v-li-ion-xr-cordless-circular-saw-bare/23296",
       "lastScraped": "2026-03-12T14:03:04.477Z"
+    },
+    "ITS": {
+      "price": 119.99,
+      "inStock": true,
+      "name": "Dewalt DCS391N 18V XR 165mm Circular Saw - Body",
+      "url": "https://its.co.uk/pd/DCS391-Dewalt-DCS391N-18V-XR-165mm-Circular-Saw---Body-_DEWDCS391N.htm",
+      "lastScraped": "2026-03-12T14:38:44.195Z"
     }
   }
 }

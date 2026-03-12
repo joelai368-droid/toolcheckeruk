@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-2ah-battery",
   "model": "DCB183",
-  "lastScraped": "2026-03-12T14:04:38.252Z",
+  "lastScraped": "2026-03-12T14:39:52.879Z",
   "retailers": {
     "Screwfix": {
       "price": 33.99,
@@ -9,6 +9,13 @@
       "name": "DEWALT DCB183-XJ 18V 2.0Ah Li-Ion XR Slide Pack Battery (91732)",
       "url": "https://www.screwfix.com/p/dewalt-dcb183-xj-18v-2-0ah-li-ion-xr-slide-pack-battery/91732",
       "lastScraped": "2026-03-12T14:04:41.453Z"
+    },
+    "ITS": {
+      "price": 29.99,
+      "inStock": true,
+      "name": "Dewalt DCB183 2.0Ah 18V XR Li-ion Battery",
+      "url": "https://its.co.uk/pd/DCB183-Dewalt-DCB183-20Ah-18V-XR-Li-ion-Battery-_DEWDCB183.htm",
+      "lastScraped": "2026-03-12T14:39:55.947Z"
     }
   }
 }

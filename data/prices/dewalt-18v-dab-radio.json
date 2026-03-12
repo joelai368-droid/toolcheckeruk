@@ -1,0 +1,14 @@
+{
+  "slug": "dewalt-18v-dab-radio",
+  "model": "DCR020",
+  "lastScraped": "2026-03-12T14:39:46.641Z",
+  "retailers": {
+    "ITS": {
+      "price": 119.99,
+      "inStock": true,
+      "name": "Dewalt DCR020 XR Compact DAB Radio - Body",
+      "url": "https://its.co.uk/pd/DCR020-Dewalt-DCR020-XR-Compact-DAB-Radio---Body-_DEW240DCR020.htm",
+      "lastScraped": "2026-03-12T14:39:49.762Z"
+    }
+  }
+}

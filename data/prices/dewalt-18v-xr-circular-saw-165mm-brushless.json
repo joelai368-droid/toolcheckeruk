@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-circular-saw-165mm-brushless",
   "model": "DCS565N",
-  "lastScraped": "2026-03-12T14:03:49.404Z",
+  "lastScraped": "2026-03-12T14:39:17.594Z",
   "retailers": {
     "Screwfix": {
       "price": 189.99,
@@ -9,6 +9,13 @@
       "name": "DEWALT DCS565N-XJ 165mm 18V Li-Ion XR Brushless Cordless Circular Saw - Bare (445XK)",
       "url": "https://www.screwfix.com/p/dewalt-dcs565n-xj-165mm-18v-li-ion-xr-brushless-cordless-circular-saw-bare/445xk#product_additional_details_container",
       "lastScraped": "2026-03-12T14:03:53.124Z"
+    },
+    "ITS": {
+      "price": 149.99,
+      "inStock": true,
+      "name": "Dewalt DCS565N 18V XR Brushless 165mm Circular Saw - Body",
+      "url": "https://its.co.uk/pd/DCS565N-Dewalt-DCS565N-18V-XR-Brushless-165mm-Circular-Saw---Body-_DEWDCS565N.htm",
+      "lastScraped": "2026-03-12T14:39:21.083Z"
     }
   }
 }

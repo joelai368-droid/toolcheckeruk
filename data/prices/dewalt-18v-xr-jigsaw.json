@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-jigsaw",
   "model": "DCS334N",
-  "lastScraped": "2026-03-12T14:03:14.137Z",
+  "lastScraped": "2026-03-12T14:38:51.074Z",
   "retailers": {
     "Screwfix": {
       "price": 189.99,
@@ -9,6 +9,13 @@
       "name": "DEWALT DCS334N-XJ 18V Li-Ion XR Brushless Cordless Jigsaw - Bare (175HG)",
       "url": "https://www.screwfix.com/p/dewalt-dcs334n-xj-18v-li-ion-xr-brushless-cordless-jigsaw-bare/175hg#product_additional_details_container",
       "lastScraped": "2026-03-12T14:03:17.230Z"
+    },
+    "ITS": {
+      "price": 149.99,
+      "inStock": true,
+      "name": "Dewalt DCS334N 18V XR Brushless Jigsaw - Body",
+      "url": "https://its.co.uk/pd/DCS334-Dewalt-DCS334-18V-XR-Brushless-Jigsaw---Body-_DEWDCS334N.htm",
+      "lastScraped": "2026-03-12T14:38:54.123Z"
     }
   }
 }

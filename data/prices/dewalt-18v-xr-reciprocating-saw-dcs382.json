@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-reciprocating-saw-dcs382",
   "model": "DCS382N",
-  "lastScraped": "2026-03-12T14:03:53.125Z",
+  "lastScraped": "2026-03-12T14:39:24.110Z",
   "retailers": {
     "Screwfix": {
       "price": 149.99,
@@ -9,6 +9,13 @@
       "name": "DEWALT DCS382N-XJ 18V Li-Ion XR Brushless Cordless Reciprocating Saw - Bare (778XK)",
       "url": "https://www.screwfix.com/p/dewalt-dcs382n-xj-18v-li-ion-xr-brushless-cordless-reciprocating-saw-bare/778xk#product_additional_details_container",
       "lastScraped": "2026-03-12T14:03:56.217Z"
+    },
+    "ITS": {
+      "price": 144.98,
+      "inStock": true,
+      "name": "Dewalt DCS382N 18V XR Brushless Reciprocating Saw - Body",
+      "url": "https://its.co.uk/pd/DCS382N-Dewalt-DCS382N-18v-XR-Brushless-Reciprocating-Saw---Body-_DEWDCS382N.htm",
+      "lastScraped": "2026-03-12T14:39:27.282Z"
     }
   }
 }

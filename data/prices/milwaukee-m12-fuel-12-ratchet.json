@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m12-fuel-12-ratchet",
   "model": "M12 FIR12-0",
-  "lastScraped": "2026-03-12T12:02:35.179Z",
+  "lastScraped": "2026-03-12T18:02:36.260Z",
   "retailers": {
     "Screwfix": {
       "price": 139.97,
       "inStock": true,
       "name": "Milwaukee M12 FIR12-0 FUEL 12V Li-Ion RedLithium Brushless Cordless Sub Compact Ratchet - Bare (939GE)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-fir12-0-fuel-12v-li-ion-redlithium-brushless-cordless-sub-compact-ratchet-bare/939ge",
-      "lastScraped": "2026-03-12T12:02:35.664Z"
+      "lastScraped": "2026-03-12T18:02:36.706Z"
     },
     "Toolstation": {
       "price": 139.98,
       "inStock": true,
       "name": "Milwaukee M12 FIR12-0 FUEL 1/2'' Ratchet Body Only",
       "url": "https://www.toolstation.com/milwaukee-m12-fir12-0-fuel-12-ratchet/p80496",
-      "lastScraped": "2026-03-12T12:02:36.539Z"
+      "lastScraped": "2026-03-12T18:02:37.680Z"
     },
     "Powertool Mate": {
       "price": 135.99,
       "inStock": true,
       "name": "Milwaukee M12FIR12-0 12V Fuel 1/2\" Ratchet (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fir12-0-12v-1-2-fuel-ratchet-bare-unit.htm",
-      "lastScraped": "2026-03-12T12:02:38.558Z"
+      "lastScraped": "2026-03-12T18:02:39.620Z"
     }
   }
 }

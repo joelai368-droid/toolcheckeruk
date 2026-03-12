@@ -1,21 +1,21 @@
 {
   "slug": "milwaukee-m12-fuel-hackzall",
   "model": "M12 CHZ-0",
-  "lastScraped": "2026-03-12T12:02:38.559Z",
+  "lastScraped": "2026-03-12T18:02:39.621Z",
   "retailers": {
     "Screwfix": {
       "price": 119.97,
       "inStock": true,
       "name": "Milwaukee M12 CHZ-0 FUEL 12V Li-Ion RedLithium Brushless Cordless Reciprocating Saw - Bare (468FJ)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-chz-0-fuel-12v-li-ion-redlithium-brushless-cordless-reciprocating-saw-bare/468fj#product_additional_details_container",
-      "lastScraped": "2026-03-12T12:02:39.415Z"
+      "lastScraped": "2026-03-12T18:02:40.447Z"
     },
     "Powertool Mate": {
       "price": 111.99,
       "inStock": true,
       "name": "Milwaukee M12CHZ-0 12v Fuel HackZall Bare Unit",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-reciprocating-saws/milwaukee-m12chz-0-12v-fuel-hackzall-bare-unit.htm",
-      "lastScraped": "2026-03-12T12:02:41.569Z"
+      "lastScraped": "2026-03-12T18:02:42.620Z"
     }
   }
 }

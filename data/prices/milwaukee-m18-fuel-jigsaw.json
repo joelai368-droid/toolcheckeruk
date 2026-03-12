@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-jigsaw",
   "model": "M18 FJS-0",
-  "lastScraped": "2026-03-12T12:00:12.759Z",
+  "lastScraped": "2026-03-12T18:00:10.861Z",
   "retailers": {
     "Toolstation": {
       "price": 169.98,
       "inStock": true,
       "name": "Milwaukee M18FJS-0 FUEL™ Jigsaw Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18fjs-0-fuel-jigsaw/pAC787",
-      "lastScraped": "2026-03-12T12:00:15.364Z"
+      "lastScraped": "2026-03-12T18:00:13.143Z"
     },
     "ITS": {
       "price": 155.99,
       "inStock": true,
       "name": "Milwaukee M18 FJS-0 18V FUEL Brushless Top Handle Jigsaw - Body",
       "url": "https://its.co.uk/pd/M18FJS-0-Milwaukee-M18-FJS-0X-18V-FUEL-Brushless-Top-Handle-Jigsaw---Body-_MILM18FJS0.htm",
-      "lastScraped": "2026-03-12T12:00:16.205Z"
+      "lastScraped": "2026-03-12T18:00:14.022Z"
     },
     "Powertool Mate": {
       "price": 139.99,
       "inStock": true,
       "name": "Milwaukee M18FJS-0 18v Fuel  Jigsaw Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-jigsaws/milwaukee-m18fjs0-m18-fuel-li-ion-jigsaw-body-only.htm",
-      "lastScraped": "2026-03-12T12:00:17.103Z"
+      "lastScraped": "2026-03-12T18:00:14.922Z"
     }
   }
 }

@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-fuel-impact-driver",
   "model": "M18 FID3-0",
-  "lastScraped": "2026-03-12T12:00:05.222Z",
+  "lastScraped": "2026-03-12T18:00:05.068Z",
   "retailers": {
     "Screwfix": {
       "price": 119.99,
       "inStock": true,
       "name": "Milwaukee M18FID3-0 FUEL 18V Li-Ion RedLithium Brushless Cordless Impact Driver - Bare (461CX)",
       "url": "https://www.screwfix.com/p/milwaukee-m18fid3-0-fuel-18v-li-ion-redlithium-brushless-cordless-impact-driver-bare/461cx",
-      "lastScraped": "2026-03-12T12:00:05.998Z"
+      "lastScraped": "2026-03-12T18:00:05.810Z"
     },
     "Toolstation": {
       "price": 99.98,
       "inStock": true,
       "name": "Milwaukee M18 FID3-0 FUEL Gen 4 Impact Driver Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18-fid3-0-fuel-gen-4-impact-driver/p17964",
-      "lastScraped": "2026-03-12T12:00:06.452Z"
+      "lastScraped": "2026-03-12T18:00:06.384Z"
     },
     "ITS": {
       "price": 95.99,
       "inStock": true,
       "name": "Milwaukee M18 FID3-0 18V FUEL Brushless 1/4\" Impact Driver - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-fid3-0x-18v-fuel-brushless-1-4-impact-driver-body-_milm18fid30.htm",
-      "lastScraped": "2026-03-12T12:00:07.362Z"
+      "lastScraped": "2026-03-12T18:00:07.439Z"
     },
     "Powertool Mate": {
       "price": 89.99,
       "inStock": true,
       "name": "Milwaukee 18v M18FID3-0 Fuel Impact Driver Naked - NEW GEN",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-18v-fid3-impact-driver-naked-new-gen.htm",
-      "lastScraped": "2026-03-12T12:00:08.271Z"
+      "lastScraped": "2026-03-12T18:00:08.340Z"
     }
   }
 }

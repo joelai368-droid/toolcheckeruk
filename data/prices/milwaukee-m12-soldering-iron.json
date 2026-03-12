@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m12-soldering-iron",
   "model": "M12 SI-0",
-  "lastScraped": "2026-03-12T12:02:54.403Z",
+  "lastScraped": "2026-03-12T18:02:56.599Z",
   "retailers": {
     "Screwfix": {
       "price": 69.99,
       "inStock": true,
       "name": "Milwaukee M12 SI-0 12V Li-Ion RedLithium Cordless Soldering Iron - Bare (283HR)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-si-0-12v-li-ion-redlithium-cordless-soldering-iron-bare/283hr#product_additional_details_container",
-      "lastScraped": "2026-03-12T12:02:55.115Z"
+      "lastScraped": "2026-03-12T18:02:57.043Z"
     },
     "ITS": {
       "price": 59.99,
       "inStock": true,
       "name": "Milwaukee M12 SI-0 12V Soldering Iron - Body",
       "url": "https://its.co.uk/pd/M12SI-0-Milwaukee-M12-SI-0-12V-Soldering-Iron---Body-_MILM12SI0.htm",
-      "lastScraped": "2026-03-12T12:02:56.243Z"
+      "lastScraped": "2026-03-12T18:02:58.691Z"
     },
     "Powertool Mate": {
       "price": 58.99,
       "inStock": true,
       "name": "Milwaukee M12SI-0 12V Cordless Soldering Iron (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m12si-0-m12-si-0-cordless-soldering-iron-12v-bare-unit.htm",
-      "lastScraped": "2026-03-12T12:02:57.830Z"
+      "lastScraped": "2026-03-12T18:02:59.608Z"
     }
   }
 }

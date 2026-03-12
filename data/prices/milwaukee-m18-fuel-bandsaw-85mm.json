@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-fuel-bandsaw-85mm",
   "model": "M18 FBS85-0",
-  "lastScraped": "2026-03-12T12:01:19.437Z",
+  "lastScraped": "2026-03-12T18:01:18.725Z",
   "retailers": {
     "Screwfix": {
       "price": 249.97,
       "inStock": true,
       "name": "Milwaukee M18FBS85-0 85mm 18V Li-Ion RedLithium Brushless Cordless Bandsaw - Bare (903XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18fbs85-0-85mm-18v-li-ion-redlithium-brushless-cordless-bandsaw-bare/903xh#product_additional_details_container",
-      "lastScraped": "2026-03-12T12:01:20.497Z"
+      "lastScraped": "2026-03-12T18:01:19.889Z"
     },
     "Toolstation": {
       "price": 349.98,
       "inStock": true,
       "name": "Milwaukee M18FBS85-202C FUEL Compact Band Saw 2 x 2.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18fbs85-202c-fuel-compact-band-saw/p39310",
-      "lastScraped": "2026-03-12T12:01:20.967Z"
+      "lastScraped": "2026-03-12T18:01:20.351Z"
     },
     "ITS": {
       "price": 229.98,
       "inStock": true,
       "name": "Milwaukee M18 FBS85-0C 18V FUEL Brushless Compact 85mm Bandsaw - Body with Case",
       "url": "https://its.co.uk/pd/M18-FBS85-0C-Milwaukee-M18-FBS85-0C-18V-FUEL-Brushless-Compact-85mm-Bandsaw---Body-with-Case-_MILM18FBS850C.htm",
-      "lastScraped": "2026-03-12T12:01:21.869Z"
+      "lastScraped": "2026-03-12T18:01:21.459Z"
     },
     "Powertool Mate": {
       "price": 219.99,
       "inStock": true,
       "name": "Milwaukee M18FBS85-0C 18V 85mm Compact Bandsaw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-bandsaws/milwaukee-18v-m18fbs85-0c-85mm-compact-band-saw-body-only.htm",
-      "lastScraped": "2026-03-12T12:01:22.767Z"
+      "lastScraped": "2026-03-12T18:01:22.344Z"
     }
   }
 }

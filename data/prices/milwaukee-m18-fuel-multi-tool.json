@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-multi-tool",
   "model": "M18 FMT-0",
-  "lastScraped": "2026-03-12T12:00:19.758Z",
+  "lastScraped": "2026-03-12T18:00:17.036Z",
   "retailers": {
     "Toolstation": {
       "price": 124.98,
       "inStock": true,
       "name": "Milwaukee M18FMT-0 FUEL Multi Tool Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18fmt-0-fuel-multi-tool/p46372",
-      "lastScraped": "2026-03-12T12:00:20.856Z"
+      "lastScraped": "2026-03-12T18:00:19.823Z"
     },
     "ITS": {
       "price": 139.98,
       "inStock": true,
       "name": "Milwaukee M18 FMT-0 18V FUEL Brushless Multi Tool - Body",
       "url": "https://its.co.uk/pd/M18-FMT-Milwaukee-M18-FMT-0-18V-FUEL-Brushless-Multi-Tool---Body-Only-_MILM18FMT0NOCASE.htm",
-      "lastScraped": "2026-03-12T12:00:22.463Z"
+      "lastScraped": "2026-03-12T18:00:20.778Z"
     },
     "Powertool Mate": {
       "price": 112.99,
       "inStock": true,
       "name": "Milwaukee M18FMT-0 Fuel 18V Multi-tool Bare Unit",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-multi-tools/milwaukee-m18fmt-0-fuel-18v-multi-tool-bare-unit.htm",
-      "lastScraped": "2026-03-12T12:00:23.296Z"
+      "lastScraped": "2026-03-12T18:00:21.643Z"
     }
   }
 }

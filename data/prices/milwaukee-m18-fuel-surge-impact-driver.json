@@ -1,21 +1,21 @@
 {
   "slug": "milwaukee-m18-fuel-surge-impact-driver",
   "model": "M18 FQID-0",
-  "lastScraped": "2026-03-12T12:00:37.974Z",
+  "lastScraped": "2026-03-12T18:00:36.015Z",
   "retailers": {
     "Screwfix": {
       "price": 155.99,
       "inStock": true,
       "name": "Milwaukee M18FQID-0 FUEL SURGE 18V Li-Ion RedLithium Brushless Cordless Impact Driver - Bare (540XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18fqid-0-fuel-surge-18v-li-ion-redlithium-brushless-cordless-impact-driver-bare/540xh#product_additional_details_container",
-      "lastScraped": "2026-03-12T12:00:38.406Z"
+      "lastScraped": "2026-03-12T18:00:36.894Z"
     },
     "Toolstation": {
       "price": 329.98,
       "inStock": true,
       "name": "Milwaukee M18 FQID-502X FUEL SURGE Hydraulic Impact Driver 2 x 5.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-fqid-502x-fuel-surge-hydraulic-impact-driver/p42800",
-      "lastScraped": "2026-03-12T12:00:41.236Z"
+      "lastScraped": "2026-03-12T18:00:39.111Z"
     }
   }
 }

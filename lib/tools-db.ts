@@ -4562,49 +4562,6 @@ const tools: Tool[] = [
     ],
   },
   {
-    slug: "dewalt-18v-xr-first-fix-nailer",
-    brand: "DeWalt",
-    name: "18V XR Brushless First Fix Framing Nailer (Body Only)",
-    modelNumber: "DCN692N",
-    category: "nail-guns",
-    description: "Brushless first fix nailer firing 50-90mm nails. Dual speed switch for use with framing and decking nails. Sequential and bump fire modes.",
-    retailers: [
-      {
-        name: "Amazon UK",
-        checkPrice: true,
-        inStock: true,
-        delivery: "Free (Prime)",
-        clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B00KAFRDKK?tag=toolcheckeruk-21",
-      },
-      {
-        name: "Screwfix",
-        price: 399.99,
-        inStock: true,
-        delivery: "Free over £50",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 384.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "ITS",
-        price: 379.99,
-        originalPrice: 429.99,
-        inStock: true,
-        delivery: "£4.99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
-  },
-  {
     slug: "dewalt-18v-xr-second-fix-nailer",
     brand: "DeWalt",
     name: "18V XR Brushless 16 Gauge Second Fix Nailer (Body Only)",

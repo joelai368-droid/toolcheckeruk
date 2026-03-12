@@ -21,12 +21,16 @@
   "milwaukee-m18-fuel-sds-plus-drill": {
     "model": "M18 CHX-0",
     "name": "M18 FUEL SDS Plus Hammer Drill (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M18CHX-0-18v-M18-FUEL-SDSplus-Drill---Body-_MILM18CHX0.htm"
+    }
   },
   "milwaukee-m18-fuel-circular-saw": {
     "model": "M18 FCS66-0",
     "name": "M18 FUEL 190mm Circular Saw (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M18FCS66-0C-Milwaukee-M18-FCS66-0C-18V-FUEL-Brushless-190mm-Circular-Saw---Body-_MILM18FCS660C.htm"
+    }
   },
   "milwaukee-m18-fuel-reciprocating-saw": {
     "model": "M18 ONEFSZ-0X",
@@ -289,12 +293,16 @@
   "milwaukee-m18-caulking-gun": {
     "model": "M18 PCG/310C-0",
     "name": "M18 310ml Caulking Gun (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/milwaukee-c18pcg-310c-18v-310ml-caulking-gun-body-_milc18pcg310c.htm"
+    }
   },
   "milwaukee-m18-fuel-mitre-saw-216mm": {
     "model": "M18 SMS216-0",
     "name": "M18 216mm Sliding Mitre Saw (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M18SMS2160-Milwaukee-M18-SMS216-0-18V-216mm-Mitre-Saw---Body-_MILM18SMS2160.htm"
+    }
   },
   "milwaukee-m18-onekey-34-impact-wrench": {
     "model": "M18 ONEFHIWF34-0",
@@ -315,7 +323,9 @@
   "milwaukee-m18-fuel-sds-max-hammer": {
     "model": "M18 CHM-0",
     "name": "M18 FUEL SDS Max Drilling & Breaking Hammer (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M18CHM-0-18v-M18-SDS-Max-Rotary-Demolition-Hammer---Body-_MILM18CHM0.htm"
+    }
   },
   "milwaukee-m18-fuel-165mm-circular-saw": {
     "model": "M18 FCSG66-0",
@@ -341,9 +351,11 @@
     }
   },
   "milwaukee-m18-fuel-belt-sander": {
-    "model": "M18 FBS75-0",
+    "model": "M18 FBTS75-0",
     "name": "M18 FUEL Belt Sander (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-sanders/milwaukee-m18fbts75-0-18v-fuel-belt-sander-naked.htm"
+    }
   },
   "milwaukee-m18-fuel-narrow-crown-stapler": {
     "model": "M18 FNCS18GS-0",
@@ -363,9 +375,11 @@
     }
   },
   "milwaukee-m18-threaded-rod-cutter": {
-    "model": "M18 FTHRC-0",
+    "model": "M18 BLTRC-0X",
     "name": "M18 FUEL Threaded Rod Cutter (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M18-BLTRC-0X-Milwaukee-M18-BLTRC-0X-18V-Brushless-Threaded-Rod-Cutter---Body-_MILM18BLTRC0X.htm"
+    }
   },
   "milwaukee-m18-fuel-packout-vacuum": {
     "model": "M18 FPOVCL-0",
@@ -395,7 +409,9 @@
   "milwaukee-m18-fuel-hedge-trimmer": {
     "model": "M18 FHET60-0",
     "name": "M18 FUEL Hedge Trimmer (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/milwaukee-m18-fhet60g2-0-18v-fuel-brushless-60cm-hedge-trimmer-body-_milm18fhet60g20.htm"
+    }
   },
   "milwaukee-m18-area-light": {
     "model": "M18 TAL-0",
@@ -416,17 +432,23 @@
   "milwaukee-m18-dab-radio": {
     "model": "M18 JSRDAB-0",
     "name": "M18 Compact Site DAB Radio (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M18JSRDABand-0-Milwaukee-M18-JSR-DAB--18V-Jobsite-Radio---Body-_MILM18JSRDABPLUS0.htm"
+    }
   },
   "milwaukee-m12-m18-bluetooth-speaker": {
     "model": "M12-18 JSSP-0",
     "name": "M12-18 Bluetooth Jobsite Speaker (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M12-18-JSSP-0-Milwaukee-M12-18JSSP-Bluetooth-Speaker---Body-_MILM1218JSSP0.htm"
+    }
   },
   "milwaukee-m18-transfer-pump": {
-    "model": "M18 TP-0",
+    "model": "M18 BTP-0",
     "name": "M18 Transfer Pump (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M18BTP0-Milwaukee-M18-BTP-0-18V-Compact-Transfer-Pump---Body-_MILM18BTP0.htm"
+    }
   },
   "milwaukee-m18-fuel-pipe-threader": {
     "model": "M18 FPT2-0",
@@ -438,7 +460,9 @@
   "milwaukee-m12-fuel-impact-wrench": {
     "model": "M12 FIWF12-0",
     "name": "M12 FUEL 1/2\" Stubby Impact Wrench (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M12FIWF12-0-Milwaukee-M12-FIWF12-0-12V-FUEL-Brushless-12-Impact-Wrench---Body-_MILM12FIWF120.htm"
+    }
   },
   "milwaukee-m12-fuel-combi-drill": {
     "model": "M12 FPD2-0",
@@ -467,7 +491,9 @@
   "milwaukee-m12-sub-compact-drill-driver": {
     "model": "M12 BDD-0",
     "name": "M12 Sub Compact Drill Driver (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M12-BDD-0-Milwaukee-M12-BDD-0-12V-Compact-Drill-Driver---Body-_MILM12BDD0.htm"
+    }
   },
   "milwaukee-m12-fuel-impact-driver": {
     "model": "M12 FID2-0",
@@ -566,7 +592,9 @@
   "milwaukee-m12-fuel-sds-plus-drill": {
     "model": "M12 CH-0",
     "name": "M12 FUEL SDS Plus Hammer Drill (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M12CH-0-Milwaukee-M12-CH-0-12V-FUEL-Brushless-SDSplus-Drill---Body-_MILM12CH0.htm"
+    }
   },
   "milwaukee-m12-soldering-iron": {
     "model": "M12 SI-0",
@@ -684,7 +712,9 @@
   "milwaukee-m18-hb12-battery": {
     "model": "M18 HB12",
     "name": "M18 12.0Ah HIGH OUTPUT Battery",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/M18-HB12-Milwaukee-M18-HB12-120Ah-18V-High-Output-Li-Ion-Battery-_MILM18HB12.htm"
+    }
   },
   "milwaukee-m12-b2-battery": {
     "model": "M12 B2",
@@ -744,6 +774,8 @@
   "milwaukee-m12-m18-sc-charger": {
     "model": "M12-18 SC",
     "name": "M12-18 Super Charger",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/Milwaukee-M12-18-SC-12V---18V-Super-Fast-Charger_MILM1218SC.htm"
+    }
   }
 }

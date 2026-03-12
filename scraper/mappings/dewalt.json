@@ -343,7 +343,9 @@
   "dewalt-18v-wet-dry-vacuum": {
     "model": "DCV582N",
     "name": "18V/14.4V XR Wet and Dry Vacuum (Body Only)",
-    "retailers": {},
+    "retailers": {
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-vac-dust-extractors/dewalt-dcv584l-54v-18v-xr-flexvolt-cordless-corded-wet-and-dry-vacuum-body-only.htm"
+    },
     "brand": "DeWalt"
   },
   "dewalt-18v-green-laser-level": {

@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-bandsaw",
   "model": "M12 FBS64-0",
-  "lastScraped": "2026-03-12T18:02:51.413Z",
+  "lastScraped": "2026-03-12T19:20:51.390Z",
   "retailers": {
     "ITS": {
       "price": 185.99,
@@ -16,6 +16,13 @@
       "name": "Milwaukee M12FBS64-0C M12 Fuel 64mm Band Saw Bare Unit In Case",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-bandsaws/milwaukee-m12fbs64-0c-m12-fuel-64mm-band-saw-bare-unit-in-case.htm",
       "lastScraped": "2026-03-12T18:02:53.011Z"
+    },
+    "Toolstation": {
+      "price": 179.98,
+      "inStock": true,
+      "name": "Milwaukee M12FBS64-0C FUEL Sub Compact Band Saw Body only",
+      "url": "https://www.toolstation.com/milwaukee-m12fbs64-0c-fuel-sub-compact-band-saw/p61200",
+      "lastScraped": "2026-03-12T19:20:55.163Z"
     }
   }
 }

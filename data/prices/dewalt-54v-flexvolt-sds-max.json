@@ -1,0 +1,14 @@
+{
+  "slug": "dewalt-54v-flexvolt-sds-max",
+  "model": "DCH481NT",
+  "lastScraped": "2026-03-12T14:03:45.712Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 839.99,
+      "inStock": true,
+      "name": "DEWALT DCH481X2-GB 5.4kg 54V 2 x 9.0Ah Li-Ion XR FlexVolt Brushless Cordless SDS Max Drill (9941T)",
+      "url": "https://www.screwfix.com/p/dewalt-dch481x2-gb-5-4kg-54v-2-x-9-0ah-li-ion-xr-flexvolt-brushless-cordless-sds-max-drill/9941t",
+      "lastScraped": "2026-03-12T14:03:49.403Z"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "dewalt-18v-dual-charger",
+  "model": "DCB132",
+  "lastScraped": "2026-03-12T14:05:00.483Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 109.99,
+      "inStock": true,
+      "name": "DEWALT DCB132 10.8/14.4/18/54V Li-Ion XR Dual-Port Multi-Voltage Battery Charger (3499P)",
+      "url": "https://www.screwfix.com/p/dewalt-dcb132-10-8-14-4-18-54v-li-ion-xr-dual-port-multi-voltage-battery-charger/3499p#product_additional_details_container",
+      "lastScraped": "2026-03-12T14:05:03.231Z"
+    }
+  }
+}

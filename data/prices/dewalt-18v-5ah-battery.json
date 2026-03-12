@@ -1,0 +1,14 @@
+{
+  "slug": "dewalt-18v-5ah-battery",
+  "model": "DCB184",
+  "lastScraped": "2026-03-12T14:04:44.462Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 54.99,
+      "inStock": true,
+      "name": "DEWALT DCB184-XJ 18V 5.0Ah Li-Ion XR Slide Pack Battery (6328D)",
+      "url": "https://www.screwfix.com/p/dewalt-dcb184-xj-18v-5-0ah-li-ion-xr-slide-pack-battery/6328d",
+      "lastScraped": "2026-03-12T14:04:47.452Z"
+    }
+  }
+}

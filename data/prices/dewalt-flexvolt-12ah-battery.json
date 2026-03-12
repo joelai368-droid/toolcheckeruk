@@ -1,0 +1,14 @@
+{
+  "slug": "dewalt-flexvolt-12ah-battery",
+  "model": "DCB548",
+  "lastScraped": "2026-03-12T14:04:57.148Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 249.99,
+      "inStock": true,
+      "name": "DEWALT DCB548-XJ 18 / 54V 12.0 / 4.0Ah Li-Ion XR FlexVolt Battery (267HG)",
+      "url": "https://www.screwfix.com/p/dewalt-dcb548-xj-18-54v-12-0-4-0ah-li-ion-xr-flexvolt-battery/267hg#product_additional_details_container",
+      "lastScraped": "2026-03-12T14:05:00.482Z"
+    }
+  }
+}

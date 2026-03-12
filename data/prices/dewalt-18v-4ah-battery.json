@@ -1,0 +1,14 @@
+{
+  "slug": "dewalt-18v-4ah-battery",
+  "model": "DCB182",
+  "lastScraped": "2026-03-12T14:04:41.453Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 59.99,
+      "inStock": true,
+      "name": "DEWALT DCB182-XJ 18V 4.0Ah Li-Ion XR Battery (61372)",
+      "url": "https://www.screwfix.com/p/dewalt-dcb182-xj-18v-4-0ah-li-ion-xr-battery/61372",
+      "lastScraped": "2026-03-12T14:04:44.462Z"
+    }
+  }
+}

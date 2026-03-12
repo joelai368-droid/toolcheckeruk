@@ -1,0 +1,14 @@
+{
+  "slug": "dewalt-flexvolt-6ah-battery",
+  "model": "DCB546",
+  "lastScraped": "2026-03-12T14:04:50.849Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 129.99,
+      "inStock": true,
+      "name": "DEWALT DCB546-XJ 54V 6.0Ah Li-Ion XR FlexVolt Battery (2832P)",
+      "url": "https://www.screwfix.com/p/dewalt-dcb546-xj-54v-6-0ah-li-ion-xr-flexvolt-battery/2832p#product_additional_details_container",
+      "lastScraped": "2026-03-12T14:04:54.049Z"
+    }
+  }
+}

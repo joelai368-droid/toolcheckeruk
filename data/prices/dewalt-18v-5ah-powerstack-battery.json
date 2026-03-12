@@ -1,0 +1,14 @@
+{
+  "slug": "dewalt-18v-5ah-powerstack-battery",
+  "model": "DCBP518",
+  "lastScraped": "2026-03-12T14:04:47.453Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 199.99,
+      "inStock": true,
+      "name": "DEWALT DCBP518H2-XJ 18V 5.0Ah Li-Ion PowerStack Battery Kit 2 Pack (938FU)",
+      "url": "https://www.screwfix.com/p/dewalt-dcbp518h2-xj-18v-5-0ah-li-ion-powerstack-battery-kit-2-pack/938fu",
+      "lastScraped": "2026-03-12T14:04:50.848Z"
+    }
+  }
+}

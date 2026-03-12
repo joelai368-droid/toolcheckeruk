@@ -1,6 +1,3 @@
-import fs from 'fs';
-import path from 'path';
-
 export interface ScrapedRetailerData {
   price?: number;
   inStock?: boolean;
@@ -19,15 +16,16 @@ export interface ScrapedPrices {
   retailers: Record<string, ScrapedRetailerData>;
 }
 
-const PRICES_DIR = path.join(process.cwd(), 'data/prices');
 const MAX_PRICE_AGE_MS = 24 * 60 * 60 * 1000; // 24 hours — hide stale data
 
-export function getScrapedPrices(slug: string): ScrapedPrices | null {
-  const file = path.join(PRICES_DIR, `${slug}.json`);
+/**
+ * Load scraped prices for a tool via dynamic import so the bundler
+ * tracks the JSON files as dependencies (works reliably on Vercel).
+ */
+export async function getScrapedPrices(slug: string): Promise<ScrapedPrices | null> {
   try {
-    if (!fs.existsSync(file)) return null;
-    const data: ScrapedPrices = JSON.parse(fs.readFileSync(file, 'utf8'));
-    return data;
+    const mod = await import(`@/data/prices/${slug}.json`);
+    return (mod.default ?? mod) as ScrapedPrices;
   } catch {
     return null;
   }

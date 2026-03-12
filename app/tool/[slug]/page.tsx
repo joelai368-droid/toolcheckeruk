@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tool = getToolBySlug(slug);
   if (!tool) return { title: "Tool Not Found | ToolCheckerUK" };
 
-  const scraped = getScrapedPrices(slug);
+  const scraped = await getScrapedPrices(slug);
   const merged = mergeRetailers(tool.retailers, scraped);
   const pricedRetailers = merged.filter((r) => r.price != null && !r.checkPrice).sort((a, b) => a.price! - b.price!);
   const bestPrice = pricedRetailers[0]?.price;
@@ -34,7 +34,7 @@ export default async function ToolPage({ params }: PageProps) {
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
 
-  const scraped = getScrapedPrices(slug);
+  const scraped = await getScrapedPrices(slug);
   const allRetailers = mergeRetailers(tool.retailers, scraped);
 
   // Sort: in-stock with price first (cheapest), then out-of-stock, then check-price

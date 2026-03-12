@@ -18,12 +18,6 @@
     },
     "brand": "DeWalt"
   },
-  "dewalt-18v-xr-impact-wrench": {
-    "model": "DCF899N",
-    "name": "18V XR Brushless High Torque Impact Wrench (Body Only)",
-    "retailers": {},
-    "brand": "DeWalt"
-  },
   "dewalt-18v-xr-circular-saw": {
     "model": "DCS391N",
     "name": "18V XR Brushless 165mm Circular Saw (Body Only)",
@@ -147,12 +141,6 @@
     },
     "brand": "DeWalt"
   },
-  "dewalt-18v-xr-high-torque-impact-wrench-dcf894": {
-    "model": "DCF894N",
-    "name": "18V XR Brushless High Torque 1/2\" Impact Wrench (Body Only)",
-    "retailers": {},
-    "brand": "DeWalt"
-  },
   "dewalt-18v-xr-compact-impact-wrench-dcf922": {
     "model": "DCF922N",
     "name": "18V XR Brushless Compact 1/2\" Impact Wrench (Body Only)",
@@ -169,12 +157,6 @@
     "retailers": {
       "Toolstation": "https://www.toolstation.com/dewalt-dch133n-xj-18v-xr-brushless-sds-hammer-drill/pAA239"
     },
-    "brand": "DeWalt"
-  },
-  "dewalt-18v-xr-sds-plus-28mm": {
-    "model": "DCH283N",
-    "name": "18V XR Brushless SDS Plus Hammer Drill 28mm (Body Only)",
-    "retailers": {},
     "brand": "DeWalt"
   },
   "dewalt-54v-flexvolt-sds-max": {

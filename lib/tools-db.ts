@@ -4203,49 +4203,6 @@ const tools: Tool[] = [
     ],
   },
   {
-    slug: "dewalt-18v-xr-impact-wrench",
-    brand: "DeWalt",
-    name: "18V XR Brushless High Torque Impact Wrench (Body Only)",
-    modelNumber: "DCF899N",
-    category: "impact-drivers",
-    description: "Heavy-duty 1/2\" impact wrench delivering 950Nm max breakaway torque. 3-speed selector switch. Die-cast aluminium gear case.",
-    retailers: [
-      {
-        name: "Amazon UK",
-        checkPrice: true,
-        inStock: true,
-        delivery: "Free (Prime)",
-        clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B00VXN7TUW?tag=toolcheckeruk-21",
-      },
-      {
-        name: "Screwfix",
-        price: 219.99,
-        inStock: true,
-        delivery: "Free over £50",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 214.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "ITS",
-        price: 204.99,
-        originalPrice: 239.99,
-        inStock: true,
-        delivery: "£4.99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
-  },
-  {
     slug: "dewalt-18v-xr-circular-saw",
     brand: "DeWalt",
     name: "18V XR Brushless 165mm Circular Saw (Body Only)",
@@ -5924,56 +5881,6 @@ const tools: Tool[] = [
     ],
   },
   {
-    slug: "dewalt-18v-xr-high-torque-impact-wrench-dcf894",
-    brand: "DeWalt",
-    name: "18V XR Brushless High Torque 1/2\" Impact Wrench (Body Only)",
-    modelNumber: "DCF894N",
-    category: "impact-drivers",
-    description: "High torque brushless 1/2\" impact wrench with 678Nm max torque. Ideal for automotive and heavy-duty fastening.",
-    retailers: [
-      {
-        name: "Amazon UK",
-        checkPrice: true,
-        inStock: true,
-        delivery: "Free (Prime)",
-        clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B07C2NZHLM?tag=toolcheckeruk-21",
-      },
-      {
-        name: "Screwfix",
-        price: 224.99,
-        inStock: true,
-        delivery: "Free over £50",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "Toolstation",
-        price: 229.99,
-        inStock: true,
-        delivery: "£5.00",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 221.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "ITS",
-        price: 219.99,
-        inStock: true,
-        delivery: "£4.99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
-  },
-  {
     slug: "dewalt-18v-xr-compact-impact-wrench-dcf922",
     brand: "DeWalt",
     name: "18V XR Brushless Compact 1/2\" Impact Wrench (Body Only)",
@@ -6066,56 +5973,6 @@ const tools: Tool[] = [
       {
         name: "ITS",
         price: 149.99,
-        inStock: true,
-        delivery: "£4.99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
-  },
-  {
-    slug: "dewalt-18v-xr-sds-plus-28mm",
-    brand: "DeWalt",
-    name: "18V XR Brushless SDS Plus Hammer Drill 28mm (Body Only)",
-    modelNumber: "DCH283N",
-    category: "sds-drills",
-    description: "28mm SDS Plus rotary hammer with 3.0J impact energy and 3 operating modes. Active vibration control.",
-    retailers: [
-      {
-        name: "Amazon UK",
-        checkPrice: true,
-        inStock: true,
-        delivery: "Free (Prime)",
-        clickCollect: false,
-        url: "https://www.amazon.co.uk/dp/B07RTKTX2S?tag=toolcheckeruk-21",
-      },
-      {
-        name: "Screwfix",
-        price: 234.99,
-        inStock: true,
-        delivery: "Free over £50",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "Toolstation",
-        price: 239.99,
-        inStock: true,
-        delivery: "£5.00",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 231.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "ITS",
-        price: 229.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,

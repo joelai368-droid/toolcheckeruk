@@ -304,9 +304,11 @@
     }
   },
   "milwaukee-m18-onekey-1-impact-wrench": {
-    "model": "M18 ONEFHIWP12-0",
+    "model": "M18 ONEFHIWF12-0",
     "name": "M18 FUEL ONE-KEY 1\" High Torque Impact Wrench (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "Toolstation": "https://www.toolstation.com/milwaukee-m18-onefhiwf12-502x-one-key-fuel-high-torque-12-impact-wrench-with-friction-ring/p61398"
+    }
   },
   "milwaukee-m18-fuel-sds-max-hammer": {
     "model": "M18 CHM-0",
@@ -397,9 +399,11 @@
     "retailers": {}
   },
   "milwaukee-m18-area-light": {
-    "model": "M18 TRAL-0",
+    "model": "M18 TAL-0",
     "name": "M18 Radius LED Area Light (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "Toolstation": "https://www.toolstation.com/milwaukee-m18tal-0-radius-area-light/p71375"
+    }
   },
   "milwaukee-m18-lantern": {
     "model": "M18 AL-0",
@@ -426,9 +430,11 @@
     "retailers": {}
   },
   "milwaukee-m18-fuel-pipe-threader": {
-    "model": "M18 FPTR12-0",
+    "model": "M18 FPT2-0",
     "name": "M18 FUEL Pipe Threader (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "Toolstation": "https://www.toolstation.com/milwaukee-m18-fpt2-0c-fuel-one-key-2-pipe-threader/p28850"
+    }
   },
   "milwaukee-m12-fuel-impact-wrench": {
     "model": "M12 FIWF12-0",
@@ -545,7 +551,8 @@
     "name": "M12 FUEL 64mm Bandsaw (Body Only)",
     "retailers": {
       "ITS": "https://its.co.uk/pd/M12FBS64-0C-Milwaukee-M12-FBS64-0C-12V-FUEL-Brushless-64mm-Band-Saw---Body-with-Case-_MILM12FBS640C.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-bandsaws/milwaukee-m12fbs64-0c-m12-fuel-64mm-band-saw-bare-unit-in-case.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-bandsaws/milwaukee-m12fbs64-0c-m12-fuel-64mm-band-saw-bare-unit-in-case.htm",
+      "Toolstation": "https://www.toolstation.com/milwaukee-m12fbs64-0c-fuel-sub-compact-band-saw/p61200"
     }
   },
   "milwaukee-m12-fuel-multi-tool": {

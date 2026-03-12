@@ -397,11 +397,6 @@
     "name": "M18 FUEL Hedge Trimmer (Body Only)",
     "retailers": {}
   },
-  "milwaukee-m18-fuel-string-trimmer": {
-    "model": "M18 FOPST-0",
-    "name": "M18 FUEL String Trimmer (Body Only)",
-    "retailers": {}
-  },
   "milwaukee-m18-area-light": {
     "model": "M18 TAL-0",
     "name": "M18 Radius LED Area Light (Body Only)",
@@ -749,11 +744,6 @@
   "milwaukee-m12-m18-sc-charger": {
     "model": "M12-18 SC",
     "name": "M12-18 Super Charger",
-    "retailers": {}
-  },
-  "milwaukee-m18-starter-pack": {
-    "model": "M18 STARTER",
-    "name": "M18 Starter Pack",
     "retailers": {}
   }
 }

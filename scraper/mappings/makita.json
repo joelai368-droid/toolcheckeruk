@@ -1,0 +1,410 @@
+{
+  "makita-18v-lxt-combi-drill": {
+    "model": "DHP486Z",
+    "name": "18V LXT Brushless Combi Drill (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-18v-impact-driver": {
+    "model": "DTD153Z",
+    "name": "18V LXT Brushless Impact Driver (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dtd153z-18v-li-ion-lxt-brushless-cordless-impact-driver-bare/1053v#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DTD153Z-Makita-DTD153Z-18V-LXT-Brushless-Impact-Driver---Body-_MAKDTD153Z.htm"
+    }
+  },
+  "makita-18v-circular-saw": {
+    "model": "DHS680Z",
+    "name": "18V LXT Brushless 165mm Circular Saw (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dhs680z-165mm-18v-li-ion-lxt-brushless-cordless-circular-saw-bare/8373j#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DHS680Z-Makita-DHS680Z-18V-LXT-165mm-Brushless-Circular-Saw---Body-_MAKDHS680Z.htm"
+    }
+  },
+  "makita-18v-angle-grinder": {
+    "model": "DGA504Z",
+    "name": "18V LXT Brushless 125mm Angle Grinder (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DGA504Z-Makita-DGA504Z-18V-LXT-Li-ion-Brushless-Cordless-Grinder-125mm-Body-Only-_MAKDGA504Z.htm"
+    }
+  },
+  "makita-18v-multi-tool": {
+    "model": "DTM52Z",
+    "name": "18V LXT Brushless Multi-Tool (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dtm52z-18v-li-ion-lxt-brushless-cordless-multi-tool-bare/767xj",
+      "ITS": "https://its.co.uk/pd/MAKDTM52Z-Makita-DTM52Z-18V-LXT-Brushless-Multi-Tool---Body-_MAKDTM52Z.htm"
+    }
+  },
+  "makita-18v-reciprocating-saw": {
+    "model": "DJR186Z",
+    "name": "18V LXT Reciprocating Saw (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-djr186z-18v-li-ion-lxt-cordless-reciprocating-saw-bare/8334r#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DJR186Z-Makita-DJR186Z-18V-LXT-Reciprocating-Saw---Body-_MAKDJR186Z.htm"
+    }
+  },
+  "makita-18v-jigsaw": {
+    "model": "DJV182Z",
+    "name": "18V LXT Brushless Jigsaw (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-djv182z-18v-li-ion-lxt-brushless-cordless-jigsaw-bare/8926j#product_additional_details_container"
+    }
+  },
+  "makita-18v-sds-plus-drill": {
+    "model": "DHR242Z",
+    "name": "18V LXT Brushless SDS Plus Hammer Drill (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dhr242z-2-7kg-18v-li-ion-lxt-brushless-cordless-sds-plus-drill-bare/7144j"
+    }
+  },
+  "makita-18v-planer": {
+    "model": "DKP181Z",
+    "name": "18V LXT Brushless 82mm Planer (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dkp181z-18v-li-ion-lxt-brushless-cordless-planer-bare/193kg#product_additional_details_container"
+    }
+  },
+  "makita-18v-brad-nailer": {
+    "model": "DBN600Z",
+    "name": "18V LXT 18 Gauge Brad Nailer (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-18v-orbital-sander": {
+    "model": "DBO180Z",
+    "name": "18V LXT 125mm Random Orbital Sander (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dbo180z-125mm-18v-li-ion-lxt-cordless-random-orbital-sander-bare/5839j#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DBO180Z-Makita-DBO180Z-18V-LXT-125mm-Random-Orbital-Sander---Body-_MAKDBO180Z.htm"
+    }
+  },
+  "makita-18v-router": {
+    "model": "DRT50Z",
+    "name": "18V LXT Brushless Router Trimmer (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-drt50zjx3-18v-li-ion-lxt-1-4-brushless-cordless-router-trimmer-bare/640ht"
+    }
+  },
+  "makita-18v-lxt-drill-driver-ddf486": {
+    "model": "DDF486Z",
+    "name": "18V LXT Brushless Drill Driver (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-18v-lxt-combi-drill-dhp487": {
+    "model": "DHP487Z",
+    "name": "18V LXT Brushless Combi Drill (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/Makita-DHP487Z-18V-LXT-Brushless-Combi-Drill---Body_MAKDHP487Z.htm"
+    }
+  },
+  "makita-18v-lxt-drill-driver-ddf487": {
+    "model": "DDF487Z",
+    "name": "18V LXT Brushless Drill Driver Gen2 (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-40v-xgt-combi-drill": {
+    "model": "HP001GZ",
+    "name": "40V XGT Brushless Combi Drill (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/HP001G-Makita-HP001GZ-40V-XGT-Brushless-Combi-Drill---Body-_MAKHP001GZ.htm"
+    }
+  },
+  "makita-18v-lxt-impact-driver-dtd172": {
+    "model": "DTD172Z",
+    "name": "18V LXT Brushless Impact Driver (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-18v-lxt-impact-wrench-dtw300": {
+    "model": "DTW300Z",
+    "name": "18V LXT Brushless 1/2\" Impact Wrench (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dtw300z-18v-li-ion-lxt-brushless-cordless-impact-wrench-bare/145kj",
+      "ITS": "https://its.co.uk/pd/DTW300-Makita-DTW300Z-18V-LXT-Brushless-12-Impact-Wrench---Body-_MAKDTW300Z.htm"
+    }
+  },
+  "makita-18v-lxt-impact-wrench-34-dtw700": {
+    "model": "DTW700Z",
+    "name": "18V LXT Brushless 3/4\" Impact Wrench (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dtw700z-18v-li-ion-lxt-brushless-cordless-impact-wrench-bare/670xj#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DTW700Z-Makita-DTW700Z-18V-LXT-Brushless-12-Impact-Wrench---Body-_MAKDTW700Z.htm"
+    }
+  },
+  "makita-18v-lxt-impact-wrench-dtw1002": {
+    "model": "DTW1002Z",
+    "name": "18V LXT Brushless High Torque 1/2\" Impact Wrench (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dtw1002z-18v-li-ion-lxt-brushless-cordless-impact-wrench-bare/843xj#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DTW1002Z-Makita-DTW1002-18V-LXT-Brushless-12-Impact-Wrench---Body-_MAKDTW1002Z.htm"
+    }
+  },
+  "makita-40v-xgt-impact-wrench": {
+    "model": "TW001GZ",
+    "name": "40V XGT Brushless 1/2\" Impact Wrench (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/TW001GZ-Makita-TW001GZ-40V-XGT-Brushless-34-Impact-Wrench---Body-_MAKTW001GZ.htm"
+    }
+  },
+  "makita-18v-lxt-sds-plus-dhr171": {
+    "model": "DHR171Z",
+    "name": "18V LXT Brushless SDS Plus Hammer Drill (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DHR171Z-Makita-DHR171Z-18V-LXT-Brushless-SDSplus-Drill---Body-_MAKDHR171Z.htm"
+    }
+  },
+  "makita-18v-lxt-sds-plus-dhr243": {
+    "model": "DHR243Z",
+    "name": "18V LXT Brushless SDS Plus Hammer Drill 24mm (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dhr243z-3-1kg-18v-li-ion-lxt-brushless-cordless-sds-plus-rotary-hammer-bare/607xj"
+    }
+  },
+  "makita-twin-18v-lxt-sds-plus-dhr283": {
+    "model": "DHR283Z",
+    "name": "2x18V LXT Brushless SDS Plus Hammer Drill 28mm (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-twin-18v-lxt-sds-max-dhr400": {
+    "model": "DHR400Z",
+    "name": "2x18V LXT Brushless SDS Max Hammer Drill (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-40v-xgt-sds-plus": {
+    "model": "HR003GZ",
+    "name": "40V XGT Brushless SDS Plus Hammer Drill (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/HR003G-Makita-HR003GZ-40V-XGT-Brushless-SDSplus-Drill---Body-_MAKHR003GZ.htm"
+    }
+  },
+  "makita-18v-lxt-circular-saw-165mm-dss611": {
+    "model": "DSS611Z",
+    "name": "18V LXT 165mm Circular Saw (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dss611z-165mm-18v-li-ion-lxt-cordless-circular-saw-bare/60898#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DSS611Z-Makita-DSS611Z-18V-LXT-165mm-Circular-Saw---Body-_MAKDSS611Z.htm"
+    }
+  },
+  "makita-twin-18v-lxt-mitre-saw-305mm": {
+    "model": "DLS211Z",
+    "name": "2x18V LXT Brushless 305mm Sliding Compound Mitre Saw (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-twin-18v-lxt-mitre-saw-260mm": {
+    "model": "DLS110Z",
+    "name": "2x18V LXT Brushless 260mm Sliding Mitre Saw (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/makita-dls110z-36v-twin-18v-260mm-brushless-slide-compound-mitre-saw-body-debwst06-saw-stand-_makdls110wst.htm"
+    }
+  },
+  "makita-twin-18v-lxt-plunge-saw": {
+    "model": "DSP600Z",
+    "name": "2x18V LXT Brushless 165mm Plunge Saw (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dsp600zj-36v-li-ion-lxt-165mm-brushless-cordless-plunge-saw-bare/484fg"
+    }
+  },
+  "makita-18v-lxt-angle-grinder-dga513": {
+    "model": "DGA513Z",
+    "name": "18V LXT Brushless 125mm Angle Grinder (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dga513z-18v-li-ion-lxt-5-brushless-cordless-angle-grinder-bare/292xj#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DGA513Z-Makita-DGA513Z-18V-LXT-125mm-Brushless-Grinder---Body-_MAKDGA513Z.htm"
+    }
+  },
+  "makita-18v-lxt-angle-grinder-paddle-dga519": {
+    "model": "DGA519Z",
+    "name": "18V LXT Brushless 125mm Paddle Switch Angle Grinder (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dga519z-18v-li-ion-lxt-5-brushless-cordless-angle-grinder-bare/832xj#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DGA519Z-Makita-DGA519Z-18V-LXT-125mm-Brushless-X-LOCK-Grinder---Body-_MAKDGA519Z.htm"
+    }
+  },
+  "makita-twin-18v-lxt-angle-grinder-180mm": {
+    "model": "DGA700Z",
+    "name": "2x18V LXT Brushless 180mm Angle Grinder (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-40v-xgt-angle-grinder-125mm": {
+    "model": "GA023GZ",
+    "name": "40V XGT Brushless 125mm Angle Grinder (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/GA023GZ-Makita-GA023GZ-40V-XGT-Brushless-125mm-Angle-Grinder---Body-_MAKGA023GZ.htm"
+    }
+  },
+  "makita-40v-xgt-router": {
+    "model": "RT001GZ",
+    "name": "40V XGT Brushless Router (Body Only)",
+    "brand": "Makita",
+    "retailers": {}
+  },
+  "makita-18v-lxt-brushless-orbital-sander-dbo382": {
+    "model": "DBO382Z",
+    "name": "18V LXT Brushless 125mm Random Orbital Sander (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/makita-dbo382z-18v-lxt-brushless-finishing-sander-body-_makdbo382z.htm"
+    }
+  },
+  "makita-18v-lxt-pin-nailer-dpt353": {
+    "model": "DPT353Z",
+    "name": "18V LXT 23 Gauge Pin Nailer (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DPT353Z-Makita-DPT353Z-18V-Pin-Nailer-Body-_MAKDPT353Z.htm"
+    }
+  },
+  "makita-18v-lxt-led-torch": {
+    "model": "DML812",
+    "name": "18V LXT LED Torch/Flashlight",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DML812-Makita-DML812-18V-LXT-Torch---Body-_MAKDML812.htm"
+    }
+  },
+  "makita-18v-lxt-dab-radio": {
+    "model": "DMR115",
+    "name": "18V LXT DAB+ Job Site Radio",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/SMDMR1153-EMCO-45w-MR11-35mm-LED-Lamp-3000K-_EMCSMDMR1153.htm"
+    }
+  },
+  "makita-18v-lxt-brushless-vacuum-dvc750": {
+    "model": "DVC750Z",
+    "name": "18V LXT Brushless L-Class Vacuum Cleaner (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dvc750lz-18v-li-ion-lxt-brushless-cordless-l-class-vacuum-cleaner-bare/725kg"
+    }
+  },
+  "makita-18v-lxt-inflator-dmp180": {
+    "model": "DMP180Z",
+    "name": "18V LXT Digital Inflator (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/makita-dmp180z-18v-li-ion-lxt-cordless-inflator-bare/662pr#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DMP180Z-Makita-DMP180Z-18V-LXT-Inflator---Body-_MAKDMP180.htm"
+    }
+  },
+  "makita-40v-xgt-green-laser-level": {
+    "model": "SK700GDZ",
+    "name": "40V XGT Self-Levelling Cross Line Green Laser (Body Only)",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/SK700GDZ-Makita-SK700G-12V-Max-CXT-Green-Multi-Line-Laser-_MAKSK700GDZ.htm"
+    }
+  },
+  "makita-18v-3ah-battery": {
+    "model": "BL1830B",
+    "name": "18V LXT 3.0Ah Lithium-Ion Battery",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/BL1830B-Makita-BL1830B-30Ah-18V-LXT-Li-Ion-Battery-_MAKBL1830B.htm"
+    }
+  },
+  "makita-18v-4ah-battery": {
+    "model": "BL1840B",
+    "name": "18V LXT 4.0Ah Lithium-Ion Battery",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/BL1840B-Makita-BL1840B-40Ah-18V-LXT-Li-Ion-Battery-_MAKBL1840B.htm"
+    }
+  },
+  "makita-18v-5ah-battery": {
+    "model": "BL1850B",
+    "name": "18V LXT 5.0Ah Lithium-Ion Battery",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/BL1850B-Makita-BL1850B-50Ah-18V-LXT-Li-Ion-Battery-_MAKBL1850B.htm"
+    }
+  },
+  "makita-18v-6ah-battery": {
+    "model": "BL1860B",
+    "name": "18V LXT 6.0Ah Lithium-Ion Battery",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/BL1860B-Makita-BL1860B-60Ah-18V-LXT-Li-Ion-Battery-_MAKBL1860B.htm"
+    }
+  },
+  "makita-40v-25ah-battery": {
+    "model": "BL4025",
+    "name": "40V XGT 2.5Ah Lithium-Ion Battery",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/191B36-3-Makita-BL4025-25Ah-40V-XGT-Li-Ion-Battery-_MAKBL4025.htm"
+    }
+  },
+  "makita-40v-4ah-battery": {
+    "model": "BL4040",
+    "name": "40V XGT 4.0Ah Lithium-Ion Battery",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/191B26-6-Makita-BL4040-40Ah-40V-XGT-Li-Ion-Battery-_MAKBL4040.htm"
+    }
+  },
+  "makita-40v-5ah-battery": {
+    "model": "BL4050F",
+    "name": "40V XGT 5.0Ah Lithium-Ion Battery",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/BL4050F-Makita-BL4050-50Ah-40V-XGT-Li-Ion-Battery-_MAKBL4050F.htm"
+    }
+  },
+  "makita-18v-single-charger": {
+    "model": "DC18RC",
+    "name": "18V LXT Rapid Battery Charger",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DC18RC-Makita-DC18RC-144V---18V--LXT-Battery-Charger---240V-_MAK240DC18RC.htm"
+    }
+  },
+  "makita-18v-dual-charger": {
+    "model": "DC18RD",
+    "name": "18V LXT Dual Port Rapid Charger",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DC18RD-Makita-DC18RD-144V---18V--Dual-Port-Battery-Charger---240V-_MAK240DC18RD.htm"
+    }
+  },
+  "makita-40v-charger": {
+    "model": "DC40RA",
+    "name": "40V XGT Rapid Battery Charger",
+    "brand": "Makita",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/Makita-DC40RA-40V-MAX-XGT-Fast-Charger_MAKDC40RA.htm"
+    }
+  }
+}

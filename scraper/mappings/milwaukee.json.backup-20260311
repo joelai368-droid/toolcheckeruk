@@ -1,0 +1,578 @@
+{
+  "milwaukee-m18-fuel-combi-drill": {
+    "model": "M18 FPD3-0",
+    "name": "M18 FUEL Combi Drill (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-impact-driver": {
+    "model": "M18 FID3-0",
+    "name": "M18 FUEL Impact Driver (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fid3-0-fuel-18v-li-ion-redlithium-brushless-cordless-impact-driver-bare/461cx"
+    }
+  },
+  "milwaukee-m18-fuel-sds-plus-drill": {
+    "model": "M18 CHX-0",
+    "name": "M18 FUEL SDS Plus Hammer Drill (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-cdex-0-18v-li-ion-redlithium-brushless-cordless-m-class-sds-plus-dust-extractor-bare/275ge#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-circular-saw": {
+    "model": "M18 FCS66-0",
+    "name": "M18 FUEL 190mm Circular Saw (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-reciprocating-saw": {
+    "model": "M18 ONEFSZ-0X",
+    "name": "M18 FUEL SAWZALL Reciprocating Saw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18onefsz-0x-18v-li-ion-redlithium-high-output-brushless-cordless-sawzall-reciprocating-saw-bare/312xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-jigsaw": {
+    "model": "M18 FJS-0",
+    "name": "M18 FUEL Top Handle Jigsaw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fsag115xb-0-18v-li-ion-redlithium-4-1-2-brushless-cordless-angle-grinder-bare/162pg"
+    }
+  },
+  "milwaukee-m18-fuel-angle-grinder": {
+    "model": "M18 FHSAG125XPDB-0",
+    "name": "M18 FUEL 125mm Angle Grinder with Paddle Switch (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-multi-tool": {
+    "model": "M18 FMT-0",
+    "name": "M18 FUEL Multi-Tool (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fsag115xb-0-18v-li-ion-redlithium-4-1-2-brushless-cordless-angle-grinder-bare/162pg"
+    }
+  },
+  "milwaukee-m18-fuel-planer": {
+    "model": "M18 BP-0",
+    "name": "M18 FUEL 82mm Planer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-bp-0-18v-li-ion-cordless-planer-bare/291fj#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-orbital-sander": {
+    "model": "M18 BOS125-0",
+    "name": "M18 FUEL 125mm Random Orbital Sander (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-18v-li-ion-redlithium-brushless-cordless-power-head-bare/608eh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-brad-nailer": {
+    "model": "M18 FN18GS-0",
+    "name": "M18 FUEL 18 Gauge Brad Nailer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fn16gs-0x-64mm-18v-li-ion-redlithium-brushless-second-fix-cordless-nail-gun-bare/374tn#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-first-fix-nailer": {
+    "model": "M18 FFN-0",
+    "name": "M18 FUEL First Fix Framing Nailer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18ffn-0c-3-3mm-18v-li-ion-redlithium-brushless-first-fix-cordless-nail-gun-bare/711xh"
+    }
+  },
+  "milwaukee-m18-compact-combi-drill": {
+    "model": "M18 BPD-0",
+    "name": "M18 Compact Combi Drill (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fsag115xb-0-18v-li-ion-redlithium-4-1-2-brushless-cordless-angle-grinder-bare/162pg"
+    }
+  },
+  "milwaukee-m18-fuel-surge-impact-driver": {
+    "model": "M18 FQID-0",
+    "name": "M18 FUEL Surge Hydraulic Impact Driver (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fqid-0-fuel-surge-18v-li-ion-redlithium-brushless-cordless-impact-driver-bare/540xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-12-impact-wrench": {
+    "model": "M18 FHIWF12-0",
+    "name": "M18 FUEL 1/2\" High Torque Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-onekey-12-impact-wrench": {
+    "model": "M18 ONEFHIWF12-0",
+    "name": "M18 FUEL ONE-KEY 1/2\" High Torque Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-hackzall": {
+    "model": "M18 FHZ-0",
+    "name": "M18 FUEL Hackzall Reciprocating Saw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fhz-0-fuel-18v-li-ion-brushless-cordless-hackzall-reciprocating-saw-bare/333fj#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-115mm-angle-grinder": {
+    "model": "M18 FSAGV115XPDB-0",
+    "name": "M18 FUEL 115mm Angle Grinder with Paddle Switch (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-125mm-braking-grinder": {
+    "model": "M18 FSAGF125XPDB-0",
+    "name": "M18 FUEL 125mm Angle Grinder with Paddle & Brake (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fsagf125xpdb-0x-18v-li-ion-redlithium-high-output-5-brushless-cordless-angle-grinder-bare/253vt#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-230mm-angle-grinder": {
+    "model": "M18 FLAG230XPDB-0",
+    "name": "M18 FUEL 230mm Angle Grinder with Paddle Switch (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18flag230xpdb-0c-18v-li-ion-redlithium-high-output-9-brushless-cordless-angle-grinder-bare/520vt#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-compact-router": {
+    "model": "M18 FTR-0",
+    "name": "M18 FUEL Compact Router / Trimmer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18ftr-0x-fuel-18v-li-ion-redlithium-1-4-brushless-cordless-router-trimmer-bare/886xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-sds-plus-4-mode": {
+    "model": "M18 FH-0",
+    "name": "M18 FUEL SDS Plus 4-Mode Rotary Hammer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fpddexl-0-18v-li-ion-redlithium-brushless-cordless-sds-dust-extractor-bare/902vt"
+    }
+  },
+  "milwaukee-m18-fuel-super-sawzall": {
+    "model": "M18 FSX-0",
+    "name": "M18 FUEL Super SAWZALL Reciprocating Saw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fsx-0x-fuel-18v-li-ion-brushless-cordless-sawzall-reciprocating-saw-bare/485hg#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-led-torch": {
+    "model": "M18 TLED-0",
+    "name": "M18 LED Torch (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-tled-0-18v-li-ion-redlithium-cordless-led-work-torch-bare/281hp#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-blower": {
+    "model": "M18 FBLG3-0",
+    "name": "M18 FUEL Blower (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-inflator": {
+    "model": "M18 BI-0",
+    "name": "M18 Compact Tyre Inflator (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-bi-0-18v-li-ion-redlithium-cordless-inflator-bare/230ge#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-bandsaw-85mm": {
+    "model": "M18 FBS85-0",
+    "name": "M18 FUEL 85mm Compact Bandsaw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fbs85-0-85mm-18v-li-ion-redlithium-brushless-cordless-bandsaw-bare/903xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-deep-cut-bandsaw": {
+    "model": "M18 CBS125-0",
+    "name": "M18 FUEL 125mm Deep Cut Bandsaw (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-mitre-saw-254mm": {
+    "model": "M18 FMS254-0",
+    "name": "M18 FUEL 254mm Mitre Saw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fms254-0-254mm-18v-li-ion-redlithium-high-output-brushless-cordless-double-bevel-sliding-mitre-saw-bare/370xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-mitre-saw-305mm": {
+    "model": "M18 FMS305-0",
+    "name": "M18 FUEL ONE-KEY 305mm Mitre Saw (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-table-saw": {
+    "model": "M18 FTS210-0",
+    "name": "M18 FUEL ONE-KEY 210mm Table Saw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fts210-0-fuel-18v-li-ion-redlithium-210mm-brushless-cordless-table-saw-bare/855hg#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-16ga-finish-nailer": {
+    "model": "M18 FN16GA-0",
+    "name": "M18 FUEL 16 Gauge Angled Finish Nailer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fn16ga-0x-1-6mm-18v-li-ion-redlithium-brushless-second-fix-cordless-nail-gun-bare/360xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-grease-gun": {
+    "model": "M18 GG-0",
+    "name": "M18 Cordless Grease Gun (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-gg-0-18v-li-ion-redlithium-cordless-grease-gun-bare/374gy#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-caulking-gun": {
+    "model": "M18 PCG/310C-0",
+    "name": "M18 310ml Caulking Gun (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-mitre-saw-216mm": {
+    "model": "M18 SMS216-0",
+    "name": "M18 216mm Sliding Mitre Saw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fedg-0-18v-li-ion-redlithium-brushless-cordless-lawn-edger-bare/896eh"
+    }
+  },
+  "milwaukee-m18-onekey-34-impact-wrench": {
+    "model": "M18 ONEFHIWF34-0",
+    "name": "M18 FUEL ONE-KEY 3/4\" High Torque Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-onekey-1-impact-wrench": {
+    "model": "M18 ONEFHIWP12-0",
+    "name": "M18 FUEL ONE-KEY 1\" High Torque Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-sds-max-hammer": {
+    "model": "M18 CHM-0",
+    "name": "M18 FUEL SDS Max Drilling & Breaking Hammer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fap180-0-180mm-18v-li-ion-redlithium-brushless-cordless-polisher-bare/270xh"
+    }
+  },
+  "milwaukee-m18-fuel-165mm-circular-saw": {
+    "model": "M18 FCSG66-0",
+    "name": "M18 FUEL 165mm Circular Saw (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-125mm-slide-grinder": {
+    "model": "M18 FSAG125X-0",
+    "name": "M18 FUEL 125mm Angle Grinder with Slide Switch (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-orbital-polisher": {
+    "model": "M18 FROP15-0",
+    "name": "M18 FUEL Random Orbital Polisher 150mm (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18frop15-0x-fuel-125mm-18v-li-ion-redlithium-brushless-cordless-polisher-bare/204vt#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-belt-sander": {
+    "model": "M18 FBS75-0",
+    "name": "M18 FUEL Belt Sander (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-fuel-narrow-crown-stapler": {
+    "model": "M18 FNCS18GS-0",
+    "name": "M18 FUEL Narrow Crown Stapler (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fncs18gs-0x-9-5mm-18v-li-ion-redlithium-brushless-second-fix-cordless-nail-gun-bare/612xh"
+    }
+  },
+  "milwaukee-m18-fuel-magnetic-drill": {
+    "model": "M18 FMDP-0",
+    "name": "M18 FUEL Magnetic Drill Press (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-vc2-0-18v-li-ion-cordless-wet-dry-vacuum-bare/867fj"
+    }
+  },
+  "milwaukee-m18-threaded-rod-cutter": {
+    "model": "M18 FTHRC-0",
+    "name": "M18 FUEL Threaded Rod Cutter (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-18v-li-ion-redlithium-brushless-cordless-power-head-bare/608eh"
+    }
+  },
+  "milwaukee-m18-fuel-packout-vacuum": {
+    "model": "M18 FPOVCL-0",
+    "name": "M18 FUEL PACKOUT Vacuum (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fpovcl-0-18v-li-ion-redlithium-brushless-cordless-l-class-packout-wet-dry-vacuum-bare/507xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-wet-dry-vacuum": {
+    "model": "M18 FVCL-0",
+    "name": "M18 FUEL Wet/Dry Vacuum (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fsag115xb-0-18v-li-ion-redlithium-4-1-2-brushless-cordless-angle-grinder-bare/162pg"
+    }
+  },
+  "milwaukee-m18-fuel-chainsaw": {
+    "model": "M18 FCHSC-0",
+    "name": "M18 FUEL Chainsaw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-fchsc-0-fuel-18v-li-ion-redlithium-high-output-brushless-cordless-30cm-chainsaw-bare/434rv#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-fuel-hedge-trimmer": {
+    "model": "M18 FHTES-0",
+    "name": "M18 FUEL Hedge Trimmer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fpp6m3-503b-fuel-18v-3-x-5-0ah-li-ion-redlithium-brushless-cordless-6-piece-power-tool-kit/566cx"
+    }
+  },
+  "milwaukee-m18-fuel-string-trimmer": {
+    "model": "M18 FOPST-0",
+    "name": "M18 FUEL String Trimmer (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-18v-li-ion-redlithium-brushless-cordless-power-head-bare/608eh"
+    }
+  },
+  "milwaukee-m18-area-light": {
+    "model": "M18 TRAL-0",
+    "name": "M18 Radius LED Area Light (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-packout-crate-16-1-2-/541kf"
+    }
+  },
+  "milwaukee-m18-lantern": {
+    "model": "M18 AL-0",
+    "name": "M18 Compact Site Light Lantern (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-al-0-18v-li-ion-redlithium-cordless-led-rover-area-light-bare/315fp#product_additional_details_container"
+    }
+  },
+  "milwaukee-m18-dab-radio": {
+    "model": "M18 JSRDAB-0",
+    "name": "M18 Compact Site DAB Radio (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-vc2-0-18v-li-ion-cordless-wet-dry-vacuum-bare/867fj"
+    }
+  },
+  "milwaukee-m12-m18-bluetooth-speaker": {
+    "model": "M12-18 JSSP-0",
+    "name": "M12-18 Bluetooth Jobsite Speaker (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-transfer-pump": {
+    "model": "M18 TP-0",
+    "name": "M18 Transfer Pump (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-18v-li-ion-redlithium-brushless-cordless-power-head-bare/608eh"
+    }
+  },
+  "milwaukee-m18-fuel-pipe-threader": {
+    "model": "M18 FPTR12-0",
+    "name": "M18 FUEL Pipe Threader (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-fuel-impact-wrench": {
+    "model": "M12 FIWF12-0",
+    "name": "M12 FUEL 1/2\" Stubby Impact Wrench (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-fraiwf12-0-fuel-12v-li-ion-redlithium-brushless-cordless-right-angle-impact-wrench-bare/907ge"
+    }
+  },
+  "milwaukee-m12-fuel-combi-drill": {
+    "model": "M12 FPD2-0",
+    "name": "M12 FUEL Combi Drill (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-fuel-drill-driver": {
+    "model": "M12 FDD-0",
+    "name": "M12 FUEL Sub Compact Drill Driver (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-hv-0-12v-li-ion-redlithium-cordless-stick-vacuum-cleaner-bare/480hp"
+    }
+  },
+  "milwaukee-m12-fuel-installation-drill": {
+    "model": "M12 FDDXKIT-0",
+    "name": "M12 FUEL Installation Drill/Driver 4-in-1 (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fid2-0-fuel-12v-li-ion-redlithium-brushless-cordless-impact-driver-bare/458vt"
+    }
+  },
+  "milwaukee-m12-sub-compact-drill-driver": {
+    "model": "M12 BDD-0",
+    "name": "M12 Sub Compact Drill Driver (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-bd-202c-12v-2-x-2-0ah-li-ion-redlithium-cordless-sub-compact-screwdriver/298hp"
+    }
+  },
+  "milwaukee-m12-fuel-impact-driver": {
+    "model": "M12 FID2-0",
+    "name": "M12 FUEL 1/4\" Hex Impact Driver (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fid2-0-fuel-12v-li-ion-redlithium-brushless-cordless-impact-driver-bare/458vt#product_additional_details_container"
+    }
+  },
+  "milwaukee-m12-fuel-surge-impact-driver": {
+    "model": "M12 FQID-0",
+    "name": "M12 FUEL Surge Hydraulic Impact Driver (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fqid-0-fuel-surge-12v-li-ion-redlithium-brushless-cordless-impact-driver-bare/767xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m12-fuel-38-stubby-impact-wrench": {
+    "model": "M12 FIW38-0",
+    "name": "M12 FUEL 3/8\" Stubby Impact Wrench (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-fuel-14-ratchet": {
+    "model": "M12 FHIR14-0",
+    "name": "M12 FUEL 1/4\" High Speed Ratchet (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-fhir14lr-0-fuel-12v-li-ion-redlithium-brushless-cordless-extended-reach-high-speed-ratchet-bare/670ge"
+    }
+  },
+  "milwaukee-m12-fuel-38-ratchet": {
+    "model": "M12 FIR38-0",
+    "name": "M12 FUEL 3/8\" Impact Ratchet (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-fir38lr-0-fuel-12v-li-ion-redlithium-brushless-cordless-extended-reach-ratchet-bare/239ge"
+    }
+  },
+  "milwaukee-m12-fuel-12-ratchet": {
+    "model": "M12 FIR12-0",
+    "name": "M12 FUEL 1/2\" Impact Ratchet (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-fir12-0-fuel-12v-li-ion-redlithium-brushless-cordless-sub-compact-ratchet-bare/939ge"
+    }
+  },
+  "milwaukee-m12-fuel-hackzall": {
+    "model": "M12 CHZ-0",
+    "name": "M12 FUEL Hackzall Reciprocating Saw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-chz-0-fuel-12v-li-ion-redlithium-brushless-cordless-reciprocating-saw-bare/468fj#product_additional_details_container"
+    }
+  },
+  "milwaukee-m12-fuel-cut-off-tool": {
+    "model": "M12 FCOT-0",
+    "name": "M12 FUEL Cut Off Tool (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fcot-0-fuel-76mm-12v-li-ion-redlithium-brushless-cordless-cut-off-tool-bare/400xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m12-fuel-jigsaw": {
+    "model": "M12 FJS-0",
+    "name": "M12 FUEL Jigsaw (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fid2-0-fuel-12v-li-ion-redlithium-brushless-cordless-impact-driver-bare/458vt"
+    }
+  },
+  "milwaukee-m12-fuel-bandsaw": {
+    "model": "M12 FBS64-0",
+    "name": "M12 FUEL 64mm Bandsaw (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-fuel-multi-tool": {
+    "model": "M12 FMT-0",
+    "name": "M12 FUEL Multi-Tool (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fmt-0-fuel-12v-li-ion-redlithium-brushless-cordless-multi-tool-bare/697xh#product_additional_details_container"
+    }
+  },
+  "milwaukee-m12-fuel-sds-plus-drill": {
+    "model": "M12 CH-0",
+    "name": "M12 FUEL SDS Plus Hammer Drill (Body Only)",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fid2-0-fuel-12v-li-ion-redlithium-brushless-cordless-impact-driver-bare/458vt"
+    }
+  },
+  "milwaukee-m12-soldering-iron": {
+    "model": "M12 SI-0",
+    "name": "M12 Cordless Soldering Iron (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-fuel-die-grinder": {
+    "model": "M12 FDGS-0",
+    "name": "M12 FUEL Straight Die Grinder (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-rivet-tool": {
+    "model": "M12 BPRT-0",
+    "name": "M12 Pop Rivet Tool (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-pipe-cutter": {
+    "model": "M12 PCSS-0",
+    "name": "M12 Raptor Stainless Steel Pipe Cutter (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-led-torch": {
+    "model": "M12 TLED-0",
+    "name": "M12 LED Torch (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-underbody-light": {
+    "model": "M12 UCL-0",
+    "name": "M12 Underbody Light 1200 Lumens (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m12-inflator": {
+    "model": "M12 BI-0",
+    "name": "M12 Sub-Compact Tyre Inflator (Body Only)",
+    "retailers": {}
+  },
+  "milwaukee-m18-b2-battery": {
+    "model": "M18 B2",
+    "name": "M18 2.0Ah Battery",
+    "retailers": {}
+  },
+  "milwaukee-m18-b5-battery": {
+    "model": "M18 B5",
+    "name": "M18 5.0Ah Battery",
+    "retailers": {}
+  },
+  "milwaukee-m18-hb5-battery": {
+    "model": "M18 HB5",
+    "name": "M18 5.0Ah HIGH OUTPUT Battery",
+    "retailers": {}
+  },
+  "milwaukee-m18-b6-battery": {
+    "model": "M18 B6",
+    "name": "M18 6.0Ah Battery",
+    "retailers": {}
+  },
+  "milwaukee-m18-hb8-battery": {
+    "model": "M18 HB8",
+    "name": "M18 8.0Ah HIGH OUTPUT Battery",
+    "retailers": {}
+  },
+  "milwaukee-m18-hb12-battery": {
+    "model": "M18 HB12",
+    "name": "M18 12.0Ah HIGH OUTPUT Battery",
+    "retailers": {}
+  },
+  "milwaukee-m12-b2-battery": {
+    "model": "M12 B2",
+    "name": "M12 2.0Ah Battery",
+    "retailers": {}
+  },
+  "milwaukee-m12-b4-battery": {
+    "model": "M12 B4",
+    "name": "M12 4.0Ah Battery",
+    "retailers": {}
+  },
+  "milwaukee-m12-b6-battery": {
+    "model": "M12 B6",
+    "name": "M12 6.0Ah Battery",
+    "retailers": {}
+  },
+  "milwaukee-m12-c-charger": {
+    "model": "M12 C",
+    "name": "M12 Compact Charger",
+    "retailers": {}
+  },
+  "milwaukee-m18-fc-charger": {
+    "model": "M18 FC",
+    "name": "M18 Fast Charger",
+    "retailers": {}
+  },
+  "milwaukee-m18-dfc-charger": {
+    "model": "M18 DFC",
+    "name": "M18 Dual Sequential Fast Charger",
+    "retailers": {}
+  },
+  "milwaukee-m12-m18-sc-charger": {
+    "model": "M12-18 SC",
+    "name": "M12-18 Super Charger",
+    "retailers": {}
+  },
+  "milwaukee-m18-starter-pack": {
+    "model": "M18 STARTER",
+    "name": "M18 Starter Pack",
+    "retailers": {}
+  }
+}

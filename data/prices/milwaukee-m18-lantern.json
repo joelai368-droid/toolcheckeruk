@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-lantern",
   "model": "M18 AL-0",
-  "lastScraped": "2026-03-12T09:46:39.524Z",
+  "lastScraped": "2026-03-12T12:02:09.237Z",
   "retailers": {
     "Screwfix": {
       "price": 87.79,
       "inStock": true,
       "name": "Milwaukee M18 AL-0 18V Li-Ion RedLithium Cordless LED Rover Area Light - Bare (315FP)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-al-0-18v-li-ion-redlithium-cordless-led-rover-area-light-bare/315fp#product_additional_details_container",
-      "lastScraped": "2026-03-12T06:02:06.506Z"
+      "lastScraped": "2026-03-12T12:02:10.106Z"
     },
     "ITS": {
       "price": 79.98,
       "inStock": true,
       "name": "Milwaukee M18 AL-0 18V LED Area Light - Body",
       "url": "https://its.co.uk/pd/M18AL-0-Milwaukee-M18-AL-0-18V-LED-Area-Light---Body-_MILM18AL0.htm",
-      "lastScraped": "2026-03-12T06:02:07.246Z"
+      "lastScraped": "2026-03-12T12:02:11.282Z"
     },
     "Powertool Mate": {
       "price": 69.99,
       "inStock": true,
       "name": "Milwaukee M18AL-0 18V Trueview LED Area Light (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m18al-0-18v-trueview-led-area-light-body-only.htm",
-      "lastScraped": "2026-03-12T06:02:08.076Z"
+      "lastScraped": "2026-03-12T12:02:12.618Z"
     }
   }
 }

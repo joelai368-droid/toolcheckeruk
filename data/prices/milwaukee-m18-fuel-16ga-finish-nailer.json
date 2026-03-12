@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-16ga-finish-nailer",
   "model": "M18 FN16GA-0",
-  "lastScraped": "2026-03-12T09:46:38.924Z",
+  "lastScraped": "2026-03-12T12:01:38.502Z",
   "retailers": {
     "Screwfix": {
       "price": 399.99,
       "inStock": true,
       "name": "Milwaukee M18FN16GA-0X 1.6mm 18V Li-Ion RedLithium Brushless Second Fix Cordless Nail Gun - Bare (360XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18fn16ga-0x-1-6mm-18v-li-ion-redlithium-brushless-second-fix-cordless-nail-gun-bare/360xh#product_additional_details_container",
-      "lastScraped": "2026-03-12T06:01:34.323Z"
+      "lastScraped": "2026-03-12T12:01:39.538Z"
     },
     "ITS": {
       "price": 311.99,
       "inStock": true,
       "name": "Milwaukee M18 FN16GA-0 18V FUEL Brushless Finishing Angled Nail Gun 16 Gauge - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-fn16ga-0x-18v-fuel-brushless-finishing-angled-nail-gun-16-gauge-body-only-_milm18fn16ga0nocase.htm",
-      "lastScraped": "2026-03-12T06:01:35.578Z"
+      "lastScraped": "2026-03-12T12:01:40.475Z"
     },
     "Powertool Mate": {
       "price": 349.99,
       "inStock": true,
       "name": "Milwaukee Fuel M18FN16GA-0X 16G Angled Finish Nailer 2-Mode In HD Case",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-nail-guns/milwaukee-fuel-m18fn16ga-0x-16g-angled-finish-nailer-2-mode-in-hd-case.htm",
-      "lastScraped": "2026-03-12T06:01:36.568Z"
+      "lastScraped": "2026-03-12T12:01:41.731Z"
     }
   }
 }

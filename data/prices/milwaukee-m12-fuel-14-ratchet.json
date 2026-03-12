@@ -1,21 +1,21 @@
 {
   "slug": "milwaukee-m12-fuel-14-ratchet",
   "model": "M12 FHIR14-0",
-  "lastScraped": "2026-03-12T09:46:39.526Z",
+  "lastScraped": "2026-03-12T12:02:28.670Z",
   "retailers": {
     "Screwfix": {
       "price": 118.99,
       "inStock": true,
       "name": "Milwaukee M12 FHIR14-0 FUEL 12V Li-Ion RedLithium Brushless Cordless High Speed Ratchet - Bare (856GE)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-fhir14-0-fuel-12v-li-ion-redlithium-brushless-cordless-high-speed-ratchet-bare/856ge",
-      "lastScraped": "2026-03-12T06:02:25.130Z"
+      "lastScraped": "2026-03-12T12:02:29.753Z"
     },
     "Powertool Mate": {
       "price": 137.99,
       "inStock": true,
       "name": "Milwaukee M12FHIR14-0 M12 Fuel High Speed 1/4'' Ratchet Bare Unit",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fhir14-0-m12-fuel-high-speed-1-4-ratchet-bare-unit.htm",
-      "lastScraped": "2026-03-12T06:02:27.334Z"
+      "lastScraped": "2026-03-12T12:02:31.753Z"
     }
   }
 }

@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-onekey-12-impact-wrench",
   "model": "M18 ONEFHIWF12-0",
-  "lastScraped": "2026-03-12T09:46:38.916Z",
+  "lastScraped": "2026-03-12T12:00:41.237Z",
   "retailers": {
     "Toolstation": {
       "price": 399.98,
       "inStock": true,
       "name": "Milwaukee M18 ONEFHIWF12-502X ONE-KEY FUEL High Torque 1/2\" Impact Wrench with Friction Ring 2 x 5.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-onefhiwf12-502x-one-key-fuel-high-torque-12-impact-wrench-with-friction-ring/p61398",
-      "lastScraped": "2026-03-12T06:00:42.892Z"
+      "lastScraped": "2026-03-12T12:00:44.329Z"
     },
     "ITS": {
       "price": 227.99,
       "inStock": true,
       "name": "Milwaukee M18 ONEFHIWF12-0 18V FUEL ONE-KEY Brushless 1/2\" Impact Wrench (Friction Ring) - Body & Case",
       "url": "https://its.co.uk/pd/M18-ONEFHIWF12-0-Milwaukee-M18-ONEFHIWF12-18V-FUEL-Brushless-ONE-KEY-12-Impact-Wrench-with-Friction-_MILM18ONEFHIWF120.htm",
-      "lastScraped": "2026-03-12T06:00:43.938Z"
+      "lastScraped": "2026-03-12T12:00:45.609Z"
     },
     "Powertool Mate": {
       "price": 274.99,
       "inStock": true,
       "name": "Milwaukee M18ONEFHIWF12-0 18v Fuel 1/2\" Impact Wrench Naked in Case & 5.0Ah Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m18onefhiwf12-0-one-key-fuel-brushless-high-torque-1-2-impact-wrench-w.htm",
-      "lastScraped": "2026-03-12T06:00:44.760Z"
+      "lastScraped": "2026-03-12T12:00:46.447Z"
     }
   }
 }

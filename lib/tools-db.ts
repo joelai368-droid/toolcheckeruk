@@ -1965,7 +1965,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-fuel-12-impact-wrench",
     brand: "Milwaukee",
     name: "M18 FUEL 1/2\" High Torque Impact Wrench with Friction Ring (Body Only)",
-    modelNumber: "M18 FHIWF12-0",
+    modelNumber: "M18 FIW2F12-0",
     category: "impact-drivers",
     description: "High torque 1/2\" impact wrench with friction ring delivering up to 1,356Nm nut-busting torque. POWERSTATE brushless motor for heavy-duty automotive work.",
     retailers: [
@@ -3087,7 +3087,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-onekey-1-impact-wrench",
     brand: "Milwaukee",
     name: "M18 FUEL ONE-KEY 1\" High Torque Impact Wrench (Body Only)",
-    modelNumber: "M18 ONEFHIWP12-0",
+    modelNumber: "M18 ONEFHIWF12-0",
     category: "impact-drivers",
     description: "Most powerful cordless 1\" impact wrench. ONE-KEY enabled with 2,576Nm nut-busting torque. For large-scale industrial and plant applications.",
     retailers: [
@@ -3495,7 +3495,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-threaded-rod-cutter",
     brand: "Milwaukee",
     name: "M18 Brushless Threaded Rod Cutter (Body Only)",
-    modelNumber: "M18 BLTRC-0",
+    modelNumber: "M18 BLTRC-0X",
     category: "specialist",
     description: "Cordless threaded rod cutter for M6-M12 threaded rod. Clean cuts with no burrs or thread damage. Cuts in under 3 seconds.",
     retailers: [
@@ -3597,7 +3597,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-fuel-wet-dry-vacuum",
     brand: "Milwaukee",
     name: "M18 FUEL Wet/Dry Vacuum (Body Only)",
-    modelNumber: "M18 FVC2-0",
+    modelNumber: "M18 VC2-0",
     category: "specialist",
     description: "Versatile wet and dry vacuum cleaner with HEPA filter. 7.5L capacity. Integrated hose, crevice and nozzle storage. Runs on M18 batteries.",
     retailers: [
@@ -3648,7 +3648,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-fuel-chainsaw",
     brand: "Milwaukee",
     name: "M18 FUEL 16\" Chainsaw (Body Only)",
-    modelNumber: "M18 FCHS-0",
+    modelNumber: "M18 FCHSC-0",
     category: "outdoor",
     description: "Powerful 16\" cordless chainsaw with POWERSTATE brushless motor. Auto chain oiler and tool-free chain tensioning. Low kickback bar.",
     retailers: [
@@ -3699,7 +3699,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-fuel-hedge-trimmer",
     brand: "Milwaukee",
     name: "M18 FUEL 450mm Hedge Trimmer (Body Only)",
-    modelNumber: "M18 FHT45-0",
+    modelNumber: "M18 FHET60-0",
     category: "outdoor",
     description: "450mm dual-action blade hedge trimmer with 20mm cutting capacity. Anti-vibration design. Hardened steel blades for clean cuts.",
     retailers: [
@@ -3852,7 +3852,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-lantern",
     brand: "Milwaukee",
     name: "M18 LED Lantern / Area Light (Body Only)",
-    modelNumber: "M18 LL-0",
+    modelNumber: "M18 AL-0",
     category: "lighting",
     description: "Compact LED lantern with 360° illumination. TRUEVIEW technology for natural colour rendering. Integrated hanging hook and magnetic base.",
     retailers: [
@@ -3903,7 +3903,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-dab-radio",
     brand: "Milwaukee",
     name: "M18 DAB+ Jobsite Radio (Body Only)",
-    modelNumber: "M18 JSRDAB+-0",
+    modelNumber: "M18 JSRDAB-0",
     category: "radio",
     description: "Rugged DAB+ and FM jobsite radio with Bluetooth streaming. 10 preset stations. Charges M12 and M18 batteries. IP54 rated.",
     retailers: [
@@ -4056,7 +4056,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m18-fuel-pipe-threader",
     brand: "Milwaukee",
     name: "M18 FUEL Pipe Threader (Body Only)",
-    modelNumber: "M18 FPT114-0",
+    modelNumber: "M18 FPT2-0",
     category: "specialist",
     description: "Cordless pipe threader for 1/2\" to 1-1/4\" pipe. Forged aluminium die head. Self-opening die heads for clean thread completion.",
     retailers: [
@@ -6884,7 +6884,7 @@ const tools: Tool[] = [
     slug: "dewalt-18v-wet-dry-vacuum",
     brand: "DeWalt",
     name: "18V/14.4V XR Wet and Dry Vacuum (Body Only)",
-    modelNumber: "DCV582N",
+    modelNumber: "DCV584L",
     category: "specialist",
     description: "Compact wet and dry vacuum with 14L tank. Compatible with 18V and 14.4V batteries.",
     retailers: [
@@ -11053,7 +11053,7 @@ const tools: Tool[] = [
     slug: "milwaukee-m12-m18-sc-charger",
     brand: "Milwaukee",
     name: "M12-M18 Super Charger (Rapid Multi-Voltage)",
-    modelNumber: "M12-18SC",
+    modelNumber: "M12-18 SC",
     category: "batteries",
     description: "Super charger compatible with both M12 and M18 batteries. Fastest charge times available for Milwaukee batteries.",
     retailers: [

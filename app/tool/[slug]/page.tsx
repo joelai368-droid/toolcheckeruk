@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getToolBySlug, getAllTools, getCategoryDisplayName } from "@/lib/tools-db";
 import { RetailerCard } from "@/components/retailer-card";
+import { getScrapedPrices, mergeRetailers } from "@/lib/prices";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -17,13 +18,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tool = getToolBySlug(slug);
   if (!tool) return { title: "Tool Not Found | ToolCheckerUK" };
 
-  const pricedRetailers = [...tool.retailers].filter((r) => r.url !== "#" && !r.checkPrice).sort((a, b) => a.price! - b.price!);
-  const sortedRetailers = [...pricedRetailers, ...tool.retailers.filter((r) => r.url !== "#" && r.checkPrice)];
+  const scraped = getScrapedPrices(slug);
+  const merged = mergeRetailers(tool.retailers, scraped);
+  const pricedRetailers = merged.filter((r) => r.price != null && !r.checkPrice).sort((a, b) => a.price! - b.price!);
   const bestPrice = pricedRetailers[0]?.price;
 
   return {
     title: `${tool.brand} ${tool.name} — Best Price UK | ToolCheckerUK`,
-    description: `Compare prices for the ${tool.brand} ${tool.name} (${tool.modelNumber}) across ${sortedRetailers.length} UK retailers. Best price: £${bestPrice?.toFixed(2)}. Free delivery available.`,
+    description: `Compare prices for the ${tool.brand} ${tool.name} (${tool.modelNumber}) across ${merged.length} UK retailers.${bestPrice ? ` Best price: £${bestPrice.toFixed(2)}.` : ""} Free delivery available.`,
   };
 }
 
@@ -32,10 +34,21 @@ export default async function ToolPage({ params }: PageProps) {
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
 
-  const pricedRetailers = [...tool.retailers].filter((r) => r.url !== "#" && !r.checkPrice).sort((a, b) => a.price! - b.price!);
-  const sortedRetailers = [...pricedRetailers, ...tool.retailers.filter((r) => r.url !== "#" && r.checkPrice)];
-  const bestPrice = pricedRetailers[0]?.price ?? 0;
-  const worstPrice = pricedRetailers[pricedRetailers.length - 1]?.price ?? 0;
+  const scraped = getScrapedPrices(slug);
+  const allRetailers = mergeRetailers(tool.retailers, scraped);
+
+  // Sort: in-stock with price first (cheapest), then out-of-stock, then check-price
+  const pricedInStock = allRetailers.filter((r) => r.price != null && !r.checkPrice && r.inStock).sort((a, b) => a.price! - b.price!);
+  const pricedOutOfStock = allRetailers.filter((r) => r.price != null && !r.checkPrice && !r.inStock).sort((a, b) => a.price! - b.price!);
+  const checkPrice = allRetailers.filter((r) => r.checkPrice);
+  const sortedRetailers = [...pricedInStock, ...pricedOutOfStock, ...checkPrice];
+
+  const bestPrice = pricedInStock[0]?.price ?? 0;
+  const worstPrice = pricedInStock[pricedInStock.length - 1]?.price ?? 0;
+
+  // Last updated: most recent scrape timestamp across all retailers
+  const scrapedTimestamps = sortedRetailers.filter((r) => r.lastScraped).map((r) => new Date(r.lastScraped!).getTime());
+  const lastUpdated = scrapedTimestamps.length > 0 ? Math.max(...scrapedTimestamps) : null;
 
   return (
     <div style={{ minHeight: "100vh", background: "#0A0A0C", color: "#E4E4E7", fontFamily: "'Outfit', sans-serif" }}>
@@ -82,6 +95,13 @@ export default async function ToolPage({ params }: PageProps) {
         <div style={{ marginBottom: "24px" }}>
           <div style={{ fontSize: "12px", color: "#4E4E56", marginBottom: "6px", fontFamily: "'JetBrains Mono', monospace" }}>
             {tool.brand} &middot; {tool.modelNumber} &middot; {sortedRetailers.length} retailers found
+            {lastUpdated && (
+              <span style={{ marginLeft: "8px", color: "#3A3A42" }}>
+                &middot; updated {new Intl.RelativeTimeFormat('en', { numeric: 'auto' }).format(
+                  -Math.round((Date.now() - lastUpdated) / 3600000), 'hour'
+                )}
+              </span>
+            )}
           </div>
           <h1 style={{ fontSize: "22px", fontWeight: 700, color: "#E4E4E7", letterSpacing: "-0.02em", marginBottom: "10px" }}>
             {tool.brand} {tool.name}
@@ -137,7 +157,10 @@ export default async function ToolPage({ params }: PageProps) {
           color: "#4E4E56",
           fontFamily: "'JetBrains Mono', monospace",
         }}>
-          Prices updated regularly &middot; VAT included &middot; We may earn a commission from purchases
+          {lastUpdated
+            ? `Prices last checked ${new Date(lastUpdated).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })} · `
+            : "Prices updated regularly · "}
+          VAT included &middot; We may earn a commission from purchases
         </div>
       </div>
 

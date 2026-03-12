@@ -3,350 +3,441 @@
     "model": "DCD796N",
     "name": "18V XR Brushless Combi Drill (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcd796p2-gb-18v-2-x-5-0ah-li-ion-xr-brushless-cordless-combi-drill/1358j"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcd796p2-gb-18v-2-x-5-0ah-li-ion-xr-brushless-cordless-combi-drill/1358j",
+      "ITS": "https://its.co.uk/pd/DCD796N-Dewalt-DCD796N-18V-XR-Brushless-Combi-Drill---Body-_DEWDCD796N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-impact-driver": {
     "model": "DCF887N",
     "name": "18V XR Brushless Impact Driver (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf887n-xj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/551fu#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf887n-xj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/551fu#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCF887-Dewalt-DCF887-18V-XR-Brushless-Impact-Driver---Body-_DEWDCF887N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-impact-wrench": {
     "model": "DCF899N",
     "name": "18V XR Brushless High Torque Impact Wrench (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-circular-saw": {
     "model": "DCS391N",
     "name": "18V XR Brushless 165mm Circular Saw (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs391-165mm-18v-li-ion-xr-cordless-circular-saw-bare/23296"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs391-165mm-18v-li-ion-xr-cordless-circular-saw-bare/23296",
+      "ITS": "https://its.co.uk/pd/DCS391-Dewalt-DCS391N-18V-XR-165mm-Circular-Saw---Body-_DEWDCS391N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-angle-grinder": {
     "model": "DCG405N",
     "name": "18V XR Brushless 125mm Angle Grinder (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcg405n-xj-18v-li-ion-xr-5-brushless-cordless-angle-grinder-bare/276hg#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcg405n-xj-18v-li-ion-xr-5-brushless-cordless-angle-grinder-bare/276hg#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCG405-Dewalt-DCG405N-18V-XR-125mm-Brushless-Grinder---Body-_DEWDCG405N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-multi-tool": {
     "model": "DCS355N",
     "name": "18V XR Brushless Oscillating Multi-Tool (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcs355n-xj-18v-li-ion-xr-brushless-cordless-oscillating-multi-tool-bare/1210g"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-reciprocating-saw": {
     "model": "DCS367N",
     "name": "18V XR Brushless Reciprocating Saw (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs367n-xj-18v-li-ion-xr-brushless-cordless-reciprocating-saw-bare/3811t#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs367n-xj-18v-li-ion-xr-brushless-cordless-reciprocating-saw-bare/3811t#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCS367N-XJ-Dewalt-DCS367N-18V-XR-Brushless-Reciprocating-Saw---Body-_DEWDCS367N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-jigsaw": {
     "model": "DCS334N",
     "name": "18V XR Brushless Jigsaw (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs334n-xj-18v-li-ion-xr-brushless-cordless-jigsaw-bare/175hg#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs334n-xj-18v-li-ion-xr-brushless-cordless-jigsaw-bare/175hg#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCS334-Dewalt-DCS334-18V-XR-Brushless-Jigsaw---Body-_DEWDCS334N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-sds-plus-drill": {
     "model": "DCH273N",
     "name": "18V XR Brushless SDS Plus Hammer Drill (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dch273n-xj-2-5kg-18v-li-ion-xr-brushless-cordless-sds-drill-bare/102kj"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dch273n-xj-2-5kg-18v-li-ion-xr-brushless-cordless-sds-drill-bare/102kj",
+      "ITS": "https://its.co.uk/pd/DCH273-Dewalt-DCH273N-18V-XR-Brushless-SDSplus-Hammer-Drill---Body-_DEWDCH273N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-planer": {
     "model": "DCP580N",
     "name": "18V XR Brushless 82mm Planer (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcp580n-xj-18v-li-ion-xr-brushless-cordless-planer-bare/1545j#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcp580n-xj-18v-li-ion-xr-brushless-cordless-planer-bare/1545j#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCP580-Dewalt-DCP580-18V-XR-82mm-Brushless-Planer---Body-_DEWDCP580N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-first-fix-nailer": {
     "model": "DCN692N",
     "name": "18V XR Brushless First Fix Framing Nailer (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-second-fix-nailer": {
     "model": "DCN660N",
     "name": "18V XR Brushless 16 Gauge Second Fix Nailer (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcn660n-xj-63mm-18v-li-ion-xr-brushless-second-fix-cordless-nail-gun-bare/3842j"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcn660n-xj-63mm-18v-li-ion-xr-brushless-second-fix-cordless-nail-gun-bare/3842j",
+      "ITS": "https://its.co.uk/pd/dewalt-dcn660n-18v-xr-brushless-second-fix-finishing-angled-nail-gun-2500x-32mm-16g-20-angled-brad-nails-24-large-duffel-tool-bag-_dewdcn660ba.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-drill-driver": {
     "model": "DCD791N",
     "name": "18V XR Brushless Drill Driver (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcd791d2-gb-18v-2-x-2-0ah-li-ion-xr-brushless-cordless-drill-driver/284fu"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-compact-brushless-drill": {
     "model": "DCD800N",
     "name": "18V XR Brushless Compact Drill Driver (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-combi-drill-high-torque": {
     "model": "DCD805N",
     "name": "18V XR Brushless High Torque Combi Drill (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcd805h2t-gb-18v-2-x-5-0ah-li-ion-powerstack-brushless-cordless-combi-drill/202rh"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcd805h2t-gb-18v-2-x-5-0ah-li-ion-powerstack-brushless-cordless-combi-drill/202rh",
+      "ITS": "https://its.co.uk/pd/DCD805N-Dewalt-DCD805N-18V-XR-Powerstack-Brushless-Combi-Drill---Body-_DEWDCD805N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-brushless-impact-driver-dcf787": {
     "model": "DCF787N",
     "name": "18V XR Brushless Impact Driver (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcf787n-sfxj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/767ph"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-3speed-impact-driver": {
     "model": "DCF850N",
     "name": "18V XR Brushless 3-Speed Impact Driver (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf850n-xj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/561rl"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf850n-xj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/561rl",
+      "ITS": "https://its.co.uk/pd/Dewalt-DCF850N-18v-XR-Powerstack-Brushless-Impact-Driver---Body_DEWDCF850N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-impact-wrench-dcf891": {
     "model": "DCF891N",
     "name": "18V XR Brushless 1/2\" Impact Wrench (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf891n-xj-18v-li-ion-xr-brushless-cordless-m24-hog-ring-ultra-compact-impact-wrench-bare/564xk#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf891n-xj-18v-li-ion-xr-brushless-cordless-m24-hog-ring-ultra-compact-impact-wrench-bare/564xk#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/Dewalt-DCF891N-18V-XR-Brushless-12-Compact-High-Torque-Wrench-Hog-Ring-Version---Body_DEWDCF891N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-high-torque-impact-wrench-dcf894": {
     "model": "DCF894N",
     "name": "18V XR Brushless High Torque 1/2\" Impact Wrench (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-compact-impact-wrench-dcf922": {
     "model": "DCF922N",
     "name": "18V XR Brushless Compact 1/2\" Impact Wrench (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf922n-xj-18v-li-ion-xr-brushless-cordless-m20-detent-pin-compact-impact-wrench-bare/376xk#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf922n-xj-18v-li-ion-xr-brushless-cordless-m20-detent-pin-compact-impact-wrench-bare/376xk#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/Dewalt-DCF922N-18V-XR-Brushless-12-Compact-Impact-Wrench---Body-Detent-Pin_DEWDCF922N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-sds-plus-compact": {
     "model": "DCH133N",
     "name": "18V XR Brushless SDS Plus Compact Hammer Drill (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-sds-plus-28mm": {
     "model": "DCH283N",
     "name": "18V XR Brushless SDS Plus Hammer Drill 28mm (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-54v-flexvolt-sds-max": {
     "model": "DCH481NT",
     "name": "54V XR FlexVolt SDS Max Hammer Drill (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dch481x2-gb-5-4kg-54v-2-x-9-0ah-li-ion-xr-flexvolt-brushless-cordless-sds-max-drill/9941t"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-circular-saw-165mm-brushless": {
     "model": "DCS565N",
     "name": "18V XR Brushless 165mm Circular Saw (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs565n-xj-165mm-18v-li-ion-xr-brushless-cordless-circular-saw-bare/445xk#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs565n-xj-165mm-18v-li-ion-xr-brushless-cordless-circular-saw-bare/445xk#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCS565N-Dewalt-DCS565N-18V-XR-Brushless-165mm-Circular-Saw---Body-_DEWDCS565N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-54v-flexvolt-circular-saw-190mm": {
     "model": "DCS578N",
     "name": "54V XR FlexVolt 190mm Circular Saw (Body Only)",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DCS578N-Dewalt-DCS578N-54V-XR-FLEXVOLT-Brushless-190mm-Circular-Saw---Body-_DEWDCS578N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-reciprocating-saw-dcs382": {
     "model": "DCS382N",
     "name": "18V XR Brushless Reciprocating Saw (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs382n-xj-18v-li-ion-xr-brushless-cordless-reciprocating-saw-bare/778xk#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs382n-xj-18v-li-ion-xr-brushless-cordless-reciprocating-saw-bare/778xk#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCS382N-Dewalt-DCS382N-18v-XR-Brushless-Reciprocating-Saw---Body-_DEWDCS382N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-mitre-saw-184mm": {
     "model": "DCS365N",
     "name": "18V XR 184mm Single Bevel Mitre Saw (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs365n-xj-184mm-18v-li-ion-xr-cordless-single-bevel-sliding-compound-mitre-saw-bare/3227j#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcs365n-xj-184mm-18v-li-ion-xr-cordless-single-bevel-sliding-compound-mitre-saw-bare/3227j#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCS365-Dewalt-DCS365-18V-XR-184mm-Compound-Mitre-Saw---Body-_DEWDCS365N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-54v-flexvolt-mitre-saw-305mm": {
     "model": "DHS780N",
     "name": "54V XR FlexVolt 305mm Double Bevel Mitre Saw (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-guide-rail-1500mm": {
     "model": "DWS5022",
     "name": "1.5m Guide Rail for Plunge Saws",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dws5022-xj-1-x-1500mm-guide-rail/36782"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-angle-grinder-dcg409": {
     "model": "DCG409N",
     "name": "18V XR Brushless 125mm Angle Grinder with Slide Switch (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcg409vsnt-xj-18v-li-ion-xr-4-9-brushless-cordless-angle-grinder-bare/632fu"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-54v-flexvolt-angle-grinder-125mm": {
     "model": "DCG418N",
     "name": "54V XR FlexVolt 125mm Angle Grinder (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcg418n-xj-54v-li-ion-xr-flexvolt-5-brushless-cordless-angle-grinder-bare/877ky#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcg418n-xj-54v-li-ion-xr-flexvolt-5-brushless-cordless-angle-grinder-bare/877ky#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCG418N-Dewalt-DCG418N-54V-XR-FLEXVOLT-Brushless-High-Power-125mm-Angle-Grinder---Body-_DEWDCG418N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-54v-flexvolt-angle-grinder-230mm": {
     "model": "DCG460N",
     "name": "54V XR FlexVolt 230mm Large Angle Grinder (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcg460nk-xj-54v-li-ion-xr-flexvolt-9-brushless-cordless-angle-grinder-bare/664rl"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-router-trimmer": {
     "model": "DCW604N",
     "name": "18V XR Brushless 1/4\" Router Trimmer (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcw604nt-xj-18v-li-ion-xr-8mm-brushless-cordless-router-bare/421jf"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-router-dcw600": {
     "model": "DCW600N",
     "name": "18V XR Brushless Router (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-random-orbital-sander": {
     "model": "DCW210N",
     "name": "18V XR Brushless 125mm Random Orbital Sander (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcw210n-xj-125mm-18v-li-ion-xr-brushless-cordless-random-orbital-sander-bare/145jf#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcw210n-xj-125mm-18v-li-ion-xr-brushless-cordless-random-orbital-sander-bare/145jf#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCW210N-XJ-Dewalt-DCW210N-18V-XR-Brushless-125mm-Random-Orbital-Sander---Body-_DEWDCW210N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-belt-sander": {
     "model": "DCW220N",
     "name": "18V XR Brushless Belt Sander (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcw220nt-xj-2-95-18v-li-ion-xr-brushless-cordless-belt-sander-bare/732rl"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-brad-nailer-18ga": {
     "model": "DCN681N",
     "name": "18V XR Brushless 18 Gauge Brad Nailer (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcn681n-xj-38mm-18v-li-ion-xr-brushless-second-fix-cordless-stapler-bare/347hp#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcn681n-xj-38mm-18v-li-ion-xr-brushless-second-fix-cordless-stapler-bare/347hp#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCN681N-XJ-Dewalt-DCN681N-XJ-18V-XR-Brushless-Narrow-Crown-Stapler---Body-_DEWDCN681N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-concrete-nailer": {
     "model": "DCN890N",
     "name": "18V XR Cordless Concrete Nailer (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcn890p2-gb-57mm-18v-2-x-5-0ah-li-ion-xr-brushless-concrete-steel-cordless-nail-gun/915kj"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcn890p2-gb-57mm-18v-2-x-5-0ah-li-ion-xr-brushless-concrete-steel-cordless-nail-gun/915kj",
+      "ITS": "https://its.co.uk/pd/DCN890N-XJ-18v-XR-Concrete-Nailer---Body-_DEWDCN890N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-led-torch": {
     "model": "DCL040",
     "name": "18V LED Torch/Flashlight",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DCL040-Dewalt-DCL040-18V-XR-Li-ion-LED-Torch---Body-_DEWDCL040.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-dab-radio": {
     "model": "DCR020",
     "name": "18V/12V DAB Job Site Radio",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DCR020-Dewalt-DCR020-XR-Compact-DAB-Radio---Body-_DEW240DCR020.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-wet-dry-vacuum": {
     "model": "DCV582N",
     "name": "18V/14.4V XR Wet and Dry Vacuum (Body Only)",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-18v-green-laser-level": {
     "model": "DCE089D1G",
     "name": "18V XR 3 x 360° Green Laser Level",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dce089d1g-gb-12v-1-x-2-0ah-li-ion-xr-green-self-levelling-multi-line-laser-level/9819k"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-collated-screwgun": {
     "model": "DCF620N",
     "name": "18V XR Brushless Collated Screwgun (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf620n-xj-18v-li-ion-xr-brushless-cordless-drywall-screwdriver-bare/394fu"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcf620n-xj-18v-li-ion-xr-brushless-cordless-drywall-screwdriver-bare/394fu",
+      "ITS": "https://its.co.uk/pd/DCF620-Dewalt-DCF620N-18V-XR-Brushless-Drywall-Screwdriver---Body-_DEWDCF620N.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-xr-die-grinder": {
     "model": "DCG200N",
     "name": "18V XR Brushless Die Grinder (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcg200t2-gb-125mm-54v-2-x-6-0ah-li-ion-xr-flexvolt-brushless-cordless-wall-chaser/967kj"
-    }
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-2ah-battery": {
     "model": "DCB183",
     "name": "18V XR 2.0Ah Lithium-Ion Battery",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb183-xj-18v-2-0ah-li-ion-xr-slide-pack-battery/91732"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb183-xj-18v-2-0ah-li-ion-xr-slide-pack-battery/91732",
+      "ITS": "https://its.co.uk/pd/DCB183-Dewalt-DCB183-20Ah-18V-XR-Li-ion-Battery-_DEWDCB183.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-4ah-battery": {
     "model": "DCB182",
     "name": "18V XR 4.0Ah Lithium-Ion Battery",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb182-xj-18v-4-0ah-li-ion-xr-battery/61372"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb182-xj-18v-4-0ah-li-ion-xr-battery/61372",
+      "ITS": "https://its.co.uk/pd/DCB182-Dewalt-DCB182-40Ah-18V-XR-Li-Ion-Battery-_DEWDCB182.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-5ah-battery": {
     "model": "DCB184",
     "name": "18V XR 5.0Ah Lithium-Ion Battery",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb184-xj-18v-5-0ah-li-ion-xr-slide-pack-battery/6328d"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb184-xj-18v-5-0ah-li-ion-xr-slide-pack-battery/6328d",
+      "ITS": "https://its.co.uk/pd/DCB184-Dewalt-DCB184-50Ah-18V-XR-Li-Ion-Battery-_DEWDCB184.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-5ah-powerstack-battery": {
     "model": "DCBP518",
     "name": "18V XR 5.0Ah POWERSTACK Lithium-Ion Battery",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcbp518h2-xj-18v-5-0ah-li-ion-powerstack-battery-kit-2-pack/938fu"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcbp518h2-xj-18v-5-0ah-li-ion-powerstack-battery-kit-2-pack/938fu",
+      "ITS": "https://its.co.uk/pd/Dewalt-DCBP518-50Ah-18V-XR-Powerstack-Battery_DEWDCBP518.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-flexvolt-6ah-battery": {
     "model": "DCB546",
     "name": "54V/18V XR FlexVolt 6.0Ah Battery",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb546-xj-54v-6-0ah-li-ion-xr-flexvolt-battery/2832p#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb546-xj-54v-6-0ah-li-ion-xr-flexvolt-battery/2832p#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCB546-Dewalt-DCB546-20Ah-54V-60Ah-18V-XR-FLEXVOLT-Li-Ion-Battery-_DEWDCB546.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-flexvolt-9ah-battery": {
     "model": "DCB547",
     "name": "54V/18V XR FlexVolt 9.0Ah Battery",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb547-xj-54v-9-0ah-li-ion-xr-flexvolt-battery/5000t#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb547-xj-54v-9-0ah-li-ion-xr-flexvolt-battery/5000t#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCB547-Dewalt-DCB547-30Ah-54V-90Ah-18V-XR-FLEXVOLT-Li-Ion-Battery-_DEWDCB547.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-flexvolt-12ah-battery": {
     "model": "DCB548",
     "name": "54V/18V XR FlexVolt 12.0Ah Battery",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb548-xj-18-54v-12-0-4-0ah-li-ion-xr-flexvolt-battery/267hg#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb548-xj-18-54v-12-0-4-0ah-li-ion-xr-flexvolt-battery/267hg#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCB548-Dewalt-DCB548-40Ah-54V-120Ah-18V-XR-FLEXVOLT-Li-Ion-Battery-_DEWDCB548.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-single-charger": {
     "model": "DCB115",
     "name": "18V XR Single Port Battery Charger",
-    "retailers": {}
+    "retailers": {},
+    "brand": "DeWalt"
   },
   "dewalt-18v-dual-charger": {
     "model": "DCB132",
     "name": "18V XR Dual Port Battery Charger",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb132-10-8-14-4-18-54v-li-ion-xr-dual-port-multi-voltage-battery-charger/3499p#product_additional_details_container"
-    }
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcb132-10-8-14-4-18-54v-li-ion-xr-dual-port-multi-voltage-battery-charger/3499p#product_additional_details_container",
+      "ITS": "https://its.co.uk/pd/DCB132-Dewalt-DCB132-54v-XR-FLEXVOLT-Dual-Port-Charger-_DEW240DCB132.htm"
+    },
+    "brand": "DeWalt"
   },
   "dewalt-18v-fast-charger": {
     "model": "DCB116",
     "name": "18V XR Fast Battery Charger",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DCB116-Dewalt-DCB116-18V-and-54V-Battery-Charger-_DEWDCB116.htm"
+    },
+    "brand": "DeWalt"
   }
 }

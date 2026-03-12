@@ -24,6 +24,7 @@ for (const t of selected) {
   out[t.slug] = {
     model: t.modelNumber || t.model || '',
     name: t.name || '',
+    brand: t.brand || '',
     retailers: {},
   };
 }

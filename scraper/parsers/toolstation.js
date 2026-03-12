@@ -110,7 +110,7 @@ function shouldTryKeywordFallback(modelNumber, entry) {
 function buildKeywordQuery(modelNumber, entry) {
   const tokens = extractSpecTokens(entry.name || '', modelNumber);
 
-  const parts = ['Milwaukee'];
+  const parts = [entry.brand || 'Milwaukee'];
 
   const platform = tokens.find(t => t.type === 'platform');
   if (platform) parts.push(platform.value.toUpperCase());
@@ -299,6 +299,10 @@ async function findUrlViaKeyword(keywordQuery, modelNumber, entry, fetchPage) {
 async function findUrl(modelNumber, fetchPage, fetchPageWithBrowser, entry) {
   const normalizedModel = normalizeModel(modelNumber);
   const query = encodeURIComponent(modelNumber);
+
+  // Determine brand from entry (default Milwaukee)
+  const brand = entry?.brand || (entry?.slug?.startsWith('dewalt-') ? 'DeWalt' : 'Milwaukee');
+  if (entry) entry.brand = brand;
 
   // Primary path: model-code validation
   const url = await findUrlViaApi(normalizedModel, query, fetchPage);

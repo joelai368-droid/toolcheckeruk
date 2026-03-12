@@ -1,0 +1,28 @@
+{
+  "slug": "makita-18v-lxt-circular-saw-165mm-dss611",
+  "model": "DSS611Z",
+  "lastScraped": "2026-03-12T16:43:32.879Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 119.99,
+      "inStock": true,
+      "name": "Makita DSS611Z 165mm 18V Li-Ion LXT  Cordless Circular Saw - Bare (60898)",
+      "url": "https://www.screwfix.com/p/makita-dss611z-165mm-18v-li-ion-lxt-cordless-circular-saw-bare/60898#product_additional_details_container",
+      "lastScraped": "2026-03-12T15:10:27.144Z"
+    },
+    "ITS": {
+      "price": 113.99,
+      "inStock": true,
+      "name": "Makita DSS611Z 18V LXT 165mm Circular Saw - Body",
+      "url": "https://its.co.uk/pd/DSS611Z-Makita-DSS611Z-18V-LXT-165mm-Circular-Saw---Body-_MAKDSS611Z.htm",
+      "lastScraped": "2026-03-12T15:10:28.819Z"
+    },
+    "Powertool Mate": {
+      "price": 107.99,
+      "inStock": true,
+      "name": "Makita DSS611Z 18V LXT 165mm Circular Saw (Body Only)",
+      "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-circular-plunge-saws/makita-dss611z-18v-lxt-165mm-circular-saw-body-only.htm",
+      "lastScraped": "2026-03-12T16:43:36.001Z"
+    }
+  }
+}

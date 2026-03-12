@@ -1,0 +1,21 @@
+{
+  "slug": "makita-18v-lxt-sds-plus-dhr243",
+  "model": "DHR243Z",
+  "lastScraped": "2026-03-12T16:43:29.853Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 229.99,
+      "inStock": true,
+      "name": "Makita DHR243Z 3.1kg 18V Li-Ion LXT Brushless Cordless SDS Plus Rotary Hammer  - Bare (607XJ)",
+      "url": "https://www.screwfix.com/p/makita-dhr243z-3-1kg-18v-li-ion-lxt-brushless-cordless-sds-plus-rotary-hammer-bare/607xj",
+      "lastScraped": "2026-03-12T15:10:23.460Z"
+    },
+    "Powertool Mate": {
+      "price": 209.99,
+      "inStock": true,
+      "name": "Makita DHR243Z 18V LXT Lithium Ion 3 Mode SDS Rotary Hammer Drill + QC Chuck",
+      "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sds-drills/makita-dhr243z-18v-lxt-lithium-ion-3-mode-sds-rotary-hammer-drill-qc-chuck.htm",
+      "lastScraped": "2026-03-12T16:43:32.878Z"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "makita-18v-lxt-led-torch",
+  "model": "DML812",
+  "lastScraped": "2026-03-12T16:43:46.183Z",
+  "retailers": {
+    "ITS": {
+      "price": 79.99,
+      "inStock": true,
+      "name": "Makita DML812 18V LXT Torch - Body",
+      "url": "https://its.co.uk/pd/DML812-Makita-DML812-18V-LXT-Torch---Body-_MAKDML812.htm",
+      "lastScraped": "2026-03-12T15:10:53.579Z"
+    },
+    "Powertool Mate": {
+      "price": 73.99,
+      "inStock": true,
+      "name": "Makita DML812 14.4-18v LXT Flashlight Naked",
+      "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-lighting/makita-dml812-14-4-18v-lxt-flashlight-naked.htm",
+      "lastScraped": "2026-03-12T16:43:49.479Z"
+    }
+  }
+}

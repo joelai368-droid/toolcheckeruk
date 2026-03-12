@@ -1,0 +1,28 @@
+{
+  "slug": "makita-18v-circular-saw",
+  "model": "DHS680Z",
+  "lastScraped": "2026-03-12T16:42:40.819Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 173.99,
+      "inStock": true,
+      "name": "Makita DHS680Z 165mm 18V Li-Ion LXT Brushless Cordless Circular Saw - Bare (8373J)",
+      "url": "https://www.screwfix.com/p/makita-dhs680z-165mm-18v-li-ion-lxt-brushless-cordless-circular-saw-bare/8373j#product_additional_details_container",
+      "lastScraped": "2026-03-12T15:09:37.909Z"
+    },
+    "ITS": {
+      "price": 184.99,
+      "inStock": true,
+      "name": "Makita DHS680Z 18V LXT 165mm Brushless Circular Saw - Body",
+      "url": "https://its.co.uk/pd/DHS680Z-Makita-DHS680Z-18V-LXT-165mm-Brushless-Circular-Saw---Body-_MAKDHS680Z.htm",
+      "lastScraped": "2026-03-12T15:09:39.103Z"
+    },
+    "Powertool Mate": {
+      "price": 176.99,
+      "inStock": true,
+      "name": "Makita DHS680Z 18V LXT 165mm Brushless Circular Saw (Body Only)",
+      "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-circular-plunge-saws/makita-dhs680z-18v-lxt-165mm-brushless-circular-saw-body-only.htm",
+      "lastScraped": "2026-03-12T16:42:43.903Z"
+    }
+  }
+}

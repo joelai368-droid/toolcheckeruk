@@ -1,0 +1,21 @@
+{
+  "slug": "makita-40v-charger",
+  "model": "DC40RA",
+  "lastScraped": "2026-03-12T16:44:12.406Z",
+  "retailers": {
+    "ITS": {
+      "price": 74.99,
+      "inStock": true,
+      "name": "Makita DC40RA 40V  XGT Fast Charger",
+      "url": "https://its.co.uk/pd/Makita-DC40RA-40V-MAX-XGT-Fast-Charger_MAKDC40RA.htm",
+      "lastScraped": "2026-03-12T15:11:36.117Z"
+    },
+    "Powertool Mate": {
+      "price": 53.99,
+      "inStock": true,
+      "name": "Makita DC40RA 191E08-6 40V Max Lithium Ion Rapid Fast Battery Charger & ADP10 Adaptor",
+      "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/40v-range/batteries-and-chargers/makita-dc40ra-191e08-6-40v-max-lithium-ion-rapid-fast-battery-charger-adp10-adap.htm",
+      "lastScraped": "2026-03-12T16:44:16.211Z"
+    }
+  }
+}

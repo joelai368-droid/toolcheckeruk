@@ -1,0 +1,14 @@
+{
+  "slug": "makita-18v-router",
+  "model": "DRT50Z",
+  "lastScraped": "2026-03-12T16:43:06.202Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 249.99,
+      "inStock": true,
+      "name": "Makita DRT50ZJX3 18V Li-Ion LXT 1/4\" Brushless Cordless Router / Trimmer - Bare (640HT)",
+      "url": "https://www.screwfix.com/p/makita-drt50zjx3-18v-li-ion-lxt-1-4-brushless-cordless-router-trimmer-bare/640ht",
+      "lastScraped": "2026-03-12T15:10:01.675Z"
+    }
+  }
+}

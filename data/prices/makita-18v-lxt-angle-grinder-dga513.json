@@ -1,0 +1,28 @@
+{
+  "slug": "makita-18v-lxt-angle-grinder-dga513",
+  "model": "DGA513Z",
+  "lastScraped": "2026-03-12T16:43:36.002Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 182.99,
+      "inStock": true,
+      "name": "Makita DGA513Z 18V Li-Ion LXT 5\" Brushless Cordless Angle Grinder - Bare (292XJ)",
+      "url": "https://www.screwfix.com/p/makita-dga513z-18v-li-ion-lxt-5-brushless-cordless-angle-grinder-bare/292xj#product_additional_details_container",
+      "lastScraped": "2026-03-12T15:10:36.389Z"
+    },
+    "ITS": {
+      "price": 197.99,
+      "inStock": true,
+      "name": "Makita DGA513Z 18V LXT 125mm Brushless Grinder - Body",
+      "url": "https://its.co.uk/pd/DGA513Z-Makita-DGA513Z-18V-LXT-125mm-Brushless-Grinder---Body-_MAKDGA513Z.htm",
+      "lastScraped": "2026-03-12T15:10:37.309Z"
+    },
+    "Powertool Mate": {
+      "price": 149.99,
+      "inStock": true,
+      "name": "Makita DGA513Z 18V LXT Brushless 125mm Angle Grinder (Body Only)",
+      "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-grinders-disc-cutters/makita-dga513z-angle-grinder-18v-body-only-125mm.htm",
+      "lastScraped": "2026-03-12T16:43:39.390Z"
+    }
+  }
+}

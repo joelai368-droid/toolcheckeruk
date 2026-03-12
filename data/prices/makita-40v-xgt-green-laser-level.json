@@ -1,0 +1,21 @@
+{
+  "slug": "makita-40v-xgt-green-laser-level",
+  "model": "SK700GDZ",
+  "lastScraped": "2026-03-12T16:43:52.932Z",
+  "retailers": {
+    "ITS": {
+      "price": 599.99,
+      "inStock": true,
+      "name": "Makita SK700G 12V CXT Green Multi-Line Laser - Body",
+      "url": "https://its.co.uk/pd/SK700GDZ-Makita-SK700G-12V-Max-CXT-Green-Multi-Line-Laser-_MAKSK700GDZ.htm",
+      "lastScraped": "2026-03-12T15:11:04.063Z"
+    },
+    "Powertool Mate": {
+      "price": 324.99,
+      "inStock": true,
+      "name": "Makita SK700GDZ 12v Max CXT Multi Line Laser Green Naked",
+      "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/lasers-intelligent-measuring/makita-sk700gdz-12v-max-cxt-multi-line-laser-green-naked.htm",
+      "lastScraped": "2026-03-12T16:43:56.125Z"
+    }
+  }
+}

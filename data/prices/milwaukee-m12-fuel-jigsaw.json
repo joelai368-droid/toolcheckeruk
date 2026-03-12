@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m12-fuel-jigsaw",
   "model": "M12 FJS-0",
-  "lastScraped": "2026-03-12T00:00:01.976Z",
+  "lastScraped": "2026-03-12T06:02:41.457Z",
   "retailers": {
     "Powertool Mate": {
       "price": 144.99,
       "inStock": true,
       "name": "Milwaukee M12FJS-0 12v Fuel Bodygrip Jigsaw Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-jigsaws/milwaukee-m12fjs-0-12v-fuel-bodygrip-jigsaw-naked.htm",
-      "lastScraped": "2026-03-11T23:50:44.590Z"
+      "lastScraped": "2026-03-12T06:02:43.861Z"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-165mm-circular-saw",
   "model": "M18 FCSG66-0",
-  "lastScraped": "2026-03-12T00:00:01.969Z",
+  "lastScraped": "2026-03-12T06:01:43.285Z",
   "retailers": {
     "Toolstation": {
       "price": 299.98,
       "inStock": true,
       "name": "Milwaukee M18 165MM Circular Saw 2 x 4.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-165mm-circular-saw/p19690",
-      "lastScraped": "2026-03-11T23:49:43.990Z"
+      "lastScraped": "2026-03-12T06:01:45.013Z"
     }
   }
 }

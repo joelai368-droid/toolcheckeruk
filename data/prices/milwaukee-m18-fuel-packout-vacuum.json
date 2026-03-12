@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-packout-vacuum",
   "model": "M18 FPOVCL-0",
-  "lastScraped": "2026-03-12T00:00:01.971Z",
+  "lastScraped": "2026-03-12T06:01:56.291Z",
   "retailers": {
     "Screwfix": {
       "price": 215.99,
       "inStock": true,
       "name": "Milwaukee M18FPOVCL-0 18V Li-Ion RedLithium Brushless Cordless L Class Packout Wet / Dry Vacuum - Bare (507XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18fpovcl-0-18v-li-ion-redlithium-brushless-cordless-l-class-packout-wet-dry-vacuum-bare/507xh#product_additional_details_container",
-      "lastScraped": "2026-03-11T23:49:58.714Z"
+      "lastScraped": "2026-03-12T06:01:56.869Z"
     },
     "Powertool Mate": {
       "price": 218.99,
       "inStock": true,
       "name": "Milwaukee M18FPOVCL 18V Fuel Packout 7L Wet & Dry Vac Body Only",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-vac-dust-extractors/milwaukee-m18fpovcl-18v-fuel-packout-7l-wet-dry-vac-body-only.htm",
-      "lastScraped": "2026-03-11T23:50:01.199Z"
+      "lastScraped": "2026-03-12T06:01:59.351Z"
     },
     "ITS": {
       "price": 237.48,
       "inStock": true,
       "name": "Milwaukee M18 FPOVCL-0 18V FUEL Brushless PACKOUT L-Class Wet & Dry Vacuum - Body",
       "url": "https://its.co.uk/pd/Milwaukee-M18-FPOVCL-0-18V-FUEL-Brushless-PACKOUT-Wet--Dry-Vacuum---Body_MILM18FPOVCL0.htm",
-      "lastScraped": "2026-03-11T23:50:02.374Z"
+      "lastScraped": "2026-03-12T06:02:00.438Z"
     }
   }
 }

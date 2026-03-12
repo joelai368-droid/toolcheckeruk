@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m12-fuel-impact-driver",
   "model": "M12 FID2-0",
-  "lastScraped": "2026-03-12T00:00:01.973Z",
+  "lastScraped": "2026-03-12T06:02:14.301Z",
   "retailers": {
     "Screwfix": {
       "price": 109.97,
       "inStock": true,
       "name": "Milwaukee M12FID2-0 FUEL 12V Li-Ion RedLithium Brushless Cordless Impact Driver - Bare (458VT)",
       "url": "https://www.screwfix.com/p/milwaukee-m12fid2-0-fuel-12v-li-ion-redlithium-brushless-cordless-impact-driver-bare/458vt#product_additional_details_container",
-      "lastScraped": "2026-03-11T23:50:16.710Z"
+      "lastScraped": "2026-03-12T06:02:14.775Z"
     },
     "ITS": {
       "price": 109.98,
       "inStock": true,
       "name": "Milwaukee M12 FID2-0X 12V FUEL Brushless Impact Driver - Body",
       "url": "https://its.co.uk/pd/milwaukee-m12-fid2-0x-12v-fuel-brushless-impact-driver-body-_milm12fid20x.htm",
-      "lastScraped": "2026-03-11T23:50:17.653Z"
+      "lastScraped": "2026-03-12T06:02:15.785Z"
     },
     "Powertool Mate": {
       "price": 92.99,
       "inStock": true,
       "name": "Milwaukee M12FID2-0 12v Fuel NEW GEN Impact Driver Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-m12fid2-0-12v-fuel-new-gen-impact-driver-naked.htm",
-      "lastScraped": "2026-03-11T23:50:19.175Z"
+      "lastScraped": "2026-03-12T06:02:17.552Z"
     }
   }
 }

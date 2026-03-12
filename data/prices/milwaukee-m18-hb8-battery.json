@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-hb8-battery",
   "model": "M18 HB8",
-  "lastScraped": "2026-03-12T00:00:01.988Z",
+  "lastScraped": "2026-03-12T06:03:27.073Z",
   "retailers": {
     "Toolstation": {
       "price": 229.98,
       "inStock": true,
       "name": "Milwaukee M18 REDLITHIUM™ FORGE™ Battery 8.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-redlithium-forge-battery/pAC778",
-      "lastScraped": "2026-03-11T23:51:32.190Z"
+      "lastScraped": "2026-03-12T06:03:30.555Z"
     }
   }
 }

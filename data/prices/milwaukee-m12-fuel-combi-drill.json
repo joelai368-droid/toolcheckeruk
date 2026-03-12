@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m12-fuel-combi-drill",
   "model": "M12 FPD2-0",
-  "lastScraped": "2026-03-12T00:00:01.972Z",
+  "lastScraped": "2026-03-12T06:02:08.077Z",
   "retailers": {
     "Toolstation": {
       "price": 249.98,
       "inStock": true,
       "name": "Milwaukee M12FPD2-602X 12V FUEL Combi Drill 2 x 6.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m12fpd2-602x-12v-fuel-combi-drill/p35683",
-      "lastScraped": "2026-03-11T23:50:09.772Z"
+      "lastScraped": "2026-03-12T06:02:08.551Z"
     },
     "ITS": {
       "price": 143.99,
       "inStock": true,
       "name": "Milwaukee M12 FPD2-0X M12 FUEL Brushless Combi Drill - Body",
       "url": "https://its.co.uk/pd/FPD2-Milwaukee-FPD2-0X-M12-Fuel-Brushless-Combi-Drill-with-Case-_MILM12FPD20X.htm",
-      "lastScraped": "2026-03-11T23:50:11.608Z"
+      "lastScraped": "2026-03-12T06:02:10.361Z"
     },
     "Powertool Mate": {
       "price": 119.99,
       "inStock": true,
       "name": "Milwaukee M12FPD2-0 12v Fuel NEW GEN Combi Drill Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m12fpd2-0-12v-fuel-new-gen-combi-drill-naked.htm",
-      "lastScraped": "2026-03-11T23:50:12.425Z"
+      "lastScraped": "2026-03-12T06:02:11.439Z"
     }
   }
 }

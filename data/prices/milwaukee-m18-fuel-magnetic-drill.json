@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-magnetic-drill",
   "model": "M18 FMDP-0",
-  "lastScraped": "2026-03-12T00:00:01.970Z",
+  "lastScraped": "2026-03-12T06:01:53.226Z",
   "retailers": {
     "Powertool Mate": {
       "price": 849.99,
       "inStock": true,
       "name": "Milwaukee M18FMDP-0 18V Fuel Magnetic Drill Press (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m18fmdp-0-fuel-magnetic-drill-press-body-only.htm",
-      "lastScraped": "2026-03-11T23:49:58.334Z"
+      "lastScraped": "2026-03-12T06:01:56.291Z"
     }
   }
 }

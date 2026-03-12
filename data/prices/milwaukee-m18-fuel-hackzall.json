@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-hackzall",
   "model": "M18 FHZ-0",
-  "lastScraped": "2026-03-12T00:00:01.961Z",
+  "lastScraped": "2026-03-12T06:00:44.761Z",
   "retailers": {
     "Screwfix": {
       "price": 169.99,
       "inStock": true,
       "name": "Milwaukee M18 FHZ-0 FUEL 18V Li-Ion  Brushless Cordless Hackzall Reciprocating Saw - Bare (333FJ)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-fhz-0-fuel-18v-li-ion-brushless-cordless-hackzall-reciprocating-saw-bare/333fj#product_additional_details_container",
-      "lastScraped": "2026-03-11T23:48:43.966Z"
+      "lastScraped": "2026-03-12T06:00:45.853Z"
     },
     "ITS": {
       "price": 139.98,
       "inStock": true,
       "name": "Milwaukee M18 FHZ-0 18V FUEL Brushless Compact HACKZALL Reciprocating Saw - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-fhz-0c-18v-fuel-brushless-compact-hackzall-reciprocating-saw-body-only-_milm18fhz0.htm",
-      "lastScraped": "2026-03-11T23:48:45.321Z"
+      "lastScraped": "2026-03-12T06:00:46.757Z"
     },
     "Powertool Mate": {
       "price": 126.99,
       "inStock": true,
       "name": "Milwaukee M18FHZ-0 18v Fuel Reciprocating Hackzall Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-reciprocating-saws/milwaukee-m18fhz-0-18v-fuel-reciprocating-hackzall-naked.htm",
-      "lastScraped": "2026-03-11T23:48:46.170Z"
+      "lastScraped": "2026-03-12T06:00:47.897Z"
     }
   }
 }

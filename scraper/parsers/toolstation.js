@@ -59,6 +59,18 @@ function extractSpecTokens(toolName, modelNumber) {
   else if (/charger/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'charger' });
   else if (/mitre\s*saw/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'mitre saw' });
   else if (/circular\s*saw/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'circular saw' });
+  else if (/belt\s*sander/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'belt sander' });
+  else if (/vacuum|wet\s*dry\s*vac/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'vacuum' });
+  else if (/trimmer/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'trimmer' });
+  else if (/radio|dab/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'radio' });
+  else if (/speaker|bluetooth/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'speaker' });
+  else if (/area\s*light|work\s*light|lamp|light/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'light' });
+  else if (/caulk|sealant/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'caulking gun' });
+  else if (/pump/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'pump' });
+  else if (/threaded\s*rod|rod\s*cutter/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'rod cutter' });
+  else if (/sds\s*max/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'sds max' });
+  else if (/sds\s*plus|sds\b/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'sds plus' });
+  else if (/impact\s*wrench/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'impact wrench' });
   else if (/planer/i.test(nameLower)) tokens.push({ type: 'tooltype', value: 'planer' });
 
   // Qualifiers (important for distinguishing charger variants and battery types)
@@ -164,6 +176,18 @@ function scoreCandidate(title, url, tokens) {
           (token.value === 'charger' && /charger/i.test(titleLower)) ||
           (token.value === 'mitre saw' && /mitre/i.test(titleLower)) ||
           (token.value === 'circular saw' && /circular\s*saw/i.test(titleLower)) ||
+          (token.value === 'belt sander' && /belt\s*sander/i.test(titleLower)) ||
+          (token.value === 'vacuum' && /(vacuum|vac|wet\s*dry)/i.test(titleLower)) ||
+          (token.value === 'trimmer' && /trimmer/i.test(titleLower)) ||
+          (token.value === 'radio' && /(radio|dab)/i.test(titleLower)) ||
+          (token.value === 'speaker' && /(speaker|bluetooth)/i.test(titleLower)) ||
+          (token.value === 'light' && /(light|lamp)/i.test(titleLower)) ||
+          (token.value === 'caulking gun' && /(caulk|sealant)/i.test(titleLower)) ||
+          (token.value === 'pump' && /pump/i.test(titleLower)) ||
+          (token.value === 'rod cutter' && /(threaded\s*rod|rod\s*cutter)/i.test(titleLower)) ||
+          (token.value === 'sds max' && /sds\s*max/i.test(titleLower)) ||
+          (token.value === 'sds plus' && /sds\s*plus|\bsds\b/i.test(titleLower)) ||
+          (token.value === 'impact wrench' && /impact\s*wrench/i.test(titleLower)) ||
           (token.value === 'planer' && /planer/i.test(titleLower));
         if (typeMatches) {
           matched++;

@@ -14,7 +14,20 @@ const RETAILER_NAME = 'Screwfix';
  */
 function normalizeModel(model) {
   let s = model.replace(/-\d+[A-Z]*$/i, ''); // strip battery/kit suffix
+  // Also normalize common separator patterns (spaces, hyphens, slashes) so we can match listings that omit them.
   return s.replace(/[^a-z0-9]/gi, '').toLowerCase();
+}
+
+/**
+ * Generate a set of normalized model variants to increase recall without guessing.
+ * Example: "M18 HB12" -> ["m18hb12", "hb12"]
+ */
+function modelVariants(modelNumber) {
+  const full = normalizeModel(modelNumber);
+  const noPrefix = full.replace(/^m\d+(?:\d+)?/i, '');
+  const variants = new Set([full]);
+  if (noPrefix && noPrefix.length >= 3) variants.add(noPrefix);
+  return [...variants];
 }
 
 /**
@@ -36,7 +49,7 @@ function modelMatchesText(normalizedModel, text) {
 async function findUrl(modelNumber, fetchPage) {
   const query = encodeURIComponent(modelNumber);
   const searchUrl = `https://www.screwfix.com/search?search=${query}`;
-  const normalizedModel = normalizeModel(modelNumber);
+  const variants = modelVariants(modelNumber);
 
   try {
     const { html, status } = await fetchPage(searchUrl);
@@ -76,12 +89,14 @@ async function findUrl(modelNumber, fetchPage) {
       });
     }
 
-    // Validate each candidate against the model number
+    // Validate each candidate against model variants (full + no-prefix)
     for (const { href, text } of candidates) {
-      if (modelMatchesText(normalizedModel, href) || modelMatchesText(normalizedModel, text)) {
-        const fullUrl = href.startsWith('http') ? href : `https://www.screwfix.com${href}`;
-        console.log(`[Screwfix] "${modelNumber}" → validated: ${fullUrl}`);
-        return fullUrl;
+      for (const v of variants) {
+        if (modelMatchesText(v, href) || modelMatchesText(v, text)) {
+          const fullUrl = href.startsWith('http') ? href : `https://www.screwfix.com${href}`;
+          console.log(`[Screwfix] "${modelNumber}" → validated(${v}): ${fullUrl}`);
+          return fullUrl;
+        }
       }
     }
 
@@ -181,4 +196,4 @@ function parse(html, url) {
   }
 }
 
-module.exports = { parse, findUrl, retailerName: RETAILER_NAME, _test: { normalizeModel, modelMatchesText } };
+module.exports = { parse, findUrl, retailerName: RETAILER_NAME, _test: { normalizeModel, modelMatchesText, modelVariants } };

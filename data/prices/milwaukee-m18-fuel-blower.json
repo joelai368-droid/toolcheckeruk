@@ -1,0 +1,28 @@
+{
+  "slug": "milwaukee-m18-fuel-blower",
+  "model": "M18 FBLG3-0",
+  "lastScraped": "2026-03-12T00:00:01.965Z",
+  "retailers": {
+    "Toolstation": {
+      "price": 152.98,
+      "inStock": true,
+      "name": "Milwaukee M18FBLG3-0 FUEL™ Blower Body Only",
+      "url": "https://www.toolstation.com/milwaukee-m18fblg3-0-fuel-blower/pAC879",
+      "lastScraped": "2026-03-11T23:49:11.307Z"
+    },
+    "ITS": {
+      "price": 134.99,
+      "inStock": true,
+      "name": "Milwaukee M18 FBLG3-0 18V FUEL Brushless Blower - Body",
+      "url": "https://its.co.uk/pd/milwaukee-m18-fblg3-0-18v-fuel-brushless-blower-body-_milm18fblg30.htm",
+      "lastScraped": "2026-03-11T23:49:12.445Z"
+    },
+    "Powertool Mate": {
+      "price": 205.99,
+      "inStock": true,
+      "name": "Milwaukee M18FBLG3-0 18v Fuel Gen 3 Blower Kit With 1 x 5.0ah Battery & Charger",
+      "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-blowers/milwaukee-m18fblg3-0-18v-fuel-gen-3-blower-kit-with-1-x-5-0ah-battery-charger.htm",
+      "lastScraped": "2026-03-11T23:49:13.284Z"
+    }
+  }
+}

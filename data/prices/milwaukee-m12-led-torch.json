@@ -1,0 +1,35 @@
+{
+  "slug": "milwaukee-m12-led-torch",
+  "model": "M12 TLED-0",
+  "lastScraped": "2026-03-12T00:00:01.980Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 29.99,
+      "inStock": true,
+      "name": "Milwaukee M12 TLED-0 12V Li-Ion RedLithium Cordless LED Torch - Bare (558HP)",
+      "url": "https://www.screwfix.com/p/milwaukee-m12-tled-0-12v-li-ion-redlithium-cordless-led-torch-bare/558hp#product_additional_details_container",
+      "lastScraped": "2026-03-11T23:51:07.652Z"
+    },
+    "Toolstation": {
+      "price": 31.48,
+      "inStock": true,
+      "name": "Milwaukee M12TLED-0 LED Torch Body Only",
+      "url": "https://www.toolstation.com/milwaukee-m12tled-0-led-torch/p40508",
+      "lastScraped": "2026-03-11T23:51:08.071Z"
+    },
+    "ITS": {
+      "price": 29.99,
+      "inStock": true,
+      "name": "Milwaukee M12 TLED-0 12V LED Torch - Body",
+      "url": "https://its.co.uk/pd/M12TLED-0-Milwaukee-M12-TLED-0-12V-LED-Torch---Body-_MILM12TLED0.htm",
+      "lastScraped": "2026-03-11T23:51:09.680Z"
+    },
+    "Powertool Mate": {
+      "price": 26.5,
+      "inStock": true,
+      "name": "Milwaukee M12TLED 12V LED Torch (Body Only)",
+      "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m12tled-12v-led-torch-body-only.htm",
+      "lastScraped": "2026-03-11T23:51:10.641Z"
+    }
+  }
+}

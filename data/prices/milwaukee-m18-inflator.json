@@ -1,0 +1,35 @@
+{
+  "slug": "milwaukee-m18-inflator",
+  "model": "M18 BI-0",
+  "lastScraped": "2026-03-12T00:00:01.965Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 153.99,
+      "inStock": true,
+      "name": "Milwaukee M18 BI-0 18V Li-Ion RedLithium  Cordless Inflator  - Bare (230GE)",
+      "url": "https://www.screwfix.com/p/milwaukee-m18-bi-0-18v-li-ion-redlithium-cordless-inflator-bare/230ge#product_additional_details_container",
+      "lastScraped": "2026-03-11T23:49:13.739Z"
+    },
+    "Toolstation": {
+      "price": 139.98,
+      "inStock": true,
+      "name": "Milwaukee M18 BI-0 Inflator Body Only",
+      "url": "https://www.toolstation.com/milwaukee-m18-bi-0-inflator/p96180",
+      "lastScraped": "2026-03-11T23:49:14.744Z"
+    },
+    "ITS": {
+      "price": 155.99,
+      "inStock": true,
+      "name": "Milwaukee M18 BI-0 Inflator - Body",
+      "url": "https://its.co.uk/pd/M18-BI-0-Milwaukee-M18-BI-0-Inflator---Body-_MILM18BI0.htm",
+      "lastScraped": "2026-03-11T23:49:15.674Z"
+    },
+    "Powertool Mate": {
+      "price": 129.99,
+      "inStock": true,
+      "name": "Milwaukee M18BI-0 18v Inflator Naked",
+      "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwakee-m18bi-0-18v-inflator-naked.htm",
+      "lastScraped": "2026-03-11T23:49:16.534Z"
+    }
+  }
+}

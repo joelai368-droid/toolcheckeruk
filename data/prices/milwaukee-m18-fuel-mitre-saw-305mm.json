@@ -1,0 +1,28 @@
+{
+  "slug": "milwaukee-m18-fuel-mitre-saw-305mm",
+  "model": "M18 FMS305-0",
+  "lastScraped": "2026-03-12T00:00:01.967Z",
+  "retailers": {
+    "Toolstation": {
+      "price": 739.98,
+      "inStock": true,
+      "name": "Milwaukee M18 FUEL Mitre Saw 305mm Body Only",
+      "url": "https://www.toolstation.com/milwaukee-m18-fuel-mitre-saw-305mm/p81611",
+      "lastScraped": "2026-03-11T23:49:28.014Z"
+    },
+    "ITS": {
+      "price": 719.99,
+      "inStock": true,
+      "name": "Milwaukee M18 FMS305-0 18V FUEL ONE-KEY Brushless 305mm Sliding Mitre Saw - Body",
+      "url": "https://its.co.uk/pd/M18FMS3050-Milwaukee-M18-FMS305-0-18V-FUEL-ONE-KEY-Brushless-305mm-Double-Bevel-Mitre-Saw---Body-_MILM18FMS3050.htm",
+      "lastScraped": "2026-03-11T23:49:29.751Z"
+    },
+    "Powertool Mate": {
+      "price": 729.99,
+      "inStock": true,
+      "name": "Milwaukee M18FMS305-0 18V Fuel 305mm Mitre Saw (Body Only)",
+      "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-mitre-saws/milwaukee-m18fms305-0-18v-305mm-m18-fuel-mitre-saw-bare-unit.htm",
+      "lastScraped": "2026-03-11T23:49:30.570Z"
+    }
+  }
+}

@@ -3,7 +3,9 @@
     "model": "DHP486Z",
     "name": "18V LXT Brushless Combi Drill (Body Only)",
     "brand": "Makita",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DHP486Z-Makita-DHP486Z-18V-LXT-Brushless-Heavy-Duty-Combi-Drill---Body-_MAKDHP486Z.htm"
+    }
   },
   "makita-18v-impact-driver": {
     "model": "DTD153Z",
@@ -88,7 +90,9 @@
     "model": "DBN600Z",
     "name": "18V LXT 18 Gauge Brad Nailer (Body Only)",
     "brand": "Makita",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DBN600Z-Makita-DBN600-18V-LXT-Second-Fix-Finishing-Nail-Gun---Body-_MAKDBN600Z.htm"
+    }
   },
   "makita-18v-orbital-sander": {
     "model": "DBO180Z",
@@ -213,7 +217,9 @@
     "model": "DHR400Z",
     "name": "2x18V LXT Brushless SDS Max Hammer Drill (Body Only)",
     "brand": "Makita",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DHR400ZKU-Makita-DHR400ZKU-36V-Twin-18V-LXT-Brushless-SDS-MAX-Demolition-Hammer---Body-with-Case-_MAKDHR400ZKU.htm"
+    }
   },
   "makita-40v-xgt-sds-plus": {
     "model": "HR003GZ",
@@ -237,7 +243,9 @@
     "model": "DLS211Z",
     "name": "2x18V LXT Brushless 305mm Sliding Compound Mitre Saw (Body Only)",
     "brand": "Makita",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DLS211ZU-Makita-DLS211ZU-36V-Twin-18V-LXT-305mm-Brushless-Slide-Compound-Mitre-Saw---Body-_MAKDLS211ZU.htm"
+    }
   },
   "makita-twin-18v-lxt-mitre-saw-260mm": {
     "model": "DLS110Z",
@@ -293,7 +301,9 @@
     "model": "RT001GZ",
     "name": "40V XGT Brushless Router (Body Only)",
     "brand": "Makita",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/RT001GZ01-Makita-RT001GZ-40V-XGT-Brushless-Router-Trimmer---Body-_MAKRT001GZ01.htm"
+    }
   },
   "makita-18v-lxt-brushless-orbital-sander-dbo382": {
     "model": "DBO382Z",
@@ -325,7 +335,9 @@
     "model": "DMR115",
     "name": "18V LXT DAB+ Job Site Radio",
     "brand": "Makita",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DMR115B-Makita-DMR115-FMDAB--Jobsite-Radio-with-Bluetooth---Black-Body-_MAKDMR115B.htm"
+    }
   },
   "makita-18v-lxt-brushless-vacuum-dvc750": {
     "model": "DVC750Z",

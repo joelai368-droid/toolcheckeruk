@@ -1,0 +1,14 @@
+{
+  "slug": "milwaukee-m18-fuel-hedge-trimmer",
+  "model": "M18 FHET60-0",
+  "lastScraped": "2026-03-12T21:16:27.982Z",
+  "retailers": {
+    "ITS": {
+      "price": 287.99,
+      "inStock": true,
+      "name": "Milwaukee M18 FHET60G2-0 18V FUEL Brushless 60cm Hedge Trimmer - Body",
+      "url": "https://its.co.uk/pd/milwaukee-m18-fhet60g2-0-18v-fuel-brushless-60cm-hedge-trimmer-body-_milm18fhet60g20.htm",
+      "lastScraped": "2026-03-12T21:16:31.676Z"
+    }
+  }
+}

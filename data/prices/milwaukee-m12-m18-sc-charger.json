@@ -1,0 +1,14 @@
+{
+  "slug": "milwaukee-m12-m18-sc-charger",
+  "model": "M12-18 SC",
+  "lastScraped": "2026-03-12T21:17:18.871Z",
+  "retailers": {
+    "ITS": {
+      "price": 120,
+      "inStock": true,
+      "name": "Milwaukee M12-18SC 12V - 18V Super Charger",
+      "url": "https://its.co.uk/pd/Milwaukee-M12-18-SC-12V---18V-Super-Fast-Charger_MILM1218SC.htm",
+      "lastScraped": "2026-03-12T21:17:21.829Z"
+    }
+  }
+}

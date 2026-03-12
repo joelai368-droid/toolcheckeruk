@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m12-b2-battery",
   "model": "M12 B2",
-  "lastScraped": "2026-03-12T20:14:31.139Z",
+  "lastScraped": "2026-03-12T21:17:00.260Z",
   "retailers": {
     "Screwfix": {
       "price": 23.99,
       "inStock": true,
       "name": "Milwaukee M12 B2 12V 2.0Ah Li-Ion RedLithium Battery (577FJ)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-b2-12v-2-0ah-li-ion-redlithium-battery/577fj",
-      "lastScraped": "2026-03-12T17:04:35.448Z"
+      "lastScraped": "2026-03-12T21:17:00.817Z"
     },
     "Toolstation": {
       "price": 19.98,
       "inStock": true,
       "name": "Milwaukee M12 Battery 2.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m12-battery/p13495",
-      "lastScraped": "2026-03-12T17:04:37.837Z"
+      "lastScraped": "2026-03-12T21:17:02.424Z"
     },
     "ITS": {
       "price": 39.98,
       "inStock": true,
       "name": "Milwaukee M12 B2 2.0Ah 12V Li-Ion Battery - Pack of 2",
       "url": "https://its.co.uk/pd/M12B2PK2-Milwaukee-M12-B2-20Ah-12V-Li-Ion-Battery---Pack-of-2-_MILM12B2PK2.htm",
-      "lastScraped": "2026-03-12T17:04:38.901Z"
+      "lastScraped": "2026-03-12T21:17:03.511Z"
     },
     "Powertool Mate": {
       "price": 71.99,
       "inStock": true,
       "name": "Milwaukee M12 2.0ah Energy Pack In PTM Bag - 2 x M12B2 2.0ah Batteries, Charger with PTM Bag",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12-2-0ah-energy-pack-in-ptm-bag-2-x-m12b2-2-0ah-batteries-charger-wit.htm",
-      "lastScraped": "2026-03-12T17:04:39.759Z"
+      "lastScraped": "2026-03-12T21:17:04.422Z"
     }
   }
 }

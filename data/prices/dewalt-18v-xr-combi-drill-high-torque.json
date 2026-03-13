@@ -1,21 +1,21 @@
 {
   "slug": "dewalt-18v-xr-combi-drill-high-torque",
   "model": "DCD805N",
-  "lastScraped": "2026-03-12T17:04:22.680Z",
+  "lastScraped": "2026-03-13T16:27:40.678Z",
   "retailers": {
     "Screwfix": {
       "price": 359.99,
       "inStock": true,
       "name": "DEWALT DCD805H2T-GB 18V 2 x 5.0Ah Li-Ion PowerStack Brushless Cordless Combi Drill (202RH)",
       "url": "https://www.screwfix.com/p/dewalt-dcd805h2t-gb-18v-2-x-5-0ah-li-ion-powerstack-brushless-cordless-combi-drill/202rh",
-      "lastScraped": "2026-03-12T14:03:33.434Z"
+      "lastScraped": "2026-03-13T16:27:43.726Z"
     },
     "ITS": {
       "price": 104.99,
       "inStock": true,
       "name": "Dewalt DCD805N 18V XR G3 Brushless Combi Drill - Body",
       "url": "https://its.co.uk/pd/DCD805N-Dewalt-DCD805N-18V-XR-Powerstack-Brushless-Combi-Drill---Body-_DEWDCD805N.htm",
-      "lastScraped": "2026-03-12T14:39:07.502Z"
+      "lastScraped": "2026-03-13T16:27:44.612Z"
     }
   }
 }

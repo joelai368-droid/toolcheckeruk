@@ -1,14 +1,14 @@
 {
   "slug": "dewalt-18v-xr-router-trimmer",
   "model": "DCW604N",
-  "lastScraped": "2026-03-12T17:04:23.322Z",
+  "lastScraped": "2026-03-13T16:28:26.086Z",
   "retailers": {
     "Screwfix": {
       "price": 299.99,
       "inStock": true,
       "name": "DEWALT DCW604NT-XJ 18V Li-Ion XR 8mm Brushless Cordless Router - Bare (421JF)",
       "url": "https://www.screwfix.com/p/dewalt-dcw604nt-xj-18v-li-ion-xr-8mm-brushless-cordless-router-bare/421jf",
-      "lastScraped": "2026-03-12T14:04:15.801Z"
+      "lastScraped": "2026-03-13T16:28:29.550Z"
     }
   }
 }

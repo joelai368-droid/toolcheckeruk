@@ -1,28 +1,28 @@
 {
   "slug": "dewalt-18v-xr-brad-nailer-18ga",
   "model": "DCN681N",
-  "lastScraped": "2026-03-12T17:04:23.324Z",
+  "lastScraped": "2026-03-13T16:28:36.045Z",
   "retailers": {
     "Screwfix": {
       "price": 384.97,
       "inStock": true,
       "name": "DEWALT DCN681N-XJ 38mm 18V Li-Ion XR Brushless Second Fix Cordless Stapler - Bare (347HP)",
       "url": "https://www.screwfix.com/p/dewalt-dcn681n-xj-38mm-18v-li-ion-xr-brushless-second-fix-cordless-stapler-bare/347hp#product_additional_details_container",
-      "lastScraped": "2026-03-12T14:04:25.560Z"
+      "lastScraped": "2026-03-13T16:28:39.382Z"
     },
     "ITS": {
       "price": 339.98,
       "inStock": true,
       "name": "Dewalt DCN681N 18V XR Brushless Narrow Crown Stapler - Body",
       "url": "https://its.co.uk/pd/DCN681N-XJ-Dewalt-DCN681N-XJ-18V-XR-Brushless-Narrow-Crown-Stapler---Body-_DEWDCN681N.htm",
-      "lastScraped": "2026-03-12T14:39:40.372Z"
+      "lastScraped": "2026-03-13T16:28:40.483Z"
     },
     "Powertool Mate": {
       "price": 309.99,
       "inStock": true,
       "name": "Dewalt DCN681N 18V Cordless XR Brushless 18Ga Narrow Crown Stapler (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-nail-guns/dewalt-dcn681n-18v-cordless-xr-brushless-18ga-narrow-crown-stapler-body-only.htm",
-      "lastScraped": "2026-03-12T15:00:26.115Z"
+      "lastScraped": "2026-03-13T16:28:41.628Z"
     }
   }
 }

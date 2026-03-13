@@ -1,28 +1,28 @@
 {
   "slug": "dewalt-flexvolt-6ah-battery",
   "model": "DCB546",
-  "lastScraped": "2026-03-12T17:04:23.329Z",
+  "lastScraped": "2026-03-13T16:29:17.193Z",
   "retailers": {
     "Screwfix": {
       "price": 129.99,
       "inStock": true,
       "name": "DEWALT DCB546-XJ 54V 6.0Ah Li-Ion XR FlexVolt Battery (2832P)",
       "url": "https://www.screwfix.com/p/dewalt-dcb546-xj-54v-6-0ah-li-ion-xr-flexvolt-battery/2832p#product_additional_details_container",
-      "lastScraped": "2026-03-12T14:04:54.049Z"
+      "lastScraped": "2026-03-13T16:29:17.993Z"
     },
     "ITS": {
       "price": 99.98,
       "inStock": true,
       "name": "Dewalt DCB546-XJ 54V 6.0Ah XR FLEXVOLT Battery",
       "url": "https://its.co.uk/pd/DCB546-Dewalt-DCB546-20Ah-54V-60Ah-18V-XR-FLEXVOLT-Li-Ion-Battery-_DEWDCB546.htm",
-      "lastScraped": "2026-03-12T14:40:09.267Z"
+      "lastScraped": "2026-03-13T16:29:19.376Z"
     },
     "Powertool Mate": {
       "price": 86.99,
       "inStock": true,
       "name": "DeWalt DCB546 18V/54V XR Flexvolt 6.0Ah Li-Ion Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/batteries-and-chargers/dewalt-dcb546-18v-54v-xr-flexvolt-6-0ah-li-ion-battery.htm",
-      "lastScraped": "2026-03-12T15:00:52.036Z"
+      "lastScraped": "2026-03-13T16:29:20.243Z"
     }
   }
 }

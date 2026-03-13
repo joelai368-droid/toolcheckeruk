@@ -1,14 +1,14 @@
 {
   "slug": "dewalt-18v-xr-angle-grinder-dcg409",
   "model": "DCG409N",
-  "lastScraped": "2026-03-12T17:04:23.321Z",
+  "lastScraped": "2026-03-13T16:28:16.354Z",
   "retailers": {
     "Screwfix": {
       "price": 239.99,
       "inStock": true,
       "name": "DEWALT DCG409VSNT-XJ 18V Li-Ion XR 4.9\" Brushless Cordless Angle Grinder - Bare (632FU)",
       "url": "https://www.screwfix.com/p/dewalt-dcg409vsnt-xj-18v-li-ion-xr-4-9-brushless-cordless-angle-grinder-bare/632fu",
-      "lastScraped": "2026-03-12T14:04:05.952Z"
+      "lastScraped": "2026-03-13T16:28:19.174Z"
     }
   }
 }

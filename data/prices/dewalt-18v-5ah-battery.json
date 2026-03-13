@@ -1,28 +1,28 @@
 {
   "slug": "dewalt-18v-5ah-battery",
   "model": "DCB184",
-  "lastScraped": "2026-03-12T17:04:23.328Z",
+  "lastScraped": "2026-03-13T16:29:09.887Z",
   "retailers": {
     "Screwfix": {
       "price": 54.99,
       "inStock": true,
       "name": "DEWALT DCB184-XJ 18V 5.0Ah Li-Ion XR Slide Pack Battery (6328D)",
       "url": "https://www.screwfix.com/p/dewalt-dcb184-xj-18v-5-0ah-li-ion-xr-slide-pack-battery/6328d",
-      "lastScraped": "2026-03-12T14:04:47.452Z"
+      "lastScraped": "2026-03-13T16:29:10.405Z"
     },
     "ITS": {
       "price": 54.98,
       "inStock": true,
       "name": "Dewalt DCB184 5.0Ah 18V XR Li-Ion Battery",
       "url": "https://its.co.uk/pd/DCB184-Dewalt-DCB184-50Ah-18V-XR-Li-Ion-Battery-_DEWDCB184.htm",
-      "lastScraped": "2026-03-12T14:40:02.728Z"
+      "lastScraped": "2026-03-13T16:29:12.606Z"
     },
     "Powertool Mate": {
-      "price": 128.99,
+      "price": 118.99,
       "inStock": true,
       "name": "DeWalt 18V 5.0Ah Energy Pack - 2 x DCB184 5.0Ah Batteries, DCB1104 Charger in PTM Bag",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/batteries-and-chargers/dewalt-18v-5-0ah-energy-pack-2-x-dcb184-5-0ah-batteries-dcb115-charger-in-ptm-ba.htm",
-      "lastScraped": "2026-03-12T15:00:45.067Z"
+      "lastScraped": "2026-03-13T16:29:13.723Z"
     }
   }
 }

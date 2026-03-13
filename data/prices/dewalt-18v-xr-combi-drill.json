@@ -1,28 +1,28 @@
 {
   "slug": "dewalt-18v-xr-combi-drill",
   "model": "DCD796N",
-  "lastScraped": "2026-03-12T17:04:22.675Z",
+  "lastScraped": "2026-03-13T16:27:04.779Z",
   "retailers": {
     "Screwfix": {
       "price": 299.99,
       "inStock": true,
       "name": "DEWALT DCD796P2-GB 18V 2 x 5.0Ah Li-Ion XR Brushless Cordless Combi Drill (1358J)",
       "url": "https://www.screwfix.com/p/dewalt-dcd796p2-gb-18v-2-x-5-0ah-li-ion-xr-brushless-cordless-combi-drill/1358j",
-      "lastScraped": "2026-03-12T14:02:58.260Z"
+      "lastScraped": "2026-03-13T16:27:05.604Z"
     },
     "ITS": {
       "price": 64.98,
       "inStock": true,
       "name": "Dewalt DCD796N 18V XR Brushless Combi Drill - Body",
       "url": "https://its.co.uk/pd/DCD796N-Dewalt-DCD796N-18V-XR-Brushless-Combi-Drill---Body-_DEWDCD796N.htm",
-      "lastScraped": "2026-03-12T14:38:38.238Z"
+      "lastScraped": "2026-03-13T16:27:06.755Z"
     },
     "Powertool Mate": {
-      "price": 131.99,
+      "price": 126.99,
       "inStock": true,
       "name": "DeWalt DCD796N 18V XR Brushless  Combi Drill, DCB184 5.0Ah Battery & Charger",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-drills/dewalt-dcd796n-18v-xr-brushless-combi-drill-dcb184-5-0ah-battery-charger.htm",
-      "lastScraped": "2026-03-12T14:59:47.405Z"
+      "lastScraped": "2026-03-13T16:27:07.663Z"
     }
   }
 }

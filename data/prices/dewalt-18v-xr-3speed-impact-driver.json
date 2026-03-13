@@ -1,28 +1,28 @@
 {
   "slug": "dewalt-18v-xr-3speed-impact-driver",
   "model": "DCF850N",
-  "lastScraped": "2026-03-12T17:04:22.681Z",
+  "lastScraped": "2026-03-13T16:27:47.335Z",
   "retailers": {
     "Screwfix": {
       "price": 139.89,
       "inStock": true,
       "name": "DEWALT DCF850N-XJ 18V Li-Ion XR Brushless Cordless Impact Driver - Bare (561RL)",
       "url": "https://www.screwfix.com/p/dewalt-dcf850n-xj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/561rl",
-      "lastScraped": "2026-03-12T14:03:39.437Z"
+      "lastScraped": "2026-03-13T16:27:50.864Z"
     },
     "ITS": {
       "price": 119.99,
       "inStock": true,
       "name": "Dewalt DCF850N 18V XR Brushless Impact Driver - Body",
       "url": "https://its.co.uk/pd/Dewalt-DCF850N-18v-XR-Powerstack-Brushless-Impact-Driver---Body_DEWDCF850N.htm",
-      "lastScraped": "2026-03-12T14:39:10.781Z"
+      "lastScraped": "2026-03-13T16:27:51.936Z"
     },
     "Powertool Mate": {
       "price": 103.99,
       "inStock": true,
       "name": "Dewalt DCF850N 18v XR Powerstack Brushless Impact Driver Body Only",
       "url": "https://www.powertoolmate.co.uk/dewalt-dcf850n-18v-xr-powerstack-brushless-impact-driver-body-only.htm",
-      "lastScraped": "2026-03-12T15:00:13.810Z"
+      "lastScraped": "2026-03-13T16:27:52.946Z"
     }
   }
 }

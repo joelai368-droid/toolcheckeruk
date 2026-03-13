@@ -1,21 +1,21 @@
 {
   "slug": "dewalt-18v-xr-impact-driver",
   "model": "DCF887N",
-  "lastScraped": "2026-03-12T17:04:22.676Z",
+  "lastScraped": "2026-03-13T16:27:07.665Z",
   "retailers": {
     "Screwfix": {
       "price": 79.99,
       "inStock": true,
       "name": "DEWALT DCF887N-XJ 18V Li-Ion XR Brushless Cordless Impact Driver - Bare (551FU)",
       "url": "https://www.screwfix.com/p/dewalt-dcf887n-xj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/551fu#product_additional_details_container",
-      "lastScraped": "2026-03-12T14:03:00.981Z"
+      "lastScraped": "2026-03-13T16:27:08.322Z"
     },
     "ITS": {
       "price": 64.98,
       "inStock": true,
       "name": "Dewalt DCF887N 18V XR Brushless Impact Driver - Body",
       "url": "https://its.co.uk/pd/DCF887-Dewalt-DCF887-18V-XR-Brushless-Impact-Driver---Body-_DEWDCF887N.htm",
-      "lastScraped": "2026-03-12T14:38:41.044Z"
+      "lastScraped": "2026-03-13T16:27:09.837Z"
     }
   }
 }

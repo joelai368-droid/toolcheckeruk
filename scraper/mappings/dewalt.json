@@ -154,9 +154,7 @@
   "dewalt-18v-xr-sds-plus-compact": {
     "model": "DCH133N",
     "name": "18V XR Brushless SDS Plus Compact Hammer Drill (Body Only)",
-    "retailers": {
-      "Toolstation": "https://www.toolstation.com/dewalt-dch133n-xj-18v-xr-brushless-sds-hammer-drill/pAA239"
-    },
+    "retailers": {},
     "brand": "DeWalt"
   },
   "dewalt-54v-flexvolt-sds-max": {

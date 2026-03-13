@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getToolBySlug, getAllTools, getCategoryDisplayName } from "@/lib/tools-db";
 import { RetailerCard } from "@/components/retailer-card";
-import { getScrapedPrices, mergeRetailers } from "@/lib/prices";
+import { getMergedRetailersForTool } from "@/lib/server-retailers";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -18,8 +18,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const tool = getToolBySlug(slug);
   if (!tool) return { title: "Tool Not Found | ToolCheckerUK" };
 
-  const scraped = await getScrapedPrices(slug);
-  const merged = mergeRetailers(tool.retailers, scraped);
+  const merged = await getMergedRetailersForTool(slug);
   const pricedRetailers = merged.filter((r) => r.price != null && !r.checkPrice).sort((a, b) => a.price! - b.price!);
   const bestPrice = pricedRetailers[0]?.price;
 
@@ -34,8 +33,7 @@ export default async function ToolPage({ params }: PageProps) {
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
 
-  const scraped = await getScrapedPrices(slug);
-  const allRetailers = mergeRetailers(tool.retailers, scraped);
+  const allRetailers = await getMergedRetailersForTool(slug);
 
   // Sort: in-stock with price first (cheapest), then out-of-stock, then check-price
   const pricedInStock = allRetailers.filter((r) => r.price != null && !r.checkPrice && r.inStock).sort((a, b) => a.price! - b.price!);

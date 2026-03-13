@@ -1,8 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { searchTools, getAllTools, type Tool, type Retailer } from "@/lib/tools-db";
-import type { ScrapedPrices } from "@/lib/prices";
-import { mergeRetailers } from "@/lib/prices";
 
 const BRANDS = [
   { name: "Milwaukee", color: "#DB0032", slug: "milwaukee" },
@@ -217,17 +215,15 @@ export default function Home() {
     setSelectedTool(tool);
     setMergedRetailers([]);
 
-    // Load scraped prices (if available) so the modal/detail view shows ITS etc.
+    // Load merged retailers (static + mappings + scraped) so the modal/detail view always shows mapped suppliers.
     try {
-      const res = await fetch(`/api/prices/${tool.slug}`, { cache: "no-store" });
+      const res = await fetch(`/api/retailers/${tool.slug}`, { cache: "no-store" });
       if (!res.ok) {
         setMergedRetailers(tool.retailers);
         return;
       }
-      const scraped = (await res.json()) as ScrapedPrices;
-      const merged = mergeRetailers(tool.retailers, scraped);
-      // Cast is safe: Tool Retailer type matches the merged shape for fields we use in the UI.
-      setMergedRetailers(merged as unknown as Retailer[]);
+      const retailers = (await res.json()) as Retailer[];
+      setMergedRetailers(retailers);
     } catch {
       setMergedRetailers(tool.retailers);
     }

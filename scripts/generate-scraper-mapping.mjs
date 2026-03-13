@@ -13,7 +13,7 @@ const brandName = {
   dewalt: 'DeWalt',
   milwaukee: 'Milwaukee',
   makita: 'Makita',
-  bosch: 'Bosch',
+  bosch: 'Bosch Professional',
 }[brand] || brand;
 
 const tools = getAllTools();

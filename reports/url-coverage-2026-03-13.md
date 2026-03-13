@@ -1,18 +1,18 @@
 # URL Coverage Report
 
-Generated: 2026-03-13T14:23:31.196Z
+Generated: 2026-03-13T18:49:11.504Z
 
 ## Summary
 
 - Tools in DB: **256**
-- Tools with ≥1 mapped retailer URL: **189** (74%)
+- Tools with ≥1 mapped retailer URL: **187** (73%)
 
 ## By brand
 
 | Brand | Tools | With mapped URL | Coverage |
 |---|---:|---:|---:|
 | Bosch Professional | 36 | 0 | 0% |
-| DeWalt | 49 | 47 | 96% |
+| DeWalt | 49 | 45 | 92% |
 | HiKOKI | 24 | 0 | 0% |
 | Makita | 52 | 49 | 94% |
 | Milwaukee | 95 | 93 | 98% |
@@ -22,9 +22,9 @@ Generated: 2026-03-13T14:23:31.196Z
 | Retailer | Tools mapped |
 |---|---:|
 | ITS | 145 |
-| Powertool Mate | 117 |
-| Screwfix | 105 |
-| Toolstation | 54 |
+| Powertool Mate | 116 |
+| Screwfix | 101 |
+| Toolstation | 53 |
 | Big Red Power Tools | 1 |
 
 ## Tools missing mappings (top 50)
@@ -44,8 +44,10 @@ Generated: 2026-03-13T14:23:31.196Z
 | HiKOKI | C3607DA | hikoki-36v-circular-saw |
 | HiKOKI | G3613DA | hikoki-36v-angle-grinder |
 | HiKOKI | DH36DPA | hikoki-36v-sds-plus-drill |
+| DeWalt | DCH133N | dewalt-18v-xr-sds-plus-compact |
 | DeWalt | DHS780N | dewalt-54v-flexvolt-mitre-saw-305mm |
 | DeWalt | DCW600N | dewalt-18v-xr-router-dcw600 |
+| DeWalt | DCG200N | dewalt-18v-xr-die-grinder |
 | Makita | DDF487Z | makita-18v-lxt-drill-driver-ddf487 |
 | Makita | DHR283Z | makita-twin-18v-lxt-sds-plus-dhr283 |
 | Makita | DGA700Z | makita-twin-18v-lxt-angle-grinder-180mm |
@@ -79,8 +81,6 @@ Generated: 2026-03-13T14:23:31.196Z
 | HiKOKI | CJ36DA | hikoki-36v-jigsaw |
 | HiKOKI | CR36DA | hikoki-36v-reciprocating-saw |
 | HiKOKI | CV18DA | hikoki-18v-multi-tool |
-| HiKOKI | C3610DRA | hikoki-36v-mitre-saw-255mm |
-| HiKOKI | C3607DRA | hikoki-36v-table-saw |
 
 
 Mappings files scanned: dewalt.json, makita.json, milwaukee.json

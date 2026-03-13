@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-orbital-polisher",
   "model": "M18 FROP15-0",
-  "lastScraped": "2026-03-13T06:02:12.782Z",
+  "lastScraped": "2026-03-13T12:02:12.555Z",
   "retailers": {
     "Screwfix": {
       "price": 219.99,
       "inStock": true,
       "name": "Milwaukee M18FROP15-0X FUEL 125mm 18V Li-Ion RedLithium Brushless Cordless Polisher - Bare (204VT)",
       "url": "https://www.screwfix.com/p/milwaukee-m18frop15-0x-fuel-125mm-18v-li-ion-redlithium-brushless-cordless-polisher-bare/204vt#product_additional_details_container",
-      "lastScraped": "2026-03-13T06:02:13.529Z"
+      "lastScraped": "2026-03-13T12:02:13.213Z"
     },
     "Toolstation": {
       "price": 419.98,
       "inStock": true,
       "name": "Milwaukee M18 FROP15-502X Fuel Dual Action Polisher 2 x 5.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-frop15-502x-fuel-dual-action-polisher/p45541",
-      "lastScraped": "2026-03-13T06:02:14.987Z"
+      "lastScraped": "2026-03-13T12:02:14.720Z"
     },
     "Powertool Mate": {
       "price": 199.99,
       "inStock": true,
       "name": "Milwaukee M18FROP15-0 18v Fuel Random Orbital Polisher with 15mm Stroke Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-polishers/milwaukee-m18frop15-0-18v-fuel-random-orbital-polisher-with-15mm-stroke-naked.htm",
-      "lastScraped": "2026-03-13T06:02:16.127Z"
+      "lastScraped": "2026-03-13T12:02:15.822Z"
     }
   }
 }

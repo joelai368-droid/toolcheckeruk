@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-fuel-table-saw",
   "model": "M18 FTS210-0",
-  "lastScraped": "2026-03-13T06:01:48.073Z",
+  "lastScraped": "2026-03-13T12:01:48.120Z",
   "retailers": {
     "Screwfix": {
       "price": 598.99,
       "inStock": true,
       "name": "Milwaukee M18 FTS210-0 FUEL 18V Li-Ion RedLithium 210mm Brushless Cordless Table Saw - Bare (855HG)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-fts210-0-fuel-18v-li-ion-redlithium-210mm-brushless-cordless-table-saw-bare/855hg#product_additional_details_container",
-      "lastScraped": "2026-03-13T06:01:48.970Z"
+      "lastScraped": "2026-03-13T12:01:48.994Z"
     },
     "Toolstation": {
       "price": 599.98,
       "inStock": true,
       "name": "Milwaukee M18 FUEL 210MM Table Saw Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18-fuel-210mm-table-saw/p55267",
-      "lastScraped": "2026-03-13T06:01:49.833Z"
+      "lastScraped": "2026-03-13T12:01:49.430Z"
     },
     "ITS": {
       "price": 499.99,
       "inStock": true,
       "name": "Milwaukee M18 FTS210-0 18V FUEL ONE-KEY Brushless Table Saw - Body",
       "url": "https://its.co.uk/pd/M18FTS210-0-Milwaukee-M18-FTS210-0-18V-FUEL-ONE-KEY-Brushless-Table-Saw---Body-_MILM18FTS2100.htm",
-      "lastScraped": "2026-03-13T06:01:50.727Z"
+      "lastScraped": "2026-03-13T12:01:50.319Z"
     },
     "Powertool Mate": {
       "price": 617.99,
       "inStock": true,
       "name": "Milwaukee M18FTS210-0 18v One Key FUEL 210mm Table Saw Naked & TSS1000 Saw Stand",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-table-saws/milwaukee-m18fts210-0-18v-one-key-fuel-210mm-table-saw-naked-tss1000-saw-stand.htm",
-      "lastScraped": "2026-03-13T06:01:51.621Z"
+      "lastScraped": "2026-03-13T12:01:51.194Z"
     }
   }
 }

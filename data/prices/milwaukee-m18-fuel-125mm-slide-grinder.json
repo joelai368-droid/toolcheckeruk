@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-125mm-slide-grinder",
   "model": "M18 FSAG125X-0",
-  "lastScraped": "2026-03-13T06:02:11.877Z",
+  "lastScraped": "2026-03-13T12:02:11.575Z",
   "retailers": {
     "Powertool Mate": {
       "price": 269.99,
       "inStock": true,
       "name": "Milwaukee M18FSAG125X 18v Fuel 125mm Angle Grinder Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m18fsag125x-18v-fuel-125mm-angle-grinder-naked.htm",
-      "lastScraped": "2026-03-13T06:02:12.782Z"
+      "lastScraped": "2026-03-13T12:02:12.554Z"
     }
   }
 }

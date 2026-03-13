@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-hb5-battery",
   "model": "M18 HB5",
-  "lastScraped": "2026-03-13T06:04:14.329Z",
+  "lastScraped": "2026-03-13T12:04:14.238Z",
   "retailers": {
     "Screwfix": {
       "price": 109.97,
       "inStock": true,
       "name": "Milwaukee M18 HB5.5 18V 5.5Ah Li-Ion RedLithium High Output Battery (871HF)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-hb5-5-18v-5-5ah-li-ion-redlithium-high-output-battery/871hf",
-      "lastScraped": "2026-03-13T06:04:15.404Z"
+      "lastScraped": "2026-03-13T12:04:15.034Z"
     },
     "Toolstation": {
       "price": 59.98,
       "inStock": true,
       "name": "Milwaukee M18 Battery 5.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-battery/p31200",
-      "lastScraped": "2026-03-13T06:04:15.921Z"
+      "lastScraped": "2026-03-13T12:04:15.642Z"
     },
     "ITS": {
       "price": 95.99,
       "inStock": true,
       "name": "Milwaukee M18 HB5.5 5.5Ah 18V High Output Li-Ion Battery",
       "url": "https://its.co.uk/pd/M18-HB55-Milwaukee-M18-HB55-55Ah-18V-High-Output-Li-Ion-Battery-_MILM18HB55.htm",
-      "lastScraped": "2026-03-13T06:04:16.749Z"
+      "lastScraped": "2026-03-13T12:04:16.368Z"
     },
     "Powertool Mate": {
       "price": 83.99,
       "inStock": true,
       "name": "Milwaukee M18HB5 18V 5.5Ah RedLithium-Ion High Output Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/brand-new-milwaukee-m18-hb5-5-m18-5-5ah-redlithium-ion-high-output-battery.htm",
-      "lastScraped": "2026-03-13T06:04:17.600Z"
+      "lastScraped": "2026-03-13T12:04:17.241Z"
     }
   }
 }

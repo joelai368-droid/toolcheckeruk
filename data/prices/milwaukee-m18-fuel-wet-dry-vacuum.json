@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-wet-dry-vacuum",
   "model": "M18 VC2-0",
-  "lastScraped": "2026-03-13T06:02:30.102Z",
+  "lastScraped": "2026-03-13T12:02:29.808Z",
   "retailers": {
     "Toolstation": {
       "price": 99.98,
       "inStock": true,
       "name": "Milwaukee M18VC2-0 Vacuum Body only",
       "url": "https://www.toolstation.com/milwaukee-m18vc2-0-vacuum/p67121",
-      "lastScraped": "2026-03-13T06:02:30.527Z"
+      "lastScraped": "2026-03-13T12:02:30.527Z"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-area-light",
   "model": "M18 TAL-0",
-  "lastScraped": "2026-03-13T06:02:36.759Z",
+  "lastScraped": "2026-03-13T12:02:35.912Z",
   "retailers": {
     "Toolstation": {
       "price": 119.98,
       "inStock": true,
       "name": "Milwaukee M18TAL-0 Radius Area Light Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18tal-0-radius-area-light/p71375",
-      "lastScraped": "2026-03-13T06:02:38.060Z"
+      "lastScraped": "2026-03-13T12:02:36.687Z"
     }
   }
 }

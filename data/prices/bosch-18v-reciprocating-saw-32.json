@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-reciprocating-saw-32",
+  "model": "GSA 18V-32",
+  "lastScraped": "2026-03-13T19:56:58.496Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 309.99,
+      "inStock": true,
+      "name": "Bosch GSA18V-32 18V Li-Ion CoolPack Brushless Cordless Reciprocating Saw - Bare (886KX)",
+      "url": "https://www.screwfix.com/p/bosch-gsa18v-32-18v-li-ion-coolpack-brushless-cordless-reciprocating-saw-bare/886kx#product_additional_details_container",
+      "lastScraped": "2026-03-13T19:57:01.703Z"
+    }
+  }
+}

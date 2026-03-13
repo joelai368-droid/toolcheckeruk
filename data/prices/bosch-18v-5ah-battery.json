@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-5ah-battery",
+  "model": "GBA 18V 5.0Ah",
+  "lastScraped": "2026-03-13T19:57:30.440Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 74.99,
+      "inStock": true,
+      "name": "Bosch GBA 18V 5.0Ah Professional 18V 5.0Ah Li-Ion CoolPack Battery (5296F)",
+      "url": "https://www.screwfix.com/p/bosch-gba-18v-5-0ah-professional-18v-5-0ah-li-ion-coolpack-battery/5296f#product_additional_details_container",
+      "lastScraped": "2026-03-13T19:57:33.903Z"
+    }
+  }
+}

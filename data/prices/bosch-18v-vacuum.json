@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-vacuum",
+  "model": "GAS 18V-12 MC",
+  "lastScraped": "2026-03-13T19:57:27.621Z",
+  "retailers": {
+    "ITS": {
+      "price": 409.98,
+      "inStock": true,
+      "name": "Bosch GAS 18V-12 MC 18V Brushless BITURBO M-Class Dust Extractor - Body",
+      "url": "https://its.co.uk/pd/bosch-gas-18v-12-mc-18v-brushless-biturbo-m-class-dust-extractor-body-_bosgas18v12mc.htm",
+      "lastScraped": "2026-03-13T19:57:28.478Z"
+    },
+    "Screwfix": {
+      "price": 529.99,
+      "inStock": true,
+      "name": "Bosch GAS 18V-12 MC 30Ltr/sec 18V Li-Ion AMPShare Brushless Cordless M Class Vacuum Cleaner - Bare (389CP)",
+      "url": "https://www.screwfix.com/p/bosch-gas-18v-12-mc-30ltr-sec-18v-li-ion-ampshare-brushless-cordless-m-class-vacuum-cleaner-bare/389cp#product_additional_details_container",
+      "lastScraped": "2026-03-13T19:57:30.440Z"
+    }
+  }
+}

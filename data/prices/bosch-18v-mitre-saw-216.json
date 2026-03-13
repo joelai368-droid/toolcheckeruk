@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-mitre-saw-216",
+  "model": "GCM 18V-216",
+  "lastScraped": "2026-03-13T19:57:05.650Z",
+  "retailers": {
+    "Powertool Mate": {
+      "price": 399.99,
+      "inStock": true,
+      "name": "Bosch GCM 18v-216 18v 216mm Mitre Saw Biturbo Naked 0601B4100",
+      "url": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gcm-18v-216-18v-216mm-mitre-saw-biturbo-naked-0601b4100.htm",
+      "lastScraped": "2026-03-13T19:57:07.528Z"
+    },
+    "Screwfix": {
+      "price": 479.99,
+      "inStock": true,
+      "name": "Bosch GCM 18V-216 D  216mm 18V Li-Ion ProCORE18V Brushless Cordless Double-Bevel Sliding Mitre Saw - Bare (987KU)",
+      "url": "https://www.screwfix.com/p/bosch-gcm-18v-216-d-216mm-18v-li-ion-procore18v-brushless-cordless-double-bevel-sliding-mitre-saw-bare/987ku",
+      "lastScraped": "2026-03-13T19:57:08.400Z"
+    }
+  }
+}

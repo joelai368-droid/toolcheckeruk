@@ -1,0 +1,283 @@
+{
+  "bosch-18v-combi-drill": {
+    "model": "GSB 18V-55",
+    "name": "18V Brushless Combi Drill (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/GSB-18V-55N-Bosch-GSB-18V-55-Brushless-18V-Combi-Drill---Body-_BOSGSB18V55N.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gsb-18v-55-18v-2-x-5-0ah-li-ion-coolpack-brushless-cordless-combi-drill/588pv"
+    }
+  },
+  "bosch-18v-impact-driver": {
+    "model": "GDR 18V-200",
+    "name": "18V Brushless Impact Driver (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/GDR-18V200N-Bosch-GDR-18V-200-18V-Brushless-Impact-Driver---Body-_BOSGDR18V200N.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gdr-18v-215-18v-li-ion-ampshare-brushless-cordless-impact-driver-bare/482cy"
+    }
+  },
+  "bosch-18v-circular-saw": {
+    "model": "GKS 18V-68 GC",
+    "name": "18V BITURBO 190mm Circular Saw (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gks-18v-68-gc-18v-190mm-circular-saw-biturbo-naked-in-l-boxx-06016b5100.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gks-18-v-68-gc-190mm-18v-li-ion-procore18v-brushless-cordless-biturbo-circular-saw-bare/115ky#product_additional_details_container"
+    }
+  },
+  "bosch-18v-sds-hammer-drill": {
+    "model": "GBH 18V-26",
+    "name": "18V SDS Plus Hammer Drill (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gbh-18v-26-d-2-6kg-18v-li-ion-procore18v-brushless-cordless-sds-plus-rotary-hammer-drill-bare/143ku"
+    }
+  },
+  "bosch-18v-angle-grinder": {
+    "model": "GWS 18V-10 C",
+    "name": "18V BITURBO 125mm Angle Grinder (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-multi-tool": {
+    "model": "GOP 18V-28",
+    "name": "18V Brushless Multi-Tool (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gop-18v-28-18v-starlock-plus-multi-tool-naked-06018b6002.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gop-18v-34-professional-18v-li-ion-ampshare-brushless-cordless-multi-tool-bare/507cp"
+    }
+  },
+  "bosch-18v-planer": {
+    "model": "GHO 18V-LI",
+    "name": "18V 82mm Planer (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gho-18v-26-professional-18v-li-ion-ampshare-brushless-cordless-planer-bare/211ck"
+    }
+  },
+  "bosch-18v-combi-drill-90c": {
+    "model": "GSB 18V-90 C",
+    "name": "18V Brushless Combi Drill Connected (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/bosch-gsb-18v-90-c-brushless-18v-combi-drill-body-_bosgsb18v90c.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gsb-18v-90-c-18v-li-ion-coolpack-brushless-cordless-combi-drill-bare/633fn"
+    }
+  },
+  "bosch-18v-drill-driver-55": {
+    "model": "GSR 18V-55",
+    "name": "18V Brushless Drill Driver (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-drill-driver-90c": {
+    "model": "GSR 18V-90 C",
+    "name": "18V Brushless Drill Driver Connected (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gsr-18v-90-c-18v-2-x-4-0ah-li-ion-coolpack-brushless-cordless-drill-driver/359fu#product_additional_details_container"
+    }
+  },
+  "bosch-18v-impact-driver-210c": {
+    "model": "GDR 18V-210 C",
+    "name": "18V Brushless Impact Driver Connected (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gdr-18v-215-18v-li-ion-ampshare-brushless-cordless-impact-driver-bare/482cy"
+    }
+  },
+  "bosch-18v-impact-wrench-34": {
+    "model": "GDS 18V-1050 H",
+    "name": "18V BITURBO Brushless 3/4\" Impact Wrench (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gds-18v-1050-h-professional-18v-li-ion-procore18v-brushless-cordless-impact-wrench-bare/982pv#product_additional_details_container"
+    }
+  },
+  "bosch-18v-impact-wrench-450hc": {
+    "model": "GDS 18V-450 HC",
+    "name": "18V Brushless 1/2\" Impact Wrench (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gds-18v-450-hc-18v-li-ion-coolpack-brushless-cordless-impact-wrench-bare/231ku#product_additional_details_container"
+    }
+  },
+  "bosch-18v-sds-plus-34cf": {
+    "model": "GBH 18V-34 CF",
+    "name": "18V Brushless SDS Plus Hammer Drill with Forward Control (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gbh-18v-34-cf-5-9kg-18v-2-x-8-0ah-li-ion-procore18v-brushless-cordless-biturbo-sds-plus-rotary-hammer/119rt#product_additional_details_container"
+    }
+  },
+  "bosch-18v-sds-max-45c": {
+    "model": "GBH 18V-45 C",
+    "name": "18V BITURBO Brushless SDS Max Hammer Drill (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-circular-saw-165mm": {
+    "model": "GKS 18V-57",
+    "name": "18V 165mm Circular Saw (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/bosch-gks-18v-57-2-brushless-18v-165mm-circular-saw-body-_bosgks18v572.htm",
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gks-18v-57-18v-165mm-circular-saw-naked-06016a2200.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gks-18v-57-2-165mm-18v-li-ion-coolpack-brushless-cordless-circular-saw-in-l-boxx-bare/347fn"
+    }
+  },
+  "bosch-18v-jigsaw-155bc": {
+    "model": "GST 18V-155 BC",
+    "name": "18V Brushless Jigsaw (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gst-18v-125-b-18v-li-ion-coolpack-brushless-cordless-jigsaw-bare/149ku"
+    }
+  },
+  "bosch-18v-reciprocating-saw-32": {
+    "model": "GSA 18V-32",
+    "name": "18V Brushless Reciprocating Saw (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gsa18v-32-18v-li-ion-coolpack-brushless-cordless-reciprocating-saw-bare/886kx#product_additional_details_container"
+    }
+  },
+  "bosch-18v-multi-tool-34": {
+    "model": "GOP 18V-34",
+    "name": "18V Brushless Multi-Tool (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gop-18v-34-professional-18v-li-ion-ampshare-brushless-cordless-multi-tool-bare/507cp"
+    }
+  },
+  "bosch-18v-mitre-saw-216": {
+    "model": "GCM 18V-216",
+    "name": "18V BITURBO Brushless 216mm Mitre Saw (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gcm-18v-216-18v-216mm-mitre-saw-biturbo-naked-0601b4100.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gcm-18v-216-d-216mm-18v-li-ion-procore18v-brushless-cordless-double-bevel-sliding-mitre-saw-bare/987ku"
+    }
+  },
+  "bosch-18v-plunge-saw": {
+    "model": "GKT 18V-52 GC",
+    "name": "18V Brushless 165mm Plunge Saw with Guide Rail (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gkt-18v-52-gc-18v-plungesaw-biturbo-naked-in-l-boxx-06016b4000.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gkt-18-v-52-gc-18v-li-ion-procore18v-140mm-brushless-cordless-biturbo-plunge-saw-bare/656ky#product_additional_details_container"
+    }
+  },
+  "bosch-18v-angle-grinder-15c": {
+    "model": "GWS 18V-15 C",
+    "name": "18V BITURBO 125mm Angle Grinder Connected (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gws-18v-15-c-18v-li-ion-procore18v-5-brushless-cordless-biturbo-angle-grinder-bare/528pg#product_additional_details_container"
+    }
+  },
+  "bosch-18v-angle-grinder-180mm": {
+    "model": "GWS 18V-180 PC",
+    "name": "18V BITURBO 180mm Large Angle Grinder (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-router": {
+    "model": "GKF 18V-8",
+    "name": "18V Brushless Palm Router (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/bosch-gkf-18v-8-18v-brushless-palm-router-body-_bosgkf18v8.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gkf-18v-8-18v-li-ion-ampshare-6mm-8mm-brushless-cordless-palm-router-bare/520ck"
+    }
+  },
+  "bosch-18v-orbital-sander": {
+    "model": "GSS 18V-13",
+    "name": "18V Brushless Sheet Orbital Sander (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gss-18v-13-18v-li-ion-procore18v-brushless-cordless-sheet-sander-bare/966fn#product_additional_details_container"
+    }
+  },
+  "bosch-18v-random-orbital-sander": {
+    "model": "GEX 18V-125",
+    "name": "18V Brushless 125mm Random Orbital Sander (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/GEX18V-125N-Bosch-GEX-18V-125--BRUSHLESS-18V-Random-Orbital-Sander---Body-_BOSGEX18V125N.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gex-18v-125-125mm-18v-li-ion-coolpack-brushless-cordless-random-orbit-sander-bare/582yw"
+    }
+  },
+  "bosch-18v-work-light": {
+    "model": "GLI 18V-4000 C",
+    "name": "18V LED Work Light Connected",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gli-18v-800-professional-18v-li-ion-ampshare-cordless-site-light-bare/807ck"
+    }
+  },
+  "bosch-18v-dab-radio": {
+    "model": "GML 18V-120",
+    "name": "18V DAB+ Professional Radio",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-vacuum": {
+    "model": "GAS 18V-12 MC",
+    "name": "18V Professional Wet/Dry Vacuum (Body Only)",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/bosch-gas-18v-12-mc-18v-brushless-biturbo-m-class-dust-extractor-body-_bosgas18v12mc.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gas-18v-12-mc-30ltr-sec-18v-li-ion-ampshare-brushless-cordless-m-class-vacuum-cleaner-bare/389cp#product_additional_details_container"
+    }
+  },
+  "bosch-18v-2ah-battery": {
+    "model": "GBA 18V 2.0Ah",
+    "name": "18V 2.0Ah ProCORE Battery",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-4ah-battery": {
+    "model": "GBA 18V 4.0Ah",
+    "name": "18V 4.0Ah ProCORE Battery",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-5ah-battery": {
+    "model": "GBA 18V 5.0Ah",
+    "name": "18V 5.0Ah ProCORE Battery",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gba-18v-5-0ah-professional-18v-5-0ah-li-ion-coolpack-battery/5296f#product_additional_details_container"
+    }
+  },
+  "bosch-18v-8ah-battery": {
+    "model": "GBA 18V 8.0Ah",
+    "name": "18V 8.0Ah ProCORE 18V Battery",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-12ah-battery": {
+    "model": "GBA 18V 12.0Ah",
+    "name": "18V 12.0Ah ProCORE 18V Battery",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  },
+  "bosch-18v-fast-charger": {
+    "model": "GAL 18V-40",
+    "name": "18V 4A Fast Charger",
+    "brand": "Bosch Professional",
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/1600A019RK-Bosch-GAL-18V-40-18V-Battery-Charger-_BOSGAL18V40.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gal-18v-40-professional-10-8-14-4-18v-li-ion-coolpack-battery-charger/743kx"
+    }
+  },
+  "bosch-18v-dual-charger": {
+    "model": "GAL 18V-160 C",
+    "name": "18V 8A Connected Dual Bay Charger",
+    "brand": "Bosch Professional",
+    "retailers": {}
+  }
+}

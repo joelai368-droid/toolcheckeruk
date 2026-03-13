@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-multi-tool",
+  "model": "GOP 18V-28",
+  "lastScraped": "2026-03-13T19:56:26.993Z",
+  "retailers": {
+    "Powertool Mate": {
+      "price": 166.99,
+      "inStock": true,
+      "name": "Bosch GOP 18v-28 18v Starlock Plus Multi Tool Naked 06018B6002",
+      "url": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gop-18v-28-18v-starlock-plus-multi-tool-naked-06018b6002.htm",
+      "lastScraped": "2026-03-13T19:56:27.838Z"
+    },
+    "Screwfix": {
+      "price": 244.99,
+      "inStock": true,
+      "name": "Bosch GOP 18V-34 Professional  18V Li-Ion AMPShare Brushless Cordless Multi-Tool - Bare (507CP)",
+      "url": "https://www.screwfix.com/p/bosch-gop-18v-34-professional-18v-li-ion-ampshare-brushless-cordless-multi-tool-bare/507cp",
+      "lastScraped": "2026-03-13T19:56:29.596Z"
+    }
+  }
+}

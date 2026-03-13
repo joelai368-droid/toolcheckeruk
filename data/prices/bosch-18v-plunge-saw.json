@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-plunge-saw",
+  "model": "GKT 18V-52 GC",
+  "lastScraped": "2026-03-13T19:57:08.400Z",
+  "retailers": {
+    "Powertool Mate": {
+      "price": 359.99,
+      "inStock": true,
+      "name": "Bosch GKT 18v-52 GC 18v Plungesaw Biturbo Naked in L-Boxx 06016B4000",
+      "url": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gkt-18v-52-gc-18v-plungesaw-biturbo-naked-in-l-boxx-06016b4000.htm",
+      "lastScraped": "2026-03-13T19:57:09.547Z"
+    },
+    "Screwfix": {
+      "price": 389.99,
+      "inStock": true,
+      "name": "Bosch GKT 18 V-52 GC 18V Li-Ion ProCORE18V 140mm Brushless Cordless BITURBO Plunge Saw - Bare (656KY)",
+      "url": "https://www.screwfix.com/p/bosch-gkt-18-v-52-gc-18v-li-ion-procore18v-140mm-brushless-cordless-biturbo-plunge-saw-bare/656ky#product_additional_details_container",
+      "lastScraped": "2026-03-13T19:57:11.704Z"
+    }
+  }
+}

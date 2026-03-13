@@ -1,0 +1,28 @@
+{
+  "slug": "bosch-18v-circular-saw-165mm",
+  "model": "GKS 18V-57",
+  "lastScraped": "2026-03-13T19:56:52.231Z",
+  "retailers": {
+    "ITS": {
+      "price": 209.99,
+      "inStock": true,
+      "name": "Bosch GKS 18V-57-2 Brushless 18V 165mm Circular Saw - Body",
+      "url": "https://its.co.uk/pd/bosch-gks-18v-57-2-brushless-18v-165mm-circular-saw-body-_bosgks18v572.htm",
+      "lastScraped": "2026-03-13T19:56:53.464Z"
+    },
+    "Powertool Mate": {
+      "price": 134.99,
+      "inStock": true,
+      "name": "Bosch GKS 18v-57 18v 165mm Circular Saw Naked 06016A2200",
+      "url": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gks-18v-57-18v-165mm-circular-saw-naked-06016a2200.htm",
+      "lastScraped": "2026-03-13T19:56:54.548Z"
+    },
+    "Screwfix": {
+      "price": 233.99,
+      "inStock": true,
+      "name": "Bosch GKS 18V 57-2 165mm 18V Li-Ion CoolPack Brushless Cordless Circular Saw in L-Boxx - Bare (347FN)",
+      "url": "https://www.screwfix.com/p/bosch-gks-18v-57-2-165mm-18v-li-ion-coolpack-brushless-cordless-circular-saw-in-l-boxx-bare/347fn",
+      "lastScraped": "2026-03-13T19:56:56.007Z"
+    }
+  }
+}

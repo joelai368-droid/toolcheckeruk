@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-fast-charger",
+  "model": "GAL 18V-40",
+  "lastScraped": "2026-03-13T19:57:33.904Z",
+  "retailers": {
+    "ITS": {
+      "price": 29.99,
+      "inStock": true,
+      "name": "Bosch GAL 18V-40 18V Battery Charger",
+      "url": "https://its.co.uk/pd/1600A019RK-Bosch-GAL-18V-40-18V-Battery-Charger-_BOSGAL18V40.htm",
+      "lastScraped": "2026-03-13T19:57:34.838Z"
+    },
+    "Screwfix": {
+      "price": 39.99,
+      "inStock": true,
+      "name": "Bosch GAL 18V-40 Professional 10.8/14.4/18V Li-Ion CoolPack Battery Charger (743KX)",
+      "url": "https://www.screwfix.com/p/bosch-gal-18v-40-professional-10-8-14-4-18v-li-ion-coolpack-battery-charger/743kx",
+      "lastScraped": "2026-03-13T19:57:36.941Z"
+    }
+  }
+}

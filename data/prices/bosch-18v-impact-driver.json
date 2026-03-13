@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-impact-driver",
+  "model": "GDR 18V-200",
+  "lastScraped": "2026-03-13T19:56:17.184Z",
+  "retailers": {
+    "ITS": {
+      "price": 144.98,
+      "inStock": true,
+      "name": "Bosch GDR 18V-200 18V Brushless Impact Driver - Body",
+      "url": "https://its.co.uk/pd/GDR-18V200N-Bosch-GDR-18V-200-18V-Brushless-Impact-Driver---Body-_BOSGDR18V200N.htm",
+      "lastScraped": "2026-03-13T19:56:18.528Z"
+    },
+    "Screwfix": {
+      "price": 84.99,
+      "inStock": true,
+      "name": "Bosch GDR 18V-215 18V Li-Ion AMPShare Brushless Cordless Impact Driver - Bare (482CY)",
+      "url": "https://www.screwfix.com/p/bosch-gdr-18v-215-18v-li-ion-ampshare-brushless-cordless-impact-driver-bare/482cy",
+      "lastScraped": "2026-03-13T19:56:20.379Z"
+    }
+  }
+}

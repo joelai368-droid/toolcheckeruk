@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-router",
+  "model": "GKF 18V-8",
+  "lastScraped": "2026-03-13T19:57:14.948Z",
+  "retailers": {
+    "ITS": {
+      "price": 229.98,
+      "inStock": true,
+      "name": "Bosch GKF 18V-8 18V Brushless Palm Router - Body",
+      "url": "https://its.co.uk/pd/bosch-gkf-18v-8-18v-brushless-palm-router-body-_bosgkf18v8.htm",
+      "lastScraped": "2026-03-13T19:57:15.934Z"
+    },
+    "Screwfix": {
+      "price": 229.99,
+      "inStock": true,
+      "name": "Bosch GKF 18V-8 18V Li-Ion AMPShare 6mm & 8mm Brushless Cordless Palm Router - Bare (520CK)",
+      "url": "https://www.screwfix.com/p/bosch-gkf-18v-8-18v-li-ion-ampshare-6mm-8mm-brushless-cordless-palm-router-bare/520ck",
+      "lastScraped": "2026-03-13T19:57:18.488Z"
+    }
+  }
+}

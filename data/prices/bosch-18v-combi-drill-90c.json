@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-combi-drill-90c",
+  "model": "GSB 18V-90 C",
+  "lastScraped": "2026-03-13T19:56:33.171Z",
+  "retailers": {
+    "ITS": {
+      "price": 139.98,
+      "inStock": true,
+      "name": "Bosch GSB 18V-90 C Brushless 18V Combi Drill - Body",
+      "url": "https://its.co.uk/pd/bosch-gsb-18v-90-c-brushless-18v-combi-drill-body-_bosgsb18v90c.htm",
+      "lastScraped": "2026-03-13T19:56:34.361Z"
+    },
+    "Screwfix": {
+      "price": 99.99,
+      "inStock": true,
+      "name": "Bosch GSB 18V-90 C 18V Li-Ion CoolPack Brushless Cordless Combi Drill - Bare (633FN)",
+      "url": "https://www.screwfix.com/p/bosch-gsb-18v-90-c-18v-li-ion-coolpack-brushless-cordless-combi-drill-bare/633fn",
+      "lastScraped": "2026-03-13T19:56:36.453Z"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-random-orbital-sander",
+  "model": "GEX 18V-125",
+  "lastScraped": "2026-03-13T19:57:21.595Z",
+  "retailers": {
+    "ITS": {
+      "price": 124.99,
+      "inStock": true,
+      "name": "Bosch GEX 18V-125 Brushless 18V Random Orbital Sander - Body",
+      "url": "https://its.co.uk/pd/GEX18V-125N-Bosch-GEX-18V-125--BRUSHLESS-18V-Random-Orbital-Sander---Body-_BOSGEX18V125N.htm",
+      "lastScraped": "2026-03-13T19:57:22.739Z"
+    },
+    "Screwfix": {
+      "price": 159.98,
+      "inStock": true,
+      "name": "Bosch GEX 18V-125 125mm 18V Li-Ion CoolPack Brushless Cordless Random Orbit Sander - Bare (582YW)",
+      "url": "https://www.screwfix.com/p/bosch-gex-18v-125-125mm-18v-li-ion-coolpack-brushless-cordless-random-orbit-sander-bare/582yw",
+      "lastScraped": "2026-03-13T19:57:24.664Z"
+    }
+  }
+}

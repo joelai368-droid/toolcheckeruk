@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-sds-plus-34cf",
+  "model": "GBH 18V-34 CF",
+  "lastScraped": "2026-03-13T19:56:49.081Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 864.99,
+      "inStock": true,
+      "name": "Bosch GBH 18V-34 CF 5.9kg 18V 2 x 8.0Ah Li-Ion ProCORE18V Brushless Cordless BITURBO SDS Plus Rotary Hammer (119RT)",
+      "url": "https://www.screwfix.com/p/bosch-gbh-18v-34-cf-5-9kg-18v-2-x-8-0ah-li-ion-procore18v-brushless-cordless-biturbo-sds-plus-rotary-hammer/119rt#product_additional_details_container",
+      "lastScraped": "2026-03-13T19:56:52.231Z"
+    }
+  }
+}

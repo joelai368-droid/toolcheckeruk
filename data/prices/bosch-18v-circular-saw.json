@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-circular-saw",
+  "model": "GKS 18V-68 GC",
+  "lastScraped": "2026-03-13T19:56:20.379Z",
+  "retailers": {
+    "Powertool Mate": {
+      "price": 299.99,
+      "inStock": true,
+      "name": "Bosch GKS 18v-68 GC 18v 190mm Circular Saw Biturbo Naked in L-Boxx 06016B5100",
+      "url": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gks-18v-68-gc-18v-190mm-circular-saw-biturbo-naked-in-l-boxx-06016b5100.htm",
+      "lastScraped": "2026-03-13T19:56:21.474Z"
+    },
+    "Screwfix": {
+      "price": 329.99,
+      "inStock": true,
+      "name": "Bosch GKS 18 V-68 GC 190mm 18V Li-Ion ProCORE18V Brushless Cordless BITURBO Circular Saw - Bare (115KY)",
+      "url": "https://www.screwfix.com/p/bosch-gks-18-v-68-gc-190mm-18v-li-ion-procore18v-brushless-cordless-biturbo-circular-saw-bare/115ky#product_additional_details_container",
+      "lastScraped": "2026-03-13T19:56:23.582Z"
+    }
+  }
+}

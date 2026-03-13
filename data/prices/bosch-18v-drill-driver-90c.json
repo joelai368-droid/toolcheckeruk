@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-drill-driver-90c",
+  "model": "GSR 18V-90 C",
+  "lastScraped": "2026-03-13T19:56:36.454Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 282.99,
+      "inStock": true,
+      "name": "Bosch GSR 18V-90 C 18V 2 x 4.0Ah Li-Ion CoolPack Brushless Cordless Drill Driver (359FU)",
+      "url": "https://www.screwfix.com/p/bosch-gsr-18v-90-c-18v-2-x-4-0ah-li-ion-coolpack-brushless-cordless-drill-driver/359fu#product_additional_details_container",
+      "lastScraped": "2026-03-13T19:56:39.613Z"
+    }
+  }
+}

@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-caulking-gun",
   "model": "M18 PCG/310C-0",
-  "lastScraped": "2026-03-13T00:01:38.558Z",
+  "lastScraped": "2026-03-13T06:01:58.157Z",
   "retailers": {
     "ITS": {
       "price": 191.99,
       "inStock": true,
       "name": "Milwaukee C18PCG/310C 18V 310ml Caulking Gun - Body",
       "url": "https://its.co.uk/pd/milwaukee-c18pcg-310c-18v-310ml-caulking-gun-body-_milc18pcg310c.htm",
-      "lastScraped": "2026-03-12T21:16:18.258Z"
+      "lastScraped": "2026-03-13T06:02:00.581Z"
     }
   }
 }

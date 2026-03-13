@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-deep-cut-bandsaw",
   "model": "M18 CBS125-0",
-  "lastScraped": "2026-03-13T00:01:19.597Z",
+  "lastScraped": "2026-03-13T06:01:36.539Z",
   "retailers": {
     "Powertool Mate": {
       "price": 257.99,
       "inStock": true,
       "name": "Milwaukee M18CBS125-0 18V Fuel Deep Cut Band Saw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-bandsaws/milwaukee-m18cbs125-0-18v-fuel-deep-cut-band-saw-body-only.htm",
-      "lastScraped": "2026-03-13T00:01:22.554Z"
+      "lastScraped": "2026-03-13T06:01:39.664Z"
     }
   }
 }

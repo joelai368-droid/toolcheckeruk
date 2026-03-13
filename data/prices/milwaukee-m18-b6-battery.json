@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-b6-battery",
   "model": "M18 B6",
-  "lastScraped": "2026-03-13T00:03:26.247Z",
+  "lastScraped": "2026-03-13T06:04:17.601Z",
   "retailers": {
     "Toolstation": {
       "price": 209.98,
       "inStock": true,
       "name": "Milwaukee M18 REDLITHIUM™ FORGE™ Battery 6.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-redlithium-forge-battery/p91964",
-      "lastScraped": "2026-03-12T21:16:55.997Z"
+      "lastScraped": "2026-03-13T06:04:20.084Z"
     }
   }
 }

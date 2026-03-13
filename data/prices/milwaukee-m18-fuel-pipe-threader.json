@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-pipe-threader",
   "model": "M18 FPT2-0",
-  "lastScraped": "2026-03-13T00:02:08.332Z",
+  "lastScraped": "2026-03-13T06:02:50.182Z",
   "retailers": {
     "Toolstation": {
       "price": 849.98,
       "inStock": true,
       "name": "Milwaukee M18 FPT2-0C FUEL ONE-KEY 2\" Pipe Threader Body only",
       "url": "https://www.toolstation.com/milwaukee-m18-fpt2-0c-fuel-one-key-2-pipe-threader/p28850",
-      "lastScraped": "2026-03-13T00:02:08.725Z"
+      "lastScraped": "2026-03-13T06:02:51.487Z"
     }
   }
 }

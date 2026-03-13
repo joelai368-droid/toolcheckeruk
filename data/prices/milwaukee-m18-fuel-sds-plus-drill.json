@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-sds-plus-drill",
   "model": "M18 CHX-0",
-  "lastScraped": "2026-03-13T00:00:07.785Z",
+  "lastScraped": "2026-03-13T06:00:12.850Z",
   "retailers": {
     "ITS": {
       "price": 206.66,
       "inStock": true,
       "name": "Milwaukee 18v M18 FUEL SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/M18CHX-0-18v-M18-FUEL-SDSplus-Drill---Body-_MILM18CHX0.htm",
-      "lastScraped": "2026-03-12T21:16:12.180Z"
+      "lastScraped": "2026-03-13T06:00:15.054Z"
     }
   }
 }

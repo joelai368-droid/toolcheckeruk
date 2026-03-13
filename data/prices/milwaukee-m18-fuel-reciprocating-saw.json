@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-reciprocating-saw",
   "model": "M18 ONEFSZ-0X",
-  "lastScraped": "2026-03-13T00:00:07.787Z",
+  "lastScraped": "2026-03-13T06:00:18.351Z",
   "retailers": {
     "Screwfix": {
       "price": 209.99,
       "inStock": true,
       "name": "Milwaukee M18ONEFSZ-0X 18V Li-Ion RedLithium High Output Brushless Cordless Sawzall Reciprocating Saw - Bare (312XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18onefsz-0x-18v-li-ion-redlithium-high-output-brushless-cordless-sawzall-reciprocating-saw-bare/312xh#product_additional_details_container",
-      "lastScraped": "2026-03-13T00:00:08.432Z"
+      "lastScraped": "2026-03-13T06:00:19.251Z"
     },
     "Toolstation": {
       "price": 429.98,
       "inStock": true,
       "name": "Milwaukee M18 ONEFSZ-552X FUEL ONE-KEY Sawzall 2 x 5.5Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-onefsz-552x-fuel-one-key-sawzall/p31161",
-      "lastScraped": "2026-03-13T00:00:08.841Z"
+      "lastScraped": "2026-03-13T06:00:19.792Z"
     },
     "ITS": {
       "price": 227.99,
       "inStock": true,
       "name": "Milwaukee M18 ONEFSZ-0 18V FUEL ONE-KEY Brushless SAWZALL Reciprocating Saw - Body with Case",
       "url": "https://its.co.uk/pd/M18-ONEFSZ-0X-Milwaukee-M18-ONEFSZ-0-18V-FUEL-ONE-KEY-Brushless-Reciprocating-Saw---Body-with-Case-_MILM18ONEFSX0.htm",
-      "lastScraped": "2026-03-13T00:00:09.997Z"
+      "lastScraped": "2026-03-13T06:00:21.598Z"
     }
   }
 }

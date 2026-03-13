@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m12-inflator",
   "model": "M12 BI-0",
-  "lastScraped": "2026-03-13T00:03:16.121Z",
+  "lastScraped": "2026-03-13T06:04:03.124Z",
   "retailers": {
     "Screwfix": {
       "price": 89.99,
       "inStock": true,
       "name": "Milwaukee M12 BI-0 12V Li-Ion RedLithium  Cordless Inflator - Bare (326HR)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-bi-0-12v-li-ion-redlithium-cordless-inflator-bare/326hr#product_additional_details_container",
-      "lastScraped": "2026-03-13T00:03:17.059Z"
+      "lastScraped": "2026-03-13T06:04:04.125Z"
     },
     "Toolstation": {
       "price": 84.98,
       "inStock": true,
       "name": "Milwaukee M12BI-0 Inflator Body Only",
       "url": "https://www.toolstation.com/milwaukee-m12bi-0-inflator/p26494",
-      "lastScraped": "2026-03-13T00:03:17.670Z"
+      "lastScraped": "2026-03-13T06:04:04.603Z"
     },
     "ITS": {
       "price": 69.98,
       "inStock": true,
       "name": "Milwaukee M12 BI-0 12V Inflator - Body",
       "url": "https://its.co.uk/pd/M12BI-0-Milwaukee-M12-BI-0-12V-Inflator---Body-_MILM12BI0.htm",
-      "lastScraped": "2026-03-13T00:03:18.597Z"
+      "lastScraped": "2026-03-13T06:04:05.590Z"
     },
     "Powertool Mate": {
       "price": 69.99,
       "inStock": true,
       "name": "Milwaukee M12BI-0 12V Compact Inflator (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m12bi-0-12v-m12-compact-inflator-bare-unit.htm",
-      "lastScraped": "2026-03-13T00:03:19.800Z"
+      "lastScraped": "2026-03-13T06:04:06.448Z"
     }
   }
 }

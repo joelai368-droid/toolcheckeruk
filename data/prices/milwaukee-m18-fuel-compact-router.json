@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-fuel-compact-router",
   "model": "M18 FTR-0",
-  "lastScraped": "2026-03-13T00:00:56.958Z",
+  "lastScraped": "2026-03-13T06:01:12.825Z",
   "retailers": {
     "Screwfix": {
       "price": 283.99,
       "inStock": true,
       "name": "Milwaukee M18FTR-0X FUEL 18V Li-Ion RedLithium 1/4\" Brushless Cordless Router / Trimmer - Bare (886XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18ftr-0x-fuel-18v-li-ion-redlithium-1-4-brushless-cordless-router-trimmer-bare/886xh#product_additional_details_container",
-      "lastScraped": "2026-03-13T00:00:57.919Z"
+      "lastScraped": "2026-03-13T06:01:14.272Z"
     },
     "Toolstation": {
       "price": 299.98,
       "inStock": true,
       "name": "Milwaukee M18FTR-0X FUEL Trim Router Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18ftr-0x-fuel-trim-router/p83902",
-      "lastScraped": "2026-03-13T00:00:58.386Z"
+      "lastScraped": "2026-03-13T06:01:15.056Z"
     },
     "ITS": {
       "price": 299.99,
       "inStock": true,
       "name": "Milwaukee M18 FTR-0X 18V FUEL Brushless 1/4” Trim Router - Body with Case",
       "url": "https://its.co.uk/pd/M18FTR0X-Milwaukee-M18-FTR-0X-18V-FUEL-Brushless-14-Trim-Router---Body-with-Case-_MILM18FTR0X.htm",
-      "lastScraped": "2026-03-13T00:00:59.326Z"
+      "lastScraped": "2026-03-13T06:01:15.836Z"
     },
     "Powertool Mate": {
       "price": 269.99,
       "inStock": true,
       "name": "Milwaukee M18FTR-0X 18V Fuel Cordless Trim Router with Accessories (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-routers/milwaukee-m18ftr-0x-18v-fuel-cordless-trim-router.htm",
-      "lastScraped": "2026-03-13T00:01:00.232Z"
+      "lastScraped": "2026-03-13T06:01:16.823Z"
     }
   }
 }

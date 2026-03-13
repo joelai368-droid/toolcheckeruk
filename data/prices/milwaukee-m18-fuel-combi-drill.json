@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-combi-drill",
   "model": "M18 FPD3-0",
-  "lastScraped": "2026-03-13T00:00:01.586Z",
+  "lastScraped": "2026-03-13T06:00:01.856Z",
   "retailers": {
     "Toolstation": {
       "price": 279.98,
       "inStock": true,
       "name": "Milwaukee M18FPD3-502X Fuel Gen 4 Combi Drill 2 x 5.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18fpd3-502x-fuel-gen-4-combi-drill/p93247",
-      "lastScraped": "2026-03-13T00:00:02.320Z"
+      "lastScraped": "2026-03-13T06:00:02.489Z"
     },
     "ITS": {
       "price": 139.99,
       "inStock": true,
       "name": "Milwaukee M18 FPD3-0 18V FUEL Brushless Combi Drill - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-fpd3-0x-18v-fuel-brushless-combi-drill-body-_milm18fpd30.htm",
-      "lastScraped": "2026-03-13T00:00:03.519Z"
+      "lastScraped": "2026-03-13T06:00:03.760Z"
     },
     "Powertool Mate": {
       "price": 119.99,
       "inStock": true,
       "name": "Milwaukee M18FPD3-0 18v Fuel Combi Drill Naked - NEW GEN",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m18fpd3-0-18v-fuel-combi-drill-naked-new-gen.htm",
-      "lastScraped": "2026-03-13T00:00:04.612Z"
+      "lastScraped": "2026-03-13T06:00:04.925Z"
     }
   }
 }

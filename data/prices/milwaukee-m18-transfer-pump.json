@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-transfer-pump",
   "model": "M18 BTP-0",
-  "lastScraped": "2026-03-13T00:02:08.332Z",
+  "lastScraped": "2026-03-13T06:02:46.609Z",
   "retailers": {
     "ITS": {
       "price": 215.99,
       "inStock": true,
       "name": "Milwaukee M18 BTP-0 18V Compact Transfer Pump - Body",
       "url": "https://its.co.uk/pd/M18BTP0-Milwaukee-M18-BTP-0-18V-Compact-Transfer-Pump---Body-_MILM18BTP0.htm",
-      "lastScraped": "2026-03-12T21:16:40.750Z"
+      "lastScraped": "2026-03-13T06:02:50.181Z"
     }
   }
 }

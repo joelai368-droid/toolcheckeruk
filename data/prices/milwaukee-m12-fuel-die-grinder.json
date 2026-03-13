@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m12-fuel-die-grinder",
   "model": "M12 FDGS-0",
-  "lastScraped": "2026-03-13T00:02:59.887Z",
+  "lastScraped": "2026-03-13T06:03:45.773Z",
   "retailers": {
     "Screwfix": {
       "price": 124.99,
       "inStock": true,
       "name": "Milwaukee M12FDGS-0 12V Li-Ion RedLithium Brushless Cordless Straight Die Grinder - Bare (591XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m12fdgs-0-12v-li-ion-redlithium-brushless-cordless-straight-die-grinder-bare/591xh#product_additional_details_container",
-      "lastScraped": "2026-03-13T00:03:00.425Z"
+      "lastScraped": "2026-03-13T06:03:46.607Z"
     },
     "Toolstation": {
       "price": 125.98,
       "inStock": true,
       "name": "Milwaukee M12FDGS-0 FUEL Straight Die Grinder Body Only",
       "url": "https://www.toolstation.com/milwaukee-m12fdgs-0-fuel-straight-die-grinder/p39097",
-      "lastScraped": "2026-03-13T00:03:01.057Z"
+      "lastScraped": "2026-03-13T06:03:47.322Z"
     },
     "ITS": {
       "price": 124.98,
       "inStock": true,
       "name": "Milwaukee M12 FDGS-0 12V FUEL Brushless Straight Die Grinder - Body",
       "url": "https://its.co.uk/pd/M12-FDGS-0-Milwaukee-M12-FDGS-0-12V-FUEL-Brushless-Straight-Die-Grinder---Body-_MILM12FDGS0.htm",
-      "lastScraped": "2026-03-13T00:03:02.041Z"
+      "lastScraped": "2026-03-13T06:03:48.124Z"
     },
     "Powertool Mate": {
       "price": 111.99,
       "inStock": true,
       "name": "Milwaukee M12FDGS-0 12V Fuel Straight Die Grinder (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m12fdgs-0-12v-1-4-straight-die-grinder-body-only-available-now.htm",
-      "lastScraped": "2026-03-13T00:03:03.032Z"
+      "lastScraped": "2026-03-13T06:03:49.186Z"
     }
   }
 }

@@ -121,15 +121,8 @@ const tools: Tool[] = [
     modelNumber: "M12 FIWF12-0",
     category: "impact-drivers",
     description: "Compact sub-compact impact wrench delivering up to 339Nm of torque. Brushless POWERSTATE motor for longer life and more runtime.",
+    // NOTE: Keep Amazon-only for now (other retailers not yet mapped to working affiliate/deep links).
     retailers: [
-      {
-        name: "ITS",
-        price: 126.99,
-        inStock: false,
-        delivery: "£4.99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
       {
         name: "Amazon UK",
         checkPrice: true,
@@ -137,32 +130,6 @@ const tools: Tool[] = [
         delivery: "Free (Prime)",
         clickCollect: false,
         url: "https://www.amazon.co.uk/dp/B07GQJHXMT?tag=toolcheckeruk-21",
-      },
-      {
-        name: "Screwfix",
-        price: 129.99,
-        originalPrice: 159.99,
-        inStock: true,
-        delivery: "Free over £50",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 131.99,
-        originalPrice: 155.00,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "Toolstation",
-        price: 134.99,
-        inStock: true,
-        delivery: "£5.00",
-        clickCollect: true,
-        url: "#", // TODO: Add Awin deep link
       },
     ],
   },

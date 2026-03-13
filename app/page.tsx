@@ -27,7 +27,6 @@ const RETAILER_COLORS: Record<string, string> = {
   "Screwfix": "#ff6900",
   "Toolstation": "#4488cc",
   "Amazon UK": "#ff9900",
-  "FFX Tools": "#e31e24",
   "ITS": "#00a651",
   "Powertool World": "#8888aa",
   "Machine Mart": "#cc0000",

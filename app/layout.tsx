@@ -16,7 +16,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "ToolCheckerUK — Compare Power Tool Prices Across UK Retailers",
-  description: "Find the best prices on power tools from Screwfix, Toolstation, Amazon UK, FFX, ITS and more. Compare prices, stock and delivery for Milwaukee, DeWalt, Makita, Bosch and other top brands.",
+  description: "Find the best prices on power tools from Screwfix, Toolstation, Amazon UK, ITS and more. Compare prices, stock and delivery for Milwaukee, DeWalt, Makita, Bosch and other top brands.",
 };
 
 export default function RootLayout({

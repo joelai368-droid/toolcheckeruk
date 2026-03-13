@@ -63,7 +63,6 @@ export function formatAge(isoString: string): string {
 const RETAILER_DELIVERY: Record<string, { delivery: string; clickCollect: boolean }> = {
   'Screwfix': { delivery: 'Free over £50', clickCollect: true },
   'Toolstation': { delivery: 'Free over £25', clickCollect: true },
-  'FFX Tools': { delivery: 'Free over £99', clickCollect: false },
   'ITS': { delivery: '£4.99', clickCollect: false },
   'Powertool Mate': { delivery: 'Free over £100', clickCollect: false },
   'Machine Mart': { delivery: 'Free over £30', clickCollect: true },

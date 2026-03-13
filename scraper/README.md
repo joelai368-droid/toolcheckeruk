@@ -57,7 +57,6 @@ scraper/
   parsers/
     screwfix.js
     toolstation.js
-    ffx.js
     its.js
     powertoolmate.js
     machinemart.js

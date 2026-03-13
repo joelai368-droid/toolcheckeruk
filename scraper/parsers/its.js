@@ -2,7 +2,7 @@
  * ITS (Industrial & Trade Supplies) parser
  *
  * URL discovery uses the SearchSpring JSON API (no Puppeteer needed).
- * ITS and FFX share the same SearchSpring site (xjcgg3) on its.co.uk.
+ * ITS uses the SearchSpring site (xjcgg3) on its.co.uk.
  */
 
 const cheerio = require('cheerio');

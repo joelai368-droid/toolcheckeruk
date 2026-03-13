@@ -130,8 +130,8 @@ const tools: Tool[] = [
         delivery: "Free (Prime)",
         clickCollect: false,
         url: "https://www.amazon.co.uk/dp/B07GQJHXMT?tag=toolcheckeruk-21",
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-combi-drill",
@@ -165,16 +165,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -213,23 +205,15 @@ const tools: Tool[] = [
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 157.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Powertool World",
         price: 162.00,
         inStock: true,
         delivery: "Free over £100",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-impact-driver",
@@ -264,23 +248,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 142.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 152.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-sds-plus-drill",
@@ -314,8 +290,8 @@ const tools: Tool[] = [
         delivery: "Free over £50",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-circular-saw",
@@ -357,8 +333,8 @@ const tools: Tool[] = [
         delivery: "Free over £50",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-reciprocating-saw",
@@ -392,16 +368,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 177.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-sawzall-reciprocating-saw",
@@ -432,15 +400,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-jigsaw",
@@ -482,8 +443,8 @@ const tools: Tool[] = [
         delivery: "Free over £100",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-angle-grinder",
@@ -525,8 +486,8 @@ const tools: Tool[] = [
         delivery: "Free over £100",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-multi-tool",
@@ -560,16 +521,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 162.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-planer",
@@ -603,8 +556,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-orbital-sander",
@@ -646,8 +599,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-brad-nailer",
@@ -689,8 +642,8 @@ const tools: Tool[] = [
         delivery: "Free over £100",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-first-fix-nailer",
@@ -732,8 +685,8 @@ const tools: Tool[] = [
         delivery: "Free over £100",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -772,23 +725,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 96.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 99.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-installation-drill",
@@ -823,23 +768,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 206.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 214.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-sub-compact-drill-driver",
@@ -874,23 +811,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 56.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 59.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-impact-driver",
@@ -925,23 +854,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 111.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 114.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-surge-impact-driver",
@@ -976,23 +897,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 141.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 146.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-38-stubby-impact-wrench",
@@ -1027,23 +940,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 104.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-14-ratchet",
@@ -1078,23 +983,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 121.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 124.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-38-ratchet",
@@ -1129,23 +1026,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 119.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 124.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-12-ratchet",
@@ -1180,23 +1069,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 131.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 134.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-hackzall",
@@ -1231,23 +1112,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 111.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 114.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-cut-off-tool",
@@ -1282,23 +1155,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 111.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 112.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-jigsaw",
@@ -1333,23 +1198,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 156.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 159.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-bandsaw",
@@ -1384,23 +1241,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 226.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 234.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-multi-tool",
@@ -1435,23 +1284,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 121.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 124.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-sds-plus-drill",
@@ -1486,23 +1327,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 131.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 134.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-soldering-iron",
@@ -1537,23 +1370,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 71.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 74.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-fuel-die-grinder",
@@ -1588,23 +1413,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 116.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 119.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-rivet-tool",
@@ -1639,23 +1456,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 154.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-pipe-cutter",
@@ -1690,23 +1499,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 221.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 227.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-led-torch",
@@ -1741,23 +1542,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 31.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 32.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-underbody-light",
@@ -1792,23 +1585,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 141.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 144.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-inflator",
@@ -1843,23 +1628,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 61.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 64.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -1898,23 +1675,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 76.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 79.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-surge-impact-driver",
@@ -1949,23 +1718,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 171.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 176.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-12-impact-wrench",
@@ -2000,23 +1761,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 281.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 289.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-onekey-12-impact-wrench",
@@ -2051,23 +1804,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 331.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 339.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-hackzall",
@@ -2102,23 +1847,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 154.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-115mm-angle-grinder",
@@ -2153,23 +1890,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 176.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 181.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-125mm-braking-grinder",
@@ -2204,23 +1933,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 206.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 209.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-230mm-angle-grinder",
@@ -2255,23 +1976,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 291.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 299.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-compact-router",
@@ -2306,23 +2019,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 161.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 164.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-sds-plus-4-mode",
@@ -2357,23 +2062,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 241.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 249.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-super-sawzall",
@@ -2408,23 +2105,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 251.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 259.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-led-torch",
@@ -2459,23 +2148,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 35.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 36.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-blower",
@@ -2510,23 +2191,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 154.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-inflator",
@@ -2561,23 +2234,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 81.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 84.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-bandsaw-85mm",
@@ -2612,23 +2277,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 311.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 319.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-deep-cut-bandsaw",
@@ -2663,23 +2320,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 351.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 359.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-mitre-saw-254mm",
@@ -2714,23 +2363,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 651.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 669.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-mitre-saw-305mm",
@@ -2765,23 +2406,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 801.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 819.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-table-saw",
@@ -2816,23 +2449,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 601.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 619.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-16ga-finish-nailer",
@@ -2867,23 +2492,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 351.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 359.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-grease-gun",
@@ -2918,23 +2535,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 161.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 164.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-caulking-gun",
@@ -2969,23 +2578,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 181.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 187.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-mitre-saw-216mm",
@@ -3020,23 +2621,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 466.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 479.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-onekey-34-impact-wrench",
@@ -3071,23 +2664,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 401.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 409.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-onekey-1-impact-wrench",
@@ -3122,23 +2707,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 561.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 579.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-sds-max-hammer",
@@ -3173,23 +2750,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 451.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 469.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-165mm-circular-saw",
@@ -3224,23 +2793,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 221.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 229.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-125mm-slide-grinder",
@@ -3275,23 +2836,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 156.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 164.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-orbital-polisher",
@@ -3326,23 +2879,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 216.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 219.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-belt-sander",
@@ -3377,23 +2922,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 231.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 239.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-narrow-crown-stapler",
@@ -3428,23 +2965,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 321.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 329.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-magnetic-drill",
@@ -3479,23 +3008,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 691.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 709.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-threaded-rod-cutter",
@@ -3530,23 +3051,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 291.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 299.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-packout-vacuum",
@@ -3581,23 +3094,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 201.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 209.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-wet-dry-vacuum",
@@ -3632,23 +3137,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 154.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-chainsaw",
@@ -3683,23 +3180,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 301.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 309.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-hedge-trimmer",
@@ -3734,23 +3223,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 181.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 184.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-string-trimmer",
@@ -3785,23 +3266,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 181.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 189.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-area-light",
@@ -3836,23 +3309,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 81.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 84.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-lantern",
@@ -3887,23 +3352,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 46.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 47.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-dab-radio",
@@ -3938,23 +3395,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 154.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-m18-bluetooth-speaker",
@@ -3989,23 +3438,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 91.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 94.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-transfer-pump",
@@ -4040,23 +3481,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 111.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Toolstation",
         price: 114.99,
         inStock: true,
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fuel-pipe-threader",
@@ -4083,15 +3516,7 @@ const tools: Tool[] = [
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 1279.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Screwfix",
         price: 1349.99,
         inStock: true,
@@ -4106,8 +3531,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -4130,15 +3555,7 @@ const tools: Tool[] = [
         clickCollect: false,
         url: "https://www.amazon.co.uk/dp/B099624362?tag=toolcheckeruk-21",
       },
-      {
-        name: "FFX Tools",
-        price: 147.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Screwfix",
         price: 149.99,
         originalPrice: 179.99,
@@ -4154,8 +3571,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-impact-driver",
@@ -4189,15 +3606,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 112.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 107.99,
         originalPrice: 129.99,
@@ -4205,8 +3614,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-circular-saw",
@@ -4239,16 +3648,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 157.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-angle-grinder",
@@ -4266,16 +3667,7 @@ const tools: Tool[] = [
         clickCollect: false,
         url: "https://www.amazon.co.uk/dp/B074V6QSNH?tag=toolcheckeruk-21",
       },
-      {
-        name: "FFX Tools",
-        price: 136.50,
-        originalPrice: 155.00,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Screwfix",
         price: 139.99,
         inStock: true,
@@ -4290,8 +3682,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-multi-tool",
@@ -4325,15 +3717,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 132.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 127.99,
         originalPrice: 149.99,
@@ -4341,8 +3725,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-reciprocating-saw",
@@ -4368,15 +3752,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 167.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 159.99,
         originalPrice: 189.99,
@@ -4384,8 +3760,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-jigsaw",
@@ -4411,15 +3787,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 177.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 169.99,
         originalPrice: 199.99,
@@ -4427,8 +3795,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-sds-plus-drill",
@@ -4462,15 +3830,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 177.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 174.99,
         originalPrice: 204.99,
@@ -4478,8 +3838,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-planer",
@@ -4505,15 +3865,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 222.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 214.99,
         originalPrice: 249.99,
@@ -4521,8 +3873,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-second-fix-nailer",
@@ -4548,15 +3900,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 294.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 289.99,
         originalPrice: 339.99,
@@ -4564,8 +3908,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -4611,16 +3955,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 137.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-impact-driver",
@@ -4662,8 +3998,8 @@ const tools: Tool[] = [
         delivery: "Free over £50",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-circular-saw",
@@ -4705,8 +4041,8 @@ const tools: Tool[] = [
         delivery: "Free over £50",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-angle-grinder",
@@ -4748,16 +4084,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 121.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-multi-tool",
@@ -4791,16 +4119,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 152.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-reciprocating-saw",
@@ -4842,8 +4162,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-jigsaw",
@@ -4877,16 +4197,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 152.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-sds-plus-drill",
@@ -4928,16 +4240,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 177.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-planer",
@@ -4971,16 +4275,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 207.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-brad-nailer",
@@ -5014,16 +4310,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 267.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-orbital-sander",
@@ -5065,8 +4353,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-router",
@@ -5101,23 +4389,15 @@ const tools: Tool[] = [
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 187.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Powertool World",
         price: 192.99,
         inStock: true,
         delivery: "Free over £100",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -5154,16 +4434,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 86.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-impact-driver",
@@ -5196,16 +4468,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 91.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-circular-saw",
@@ -5231,15 +4495,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 247.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 244.99,
         originalPrice: 279.99,
@@ -5247,8 +4503,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-sds-hammer-drill",
@@ -5258,16 +4514,7 @@ const tools: Tool[] = [
     category: "sds-drills",
     description: "Professional SDS Plus hammer drill with 2.6J impact energy. Kickback control and rotation stop for safety. 3 modes of operation.",
     retailers: [
-      {
-        name: "FFX Tools",
-        price: 195.00,
-        originalPrice: 229.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "Amazon UK",
         checkPrice: true,
         inStock: true,
@@ -5282,8 +4529,8 @@ const tools: Tool[] = [
         delivery: "Free over £50",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-angle-grinder",
@@ -5309,15 +4556,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 167.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 164.99,
         originalPrice: 189.99,
@@ -5325,8 +4564,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-multi-tool",
@@ -5359,16 +4598,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 132.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-planer",
@@ -5394,15 +4625,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 167.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 164.99,
         originalPrice: 189.99,
@@ -5410,8 +4633,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -5448,16 +4671,8 @@ const tools: Tool[] = [
         delivery: "£5.00",
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
-      },
-      {
-        name: "FFX Tools",
-        price: 147.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-impact-driver",
@@ -5483,15 +4698,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 117.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 114.99,
         originalPrice: 139.99,
@@ -5499,8 +4706,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-circular-saw",
@@ -5526,15 +4733,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 197.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 194.99,
         originalPrice: 229.99,
@@ -5542,8 +4741,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-angle-grinder",
@@ -5569,15 +4768,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 152.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         originalPrice: 174.99,
@@ -5585,8 +4776,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-sds-plus-drill",
@@ -5612,15 +4803,7 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 217.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 214.99,
         originalPrice: 249.99,
@@ -5628,8 +4811,8 @@ const tools: Tool[] = [
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
 
@@ -5668,23 +4851,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 97.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 96.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-combi-drill-high-torque",
@@ -5718,23 +4893,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 162.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 160.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-brushless-impact-driver-dcf787",
@@ -5768,23 +4935,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 99.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-3speed-impact-driver",
@@ -5818,23 +4977,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 131.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 129.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-impact-wrench-dcf891",
@@ -5868,23 +5019,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 171.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 169.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-compact-impact-wrench-dcf922",
@@ -5918,23 +5061,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 191.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 189.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-sds-plus-compact",
@@ -5968,23 +5103,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-54v-flexvolt-sds-max",
@@ -6018,23 +5145,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 404.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 399.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-circular-saw-165mm-brushless",
@@ -6068,23 +5187,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 179.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 176.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-54v-flexvolt-circular-saw-190mm",
@@ -6118,23 +5229,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 282.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 279.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-reciprocating-saw-dcs382",
@@ -6168,23 +5271,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 181.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 179.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-mitre-saw-184mm",
@@ -6218,23 +5313,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 302.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 299.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-54v-flexvolt-mitre-saw-305mm",
@@ -6268,23 +5355,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 604.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 599.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-guide-rail-1500mm",
@@ -6318,23 +5397,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 67.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 65.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-angle-grinder-dcg409",
@@ -6368,23 +5439,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-54v-flexvolt-angle-grinder-125mm",
@@ -6418,23 +5481,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 203.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 199.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-54v-flexvolt-angle-grinder-230mm",
@@ -6468,23 +5523,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 352.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 349.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-router-trimmer",
@@ -6518,23 +5565,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-router-dcw600",
@@ -6568,23 +5607,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 221.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 219.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-random-orbital-sander",
@@ -6618,23 +5649,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 112.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 110.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-belt-sander",
@@ -6668,23 +5691,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-brad-nailer-18ga",
@@ -6718,23 +5733,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 262.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 259.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-concrete-nailer",
@@ -6768,23 +5775,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 452.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 449.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-led-torch",
@@ -6818,23 +5817,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 35.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 35.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-dab-radio",
@@ -6868,23 +5859,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 81.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 79.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-wet-dry-vacuum",
@@ -6918,23 +5901,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 91.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 89.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-green-laser-level",
@@ -6968,23 +5943,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 302.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 299.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-collated-screwgun",
@@ -7018,23 +5985,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 181.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 179.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-xr-die-grinder",
@@ -7068,23 +6027,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 121.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 119.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -7122,23 +6073,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 117.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 115.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-combi-drill-dhp487",
@@ -7172,23 +6115,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 141.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 139.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-drill-driver-ddf487",
@@ -7222,23 +6157,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 131.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 129.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-xgt-combi-drill",
@@ -7272,23 +6199,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 221.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 219.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-impact-driver-dtd172",
@@ -7322,23 +6241,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 131.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 129.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-impact-wrench-dtw300",
@@ -7372,23 +6283,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-impact-wrench-34-dtw700",
@@ -7422,23 +6325,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 231.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 229.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-impact-wrench-dtw1002",
@@ -7472,23 +6367,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 261.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 259.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-xgt-impact-wrench",
@@ -7522,23 +6409,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 292.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 289.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-sds-plus-dhr171",
@@ -7572,23 +6451,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-sds-plus-dhr243",
@@ -7622,23 +6493,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 201.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 199.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-twin-18v-lxt-sds-plus-dhr283",
@@ -7672,23 +6535,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 282.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 279.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-twin-18v-lxt-sds-max-dhr400",
@@ -7722,23 +6577,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 504.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 499.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-xgt-sds-plus",
@@ -7772,23 +6619,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 292.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 289.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-circular-saw-165mm-dss611",
@@ -7822,23 +6661,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 99.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-twin-18v-lxt-mitre-saw-305mm",
@@ -7872,23 +6703,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 704.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 699.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-twin-18v-lxt-mitre-saw-260mm",
@@ -7922,23 +6745,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 554.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 549.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-twin-18v-lxt-plunge-saw",
@@ -7972,23 +6787,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 404.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 399.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-angle-grinder-dga513",
@@ -8022,23 +6829,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 141.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 139.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-angle-grinder-paddle-dga519",
@@ -8072,23 +6871,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-twin-18v-lxt-angle-grinder-180mm",
@@ -8122,23 +6913,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 302.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 299.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-xgt-angle-grinder-125mm",
@@ -8172,23 +6955,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 222.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 219.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-xgt-router",
@@ -8222,23 +6997,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 282.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 279.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-brushless-orbital-sander-dbo382",
@@ -8272,23 +7039,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 99.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-pin-nailer-dpt353",
@@ -8322,23 +7081,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 191.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 189.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-led-torch",
@@ -8372,23 +7123,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 29.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 29.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-dab-radio",
@@ -8422,23 +7165,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 91.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 89.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-brushless-vacuum-dvc750",
@@ -8472,23 +7207,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-lxt-inflator-dmp180",
@@ -8522,23 +7249,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 81.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 79.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-xgt-green-laser-level",
@@ -8572,23 +7291,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 352.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 349.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -8626,23 +7337,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 141.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 139.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-drill-driver-55",
@@ -8676,23 +7379,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 81.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 79.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-drill-driver-90c",
@@ -8726,23 +7421,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 131.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 129.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-impact-driver-210c",
@@ -8776,23 +7463,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 112.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 110.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-impact-wrench-34",
@@ -8826,23 +7505,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 302.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 299.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-impact-wrench-450hc",
@@ -8876,23 +7547,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 203.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 199.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-sds-plus-34cf",
@@ -8926,23 +7589,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 282.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 279.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-sds-max-45c",
@@ -8976,23 +7631,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 452.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 449.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-circular-saw-165mm",
@@ -9026,23 +7673,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-jigsaw-155bc",
@@ -9076,23 +7715,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-reciprocating-saw-32",
@@ -9126,23 +7757,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 141.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 139.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-multi-tool-34",
@@ -9176,23 +7799,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 162.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 159.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-mitre-saw-216",
@@ -9226,23 +7841,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 504.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 499.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-plunge-saw",
@@ -9276,23 +7883,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 352.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 349.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-angle-grinder-15c",
@@ -9326,23 +7925,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 203.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 199.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-angle-grinder-180mm",
@@ -9376,23 +7967,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 302.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 299.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-router",
@@ -9426,23 +8009,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 131.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 129.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-orbital-sander",
@@ -9476,23 +8051,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 99.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-random-orbital-sander",
@@ -9526,23 +8093,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 141.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 139.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-work-light",
@@ -9576,23 +8135,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 81.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 79.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-dab-radio",
@@ -9626,23 +8177,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 99.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-vacuum",
@@ -9676,23 +8219,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 91.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 89.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -9730,23 +8265,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 131.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 129.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-impact-wrench-12",
@@ -9780,23 +8307,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 201.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 199.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-impact-wrench-34",
@@ -9830,23 +8349,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 262.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 259.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-sds-plus-dh3628da",
@@ -9880,23 +8391,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 252.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 249.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-circular-saw-165mm",
@@ -9930,23 +8433,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 181.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 179.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-jigsaw",
@@ -9980,23 +8475,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 171.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 169.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-reciprocating-saw",
@@ -10030,23 +8517,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 161.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 159.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-18v-multi-tool",
@@ -10080,23 +8559,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 121.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 119.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-mitre-saw-255mm",
@@ -10130,23 +8601,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 554.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 549.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-table-saw",
@@ -10180,23 +8643,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 704.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 699.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-angle-grinder-230mm",
@@ -10230,23 +8685,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 322.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 319.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-planer",
@@ -10280,23 +8727,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 222.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 219.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-router",
@@ -10330,23 +8769,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 262.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 259.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-blower",
@@ -10380,23 +8811,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 99.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-18v-dab-radio",
@@ -10430,23 +8853,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 91.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 89.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
 
   // ============================================================
@@ -10487,23 +8902,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 35.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 35.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-b4-battery",
@@ -10537,23 +8944,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 49.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 49.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-b6-battery",
@@ -10587,23 +8986,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 65.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 65.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-b2-battery",
@@ -10637,23 +9028,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 35.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 35.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-b5-battery",
@@ -10687,23 +9070,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 56.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 55.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-hb5-battery",
@@ -10737,23 +9112,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 69.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 69.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-b6-battery",
@@ -10787,23 +9154,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 65.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 65.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-hb8-battery",
@@ -10837,23 +9196,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 89.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 89.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-hb12-battery",
@@ -10887,23 +9238,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 141.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 139.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-c-charger",
@@ -10937,23 +9280,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 25.49,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 25.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-fc-charger",
@@ -10987,23 +9322,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 45.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 45.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-dfc-charger",
@@ -11037,23 +9364,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 79.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 79.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m12-m18-sc-charger",
@@ -11087,23 +9406,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 99.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "milwaukee-m18-starter-pack",
@@ -11137,23 +9448,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   // ============================================================
   // DEWALT BATTERIES & CHARGERS
@@ -11190,23 +9493,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 35.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 35.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-4ah-battery",
@@ -11240,23 +9535,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 49.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 49.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-5ah-battery",
@@ -11290,23 +9577,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 60.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 59.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-5ah-powerstack-battery",
@@ -11340,23 +9619,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 91.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 89.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-flexvolt-6ah-battery",
@@ -11390,23 +9661,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 121.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 119.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-flexvolt-9ah-battery",
@@ -11440,23 +9703,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 171.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 169.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-flexvolt-12ah-battery",
@@ -11490,23 +9745,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 221.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 219.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-single-charger",
@@ -11540,23 +9787,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 35.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 35.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-dual-charger",
@@ -11590,23 +9829,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 65.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 65.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "dewalt-18v-fast-charger",
@@ -11640,23 +9871,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 45.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 45.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   // ============================================================
   // MAKITA BATTERIES & CHARGERS
@@ -11693,23 +9916,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 39.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 39.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-4ah-battery",
@@ -11743,23 +9958,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 49.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 49.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-5ah-battery",
@@ -11793,23 +10000,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 60.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 59.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-6ah-battery",
@@ -11843,23 +10042,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 75.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 75.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-25ah-battery",
@@ -11893,23 +10084,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 79.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 79.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-4ah-battery",
@@ -11943,23 +10126,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 121.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 119.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-5ah-battery",
@@ -11993,23 +10168,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-single-charger",
@@ -12043,23 +10210,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 35.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 35.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-18v-dual-charger",
@@ -12093,23 +10252,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 65.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 65.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "makita-40v-charger",
@@ -12143,23 +10294,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 55.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 55.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   // ============================================================
   // BOSCH PROFESSIONAL BATTERIES & CHARGERS
@@ -12196,23 +10339,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 29.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 29.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-4ah-battery",
@@ -12246,23 +10381,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 45.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 45.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-5ah-battery",
@@ -12296,23 +10423,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 60.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 59.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-8ah-battery",
@@ -12346,23 +10465,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 101.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 99.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-12ah-battery",
@@ -12396,23 +10507,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-fast-charger",
@@ -12446,23 +10549,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 49.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 49.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "bosch-18v-dual-charger",
@@ -12496,23 +10591,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 89.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 89.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   // ============================================================
   // HIKOKI BATTERIES & CHARGERS
@@ -12549,23 +10636,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 59.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 59.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-4ah-battery",
@@ -12599,23 +10678,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 89.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 89.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-8ah-battery",
@@ -12649,23 +10720,15 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 151.50,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 149.99,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
+      }
+      ],
   },
   {
     slug: "hikoki-36v-rapid-charger",
@@ -12699,25 +10762,17 @@ const tools: Tool[] = [
         clickCollect: true,
         url: "#", // TODO: Add Awin deep link
       },
-      {
-        name: "FFX Tools",
-        price: 55.99,
-        inStock: true,
-        delivery: "Free over £99",
-        clickCollect: false,
-        url: "#", // TODO: Add Awin deep link
-      },
-      {
+            {
         name: "ITS",
         price: 55.49,
         inStock: true,
         delivery: "£4.99",
         clickCollect: false,
         url: "#", // TODO: Add Awin deep link
-      },
-    ],
-  },
-];
+      }
+      ],
+  }
+      ];
 
 // =============================================================
 // HELPER FUNCTIONS

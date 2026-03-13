@@ -5999,7 +5999,7 @@ const tools: Tool[] = [
     slug: "dewalt-18v-xr-die-grinder",
     brand: "DeWalt",
     name: "18V XR Brushless Die Grinder (Body Only)",
-    modelNumber: "DCG200N",
+    modelNumber: "DCG426N",
     category: "grinders",
     description: "Brushless die grinder with 1/4\" collet. Variable speed 5,000-25,000rpm for precision grinding.",
     retailers: [

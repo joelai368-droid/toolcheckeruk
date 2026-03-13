@@ -1,14 +1,14 @@
 {
   "slug": "dewalt-18v-led-torch",
   "model": "DCL040",
-  "lastScraped": "2026-03-13T16:28:44.794Z",
+  "lastScraped": "2026-03-13T21:51:42.825Z",
   "retailers": {
     "ITS": {
       "price": 31.98,
       "inStock": true,
       "name": "Dewalt DCL040 18V XR Li-ion LED Torch - Body",
       "url": "https://its.co.uk/pd/DCL040-Dewalt-DCL040-18V-XR-Li-ion-LED-Torch---Body-_DEWDCL040.htm",
-      "lastScraped": "2026-03-13T16:28:46.755Z"
+      "lastScraped": "2026-03-13T21:49:20.175Z"
     }
   }
 }

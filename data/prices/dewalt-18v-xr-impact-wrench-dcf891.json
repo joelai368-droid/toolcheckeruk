@@ -1,28 +1,28 @@
 {
   "slug": "dewalt-18v-xr-impact-wrench-dcf891",
   "model": "DCF891N",
-  "lastScraped": "2026-03-13T16:27:52.946Z",
+  "lastScraped": "2026-03-13T21:51:42.821Z",
   "retailers": {
     "Screwfix": {
       "price": 205.2,
       "inStock": true,
       "name": "DEWALT DCF891N-XJ 18V Li-Ion XR Brushless Cordless M24 Hog Ring Ultra-Compact Impact Wrench - Bare (564XK)",
       "url": "https://www.screwfix.com/p/dewalt-dcf891n-xj-18v-li-ion-xr-brushless-cordless-m24-hog-ring-ultra-compact-impact-wrench-bare/564xk#product_additional_details_container",
-      "lastScraped": "2026-03-13T16:27:54.274Z"
+      "lastScraped": "2026-03-13T21:48:24.648Z"
     },
     "ITS": {
       "price": 219.98,
       "inStock": true,
       "name": "Dewalt DCF891N 18V XR Brushless 1/2 Compact High Torque Wrench Hog Ring Version - Body",
       "url": "https://its.co.uk/pd/Dewalt-DCF891N-18V-XR-Brushless-12-Compact-High-Torque-Wrench-Hog-Ring-Version---Body_DEWDCF891N.htm",
-      "lastScraped": "2026-03-13T16:27:55.271Z"
+      "lastScraped": "2026-03-13T21:48:25.563Z"
     },
     "Powertool Mate": {
       "price": 193.99,
       "inStock": true,
       "name": "Dewalt DCF891N  18V XR B/LESS 1/2\" Compact Wrench High Torque Naked Hog Ring",
       "url": "https://www.powertoolmate.co.uk/dewalt-18v-xr-b-less-1-2-compact-wrench-high-torque-naked-hog-ring.htm",
-      "lastScraped": "2026-03-13T16:27:56.276Z"
+      "lastScraped": "2026-03-13T21:48:26.593Z"
     }
   }
 }

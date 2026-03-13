@@ -1,28 +1,28 @@
 {
   "slug": "dewalt-18v-xr-second-fix-nailer",
   "model": "DCN660N",
-  "lastScraped": "2026-03-13T16:27:36.632Z",
+  "lastScraped": "2026-03-13T21:51:42.819Z",
   "retailers": {
     "Screwfix": {
       "price": 309.99,
       "inStock": true,
       "name": "DEWALT DCN660N-XJ 63mm 18V Li-Ion XR Brushless Second Fix Cordless Nail Gun - Bare (3842J)",
       "url": "https://www.screwfix.com/p/dewalt-dcn660n-xj-63mm-18v-li-ion-xr-brushless-second-fix-cordless-nail-gun-bare/3842j",
-      "lastScraped": "2026-03-13T16:27:37.705Z"
+      "lastScraped": "2026-03-13T21:48:08.176Z"
     },
     "ITS": {
       "price": 314.99,
       "inStock": true,
       "name": "Dewalt DCN660N 18V XR Brushless Second Fix Finishing Angled Nail Gun, 2500x 32mm 16g 20° Angled Brad Nails & 24’’ Large Duffel Tool Bag",
       "url": "https://its.co.uk/pd/dewalt-dcn660n-18v-xr-brushless-second-fix-finishing-angled-nail-gun-2500x-32mm-16g-20-angled-brad-nails-24-large-duffel-tool-bag-_dewdcn660ba.htm",
-      "lastScraped": "2026-03-13T16:27:38.898Z"
+      "lastScraped": "2026-03-13T21:48:09.037Z"
     },
     "Powertool Mate": {
       "price": 259.99,
       "inStock": true,
       "name": "DeWalt DCN660N 18V XR 2nd Fix Brushless Nailer (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-nail-guns/dewalt-dcn660n-type-3-18v-xr-2nd-fix-brushless-nailer-body-only.htm",
-      "lastScraped": "2026-03-13T16:27:39.775Z"
+      "lastScraped": "2026-03-13T21:48:10.010Z"
     }
   }
 }

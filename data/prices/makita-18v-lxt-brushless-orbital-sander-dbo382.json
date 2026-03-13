@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-lxt-brushless-orbital-sander-dbo382",
   "model": "DBO382Z",
-  "lastScraped": "2026-03-13T18:35:21.181Z",
+  "lastScraped": "2026-03-13T21:53:31.279Z",
   "retailers": {
     "ITS": {
       "price": 155.99,
@@ -9,6 +9,13 @@
       "name": "Makita DBO382Z 18V LXT Brushless Finishing Sander - Body",
       "url": "https://its.co.uk/pd/makita-dbo382z-18v-lxt-brushless-finishing-sander-body-_makdbo382z.htm",
       "lastScraped": "2026-03-13T18:35:24.441Z"
+    },
+    "Screwfix": {
+      "price": 139.99,
+      "inStock": true,
+      "name": "Makita DBO382  18V Li-Ion LXT Brushless Cordless Sander - Bare (645AJ)",
+      "url": "https://www.screwfix.com/p/makita-dbo382-18v-li-ion-lxt-brushless-cordless-sander-bare/645aj",
+      "lastScraped": "2026-03-13T21:53:32.438Z"
     }
   }
 }

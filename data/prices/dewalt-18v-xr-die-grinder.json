@@ -1,6 +1,28 @@
 {
   "slug": "dewalt-18v-xr-die-grinder",
-  "model": "DCG200N",
-  "lastScraped": "2026-03-13T16:28:59.544Z",
-  "retailers": {}
+  "model": "DCG426N",
+  "lastScraped": "2026-03-13T21:52:43.169Z",
+  "retailers": {
+    "Screwfix": {
+      "price": 194.99,
+      "inStock": true,
+      "name": "DEWALT DCG426N-XJ 18V Li-Ion XR Brushless Cordless Die Grinder - Bare (386HR)",
+      "url": "https://www.screwfix.com/p/dewalt-dcg426n-xj-18v-li-ion-xr-brushless-cordless-die-grinder-bare/386hr",
+      "lastScraped": "2026-03-13T21:52:44.361Z"
+    },
+    "ITS": {
+      "price": 189.98,
+      "inStock": true,
+      "name": "Dewalt DCG426N 18V XR Brushless Die Grinder - Body",
+      "url": "https://its.co.uk/pd/DCG426N-XJ-Dewalt-DCG426N-18V-XR-Brushless-Die-Grinder---Body-_DEWDCG426N.htm",
+      "lastScraped": "2026-03-13T21:52:45.375Z"
+    },
+    "Powertool Mate": {
+      "price": 166.99,
+      "inStock": true,
+      "name": "DeWalt DCG426N 18V XR Brushless 125mm Die Grinder (Body Only)",
+      "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-grinders-disc-cutters/dewalt-dcg426n-18v-xr-brushless-125mm-die-grinder-body-only.htm",
+      "lastScraped": "2026-03-13T21:52:46.265Z"
+    }
+  }
 }

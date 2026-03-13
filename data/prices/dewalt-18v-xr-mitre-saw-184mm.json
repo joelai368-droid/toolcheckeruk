@@ -1,21 +1,21 @@
 {
   "slug": "dewalt-18v-xr-mitre-saw-184mm",
   "model": "DCS365N",
-  "lastScraped": "2026-03-13T16:28:12.367Z",
+  "lastScraped": "2026-03-13T21:51:42.822Z",
   "retailers": {
     "Screwfix": {
       "price": 389.89,
       "inStock": true,
       "name": "DEWALT DCS365N-XJ 184mm 18V Li-Ion XR  Cordless Single-Bevel Sliding Compound Mitre Saw - Bare (3227J)",
       "url": "https://www.screwfix.com/p/dewalt-dcs365n-xj-184mm-18v-li-ion-xr-cordless-single-bevel-sliding-compound-mitre-saw-bare/3227j#product_additional_details_container",
-      "lastScraped": "2026-03-13T16:28:13.179Z"
+      "lastScraped": "2026-03-13T21:48:45.019Z"
     },
     "ITS": {
       "price": 369.98,
       "inStock": true,
       "name": "Dewalt DCS365N 18V XR 184mm Sliding Mitre Saw - Body",
       "url": "https://its.co.uk/pd/DCS365-Dewalt-DCS365-18V-XR-184mm-Compound-Mitre-Saw---Body-_DEWDCS365N.htm",
-      "lastScraped": "2026-03-13T16:28:14.526Z"
+      "lastScraped": "2026-03-13T21:48:48.028Z"
     }
   }
 }

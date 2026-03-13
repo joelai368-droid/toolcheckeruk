@@ -1,21 +1,21 @@
 {
   "slug": "dewalt-54v-flexvolt-angle-grinder-125mm",
   "model": "DCG418N",
-  "lastScraped": "2026-03-13T16:28:19.174Z",
+  "lastScraped": "2026-03-13T21:51:42.823Z",
   "retailers": {
     "Screwfix": {
       "price": 258.99,
       "inStock": true,
       "name": "DEWALT DCG418N-XJ 54V Li-Ion XR FlexVolt 5\" Brushless Cordless Angle Grinder - Bare (877KY)",
       "url": "https://www.screwfix.com/p/dewalt-dcg418n-xj-54v-li-ion-xr-flexvolt-5-brushless-cordless-angle-grinder-bare/877ky#product_additional_details_container",
-      "lastScraped": "2026-03-13T16:28:22.698Z"
+      "lastScraped": "2026-03-13T21:48:56.817Z"
     },
     "ITS": {
       "price": 229.98,
       "inStock": true,
       "name": "Dewalt DCG418N 54V XR FLEXVOLT Brushless High Power 125mm Angle Grinder - Body",
       "url": "https://its.co.uk/pd/DCG418N-Dewalt-DCG418N-54V-XR-FLEXVOLT-Brushless-High-Power-125mm-Angle-Grinder---Body-_DEWDCG418N.htm",
-      "lastScraped": "2026-03-13T16:28:24.040Z"
+      "lastScraped": "2026-03-13T21:48:57.772Z"
     }
   }
 }

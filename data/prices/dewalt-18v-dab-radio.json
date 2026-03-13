@@ -1,21 +1,21 @@
 {
   "slug": "dewalt-18v-dab-radio",
   "model": "DCR020",
-  "lastScraped": "2026-03-13T16:28:46.756Z",
+  "lastScraped": "2026-03-13T21:51:42.825Z",
   "retailers": {
     "ITS": {
       "price": 119.99,
       "inStock": true,
       "name": "Dewalt DCR020 XR Compact DAB Radio - Body",
       "url": "https://its.co.uk/pd/DCR020-Dewalt-DCR020-XR-Compact-DAB-Radio---Body-_DEW240DCR020.htm",
-      "lastScraped": "2026-03-13T16:28:49.880Z"
+      "lastScraped": "2026-03-13T21:49:23.161Z"
     },
     "Powertool Mate": {
       "price": 99.99,
       "inStock": true,
       "name": "DeWalt DCR020 12-18V/240V XR Compact DAB Digital Jobsite Radio (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-radios/dewalt-dcr020-12-18v-240v-xr-compact-dab-digital-jobsite-radio.htm",
-      "lastScraped": "2026-03-13T16:28:50.740Z"
+      "lastScraped": "2026-03-13T21:49:23.994Z"
     }
   }
 }

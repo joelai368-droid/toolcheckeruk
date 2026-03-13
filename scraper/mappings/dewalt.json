@@ -3,7 +3,8 @@
     "model": "DCD796N",
     "name": "18V XR Brushless Combi Drill (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/DCD796N-Dewalt-DCD796N-18V-XR-Brushless-Combi-Drill---Body-_DEWDCD796N.htm"
+      "ITS": "https://its.co.uk/pd/DCD796N-Dewalt-DCD796N-18V-XR-Brushless-Combi-Drill---Body-_DEWDCD796N.htm",
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-drills/dewalt-dcd796n-18v-xr-brushless-compact-combi-drill-body-only.htm"
     },
     "brand": "DeWalt"
   },
@@ -12,7 +13,8 @@
     "name": "18V XR Brushless Impact Driver (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/dewalt-dcf887n-xj-18v-li-ion-xr-brushless-cordless-impact-driver-bare/551fu#product_additional_details_container",
-      "ITS": "https://its.co.uk/pd/DCF887-Dewalt-DCF887-18V-XR-Brushless-Impact-Driver---Body-_DEWDCF887N.htm"
+      "ITS": "https://its.co.uk/pd/DCF887-Dewalt-DCF887-18V-XR-Brushless-Impact-Driver---Body-_DEWDCF887N.htm",
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-powertool-kits/dewalt-dcd996n-18v-brushless-combi-drill-dcf887n-18v-xr-brushless-impact-driver-.htm"
     },
     "brand": "DeWalt"
   },
@@ -151,7 +153,9 @@
   "dewalt-18v-xr-sds-plus-compact": {
     "model": "DCH133N",
     "name": "18V XR Brushless SDS Plus Compact Hammer Drill (Body Only)",
-    "retailers": {},
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/dewalt-dch133n-18v-xr-brushless-sds-hammer-drill-body-_dewdch133n.htm"
+    },
     "brand": "DeWalt"
   },
   "dewalt-54v-flexvolt-sds-max": {
@@ -201,7 +205,9 @@
   "dewalt-54v-flexvolt-mitre-saw-305mm": {
     "model": "DHS780N",
     "name": "54V XR FlexVolt 305mm Double Bevel Mitre Saw (Body Only)",
-    "retailers": {},
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/DHS780N-Dewalt-DHS780N-54v-XR-FLEXVOLT-305mm-Slide-Compound-Mitre-Saw---Body-_DEWDHS780N.htm"
+    },
     "brand": "DeWalt"
   },
   "dewalt-guide-rail-1500mm": {
@@ -248,7 +254,9 @@
   "dewalt-18v-xr-router-dcw600": {
     "model": "DCW600N",
     "name": "18V XR Brushless Router (Body Only)",
-    "retailers": {},
+    "retailers": {
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/cordless-routers/dewalt-dcw600n-cordless-18v-brushless-router-laminate-trimmer-body-only.htm"
+    },
     "brand": "DeWalt"
   },
   "dewalt-18v-xr-random-orbital-sander": {
@@ -308,7 +316,8 @@
     "model": "DCV584L",
     "name": "54V/18V XR FlexVolt Wet and Dry Vacuum (Body Only)",
     "retailers": {
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-vac-dust-extractors/dewalt-dcv584l-54v-18v-xr-flexvolt-cordless-corded-wet-and-dry-vacuum-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-vac-dust-extractors/dewalt-dcv584l-54v-18v-xr-flexvolt-cordless-corded-wet-and-dry-vacuum-body-only.htm",
+      "ITS": "https://its.co.uk/pd/DCV584L-Dewalt-DCV584L-18V-L-Class-Mains-Compatible-Vacuum---Body-_DEW240DCV584L.htm"
     },
     "brand": "DeWalt"
   },
@@ -331,9 +340,13 @@
     "brand": "DeWalt"
   },
   "dewalt-18v-xr-die-grinder": {
-    "model": "DCG200N",
+    "model": "DCG426N",
     "name": "18V XR Brushless Die Grinder (Body Only)",
-    "retailers": {},
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/dewalt-dcg426n-xj-18v-li-ion-xr-brushless-cordless-die-grinder-bare/386hr",
+      "ITS": "https://its.co.uk/pd/DCG426N-XJ-Dewalt-DCG426N-18V-XR-Brushless-Die-Grinder---Body-_DEWDCG426N.htm",
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-grinders-disc-cutters/dewalt-dcg426n-18v-xr-brushless-125mm-die-grinder-body-only.htm"
+    },
     "brand": "DeWalt"
   },
   "dewalt-18v-2ah-battery": {

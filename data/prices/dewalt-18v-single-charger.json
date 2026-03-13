@@ -1,14 +1,14 @@
 {
   "slug": "dewalt-18v-single-charger",
   "model": "DCB115",
-  "lastScraped": "2026-03-13T16:29:26.891Z",
+  "lastScraped": "2026-03-13T21:51:45.256Z",
   "retailers": {
     "Powertool Mate": {
       "price": 64.99,
       "inStock": true,
       "name": "DeWalt DCB182 18V XR 4.0Ah Battery and DCB1104 12-18V Multi-Voltage Charger",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/batteries-and-chargers/dewalt-dcb182-18v-xr-4-0ah-battery-and-dcb115-12-18v-multi-voltage-charger.htm",
-      "lastScraped": "2026-03-13T16:29:29.970Z"
+      "lastScraped": "2026-03-13T21:50:04.812Z"
     }
   }
 }

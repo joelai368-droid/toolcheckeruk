@@ -310,7 +310,8 @@
     "name": "18V LXT Brushless 125mm Random Orbital Sander (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/makita-dbo382z-18v-lxt-brushless-finishing-sander-body-_makdbo382z.htm"
+      "ITS": "https://its.co.uk/pd/makita-dbo382z-18v-lxt-brushless-finishing-sander-body-_makdbo382z.htm",
+      "Screwfix": "https://www.screwfix.com/p/makita-dbo382-18v-li-ion-lxt-brushless-cordless-sander-bare/645aj"
     }
   },
   "makita-18v-lxt-pin-nailer-dpt353": {
@@ -319,7 +320,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/DPT353Z-Makita-DPT353Z-18V-Pin-Nailer-Body-_MAKDPT353Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-nail-guns/makita-dpt353z-18v-lxt-23-gauge-pin-nailer-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-nail-guns/makita-dpt353z-18v-lxt-23-gauge-pin-nailer-body-only.htm",
+      "Screwfix": "https://www.screwfix.com/p/makita-dpt353z-35mm-18v-li-ion-lxt-second-fix-cordless-pin-nail-gun-bare/531xj#product_additional_details_container"
     }
   },
   "makita-18v-lxt-led-torch": {
@@ -328,7 +330,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/DML812-Makita-DML812-18V-LXT-Torch---Body-_MAKDML812.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-lighting/makita-dml812-14-4-18v-lxt-flashlight-naked.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-lighting/makita-dml812-14-4-18v-lxt-flashlight-naked.htm",
+      "Screwfix": "https://www.screwfix.com/p/makita-dml812-14-4-18v-li-ion-lxt-cordless-torch-bare/784py#product_additional_details_container"
     }
   },
   "makita-18v-lxt-dab-radio": {
@@ -440,7 +443,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/DC18RD-Makita-DC18RD-144V---18V--Dual-Port-Battery-Charger---240V-_MAK240DC18RD.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-dc18rd-18v-lxt-twin-port-charger.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-dc18rd-18v-lxt-twin-port-charger.htm",
+      "Screwfix": "https://www.screwfix.com/p/makita-dc18rd-14-4-18v-li-ion-lxt-twin-charger/773kg"
     }
   },
   "makita-40v-charger": {

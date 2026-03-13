@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-4ah-battery",
+  "model": "GBA 18V 4.0Ah",
+  "lastScraped": "2026-03-13T20:53:55.081Z",
+  "retailers": {
+    "ITS": {
+      "price": 56.99,
+      "inStock": true,
+      "name": "Bosch ProCORE 4.0Ah 18V Li-Ion Battery",
+      "url": "https://its.co.uk/pd/1600A016GB-Bosch-ProCORE-40Ah-18V-Li-Ion-Battery-_BOS1600A016GB.htm",
+      "lastScraped": "2026-03-13T20:53:58.463Z"
+    }
+  }
+}

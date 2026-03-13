@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-12ah-battery",
+  "model": "GBA 18V 12.0Ah",
+  "lastScraped": "2026-03-13T20:54:01.511Z",
+  "retailers": {
+    "ITS": {
+      "price": 214.98,
+      "inStock": true,
+      "name": "Bosch ProCORE 12.0Ah 18V Li-Ion Battery",
+      "url": "https://its.co.uk/pd/bosch-procore-12-0ah-18v-li-ion-battery-_bosprocore18v12.htm",
+      "lastScraped": "2026-03-13T20:54:04.850Z"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-8ah-battery",
+  "model": "GBA 18V 8.0Ah",
+  "lastScraped": "2026-03-13T20:53:58.464Z",
+  "retailers": {
+    "ITS": {
+      "price": 119.99,
+      "inStock": true,
+      "name": "Bosch ProCORE 8.0Ah 18V Li-Ion Battery",
+      "url": "https://its.co.uk/pd/PROCORE8-Bosch-ProCORE-80Ah-18V-Li-Ion-Battery-_BOSPROCORE8.htm",
+      "lastScraped": "2026-03-13T20:54:01.510Z"
+    }
+  }
+}

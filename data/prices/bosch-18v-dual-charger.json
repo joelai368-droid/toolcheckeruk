@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-dual-charger",
+  "model": "GAL 18V-160 C",
+  "lastScraped": "2026-03-13T20:54:04.851Z",
+  "retailers": {
+    "ITS": {
+      "price": 60,
+      "inStock": true,
+      "name": "Bosch GAL 18V-160 C Battery Charger & Bluetooth Module",
+      "url": "https://its.co.uk/pd/Bosch-GAL-18V-160C-Battery-Charger--Bluetooth-Module_BOSGAL18V160C.htm",
+      "lastScraped": "2026-03-13T20:54:08.057Z"
+    }
+  }
+}

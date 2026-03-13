@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-sds-max-45c",
+  "model": "GBH 18V-45 C",
+  "lastScraped": "2026-03-13T20:53:50.799Z",
+  "retailers": {
+    "ITS": {
+      "price": 839.99,
+      "inStock": true,
+      "name": "Bosch GBH 18V-45 C BITURBO Brushless 18V SDS-Max Rotary Hammer Drill - Body with Case",
+      "url": "https://its.co.uk/pd/GBH18V-45CN-Bosch-GBH-18V-45-C-18V-BITURBO-Brushless-SDS-Max-Rotary-Hammer-Drill---Body-with-Case-_BOSGBH18V45CN.htm",
+      "lastScraped": "2026-03-13T20:53:52.109Z"
+    }
+  }
+}

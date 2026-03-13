@@ -3,13 +3,6 @@
   "model": "DCN890N",
   "lastScraped": "2026-03-13T16:28:41.629Z",
   "retailers": {
-    "Screwfix": {
-      "price": 769.99,
-      "inStock": true,
-      "name": "DEWALT DCN890P2-GB 57mm 18V 2 x 5.0Ah Li-Ion XR Brushless Concrete/Steel Cordless Nail Gun (915KJ)",
-      "url": "https://www.screwfix.com/p/dewalt-dcn890p2-gb-57mm-18v-2-x-5-0ah-li-ion-xr-brushless-concrete-steel-cordless-nail-gun/915kj",
-      "lastScraped": "2026-03-13T16:28:42.487Z"
-    },
     "ITS": {
       "price": 659.99,
       "inStock": true,

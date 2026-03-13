@@ -2,13 +2,5 @@
   "slug": "dewalt-18v-xr-die-grinder",
   "model": "DCG200N",
   "lastScraped": "2026-03-13T16:28:59.544Z",
-  "retailers": {
-    "Screwfix": {
-      "price": 798.99,
-      "inStock": true,
-      "name": "DEWALT DCG200T2-GB 125mm 54V 2 x 6.0Ah Li-Ion XR FlexVolt Brushless Cordless Wall Chaser (967KJ)",
-      "url": "https://www.screwfix.com/p/dewalt-dcg200t2-gb-125mm-54v-2-x-6-0ah-li-ion-xr-flexvolt-brushless-cordless-wall-chaser/967kj",
-      "lastScraped": "2026-03-13T16:29:01.100Z"
-    }
-  }
+  "retailers": {}
 }

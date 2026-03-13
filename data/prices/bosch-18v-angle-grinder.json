@@ -1,0 +1,21 @@
+{
+  "slug": "bosch-18v-angle-grinder",
+  "model": "GWS 18V-10",
+  "lastScraped": "2026-03-13T21:24:26.149Z",
+  "retailers": {
+    "ITS": {
+      "price": 138.98,
+      "inStock": true,
+      "name": "Bosch GWS 18V-10 18V Brushless 115mm Angle Grinder - Body",
+      "url": "https://its.co.uk/pd/Bosch-GWS-18V-10--18V-Brushless-115mm-Angle-Grinder---Body_BOSGWS18V10.htm",
+      "lastScraped": "2026-03-13T21:24:27.319Z"
+    },
+    "Screwfix": {
+      "price": 168.99,
+      "inStock": true,
+      "name": "Bosch GWS 18V-10 P 18V Li-Ion ProCORE18V 5\" Brushless Cordless Angle Grinder - Bare (393KU)",
+      "url": "https://www.screwfix.com/p/bosch-gws-18v-10-p-18v-li-ion-procore18v-5-brushless-cordless-angle-grinder-bare/393ku",
+      "lastScraped": "2026-03-13T21:24:27.986Z"
+    }
+  }
+}

@@ -4536,7 +4536,7 @@ const tools: Tool[] = [
     slug: "bosch-18v-angle-grinder",
     brand: "Bosch Professional",
     name: "18V BITURBO 125mm Angle Grinder (Body Only)",
-    modelNumber: "GWS 18V-10 C",
+    modelNumber: "GWS 18V-10",
     category: "grinders",
     description: "BITURBO brushless angle grinder with 10,000 RPM. KickBack Control, restart protection, and soft start. Bluetooth connectivity.",
     retailers: [
@@ -7939,7 +7939,7 @@ const tools: Tool[] = [
     slug: "bosch-18v-angle-grinder-180mm",
     brand: "Bosch Professional",
     name: "18V BITURBO 180mm Large Angle Grinder (Body Only)",
-    modelNumber: "GWS 18V-180 PC",
+    modelNumber: "GWS 18V-180 P",
     category: "grinders",
     description: "Large 180mm BITURBO brushless angle grinder for heavy-duty tasks. Electronic protection system.",
     retailers: [
@@ -8149,7 +8149,7 @@ const tools: Tool[] = [
     slug: "bosch-18v-dab-radio",
     brand: "Bosch Professional",
     name: "18V DAB+ Professional Radio",
-    modelNumber: "GML 18V-120",
+    modelNumber: "GPB 18V-2 SC",
     category: "radio",
     description: "DAB+/FM job site radio with 120W peak power. Bluetooth streaming and twin USB charging ports.",
     retailers: [

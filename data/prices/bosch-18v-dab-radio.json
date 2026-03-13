@@ -1,0 +1,14 @@
+{
+  "slug": "bosch-18v-dab-radio",
+  "model": "GPB 18V-2 SC",
+  "lastScraped": "2026-03-13T21:24:30.952Z",
+  "retailers": {
+    "Powertool Mate": {
+      "price": 144.99,
+      "inStock": true,
+      "name": "Bosch GPB 18V-2 SC 18v/240v Professional Bluetooth/DAB+ Radio Naked",
+      "url": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gpb-18v-2-sc-18v-240v-professional-bluetooth-dab-radio-naked.htm",
+      "lastScraped": "2026-03-13T21:24:32.066Z"
+    }
+  }
+}

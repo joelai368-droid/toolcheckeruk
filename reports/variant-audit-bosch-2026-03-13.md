@@ -1,6 +1,6 @@
 # Variant mismatch audit (bosch)
 
-Generated: 2026-03-13T20:54:11.429Z
+Generated: 2026-03-13T21:24:35.172Z
 
 Heuristic: tool name contains "Body Only" but scraped retailer title looks like kit/bundle (battery/charger/etc).
 

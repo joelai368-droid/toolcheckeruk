@@ -35,10 +35,13 @@
     }
   },
   "bosch-18v-angle-grinder": {
-    "model": "GWS 18V-10 C",
+    "model": "GWS 18V-10",
     "name": "18V BITURBO 125mm Angle Grinder (Body Only)",
     "brand": "Bosch Professional",
-    "retailers": {}
+    "retailers": {
+      "ITS": "https://its.co.uk/pd/Bosch-GWS-18V-10--18V-Brushless-115mm-Angle-Grinder---Body_BOSGWS18V10.htm",
+      "Screwfix": "https://www.screwfix.com/p/bosch-gws-18v-10-p-18v-li-ion-procore18v-5-brushless-cordless-angle-grinder-bare/393ku"
+    }
   },
   "bosch-18v-multi-tool": {
     "model": "GOP 18V-28",
@@ -181,10 +184,12 @@
     }
   },
   "bosch-18v-angle-grinder-180mm": {
-    "model": "GWS 18V-180 PC",
+    "model": "GWS 18V-180 P",
     "name": "18V BITURBO 180mm Large Angle Grinder (Body Only)",
     "brand": "Bosch Professional",
-    "retailers": {}
+    "retailers": {
+      "Screwfix": "https://www.screwfix.com/p/bosch-gws-18v-180-p-18v-li-ion-ampshare-7-09-brushless-cordless-angle-grinder-bare/431ck#product_additional_details_container"
+    }
   },
   "bosch-18v-router": {
     "model": "GKF 18V-8",
@@ -221,10 +226,12 @@
     }
   },
   "bosch-18v-dab-radio": {
-    "model": "GML 18V-120",
+    "model": "GPB 18V-2 SC",
     "name": "18V DAB+ Professional Radio",
     "brand": "Bosch Professional",
-    "retailers": {}
+    "retailers": {
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/bosch-store/bosch-18v-cordless/bosch-gpb-18v-2-sc-18v-240v-professional-bluetooth-dab-radio-naked.htm"
+    }
   },
   "bosch-18v-vacuum": {
     "model": "GAS 18V-12 MC",

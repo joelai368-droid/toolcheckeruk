@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m12-fuel-surge-impact-driver",
   "model": "M12 FQID-0",
-  "lastScraped": "2026-03-12T21:16:47.392Z",
+  "lastScraped": "2026-03-13T00:02:23.900Z",
   "retailers": {
     "Screwfix": {
       "price": 144.99,
       "inStock": true,
       "name": "Milwaukee M12FQID-0 FUEL SURGE 12V Li-Ion RedLithium Brushless Cordless Impact Driver - Bare (767XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m12fqid-0-fuel-surge-12v-li-ion-redlithium-brushless-cordless-impact-driver-bare/767xh#product_additional_details_container",
-      "lastScraped": "2026-03-12T18:02:24.449Z"
+      "lastScraped": "2026-03-13T00:02:25.338Z"
     },
     "ITS": {
       "price": 139.98,
       "inStock": true,
       "name": "Milwaukee M12 FQID-0 12V FUEL SURGE Brushless Hydraulic 1/4” Impact Driver - Body",
       "url": "https://its.co.uk/pd/M12-FQID-0-Milwaukee-M12-FQID-0-12V-FUEL-SURGE-Brushless-Hydraulic-14-Impact-Driver---Body-_MILM12FQID0.htm",
-      "lastScraped": "2026-03-12T18:02:25.528Z"
+      "lastScraped": "2026-03-13T00:02:26.203Z"
     },
     "Powertool Mate": {
       "price": 136.99,
       "inStock": true,
       "name": "Milwaukee M12FQID-0 12V Fuel Sub Compact SURGE Hydraulic Impact Driver (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-m12fqid-0-12v-m12-fuel-sub-compact-surge-hydraulic-impact-driver-bare-.htm",
-      "lastScraped": "2026-03-12T18:02:26.384Z"
+      "lastScraped": "2026-03-13T00:02:27.034Z"
     }
   }
 }

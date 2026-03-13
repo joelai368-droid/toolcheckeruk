@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-onekey-34-impact-wrench",
   "model": "M18 ONEFHIWF34-0",
-  "lastScraped": "2026-03-12T21:16:21.475Z",
+  "lastScraped": "2026-03-13T00:01:38.559Z",
   "retailers": {
     "Toolstation": {
       "price": 419.98,
       "inStock": true,
       "name": "Milwaukee M18 ONEFHIWF34-502X ONE-KEY FUEL High Torque 3/4\" Impact Wrench with Friction Ring 2 x 5.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m18-onefhiwf34-502x-one-key-fuel-high-torque-34-impact-wrench-with-friction-ring/p99463",
-      "lastScraped": "2026-03-12T18:01:42.577Z"
+      "lastScraped": "2026-03-13T00:01:39.208Z"
     },
     "ITS": {
       "price": 209.99,
       "inStock": true,
       "name": "Milwaukee M18 ONEFHIWF34-0X 18V FUEL ONE-KEY Brushless 3/4” Impact Wrench - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-onefhiwf34-0x-18v-fuel-one-key-brushless-3-4-impact-wrench-body-_milm18onefhiwf340.htm",
-      "lastScraped": "2026-03-12T18:01:43.771Z"
+      "lastScraped": "2026-03-13T00:01:41.061Z"
     },
     "Powertool Mate": {
       "price": 209.99,
       "inStock": true,
       "name": "Milwaukee M18ONEFHIWF34-0X 18V One Key Fuel 3/4\" Impact Wrench 2033Nm (Body Only) in Case",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m18onefhiwf34-0-fuel-18v-2033nm-one-key-3-4-impact-wrench-body-only.htm",
-      "lastScraped": "2026-03-12T18:01:45.754Z"
+      "lastScraped": "2026-03-13T00:01:41.948Z"
     }
   }
 }

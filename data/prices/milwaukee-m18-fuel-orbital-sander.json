@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-orbital-sander",
   "model": "M18 BOS125-0",
-  "lastScraped": "2026-03-12T21:16:15.225Z",
+  "lastScraped": "2026-03-13T00:00:23.929Z",
   "retailers": {
     "Toolstation": {
       "price": 69.98,
       "inStock": true,
       "name": "Milwaukee M18BOS125 125mm Random Orbital Sander Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18bos125-125mm-random-orbital-sander/p39958",
-      "lastScraped": "2026-03-12T18:00:25.244Z"
+      "lastScraped": "2026-03-13T00:00:24.731Z"
     },
     "ITS": {
       "price": 70,
       "inStock": true,
       "name": "Milwaukee M18 BOS125-0 18V 125mm Random Orbit Sander - Body",
       "url": "https://its.co.uk/pd/M18BOS125-0-Milwaukee-M18-BOS125-0-18V-125mm-Random-Orbit-Sander---Body-_MILM18BOS1250.htm",
-      "lastScraped": "2026-03-12T18:00:27.437Z"
+      "lastScraped": "2026-03-13T00:00:25.957Z"
     },
     "Powertool Mate": {
       "price": 69.99,
       "inStock": true,
       "name": "Milwaukee M18BOS125-0 18V 125mm Compact Random Orbital Sander (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-sanders/m18bos125-0-m18-compact-125mm-random-orbital-sander.htm",
-      "lastScraped": "2026-03-12T18:00:28.326Z"
+      "lastScraped": "2026-03-13T00:00:27.198Z"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m12-fuel-drill-driver",
   "model": "M12 FDD-0",
-  "lastScraped": "2026-03-12T21:16:43.914Z",
+  "lastScraped": "2026-03-13T00:02:14.390Z",
   "retailers": {
     "Toolstation": {
       "price": 249.98,
       "inStock": true,
       "name": "Milwaukee M12 FDD2-602X FUEL Gen 3 Drill Driver 2 x 6.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m12-fdd2-602x-fuel-gen-3-drill-driver/p44673",
-      "lastScraped": "2026-03-12T18:02:14.299Z"
+      "lastScraped": "2026-03-13T00:02:15.356Z"
     }
   }
 }

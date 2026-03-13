@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m12-underbody-light",
   "model": "M12 UCL-0",
-  "lastScraped": "2026-03-12T21:16:50.740Z",
+  "lastScraped": "2026-03-13T00:03:12.769Z",
   "retailers": {
     "Screwfix": {
       "price": 149.99,
       "inStock": true,
       "name": "Milwaukee M12 UCL-0 12V Li-Ion RedLithium Cordless Under Carriage Light - Bare (242XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-ucl-0-12v-li-ion-redlithium-cordless-under-carriage-light-bare/242xh#product_additional_details_container",
-      "lastScraped": "2026-03-12T18:03:12.785Z"
+      "lastScraped": "2026-03-13T00:03:13.656Z"
     },
     "Toolstation": {
       "price": 149.98,
       "inStock": true,
       "name": "Milwaukee M12UCL-0 Trueview Under Carriage Light Body Only",
       "url": "https://www.toolstation.com/milwaukee-m12ucl-0-trueview-under-carriage-light/p52358",
-      "lastScraped": "2026-03-12T18:03:13.212Z"
+      "lastScraped": "2026-03-13T00:03:14.465Z"
     },
     "ITS": {
       "price": 129.98,
       "inStock": true,
       "name": "Milwaukee M12 UCL-0 12V TRUEVIEW Undercarriage Light - Body",
       "url": "https://its.co.uk/pd/M12-UCL-0-Milwaukee-M12-UCL-0-12V-TRUEVIEW-Undercarriage-Light---Body-_MILM12UCL0.htm",
-      "lastScraped": "2026-03-12T18:03:14.687Z"
+      "lastScraped": "2026-03-13T00:03:15.228Z"
     },
     "Powertool Mate": {
       "price": 134.99,
       "inStock": true,
       "name": "Milwaukee M12UCL-0 12v Under Carriage Light Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m12ucl-0-12v-under-carriage-light-naked.htm",
-      "lastScraped": "2026-03-12T18:03:15.514Z"
+      "lastScraped": "2026-03-13T00:03:16.121Z"
     }
   }
 }

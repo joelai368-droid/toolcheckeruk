@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-165mm-circular-saw",
   "model": "M18 FCSG66-0",
-  "lastScraped": "2026-03-13T12:02:09.645Z",
+  "lastScraped": "2026-03-13T22:16:55.782Z",
   "retailers": {
-    "Toolstation": {
-      "price": 299.98,
+    "ITS": {
+      "price": 311.99,
       "inStock": true,
-      "name": "Milwaukee M18 165MM Circular Saw 2 x 4.0Ah",
-      "url": "https://www.toolstation.com/milwaukee-m18-165mm-circular-saw/p19690",
-      "lastScraped": "2026-03-13T12:02:11.574Z"
+      "name": "Milwaukee M18 FCSG66-0 18V FUEL Brushless 190mm Circular Saw Guide Rail Compatible - Body",
+      "url": "https://its.co.uk/pd/Milwaukee-M18-FCSG660-18V-190mm-Circular-Saw---Body_MILM18FCSG660.htm",
+      "lastScraped": "2026-03-13T22:16:56.945Z"
     }
   }
 }

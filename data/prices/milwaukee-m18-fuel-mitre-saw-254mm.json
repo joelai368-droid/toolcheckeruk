@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-fuel-mitre-saw-254mm",
   "model": "M18 FMS254-0",
-  "lastScraped": "2026-03-13T12:01:41.118Z",
+  "lastScraped": "2026-03-13T22:07:53.295Z",
   "retailers": {
     "Screwfix": {
       "price": 595.99,
       "inStock": true,
       "name": "Milwaukee M18FMS254-0 254mm 18V Li-Ion RedLithium High Output Brushless Cordless Double-Bevel Sliding Mitre Saw - Bare (370XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18fms254-0-254mm-18v-li-ion-redlithium-high-output-brushless-cordless-double-bevel-sliding-mitre-saw-bare/370xh#product_additional_details_container",
-      "lastScraped": "2026-03-13T12:01:41.972Z"
+      "lastScraped": "2026-03-13T22:07:54.162Z"
     },
     "Toolstation": {
       "price": 599.98,
       "inStock": true,
       "name": "Milwaukee M18 FUEL Mitre Saw 254mm Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18-fuel-mitre-saw-254mm/p93221",
-      "lastScraped": "2026-03-13T12:01:43.166Z"
+      "lastScraped": "2026-03-13T22:07:54.590Z"
     },
     "ITS": {
       "price": 599.99,
       "inStock": true,
       "name": "Milwaukee M18 FMS254-0 18V FUEL Brushless 254mm Sliding Mitre Saw - Body",
       "url": "https://its.co.uk/pd/M18FMS254-0-Milwaukee-M18-FMS254-0-18V-FUEL-Brushless-254mm-Compound-Mitre-Saw---Body-_MILM18FMS2540.htm",
-      "lastScraped": "2026-03-13T12:01:44.184Z"
+      "lastScraped": "2026-03-13T22:07:55.709Z"
     },
     "Powertool Mate": {
       "price": 519.99,
       "inStock": true,
       "name": "Milwaukee M18FMS254-0 18V Fuel 254mm Brushless Cordless Mitre Saw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-mitre-saws/milwaukee-m18fms254-0-18v-fuel-254mm-brushless-cordless-mitre-saw-body-only.htm",
-      "lastScraped": "2026-03-13T12:01:45.125Z"
+      "lastScraped": "2026-03-13T22:07:56.556Z"
     }
   }
 }

@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-dfc-charger",
   "model": "M18 DFC",
-  "lastScraped": "2026-03-13T12:04:39.144Z",
+  "lastScraped": "2026-03-13T22:10:52.833Z",
   "retailers": {
     "Screwfix": {
       "price": 99.97,
       "inStock": true,
       "name": "Milwaukee M18DFC 18V Li-Ion RedLithium Dual Charger (326XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18dfc-18v-li-ion-redlithium-dual-charger/326xh#product_additional_details_container",
-      "lastScraped": "2026-03-13T12:04:40.039Z"
+      "lastScraped": "2026-03-13T22:10:53.256Z"
     },
     "ITS": {
       "price": 99.98,
       "inStock": true,
       "name": "Milwaukee M18 DFC 18V Dual Bay Rapid Charger",
       "url": "https://its.co.uk/pd/Milwaukee-M18-DFC-240V-Dual-Bay-Rapid-Charger_MILM18DFC.htm",
-      "lastScraped": "2026-03-13T12:04:40.851Z"
+      "lastScraped": "2026-03-13T22:10:54.202Z"
     },
     "Powertool Mate": {
       "price": 93.99,
       "inStock": true,
       "name": "Milwaukee M18DFC-0 Dual Bay Simultaneous Rapid Charger",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m18dfc-0-dual-bay-simultaneous-rapid-charger.htm",
-      "lastScraped": "2026-03-13T12:04:43.190Z"
+      "lastScraped": "2026-03-13T22:10:55.422Z"
     }
   }
 }

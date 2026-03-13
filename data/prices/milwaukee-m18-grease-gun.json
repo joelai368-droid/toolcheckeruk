@@ -1,28 +1,21 @@
 {
   "slug": "milwaukee-m18-grease-gun",
   "model": "M18 GG-0",
-  "lastScraped": "2026-03-13T12:01:54.328Z",
+  "lastScraped": "2026-03-13T22:17:03.949Z",
   "retailers": {
     "Screwfix": {
       "price": 169.97,
       "inStock": true,
       "name": "Milwaukee M18 GG-0 18V Li-Ion RedLithium  Cordless Grease Gun - Bare (374GY)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-gg-0-18v-li-ion-redlithium-cordless-grease-gun-bare/374gy#product_additional_details_container",
-      "lastScraped": "2026-03-13T12:01:54.860Z"
+      "lastScraped": "2026-03-13T22:17:04.536Z"
     },
     "ITS": {
       "price": 137.99,
       "inStock": true,
       "name": "Milwaukee M18 GG-0 18V Grease Gun - Body",
       "url": "https://its.co.uk/pd/M18GG-0-Milwaukee-M18-GG-0-18V-Grease-Gun---Body-_MILM18GG0.htm",
-      "lastScraped": "2026-03-13T12:01:56.721Z"
-    },
-    "Powertool Mate": {
-      "price": 493.99,
-      "inStock": true,
-      "name": "Milwaukee M18FHIW2F12-502X 18v Fuel 1/2\" High Torque Impact Wrench with Friction Ring Kit & M18GG-0 18V Heavy Duty Grease Gun",
-      "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m18fhiw2f12-502x-18v-fuel-1-2-high-torque-impact-wrench-with-friction-_1.htm",
-      "lastScraped": "2026-03-13T12:01:57.588Z"
+      "lastScraped": "2026-03-13T22:17:05.607Z"
     }
   }
 }

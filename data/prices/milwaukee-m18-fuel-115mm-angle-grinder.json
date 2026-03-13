@@ -1,21 +1,21 @@
 {
   "slug": "milwaukee-m18-fuel-115mm-angle-grinder",
   "model": "M18 FSAGV115XPDB-0",
-  "lastScraped": "2026-03-13T12:01:02.213Z",
+  "lastScraped": "2026-03-13T22:07:17.152Z",
   "retailers": {
     "ITS": {
       "price": 124.98,
       "inStock": true,
       "name": "Milwaukee M18 FSAGV115XPDB-0 18V FUEL Brushless 115mm Angle Grinder - Body",
       "url": "https://its.co.uk/pd/M18FSAGV115XPDB-0-Milwaukee-M18-FSAGV115XPDB-0-18V-FUEL-Brushless-115mm-Angle-Grinder---Body-_MILM18FSAGV115XPDB0.htm",
-      "lastScraped": "2026-03-13T12:01:05.409Z"
+      "lastScraped": "2026-03-13T22:07:19.770Z"
     },
     "Powertool Mate": {
       "price": 109.99,
       "inStock": true,
       "name": "Milwaukee M18FSAGV115XPDB-0 18v Fuel 115mm Braking Angle Grinder Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m18fsagv115xpdb-0-18v-fuel-115mm-braking-angle-grinder-naked.htm",
-      "lastScraped": "2026-03-13T12:01:06.272Z"
+      "lastScraped": "2026-03-13T22:07:20.627Z"
     }
   }
 }

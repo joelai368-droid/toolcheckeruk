@@ -3,7 +3,6 @@
     "model": "M18 FPD3-0",
     "name": "M18 FUEL Combi Drill (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18fpd3-502x-fuel-gen-4-combi-drill/p93247",
       "ITS": "https://its.co.uk/pd/milwaukee-m18-fpd3-0x-18v-fuel-brushless-combi-drill-body-_milm18fpd30.htm",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m18fpd3-0-18v-fuel-combi-drill-naked-new-gen.htm"
     }
@@ -116,31 +115,29 @@
     "model": "M18 BPD-0",
     "name": "M18 Compact Combi Drill (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-bpd-402c-heavy-duty-combi-kit/p39889"
+      "ITS": "https://its.co.uk/pd/M18BPD-0C-Milwaukee-M18-BPD-18V-Combi-Drill---Body-with-Case-_MILM18BPD0C.htm"
     }
   },
   "milwaukee-m18-fuel-surge-impact-driver": {
     "model": "M18 FQID-0",
     "name": "M18 FUEL Surge Hydraulic Impact Driver (Body Only)",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fqid-0-fuel-surge-18v-li-ion-redlithium-brushless-cordless-impact-driver-bare/540xh#product_additional_details_container",
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-fqid-502x-fuel-surge-hydraulic-impact-driver/p42800"
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fqid-0-fuel-surge-18v-li-ion-redlithium-brushless-cordless-impact-driver-bare/540xh#product_additional_details_container"
     }
   },
   "milwaukee-m18-fuel-12-impact-wrench": {
     "model": "M18 FIW2F12-0",
     "name": "M18 FUEL 1/2\" High Torque Impact Wrench (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-fiw2f12-502x-gen-3-fuel-compact-impact-wrench-w-12-friction-ring/p92762"
+      "ITS": "https://its.co.uk/pd/milwaukee-m18-fiw2f12-0-18v-fuel-brushless-compact-1-2-impact-wrench-friction-ring-body-_milm18fiw2f120.htm",
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fiw2f12-0-fuel-18v-li-ion-redlithium-brushless-cordless-impact-wrench-bare/949cx#product_additional_details_container"
     }
   },
   "milwaukee-m18-onekey-12-impact-wrench": {
     "model": "M18 ONEFHIWF12-0",
     "name": "M18 FUEL ONE-KEY 1/2\" High Torque Impact Wrench (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-onefhiwf12-502x-one-key-fuel-high-torque-12-impact-wrench-with-friction-ring/p61398",
-      "ITS": "https://its.co.uk/pd/M18-ONEFHIWF12-0-Milwaukee-M18-ONEFHIWF12-18V-FUEL-Brushless-ONE-KEY-12-Impact-Wrench-with-Friction-_MILM18ONEFHIWF120.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m18onefhiwf12-0-one-key-fuel-brushless-high-torque-1-2-impact-wrench-w.htm"
+      "ITS": "https://its.co.uk/pd/M18-ONEFHIWF12-0-Milwaukee-M18-ONEFHIWF12-18V-FUEL-Brushless-ONE-KEY-12-Impact-Wrench-with-Friction-_MILM18ONEFHIWF120.htm"
     }
   },
   "milwaukee-m18-fuel-hackzall": {
@@ -221,8 +218,7 @@
     "name": "M18 FUEL Blower (Body Only)",
     "retailers": {
       "Toolstation": "https://www.toolstation.com/milwaukee-m18fblg3-0-fuel-blower/pAC879",
-      "ITS": "https://its.co.uk/pd/milwaukee-m18-fblg3-0-18v-fuel-brushless-blower-body-_milm18fblg30.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-blowers/milwaukee-m18fblg3-0-18v-fuel-gen-3-blower-kit-with-1-x-5-0ah-battery-charger.htm"
+      "ITS": "https://its.co.uk/pd/milwaukee-m18-fblg3-0-18v-fuel-brushless-blower-body-_milm18fblg30.htm"
     }
   },
   "milwaukee-m18-inflator": {
@@ -295,8 +291,7 @@
     "name": "M18 Cordless Grease Gun (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-gg-0-18v-li-ion-redlithium-cordless-grease-gun-bare/374gy#product_additional_details_container",
-      "ITS": "https://its.co.uk/pd/M18GG-0-Milwaukee-M18-GG-0-18V-Grease-Gun---Body-_MILM18GG0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m18fhiw2f12-502x-18v-fuel-1-2-high-torque-impact-wrench-with-friction-_1.htm"
+      "ITS": "https://its.co.uk/pd/M18GG-0-Milwaukee-M18-GG-0-18V-Grease-Gun---Body-_MILM18GG0.htm"
     }
   },
   "milwaukee-m18-caulking-gun": {
@@ -317,7 +312,6 @@
     "model": "M18 ONEFHIWF34-0",
     "name": "M18 FUEL ONE-KEY 3/4\" High Torque Impact Wrench (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-onefhiwf34-502x-one-key-fuel-high-torque-34-impact-wrench-with-friction-ring/p99463",
       "ITS": "https://its.co.uk/pd/milwaukee-m18-onefhiwf34-0x-18v-fuel-one-key-brushless-3-4-impact-wrench-body-_milm18onefhiwf340.htm",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m18onefhiwf34-0-fuel-18v-2033nm-one-key-3-4-impact-wrench-body-only.htm"
     }
@@ -326,7 +320,7 @@
     "model": "M18 ONEFHIWF12-0",
     "name": "M18 FUEL ONE-KEY 1\" High Torque Impact Wrench (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-onefhiwf12-502x-one-key-fuel-high-torque-12-impact-wrench-with-friction-ring/p61398"
+      "ITS": "https://its.co.uk/pd/M18-ONEFHIWF12-0-Milwaukee-M18-ONEFHIWF12-18V-FUEL-Brushless-ONE-KEY-12-Impact-Wrench-with-Friction-_MILM18ONEFHIWF120.htm"
     }
   },
   "milwaukee-m18-fuel-sds-max-hammer": {
@@ -340,7 +334,7 @@
     "model": "M18 FCSG66-0",
     "name": "M18 FUEL 165mm Circular Saw (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-165mm-circular-saw/p19690"
+      "ITS": "https://its.co.uk/pd/Milwaukee-M18-FCSG660-18V-190mm-Circular-Saw---Body_MILM18FCSG660.htm"
     }
   },
   "milwaukee-m18-fuel-125mm-slide-grinder": {
@@ -355,7 +349,6 @@
     "name": "M18 FUEL Random Orbital Polisher 150mm (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18frop15-0x-fuel-125mm-18v-li-ion-redlithium-brushless-cordless-polisher-bare/204vt#product_additional_details_container",
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-frop15-502x-fuel-dual-action-polisher/p45541",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-polishers/milwaukee-m18frop15-0-18v-fuel-random-orbital-polisher-with-15mm-stroke-naked.htm"
     }
   },
@@ -379,8 +372,7 @@
     "model": "M18 FMDP-0",
     "name": "M18 FUEL Magnetic Drill Press (Body Only)",
     "retailers": {
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m18fmdp-0-fuel-magnetic-drill-press-body-only.htm",
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-fmdp-502c-fuel-magnetic-drill-press/p77637"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m18fmdp-0-fuel-magnetic-drill-press-body-only.htm"
     }
   },
   "milwaukee-m18-threaded-rod-cutter": {
@@ -477,7 +469,6 @@
     "model": "M12 FPD2-0",
     "name": "M12 FUEL Combi Drill (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m12fpd2-602x-12v-fuel-combi-drill/p35683",
       "ITS": "https://its.co.uk/pd/FPD2-Milwaukee-FPD2-0X-M12-Fuel-Brushless-Combi-Drill-with-Case-_MILM12FPD20X.htm",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m12fpd2-0-12v-fuel-new-gen-combi-drill-naked.htm"
     }
@@ -486,7 +477,7 @@
     "model": "M12 FDD-0",
     "name": "M12 FUEL Sub Compact Drill Driver (Body Only)",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m12-fdd2-602x-fuel-gen-3-drill-driver/p44673"
+      "ITS": "https://its.co.uk/pd/M12-FDD-0-Milwaukee-M12-FDD-0-12V-FUEL-Brushless-Sub-Compact-Drill-Driver---Body-_MILM12FDD0.htm"
     }
   },
   "milwaukee-m12-fuel-installation-drill": {
@@ -526,7 +517,7 @@
     "model": "M12 FIW38-0",
     "name": "M12 FUEL 3/8\" Stubby Impact Wrench (Body Only)",
     "retailers": {
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fiw38-0-12v-fuel-3-8-impact-wrench-body-only-m12b6-6-0ah-battery.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fiw38-0-12v-fuel-3-8-impact-wrench-body-only-4932480946-packout-soc.htm"
     }
   },
   "milwaukee-m12-fuel-14-ratchet": {

@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m12-fuel-38-ratchet",
   "model": "M12 FIR38-0",
-  "lastScraped": "2026-03-13T12:03:15.035Z",
+  "lastScraped": "2026-03-13T22:09:28.238Z",
   "retailers": {
     "Screwfix": {
       "price": 129.99,
       "inStock": true,
       "name": "Milwaukee M12 FIR38-0 FUEL 12V Li-Ion RedLithium Brushless Cordless Sub Compact Ratchet - Bare (438GE)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-fir38-0-fuel-12v-li-ion-redlithium-brushless-cordless-sub-compact-ratchet-bare/438ge",
-      "lastScraped": "2026-03-13T12:03:15.472Z"
+      "lastScraped": "2026-03-13T22:09:29.101Z"
     },
     "Toolstation": {
       "price": 139.98,
       "inStock": true,
       "name": "Milwaukee M12 FIR38-0 FUEL 3/8'' Ratchet Body Only",
       "url": "https://www.toolstation.com/milwaukee-m12-fir38-0-fuel-38-ratchet/p27673",
-      "lastScraped": "2026-03-13T12:03:16.058Z"
+      "lastScraped": "2026-03-13T22:09:29.533Z"
     },
     "ITS": {
       "price": 139.98,
       "inStock": true,
       "name": "Milwaukee M12 FIR38-0 12V FUEL Brushless 3/8\" Ratchet - Body",
       "url": "https://its.co.uk/pd/M12FIR38-0-Milwaukee-M12-FIR38-0-12V-FUEL-Brushless-38-Ratchet---Body-_MILM12FIR380.htm",
-      "lastScraped": "2026-03-13T12:03:17.004Z"
+      "lastScraped": "2026-03-13T22:09:30.592Z"
     },
     "Powertool Mate": {
       "price": 114.99,
       "inStock": true,
       "name": "Milwaukee M12FIR38-0 12V Fuel 3/8\" Impact Ratchet (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/m12fir38-0-m12-fuel-3-8-impact-ratchet.htm",
-      "lastScraped": "2026-03-13T12:03:18.508Z"
+      "lastScraped": "2026-03-13T22:09:31.491Z"
     }
   }
 }

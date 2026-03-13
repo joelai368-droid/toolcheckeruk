@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m12-m18-bluetooth-speaker",
   "model": "M12-18 JSSP-0",
-  "lastScraped": "2026-03-13T12:02:42.652Z",
+  "lastScraped": "2026-03-13T22:08:55.260Z",
   "retailers": {
     "ITS": {
       "price": 119.99,
       "inStock": true,
       "name": "Milwaukee M12-18JSSP Bluetooth Speaker - Body",
       "url": "https://its.co.uk/pd/M12-18-JSSP-0-Milwaukee-M12-18JSSP-Bluetooth-Speaker---Body-_MILM1218JSSP0.htm",
-      "lastScraped": "2026-03-13T12:02:45.455Z"
+      "lastScraped": "2026-03-13T22:08:58.991Z"
     }
   }
 }

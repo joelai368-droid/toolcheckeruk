@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m12-fuel-cut-off-tool",
   "model": "M12 FCOT-0",
-  "lastScraped": "2026-03-13T12:03:27.063Z",
+  "lastScraped": "2026-03-13T22:09:37.834Z",
   "retailers": {
     "Screwfix": {
       "price": 104.99,
       "inStock": true,
       "name": "Milwaukee M12FCOT-0 FUEL 76mm 12V Li-Ion RedLithium Brushless Cordless Cut Off Tool - Bare (400XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m12fcot-0-fuel-76mm-12v-li-ion-redlithium-brushless-cordless-cut-off-tool-bare/400xh#product_additional_details_container",
-      "lastScraped": "2026-03-13T12:03:27.491Z"
+      "lastScraped": "2026-03-13T22:09:38.690Z"
     },
     "Powertool Mate": {
       "price": 85.99,
       "inStock": true,
       "name": "Milwaukee M12FCOT-0 M12 12v Fuel Cut-Off Tool Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m12fcot-0-m12-fuel-cut-off-tool.htm",
-      "lastScraped": "2026-03-13T12:03:28.108Z"
+      "lastScraped": "2026-03-13T22:09:41.446Z"
     },
     "ITS": {
       "price": 88.98,
       "inStock": true,
       "name": "Milwaukee M12 FCOT-0 12V FUEL Brushless 76mm Multi-Material Cut Off Tool - Body",
       "url": "https://its.co.uk/pd/M12FCOT0-Milwaukee-M12-FCOT-0-12V-FUEL-Brushless-76mm-Multi-Material-Cut-Off-Tool---Body-_MILM12FCOT0.htm",
-      "lastScraped": "2026-03-13T12:03:29.067Z"
+      "lastScraped": "2026-03-13T22:09:42.457Z"
     }
   }
 }

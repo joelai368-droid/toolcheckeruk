@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-dab-radio",
   "model": "M18 JSRDAB-0",
-  "lastScraped": "2026-03-13T12:02:40.132Z",
+  "lastScraped": "2026-03-13T22:08:52.984Z",
   "retailers": {
     "ITS": {
       "price": 155.99,
       "inStock": true,
       "name": "Milwaukee M18 JSR DAB+ 18V Jobsite Radio - Body",
       "url": "https://its.co.uk/pd/M18JSRDABand-0-Milwaukee-M18-JSR-DAB--18V-Jobsite-Radio---Body-_MILM18JSRDABPLUS0.htm",
-      "lastScraped": "2026-03-13T12:02:42.652Z"
+      "lastScraped": "2026-03-13T22:08:55.259Z"
     }
   }
 }

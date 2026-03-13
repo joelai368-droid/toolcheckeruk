@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-sds-max-hammer",
   "model": "M18 CHM-0",
-  "lastScraped": "2026-03-13T12:02:08.001Z",
+  "lastScraped": "2026-03-13T22:08:20.829Z",
   "retailers": {
     "ITS": {
       "price": 359.99,
       "inStock": true,
       "name": "18v M18 SDS-Max Rotary Demolition Hammer - Body",
       "url": "https://its.co.uk/pd/M18CHM-0-18v-M18-SDS-Max-Rotary-Demolition-Hammer---Body-_MILM18CHM0.htm",
-      "lastScraped": "2026-03-13T12:02:09.644Z"
+      "lastScraped": "2026-03-13T22:08:22.595Z"
     }
   }
 }

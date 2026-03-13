@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-led-torch",
   "model": "M18 TLED-0",
-  "lastScraped": "2026-03-13T12:01:24.195Z",
+  "lastScraped": "2026-03-13T22:07:36.603Z",
   "retailers": {
     "Screwfix": {
       "price": 29.99,
       "inStock": true,
       "name": "Milwaukee M18 TLED-0 18V Li-Ion RedLithium Cordless LED Work Torch - Bare (281HP)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-tled-0-18v-li-ion-redlithium-cordless-led-work-torch-bare/281hp#product_additional_details_container",
-      "lastScraped": "2026-03-13T12:01:25.083Z"
+      "lastScraped": "2026-03-13T22:07:37.514Z"
     },
     "Toolstation": {
       "price": 28.98,
       "inStock": true,
       "name": "Milwaukee M18TLED-0 Trueview LED Work Light Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18tled-0-trueview-led-work-light/p71966",
-      "lastScraped": "2026-03-13T12:01:26.059Z"
+      "lastScraped": "2026-03-13T22:07:37.936Z"
     },
     "ITS": {
       "price": 19.99,
       "inStock": true,
       "name": "Milwaukee M18 TLED-0 18V TRUEVIEW LED Torch - Body",
       "url": "https://its.co.uk/pd/M18TLED-0-Milwaukee-M18-TLED-0-18V-TRUEVIEW-LED-Torch---Body-_MILM18TLED0.htm",
-      "lastScraped": "2026-03-13T12:01:26.969Z"
+      "lastScraped": "2026-03-13T22:07:38.786Z"
     },
     "Powertool Mate": {
       "price": 23.99,
       "inStock": true,
       "name": "Milwaukee M18TLED 18V LED Torch Light (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m18tled-18v-led-torch-light-body-only.htm",
-      "lastScraped": "2026-03-13T12:01:27.841Z"
+      "lastScraped": "2026-03-13T22:07:39.637Z"
     }
   }
 }

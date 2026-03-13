@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-230mm-angle-grinder",
   "model": "M18 FLAG230XPDB-0",
-  "lastScraped": "2026-03-13T12:01:09.606Z",
+  "lastScraped": "2026-03-13T22:07:23.743Z",
   "retailers": {
     "Screwfix": {
       "price": 288.99,
       "inStock": true,
       "name": "Milwaukee M18FLAG230XPDB-0C 18V Li-Ion RedLithium High Output 9\" Brushless Cordless Angle Grinder - Bare (520VT)",
       "url": "https://www.screwfix.com/p/milwaukee-m18flag230xpdb-0c-18v-li-ion-redlithium-high-output-9-brushless-cordless-angle-grinder-bare/520vt#product_additional_details_container",
-      "lastScraped": "2026-03-13T12:01:10.478Z"
+      "lastScraped": "2026-03-13T22:07:24.219Z"
     },
     "ITS": {
       "price": 323.99,
       "inStock": true,
       "name": "Milwaukee M18 FLAG230XPDB-0C 18V FUEL Brushless 230mm Grinder - Body with Case",
       "url": "https://its.co.uk/pd/M18FLAG230XPDB-0C-Milwaukee-M18-FLAG230XPDB-0C-18V-FUEL-Brushless-230mm-Grinder---Body-with-Case-_MILM18FLAG230XPDB0C.htm",
-      "lastScraped": "2026-03-13T12:01:11.867Z"
+      "lastScraped": "2026-03-13T22:07:25.955Z"
     },
     "Powertool Mate": {
       "price": 269.99,
       "inStock": true,
       "name": "Milwaukee M18FLAG230XPDB-0 18V Fuel 9\" Angle Grinder (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m18flag230xpdb-0-18v-m18-li-ion-fuel-9in-angle-grinder-bare-unit.htm",
-      "lastScraped": "2026-03-13T12:01:12.843Z"
+      "lastScraped": "2026-03-13T22:07:27.048Z"
     }
   }
 }

@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { searchTools, getAllTools, type Tool, type Retailer } from "@/lib/tools-db";
+import type { ScrapedPrices } from "@/lib/prices";
+import { mergeRetailers } from "@/lib/prices";
 
 const BRANDS = [
   { name: "Milwaukee", color: "#DB0032", slug: "milwaukee" },
@@ -187,6 +189,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [matchedTools, setMatchedTools] = useState<Tool[]>([]);
   const [selectedTool, setSelectedTool] = useState<Tool | null>(null);
+  const [mergedRetailers, setMergedRetailers] = useState<Retailer[]>([]);
   const [searching, setSearching] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -210,22 +213,49 @@ export default function Home() {
     handleSearch(brandSlug);
   };
 
-  const handleSelectTool = (tool: Tool) => setSelectedTool(tool);
-  const handleBack = () => setSelectedTool(null);
+  const handleSelectTool = async (tool: Tool) => {
+    setSelectedTool(tool);
+    setMergedRetailers([]);
+
+    // Load scraped prices (if available) so the modal/detail view shows ITS etc.
+    try {
+      const res = await fetch(`/api/prices/${tool.slug}`, { cache: "no-store" });
+      if (!res.ok) {
+        setMergedRetailers(tool.retailers);
+        return;
+      }
+      const scraped = (await res.json()) as ScrapedPrices;
+      const merged = mergeRetailers(tool.retailers, scraped);
+      // Cast is safe: Tool Retailer type matches the merged shape for fields we use in the UI.
+      setMergedRetailers(merged as unknown as Retailer[]);
+    } catch {
+      setMergedRetailers(tool.retailers);
+    }
+  };
+  const handleBack = () => {
+    setSelectedTool(null);
+    setMergedRetailers([]);
+  };
   const handleReset = () => {
     setMatchedTools([]);
     setSelectedTool(null);
+    setMergedRetailers([]);
     setQuery("");
     setHasSearched(false);
   };
 
   useEffect(() => { inputRef.current?.focus(); }, []);
 
+  const baseRetailers = selectedTool ? (mergedRetailers.length ? mergedRetailers : selectedTool.retailers) : [];
+
   const pricedRetailers = selectedTool
-    ? [...selectedTool.retailers].filter((r) => r.url !== "#" && !r.checkPrice).sort((a, b) => a.price! - b.price!)
+    ? [...baseRetailers]
+        .filter((r) => r.url !== "#" && !r.checkPrice && r.price != null)
+        .sort((a, b) => (a.price as number) - (b.price as number))
     : [];
+
   const sortedRetailers = selectedTool
-    ? [...pricedRetailers, ...selectedTool.retailers.filter((r) => r.url !== "#" && r.checkPrice)]
+    ? [...pricedRetailers, ...baseRetailers.filter((r) => r.url !== "#" && r.checkPrice)]
     : [];
   const bestPrice = pricedRetailers[0]?.price ?? null;
   const worstPrice = pricedRetailers[pricedRetailers.length - 1]?.price ?? null;

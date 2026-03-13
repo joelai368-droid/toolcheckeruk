@@ -1,14 +1,14 @@
 {
   "slug": "makita-18v-lxt-drill-driver-ddf486",
   "model": "DDF486Z",
-  "lastScraped": "2026-03-12T21:37:03.181Z",
+  "lastScraped": "2026-03-13T18:34:20.573Z",
   "retailers": {
     "Powertool Mate": {
       "price": 176.99,
       "inStock": true,
       "name": "Makita DDF486Z 18v Brushless LXT Drill Driver Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-drills/makita-ddf486z-18v-brushless-lxt-drill-driver-naked.htm",
-      "lastScraped": "2026-03-12T21:37:05.691Z"
+      "lastScraped": "2026-03-13T18:34:22.675Z"
     }
   }
 }

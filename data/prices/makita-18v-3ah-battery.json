@@ -1,14 +1,14 @@
 {
   "slug": "makita-18v-3ah-battery",
   "model": "BL1830B",
-  "lastScraped": "2026-03-12T21:38:25.306Z",
+  "lastScraped": "2026-03-13T18:35:43.719Z",
   "retailers": {
     "ITS": {
       "price": 39.98,
       "inStock": true,
       "name": "Makita BL1830B 3.0Ah 18V LXT Li-Ion Battery",
       "url": "https://its.co.uk/pd/BL1830B-Makita-BL1830B-30Ah-18V-LXT-Li-Ion-Battery-_MAKBL1830B.htm",
-      "lastScraped": "2026-03-12T21:38:27.438Z"
+      "lastScraped": "2026-03-13T18:35:46.205Z"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "slug": "makita-18v-6ah-battery",
   "model": "BL1860B",
-  "lastScraped": "2026-03-12T21:38:33.846Z",
+  "lastScraped": "2026-03-13T18:35:52.667Z",
   "retailers": {
     "ITS": {
       "price": 77.99,
       "inStock": true,
       "name": "Makita BL1860B 6.0Ah 18V LXT Li-Ion Battery",
       "url": "https://its.co.uk/pd/BL1860B-Makita-BL1860B-60Ah-18V-LXT-Li-Ion-Battery-_MAKBL1860B.htm",
-      "lastScraped": "2026-03-12T21:38:37.193Z"
+      "lastScraped": "2026-03-13T18:35:55.525Z"
     }
   }
 }

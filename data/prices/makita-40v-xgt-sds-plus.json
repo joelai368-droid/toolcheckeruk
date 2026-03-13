@@ -1,14 +1,14 @@
 {
   "slug": "makita-40v-xgt-sds-plus",
   "model": "HR003GZ",
-  "lastScraped": "2026-03-12T21:37:35.754Z",
+  "lastScraped": "2026-03-13T18:34:52.369Z",
   "retailers": {
     "ITS": {
       "price": 314.99,
       "inStock": true,
       "name": "Makita HR003GZ 40V XGT Brushless SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/HR003G-Makita-HR003GZ-40V-XGT-Brushless-SDSplus-Drill---Body-_MAKHR003GZ.htm",
-      "lastScraped": "2026-03-12T21:37:38.886Z"
+      "lastScraped": "2026-03-13T18:34:55.722Z"
     }
   }
 }

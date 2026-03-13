@@ -1,28 +1,28 @@
 {
   "slug": "makita-18v-orbital-sander",
   "model": "DBO180Z",
-  "lastScraped": "2026-03-12T21:36:58.340Z",
+  "lastScraped": "2026-03-13T18:34:15.243Z",
   "retailers": {
     "Screwfix": {
       "price": 79.99,
       "inStock": true,
       "name": "Makita DBO180Z 125mm 18V Li-Ion LXT  Cordless Random Orbital Sander - Bare (5839J)",
       "url": "https://www.screwfix.com/p/makita-dbo180z-125mm-18v-li-ion-lxt-cordless-random-orbital-sander-bare/5839j#product_additional_details_container",
-      "lastScraped": "2026-03-12T21:36:59.968Z"
+      "lastScraped": "2026-03-13T18:34:16.288Z"
     },
     "ITS": {
       "price": 84.98,
       "inStock": true,
       "name": "Makita DBO180Z 18V LXT 125mm Random Orbital Sander - Body",
       "url": "https://its.co.uk/pd/DBO180Z-Makita-DBO180Z-18V-LXT-125mm-Random-Orbital-Sander---Body-_MAKDBO180Z.htm",
-      "lastScraped": "2026-03-12T21:37:01.518Z"
+      "lastScraped": "2026-03-13T18:34:18.530Z"
     },
     "Powertool Mate": {
       "price": 82.99,
       "inStock": true,
       "name": "Makita DBO180Z 18V LXT Random Orbit Sander (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sanders/makita-dbo180z-18v-lxt-random-orbit-sander-body-only.htm",
-      "lastScraped": "2026-03-12T21:37:02.660Z"
+      "lastScraped": "2026-03-13T18:34:19.718Z"
     }
   }
 }

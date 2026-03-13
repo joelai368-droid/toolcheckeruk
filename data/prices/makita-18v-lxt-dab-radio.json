@@ -1,14 +1,14 @@
 {
   "slug": "makita-18v-lxt-dab-radio",
   "model": "DMR115",
-  "lastScraped": "2026-03-12T21:38:15.106Z",
+  "lastScraped": "2026-03-13T18:35:32.259Z",
   "retailers": {
     "ITS": {
       "price": 167.99,
       "inStock": true,
       "name": "Makita DMR115 FM/DAB+ Jobsite Radio with Bluetooth - Black Body",
       "url": "https://its.co.uk/pd/DMR115B-Makita-DMR115-FMDAB--Jobsite-Radio-with-Bluetooth---Black-Body-_MAKDMR115B.htm",
-      "lastScraped": "2026-03-12T21:38:16.251Z"
+      "lastScraped": "2026-03-13T18:35:34.996Z"
     }
   }
 }

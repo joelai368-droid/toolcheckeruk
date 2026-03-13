@@ -1,28 +1,28 @@
 {
   "slug": "makita-18v-lxt-impact-wrench-dtw300",
   "model": "DTW300Z",
-  "lastScraped": "2026-03-12T21:37:12.261Z",
+  "lastScraped": "2026-03-13T18:34:32.264Z",
   "retailers": {
     "Screwfix": {
       "price": 159.99,
       "inStock": true,
       "name": "Makita DTW300Z 18V Li-Ion LXT Brushless Cordless Impact Wrench - Bare (145KJ)",
       "url": "https://www.screwfix.com/p/makita-dtw300z-18v-li-ion-lxt-brushless-cordless-impact-wrench-bare/145kj",
-      "lastScraped": "2026-03-12T21:37:12.835Z"
+      "lastScraped": "2026-03-13T18:34:32.817Z"
     },
     "ITS": {
       "price": 154.99,
       "inStock": true,
       "name": "Makita DTW300Z 18V LXT Brushless 1/2\" Impact Wrench - Body",
       "url": "https://its.co.uk/pd/DTW300-Makita-DTW300Z-18V-LXT-Brushless-12-Impact-Wrench---Body-_MAKDTW300Z.htm",
-      "lastScraped": "2026-03-12T21:37:13.651Z"
+      "lastScraped": "2026-03-13T18:34:33.819Z"
     },
     "Powertool Mate": {
       "price": 149.99,
       "inStock": true,
       "name": "Makita DTW300Z 18V LXT Brushless 1/2\" Impact Wrench (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw300z-18v-1-2in-lxt-brushless-impact-wrench-bare-unit.htm",
-      "lastScraped": "2026-03-12T21:37:18.857Z"
+      "lastScraped": "2026-03-13T18:34:34.738Z"
     }
   }
 }

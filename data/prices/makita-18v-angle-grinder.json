@@ -1,21 +1,21 @@
 {
   "slug": "makita-18v-angle-grinder",
   "model": "DGA504Z",
-  "lastScraped": "2026-03-12T21:36:34.076Z",
+  "lastScraped": "2026-03-13T18:33:50.761Z",
   "retailers": {
     "ITS": {
       "price": 139.99,
       "inStock": true,
       "name": "Makita DGA504Z 18V LXT Li-ion Brushless Cordless Grinder 125mm - Body",
       "url": "https://its.co.uk/pd/DGA504Z-Makita-DGA504Z-18V-LXT-Li-ion-Brushless-Cordless-Grinder-125mm-Body-Only-_MAKDGA504Z.htm",
-      "lastScraped": "2026-03-12T21:36:36.237Z"
+      "lastScraped": "2026-03-13T18:33:52.861Z"
     },
     "Powertool Mate": {
       "price": 114.99,
       "inStock": true,
       "name": "Makita DGA504Z 18V LXT Brushless 125mm Angle Grinder (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-grinders-disc-cutters/makita-dga504z-18v-125mm-brushless-angle-grinder-bare-unit.htm",
-      "lastScraped": "2026-03-12T21:36:37.115Z"
+      "lastScraped": "2026-03-13T18:33:54.006Z"
     }
   }
 }

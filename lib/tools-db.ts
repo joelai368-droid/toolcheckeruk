@@ -396,10 +396,10 @@ const tools: Tool[] = [
   {
     slug: "milwaukee-m18-fuel-reciprocating-saw",
     brand: "Milwaukee",
-    name: "M18 FUEL SAWZALL Reciprocating Saw (Body Only)",
+    name: "M18 FUEL ONE-KEY SAWZALL Reciprocating Saw (Body Only)",
     modelNumber: "M18 ONEFSZ-0X",
     category: "saws",
-    description: "Powerful brushless reciprocating saw with 32mm stroke length. POWERSTATE motor delivers faster cuts. Tool-free blade change.",
+    description: "Brushless SAWZALL with ONE-KEY. 32mm stroke length. POWERSTATE motor delivers fast cuts. Tool-free blade change.",
     retailers: [
       {
         name: "Amazon UK",
@@ -429,6 +429,45 @@ const tools: Tool[] = [
       {
         name: "FFX Tools",
         price: 177.50,
+        inStock: true,
+        delivery: "Free over £99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+    ],
+  },
+  {
+    slug: "milwaukee-m18-fuel-sawzall-reciprocating-saw",
+    brand: "Milwaukee",
+    name: "M18 FUEL SAWZALL Reciprocating Saw (Body Only)",
+    modelNumber: "M18 FSZ-0",
+    category: "saws",
+    description: "Full-size M18 FUEL SAWZALL with POWERSTATE brushless motor. 32mm stroke length. Patented gear protecting clutch.",
+    retailers: [
+      {
+        name: "Amazon UK",
+        checkPrice: true,
+        inStock: true,
+        delivery: "Free (Prime)",
+        clickCollect: false,
+        url: "https://www.amazon.co.uk/dp/B08XD9MSKL?tag=toolcheckeruk-21",
+      },
+      {
+        name: "Screwfix",
+        inStock: true,
+        delivery: "Free over £50",
+        clickCollect: true,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "ITS",
+        inStock: true,
+        delivery: "£4.99",
+        clickCollect: false,
+        url: "#", // TODO: Add Awin deep link
+      },
+      {
+        name: "FFX Tools",
         inStock: true,
         delivery: "Free over £99",
         clickCollect: false,

@@ -34,11 +34,20 @@
   },
   "milwaukee-m18-fuel-reciprocating-saw": {
     "model": "M18 ONEFSZ-0X",
-    "name": "M18 FUEL SAWZALL Reciprocating Saw (Body Only)",
+    "name": "M18 FUEL ONE-KEY SAWZALL Reciprocating Saw (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18onefsz-0x-18v-li-ion-redlithium-high-output-brushless-cordless-sawzall-reciprocating-saw-bare/312xh#product_additional_details_container",
       "Toolstation": "https://www.toolstation.com/milwaukee-m18-onefsz-552x-fuel-one-key-sawzall/p31161",
       "ITS": "https://its.co.uk/pd/M18-ONEFSZ-0X-Milwaukee-M18-ONEFSZ-0-18V-FUEL-ONE-KEY-Brushless-Reciprocating-Saw---Body-with-Case-_MILM18ONEFSX0.htm"
+    }
+  },
+  "milwaukee-m18-fuel-sawzall-reciprocating-saw": {
+    "model": "M18 FSZ-0",
+    "name": "M18 FUEL SAWZALL Reciprocating Saw (Body Only)",
+    "retailers": {
+      "Toolstation": "https://www.toolstation.com/milwaukee-m18fsz-0-fuel-sawzall/pAC781",
+      "ITS": "https://its.co.uk/pd/milwaukee-m18-fsz-0x-18v-fuel-brushless-sawzall-reciprocating-saw-body-case-_milm18fsz0x.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18fsz-0"
     }
   },
   "milwaukee-m18-fuel-jigsaw": {

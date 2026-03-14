@@ -4,7 +4,8 @@
     "name": "18V LXT Brushless Combi Drill (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/DHP486Z-Makita-DHP486Z-18V-LXT-Brushless-Heavy-Duty-Combi-Drill---Body-_MAKDHP486Z.htm"
+      "ITS": "https://its.co.uk/pd/DHP486Z-Makita-DHP486Z-18V-LXT-Brushless-Heavy-Duty-Combi-Drill---Body-_MAKDHP486Z.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-combi-drills/makita-dhp486z-18v-lxt-brushless-combi-drill-body-only/"
     }
   },
   "makita-18v-impact-driver": {
@@ -24,7 +25,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dhs680z-165mm-18v-li-ion-lxt-brushless-cordless-circular-saw-bare/8373j#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/DHS680Z-Makita-DHS680Z-18V-LXT-165mm-Brushless-Circular-Saw---Body-_MAKDHS680Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-circular-plunge-saws/makita-dhs680z-18v-lxt-165mm-brushless-circular-saw-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-circular-plunge-saws/makita-dhs680z-18v-lxt-165mm-brushless-circular-saw-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-circular-saws/makita-dhs680z-lxt-18v-brushless-165mm-circular-saw-body-only/"
     }
   },
   "makita-18v-angle-grinder": {
@@ -33,7 +35,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/DGA504Z-Makita-DGA504Z-18V-LXT-Li-ion-Brushless-Cordless-Grinder-125mm-Body-Only-_MAKDGA504Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-grinders-disc-cutters/makita-dga504z-18v-125mm-brushless-angle-grinder-bare-unit.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-grinders-disc-cutters/makita-dga504z-18v-125mm-brushless-angle-grinder-bare-unit.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-grinders-and-polishers/cordless-angle-grinders/makita-dga504z-18v-lxt-brushless-125mm-angle-grinder-body-only/"
     }
   },
   "makita-18v-multi-tool": {

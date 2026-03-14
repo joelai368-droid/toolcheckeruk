@@ -174,7 +174,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dtw300z-18v-li-ion-lxt-brushless-cordless-impact-wrench-bare/145kj",
       "ITS": "https://its.co.uk/pd/DTW300-Makita-DTW300Z-18V-LXT-Brushless-12-Impact-Wrench---Body-_MAKDTW300Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw300z-18v-1-2in-lxt-brushless-impact-wrench-bare-unit.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw300z-18v-1-2in-lxt-brushless-impact-wrench-bare-unit.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-impact-wrenches/makita-dtw300z-lxt-18v-brushless-1-2-impact-wrench-body-only/"
     }
   },
   "makita-18v-lxt-impact-wrench-34-dtw700": {
@@ -184,7 +185,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dtw700z-18v-li-ion-lxt-brushless-cordless-impact-wrench-bare/670xj#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/DTW700Z-Makita-DTW700Z-18V-LXT-Brushless-12-Impact-Wrench---Body-_MAKDTW700Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw700z-18v-brushless-impact-wrench-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw700z-18v-brushless-impact-wrench-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/makita-dtw700z-18v-brushless-1-2-impact-wrench-body-only/"
     }
   },
   "makita-18v-lxt-impact-wrench-dtw1002": {
@@ -194,7 +196,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dtw1002z-18v-li-ion-lxt-brushless-cordless-impact-wrench-bare/843xj#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/DTW1002Z-Makita-DTW1002-18V-LXT-Brushless-12-Impact-Wrench---Body-_MAKDTW1002Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw1002z-18v-lxt-brushless-impact-wrench-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw1002z-18v-lxt-brushless-impact-wrench-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/makita-dtw1002z-lxt-18v-1-2-brushless-impact-wrench-body-only/"
     }
   },
   "makita-40v-xgt-impact-wrench": {
@@ -202,7 +205,8 @@
     "name": "40V XGT Brushless 1/2\" Impact Wrench (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/TW001GZ-Makita-TW001GZ-40V-XGT-Brushless-34-Impact-Wrench---Body-_MAKTW001GZ.htm"
+      "ITS": "https://its.co.uk/pd/TW001GZ-Makita-TW001GZ-40V-XGT-Brushless-34-Impact-Wrench---Body-_MAKTW001GZ.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-impact-ratchet/makita-tw001gz-40v-max-xgt-3-4-brushless-impact-wrench-body-only/"
     }
   },
   "makita-18v-lxt-sds-plus-dhr171": {
@@ -211,7 +215,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/DHR171Z-Makita-DHR171Z-18V-LXT-Brushless-SDSplus-Drill---Body-_MAKDHR171Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sds-drills/makita-dhr171z-18v-cordless-brushless-sds-plus-rotary-hammer-drill-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sds-drills/makita-dhr171z-18v-cordless-brushless-sds-plus-rotary-hammer-drill-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-sds-hammer-drills/makita-dhr171z-18v-lxt-brushless-17mm-sds-rotary-hammer-body-only/"
     }
   },
   "makita-18v-lxt-sds-plus-dhr243": {
@@ -220,7 +225,8 @@
     "brand": "Makita",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dhr243z-3-1kg-18v-li-ion-lxt-brushless-cordless-sds-plus-rotary-hammer-bare/607xj",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sds-drills/makita-dhr243z-18v-lxt-lithium-ion-3-mode-sds-rotary-hammer-drill-qc-chuck.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sds-drills/makita-dhr243z-18v-lxt-lithium-ion-3-mode-sds-rotary-hammer-drill-qc-chuck.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-sds-hammer-drills/makita-dhr243z-18v-lxt-24mm-brushless-sds-rotary-hammer-body-only/"
     }
   },
   "makita-twin-18v-lxt-sds-plus-dhr283": {
@@ -242,7 +248,8 @@
     "name": "40V XGT Brushless SDS Plus Hammer Drill (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/HR003G-Makita-HR003GZ-40V-XGT-Brushless-SDSplus-Drill---Body-_MAKHR003GZ.htm"
+      "ITS": "https://its.co.uk/pd/HR003G-Makita-HR003GZ-40V-XGT-Brushless-SDSplus-Drill---Body-_MAKHR003GZ.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-sds-hammer-drills/makita-hr003gz-40v-max-xgt-brushless-sds-plus-hammer-drill-body-only/"
     }
   },
   "makita-18v-lxt-circular-saw-165mm-dss611": {
@@ -252,7 +259,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dss611z-165mm-18v-li-ion-lxt-cordless-circular-saw-bare/60898#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/DSS611Z-Makita-DSS611Z-18V-LXT-165mm-Circular-Saw---Body-_MAKDSS611Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-circular-plunge-saws/makita-dss611z-18v-lxt-165mm-circular-saw-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-circular-plunge-saws/makita-dss611z-18v-lxt-165mm-circular-saw-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-circular-saws/makita-dss611z-18v-lxt-cordless-165mm-circular-saw-body-only/"
     }
   },
   "makita-twin-18v-lxt-mitre-saw-305mm": {
@@ -276,7 +284,8 @@
     "name": "2x18V LXT Brushless 165mm Plunge Saw (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/makita-dsp600zj-36v-li-ion-lxt-165mm-brushless-cordless-plunge-saw-bare/484fg"
+      "Screwfix": "https://www.screwfix.com/p/makita-dsp600zj-36v-li-ion-lxt-165mm-brushless-cordless-plunge-saw-bare/484fg",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-plunge-saws/makita-dsp600zj-twin-18v-lxt-165mm-cordless-plunge-saw-in-a-makpac-case-body-only/"
     }
   },
   "makita-18v-lxt-angle-grinder-dga513": {
@@ -286,7 +295,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dga513z-18v-li-ion-lxt-5-brushless-cordless-angle-grinder-bare/292xj#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/DGA513Z-Makita-DGA513Z-18V-LXT-125mm-Brushless-Grinder---Body-_MAKDGA513Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-grinders-disc-cutters/makita-dga513z-angle-grinder-18v-body-only-125mm.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-grinders-disc-cutters/makita-dga513z-angle-grinder-18v-body-only-125mm.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-grinders-and-polishers/cordless-angle-grinders/makita-dga513z-18v-125mm-brushless-angle-grinder-body-only/"
     }
   },
   "makita-18v-lxt-angle-grinder-paddle-dga519": {

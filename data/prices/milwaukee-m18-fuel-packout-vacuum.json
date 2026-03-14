@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-packout-vacuum",
   "model": "M18 FPOVCL-0",
-  "lastScraped": "2026-03-14T11:53:19.097Z",
+  "lastScraped": "2026-03-14T12:52:46.304Z",
   "retailers": {
     "Screwfix": {
       "price": 215.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M18 FPOVCL-0 18V FUEL Brushless PACKOUT L-Class Wet & Dry Vacuum - Body",
       "url": "https://its.co.uk/pd/Milwaukee-M18-FPOVCL-0-18V-FUEL-Brushless-PACKOUT-Wet--Dry-Vacuum---Body_MILM18FPOVCL0.htm",
       "lastScraped": "2026-03-14T11:53:22.102Z"
+    },
+    "Big Red Power Tools": {
+      "price": 225,
+      "inStock": true,
+      "name": "Milwaukee M18FPOVCL-0 M18 FUEL PackOut Wet / Dry Vacuum",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fpovcl-0",
+      "lastScraped": "2026-03-14T12:52:48.671Z"
     }
   }
 }

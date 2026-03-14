@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-sds-max-hammer",
   "model": "M18 CHM-0",
-  "lastScraped": "2026-03-14T11:52:56.681Z",
+  "lastScraped": "2026-03-14T12:52:50.429Z",
   "retailers": {
     "ITS": {
       "price": 359.99,
@@ -9,6 +9,13 @@
       "name": "18v M18 SDS-Max Rotary Demolition Hammer - Body",
       "url": "https://its.co.uk/pd/M18CHM-0-18v-M18-SDS-Max-Rotary-Demolition-Hammer---Body-_MILM18CHM0.htm",
       "lastScraped": "2026-03-14T11:52:59.891Z"
+    },
+    "Big Red Power Tools": {
+      "price": 734.46,
+      "inStock": false,
+      "name": "Milwaukee M18CHM-0 M18 FUEL 5kg Class SDS-Max Drilling & Breaking Hammer",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18chm-0",
+      "lastScraped": "2026-03-14T12:52:52.024Z"
     }
   }
 }

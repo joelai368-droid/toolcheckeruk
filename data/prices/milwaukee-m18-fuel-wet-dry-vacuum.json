@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-wet-dry-vacuum",
   "model": "M18 VC2-0",
-  "lastScraped": "2026-03-14T11:53:22.103Z",
+  "lastScraped": "2026-03-14T12:52:58.049Z",
   "retailers": {
     "Toolstation": {
       "price": 99.98,
@@ -9,6 +9,13 @@
       "name": "Milwaukee M18VC2-0 Vacuum Body only",
       "url": "https://www.toolstation.com/milwaukee-m18vc2-0-vacuum/p67121",
       "lastScraped": "2026-03-14T11:53:24.120Z"
+    },
+    "Big Red Power Tools": {
+      "price": 89.99,
+      "inStock": true,
+      "name": "Milwaukee M18VC2-0 M18 Wet / Dry Vacuum",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18vc2-0",
+      "lastScraped": "2026-03-14T12:53:10.364Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-sds-plus-4-mode",
   "model": "M18 FH-0",
-  "lastScraped": "2026-03-14T11:52:06.351Z",
+  "lastScraped": "2026-03-14T12:52:52.270Z",
   "retailers": {
     "Toolstation": {
       "price": 229.98,
@@ -16,6 +16,13 @@
       "name": "Milwaukee M18 FH-0 18V FUEL Brushless SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/M18-FH-0-Milwaukee-M18-FH-0-18V-FUEL-Brushless-SDSplus-Drill---Body-_MILM18FH0.htm",
       "lastScraped": "2026-03-14T11:52:08.871Z"
+    },
+    "Big Red Power Tools": {
+      "price": 199.99,
+      "inStock": true,
+      "name": "Milwaukee M18FH-0 M18 FUEL SDS+ Hammer",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fh-0",
+      "lastScraped": "2026-03-14T12:52:53.303Z"
     }
   }
 }

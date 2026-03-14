@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-mitre-saw-305mm",
   "model": "M18 FMS305-0",
-  "lastScraped": "2026-03-14T11:52:32.145Z",
+  "lastScraped": "2026-03-14T12:52:41.955Z",
   "retailers": {
     "Toolstation": {
       "price": 739.98,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M18FMS305-0 18V Fuel 305mm Mitre Saw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-mitre-saws/milwaukee-m18fms305-0-18v-305mm-m18-fuel-mitre-saw-bare-unit.htm",
       "lastScraped": "2026-03-14T11:52:35.290Z"
+    },
+    "Big Red Power Tools": {
+      "price": 719,
+      "inStock": true,
+      "name": "Milwaukee M18FMS305-0 M18 One Key FUEL 305mm Double Bevel Slide Mitre Saw",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fms305-0",
+      "lastScraped": "2026-03-14T12:52:43.355Z"
     }
   }
 }

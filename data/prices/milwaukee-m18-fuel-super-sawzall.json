@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-super-sawzall",
   "model": "M18 FSX-0",
-  "lastScraped": "2026-03-14T11:52:08.871Z",
+  "lastScraped": "2026-03-14T12:52:53.548Z",
   "retailers": {
     "Screwfix": {
       "price": 269.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M18FSX-0C 18V Fuel Sawzall Naked in Case",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-reciprocating-saws/milwaukee-m18fsx-0-18v-m18-li-ion-fuel-sawzall-bare-unit.htm",
       "lastScraped": "2026-03-14T11:52:12.805Z"
+    },
+    "Big Red Power Tools": {
+      "price": 269,
+      "inStock": true,
+      "name": "Milwaukee M18FSX-0 M18 FUEL Super Sawzall",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fsx-0",
+      "lastScraped": "2026-03-14T12:52:56.269Z"
     }
   }
 }

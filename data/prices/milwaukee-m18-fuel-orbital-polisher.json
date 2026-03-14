@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-orbital-polisher",
   "model": "M18 FROP15-0",
-  "lastScraped": "2026-03-14T11:53:04.480Z",
+  "lastScraped": "2026-03-14T12:52:44.816Z",
   "retailers": {
     "Screwfix": {
       "price": 219.99,
@@ -16,6 +16,13 @@
       "name": "Milwaukee M18FROP15-0 18v Fuel Random Orbital Polisher with 15mm Stroke Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-polishers/milwaukee-m18frop15-0-18v-fuel-random-orbital-polisher-with-15mm-stroke-naked.htm",
       "lastScraped": "2026-03-14T11:53:07.406Z"
+    },
+    "Big Red Power Tools": {
+      "price": 209,
+      "inStock": true,
+      "name": "Milwaukee M18FROP15-0 M18 FUEL Random Orbital Polisher with 15mm Stroke",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18frop15-0",
+      "lastScraped": "2026-03-14T12:52:46.056Z"
     }
   }
 }

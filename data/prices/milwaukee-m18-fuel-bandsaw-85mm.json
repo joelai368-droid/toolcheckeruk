@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-bandsaw-85mm",
   "model": "M18 FBS85-0",
-  "lastScraped": "2026-03-14T11:52:22.398Z",
+  "lastScraped": "2026-03-14T12:52:24.256Z",
   "retailers": {
     "Screwfix": {
       "price": 249.97,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M18FBS85-0C 18V 85mm Compact Bandsaw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-bandsaws/milwaukee-18v-m18fbs85-0c-85mm-compact-band-saw-body-only.htm",
       "lastScraped": "2026-03-14T11:52:25.678Z"
+    },
+    "Big Red Power Tools": {
+      "price": 245,
+      "inStock": false,
+      "name": "Milwaukee M18FBS85-0 M18 FUEL 85mm Compact Bandsaw",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fbs85-0",
+      "lastScraped": "2026-03-14T12:52:25.730Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-mitre-saw-254mm",
   "model": "M18 FMS254-0",
-  "lastScraped": "2026-03-14T11:52:28.965Z",
+  "lastScraped": "2026-03-14T12:52:40.190Z",
   "retailers": {
     "Screwfix": {
       "price": 595.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M18FMS254-0 18V Fuel 254mm Brushless Cordless Mitre Saw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-mitre-saws/milwaukee-m18fms254-0-18v-fuel-254mm-brushless-cordless-mitre-saw-body-only.htm",
       "lastScraped": "2026-03-14T11:52:32.145Z"
+    },
+    "Big Red Power Tools": {
+      "price": 569,
+      "inStock": true,
+      "name": "Milwaukee M18FMS254-0 M18 FUEL 254mm Double Bevel Slide Mitre Saw",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fms254-0",
+      "lastScraped": "2026-03-14T12:52:41.701Z"
     }
   }
 }

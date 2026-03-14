@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-mitre-saw-216mm",
   "model": "M18 SMS216-0",
-  "lastScraped": "2026-03-14T11:52:46.812Z",
+  "lastScraped": "2026-03-14T12:52:38.417Z",
   "retailers": {
     "ITS": {
       "price": 479.99,
@@ -9,6 +9,13 @@
       "name": "Milwaukee M18 SMS216-0 18V 216mm Mitre Saw - Body",
       "url": "https://its.co.uk/pd/M18SMS2160-Milwaukee-M18-SMS216-0-18V-216mm-Mitre-Saw---Body-_MILM18SMS2160.htm",
       "lastScraped": "2026-03-14T11:52:50.092Z"
+    },
+    "Big Red Power Tools": {
+      "price": 616.66,
+      "inStock": false,
+      "name": "Milwaukee M18SMS216-0 M18 216mm Mitre Saw",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18sms216-0",
+      "lastScraped": "2026-03-14T12:52:39.939Z"
     }
   }
 }

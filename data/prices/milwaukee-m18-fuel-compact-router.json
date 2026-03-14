@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-compact-router",
   "model": "M18 FTR-0",
-  "lastScraped": "2026-03-14T11:52:03.611Z",
+  "lastScraped": "2026-03-14T12:52:32.079Z",
   "retailers": {
     "Screwfix": {
       "price": 283.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M18FTR-0X 18V Fuel Cordless Trim Router with Accessories (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-routers/milwaukee-m18ftr-0x-18v-fuel-cordless-trim-router.htm",
       "lastScraped": "2026-03-14T11:52:06.350Z"
+    },
+    "Big Red Power Tools": {
+      "price": 339,
+      "inStock": false,
+      "name": "Milwaukee M18FTR-0 M18 FUEL Trim Router",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18ftr-0",
+      "lastScraped": "2026-03-14T12:52:34.766Z"
     }
   }
 }

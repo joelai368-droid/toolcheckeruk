@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-chainsaw",
   "model": "M18 FCHSC-0",
-  "lastScraped": "2026-03-14T11:53:24.121Z",
+  "lastScraped": "2026-03-14T12:52:30.289Z",
   "retailers": {
     "Screwfix": {
       "price": 239.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M18FCHSC-0 18V Fuel Compact Chainsaw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/home-and-garden/milwaukee-m18fchsc-0-18v-m18-fuel-compact-chainsaw-bare-unit.htm",
       "lastScraped": "2026-03-14T11:53:26.200Z"
+    },
+    "Big Red Power Tools": {
+      "price": 249,
+      "inStock": true,
+      "name": "Milwaukee M18FCHSC-0 M18 FUEL Compact Chainsaw",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fchsc-0",
+      "lastScraped": "2026-03-14T12:52:31.834Z"
     }
   }
 }

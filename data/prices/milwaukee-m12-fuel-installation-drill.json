@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-installation-drill",
   "model": "M12 FDDXKIT-0",
-  "lastScraped": "2026-03-14T11:53:53.564Z",
+  "lastScraped": "2026-03-14T12:40:09.446Z",
   "retailers": {
     "Powertool Mate": {
       "price": 169.99,
@@ -16,6 +16,13 @@
       "name": "Milwaukee M12FDDXKIT-202X 12V 2 x 2.0Ah Li-Ion RedLithium Brushless Cordless 4 in 1 Drill Driver (969XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m12fddxkit-202x-12v-2-x-2-0ah-li-ion-redlithium-brushless-cordless-4-in-1-drill-driver/969xh",
       "lastScraped": "2026-03-14T11:53:55.332Z"
+    },
+    "Big Red Power Tools": {
+      "price": 189,
+      "inStock": true,
+      "name": "Milwaukee M12FDDXKIT-0X M12 FUEL 4-in-1 Installation Drill Driver",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fddxkit-0x",
+      "lastScraped": "2026-03-14T12:40:11.231Z"
     }
   }
 }

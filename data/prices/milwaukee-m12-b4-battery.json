@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-b4-battery",
   "model": "M12 B4",
-  "lastScraped": "2026-03-14T11:55:21.484Z",
+  "lastScraped": "2026-03-14T12:39:48.071Z",
   "retailers": {
     "Screwfix": {
       "price": 39.95,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M12B4 12V 4.0Ah RedLithium-Ion Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12b4-12v-4-0ah-lithium-ion-battery.htm",
       "lastScraped": "2026-03-14T11:55:24.822Z"
+    },
+    "Big Red Power Tools": {
+      "price": 39,
+      "inStock": true,
+      "name": "Milwaukee M12B4 M12 4.0Ah Red Lithium-Ion Battery",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12b4",
+      "lastScraped": "2026-03-14T12:39:49.011Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-c-charger",
   "model": "M12 C",
-  "lastScraped": "2026-03-14T11:55:28.346Z",
+  "lastScraped": "2026-03-14T12:39:50.576Z",
   "retailers": {
     "Screwfix": {
       "price": 77.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M12 C12C 12V Battery Charger",
       "url": "https://its.co.uk/pd/M12-C12C-Milwaukee-M12-C12C-12v-Battery-Charger-_MIL240C12C.htm",
       "lastScraped": "2026-03-14T11:55:30.321Z"
+    },
+    "Big Red Power Tools": {
+      "price": 29,
+      "inStock": true,
+      "name": "Milwaukee C12C M12 Charger",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-c12c",
+      "lastScraped": "2026-03-14T12:39:51.730Z"
     }
   }
 }

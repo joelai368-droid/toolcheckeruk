@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-b6-battery",
   "model": "M12 B6",
-  "lastScraped": "2026-03-14T11:55:24.823Z",
+  "lastScraped": "2026-03-14T12:39:49.255Z",
   "retailers": {
     "Screwfix": {
       "price": 48.98,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M12B6 12V 6.0Ah RedLithium-Ion Batteries (Twin Pack)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12b6-12v-6-0ah-li-ion-battery-twin-pack.htm",
       "lastScraped": "2026-03-14T11:55:28.345Z"
+    },
+    "Big Red Power Tools": {
+      "price": 55,
+      "inStock": true,
+      "name": "Milwaukee M12B6 M12 6.0Ah Red Lithium-Ion Battery",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12b6",
+      "lastScraped": "2026-03-14T12:39:50.325Z"
     }
   }
 }

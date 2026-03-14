@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-hackzall",
   "model": "M12 CHZ-0",
-  "lastScraped": "2026-03-14T11:54:17.128Z",
+  "lastScraped": "2026-03-14T12:40:03.845Z",
   "retailers": {
     "Screwfix": {
       "price": 119.97,
@@ -16,6 +16,13 @@
       "name": "Milwaukee M12CHZ-0 12v Fuel HackZall Bare Unit",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-reciprocating-saws/milwaukee-m12chz-0-12v-fuel-hackzall-bare-unit.htm",
       "lastScraped": "2026-03-14T11:54:21.813Z"
+    },
+    "Big Red Power Tools": {
+      "price": 129,
+      "inStock": true,
+      "name": "Milwaukee M12CHZ-0 M12 FUEL Hackzall",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12chz-0",
+      "lastScraped": "2026-03-14T12:40:04.635Z"
     }
   }
 }

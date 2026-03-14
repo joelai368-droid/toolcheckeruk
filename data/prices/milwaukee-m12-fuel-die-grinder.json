@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-die-grinder",
   "model": "M12 FDGS-0",
-  "lastScraped": "2026-03-14T11:54:40.185Z",
+  "lastScraped": "2026-03-14T12:40:01.201Z",
   "retailers": {
     "Screwfix": {
       "price": 124.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M12FDGS-0 12V Fuel Straight Die Grinder (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m12fdgs-0-12v-1-4-straight-die-grinder-body-only-available-now.htm",
       "lastScraped": "2026-03-14T11:54:43.421Z"
+    },
+    "Big Red Power Tools": {
+      "price": 119,
+      "inStock": true,
+      "name": "Milwaukee M12FDGS-0 M12 FUEL Straight Die Grinder",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fdgs-0",
+      "lastScraped": "2026-03-14T12:40:01.925Z"
     }
   }
 }

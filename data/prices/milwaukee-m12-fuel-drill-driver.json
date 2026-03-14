@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-drill-driver",
   "model": "M12 FDD-0",
-  "lastScraped": "2026-03-14T11:53:51.231Z",
+  "lastScraped": "2026-03-14T12:40:02.176Z",
   "retailers": {
     "ITS": {
       "price": 80.87,
@@ -9,6 +9,13 @@
       "name": "Milwaukee M12 FDD-0 12V FUEL Brushless Sub Compact Drill Driver - Body",
       "url": "https://its.co.uk/pd/M12-FDD-0-Milwaukee-M12-FDD-0-12V-FUEL-Brushless-Sub-Compact-Drill-Driver---Body-_MILM12FDD0.htm",
       "lastScraped": "2026-03-14T11:53:53.563Z"
+    },
+    "Big Red Power Tools": {
+      "price": 149,
+      "inStock": false,
+      "name": "Milwaukee M12FDD-0 M12 FUEL Sub-Compact Drill Driver",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fdd-0",
+      "lastScraped": "2026-03-14T12:40:03.594Z"
     }
   }
 }

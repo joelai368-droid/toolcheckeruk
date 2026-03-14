@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-38-stubby-impact-wrench",
   "model": "M12 FIW38-0",
-  "lastScraped": "2026-03-14T11:54:03.855Z",
+  "lastScraped": "2026-03-14T12:39:55.944Z",
   "retailers": {
     "Powertool Mate": {
       "price": 193.99,
@@ -9,6 +9,13 @@
       "name": "Milwaukee M12FIW38-0 12V Fuel 3/8\" Impact Wrench (Body Only) + 4932480946 Packout Socket Set",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fiw38-0-12v-fuel-3-8-impact-wrench-body-only-4932480946-packout-soc.htm",
       "lastScraped": "2026-03-14T11:54:07.606Z"
+    },
+    "Big Red Power Tools": {
+      "price": 119,
+      "inStock": false,
+      "name": "Milwaukee M12FIW38-0 M12 FUEL 3/8\" Impact Wrench",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fiw38-0",
+      "lastScraped": "2026-03-14T12:39:57.478Z"
     }
   }
 }

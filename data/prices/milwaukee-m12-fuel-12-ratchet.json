@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-12-ratchet",
   "model": "M12 FIR12-0",
-  "lastScraped": "2026-03-14T11:54:13.889Z",
+  "lastScraped": "2026-03-14T12:39:51.970Z",
   "retailers": {
     "Screwfix": {
       "price": 139.97,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M12FIR12-0 12V Fuel 1/2\" Ratchet (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fir12-0-12v-1-2-fuel-ratchet-bare-unit.htm",
       "lastScraped": "2026-03-14T11:54:17.128Z"
+    },
+    "Big Red Power Tools": {
+      "price": 139,
+      "inStock": true,
+      "name": "Milwaukee M12FIR12-0 M12 FUEL 1/2\" Ratchet",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fir12-0",
+      "lastScraped": "2026-03-14T12:39:53.218Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-sds-plus-drill",
   "model": "M12 CH-0",
-  "lastScraped": "2026-03-14T11:54:33.468Z",
+  "lastScraped": "2026-03-14T12:40:14.459Z",
   "retailers": {
     "ITS": {
       "price": 143.99,
@@ -9,6 +9,13 @@
       "name": "Milwaukee M12 CH-0 12V FUEL Brushless SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/M12CH-0-Milwaukee-M12-CH-0-12V-FUEL-Brushless-SDSplus-Drill---Body-_MILM12CH0.htm",
       "lastScraped": "2026-03-14T11:54:36.057Z"
+    },
+    "Big Red Power Tools": {
+      "price": 119,
+      "inStock": false,
+      "name": "Milwaukee M12CH-0 M12 FUEL SDS+ Hammer",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12ch-0",
+      "lastScraped": "2026-03-14T12:40:15.805Z"
     }
   }
 }

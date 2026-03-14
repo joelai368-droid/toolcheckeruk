@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-14-ratchet",
   "model": "M12 FHIR14-0",
-  "lastScraped": "2026-03-14T11:54:07.606Z",
+  "lastScraped": "2026-03-14T12:39:53.466Z",
   "retailers": {
     "Screwfix": {
       "price": 118.99,
@@ -16,6 +16,13 @@
       "name": "Milwaukee M12FHIR14-0 M12 Fuel High Speed 1/4'' Ratchet Bare Unit",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fhir14-0-m12-fuel-high-speed-1-4-ratchet-bare-unit.htm",
       "lastScraped": "2026-03-14T11:54:10.343Z"
+    },
+    "Big Red Power Tools": {
+      "price": 139,
+      "inStock": false,
+      "name": "Milwaukee M12FHIR14-0 M12 FUEL High Speed 1/4\" Ratchet",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fhir14-0",
+      "lastScraped": "2026-03-14T12:39:54.517Z"
     }
   }
 }

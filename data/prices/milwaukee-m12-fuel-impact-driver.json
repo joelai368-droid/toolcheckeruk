@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-impact-driver",
   "model": "M12 FID2-0",
-  "lastScraped": "2026-03-14T11:53:56.781Z",
+  "lastScraped": "2026-03-14T12:40:04.883Z",
   "retailers": {
     "Screwfix": {
       "price": 109.97,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M12FID2-0 12v Fuel NEW GEN Impact Driver Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-m12fid2-0-12v-fuel-new-gen-impact-driver-naked.htm",
       "lastScraped": "2026-03-14T11:54:00.579Z"
+    },
+    "Big Red Power Tools": {
+      "price": 109,
+      "inStock": true,
+      "name": "Milwaukee M12FID2-0 M12 FUEL 1/4\" Hex Impact Driver",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fid2-0",
+      "lastScraped": "2026-03-14T12:40:07.206Z"
     }
   }
 }

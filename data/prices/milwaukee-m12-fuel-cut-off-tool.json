@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-cut-off-tool",
   "model": "M12 FCOT-0",
-  "lastScraped": "2026-03-14T11:54:21.813Z",
+  "lastScraped": "2026-03-14T12:40:00.284Z",
   "retailers": {
     "Screwfix": {
       "price": 104.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M12 FCOT-0 12V FUEL Brushless 76mm Multi-Material Cut Off Tool - Body",
       "url": "https://its.co.uk/pd/M12FCOT0-Milwaukee-M12-FCOT-0-12V-FUEL-Brushless-76mm-Multi-Material-Cut-Off-Tool---Body-_MILM12FCOT0.htm",
       "lastScraped": "2026-03-14T11:54:24.340Z"
+    },
+    "Big Red Power Tools": {
+      "price": 99,
+      "inStock": true,
+      "name": "Milwaukee M12FCOT-0 M12 FUEL Cut-Off Tool",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fcot-0",
+      "lastScraped": "2026-03-14T12:40:00.960Z"
     }
   }
 }

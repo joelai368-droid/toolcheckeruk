@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-combi-drill",
   "model": "M12 FPD2-0",
-  "lastScraped": "2026-03-14T11:53:46.745Z",
+  "lastScraped": "2026-03-14T12:39:58.440Z",
   "retailers": {
     "ITS": {
       "price": 143.99,
@@ -16,6 +16,13 @@
       "name": "Milwaukee M12FPD2-0 12v Fuel NEW GEN Combi Drill Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m12fpd2-0-12v-fuel-new-gen-combi-drill-naked.htm",
       "lastScraped": "2026-03-14T11:53:51.230Z"
+    },
+    "Big Red Power Tools": {
+      "price": 119,
+      "inStock": true,
+      "name": "Milwaukee M12FPD2-0 M12 FUEL Percussion Drill",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fpd2-0",
+      "lastScraped": "2026-03-14T12:40:00.026Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-multi-tool",
   "model": "M12 FMT-0",
-  "lastScraped": "2026-03-14T11:54:30.822Z",
+  "lastScraped": "2026-03-14T12:40:13.077Z",
   "retailers": {
     "Screwfix": {
       "price": 159.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M12FMT-0 12V Fuel Brushless Multi-Tool (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-multi-tools/milwaukee-m12fmt-0x-fuel-brushless-multi-tool-bare-unit-in-case.htm",
       "lastScraped": "2026-03-14T11:54:33.467Z"
+    },
+    "Big Red Power Tools": {
+      "price": 139,
+      "inStock": true,
+      "name": "Milwaukee M12FMT-0 M12 FUEL Multi Tool",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fmt-0",
+      "lastScraped": "2026-03-14T12:40:14.209Z"
     }
   }
 }

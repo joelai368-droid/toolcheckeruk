@@ -15,7 +15,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dtd153z-18v-li-ion-lxt-brushless-cordless-impact-driver-bare/1053v#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/DTD153Z-Makita-DTD153Z-18V-LXT-Brushless-Impact-Driver---Body-_MAKDTD153Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-impact-drivers/makita-dtd153z-18v-compact-brushless-impact-driver-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-impact-drivers/makita-dtd153z-18v-compact-brushless-impact-driver-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/impact-drivers/makita-dtd153z-brushless-impact-driver-18v-body-only/"
     }
   },
   "makita-18v-circular-saw": {
@@ -79,7 +80,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dhr242z-2-7kg-18v-li-ion-lxt-brushless-cordless-sds-plus-drill-bare/7144j",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sds-drills/makita-dhr242z-18v-lxt-brushless-24mm-sds-rotary-hammer-drill-body-only.htm",
-      "ITS": "https://its.co.uk/pd/DHR242Z-Makita-DHR242Z-18V-LXT-Brushless-SDSplus-Drill---Body-_MAKDHR242Z.htm"
+      "ITS": "https://its.co.uk/pd/DHR242Z-Makita-DHR242Z-18V-LXT-Brushless-SDSplus-Drill---Body-_MAKDHR242Z.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-sds-hammer-drills/makita-dhr242z-18v-24mm-brushless-sds-rotary-hammer-body-only/"
     }
   },
   "makita-18v-planer": {
@@ -89,7 +91,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dkp181z-18v-li-ion-lxt-brushless-cordless-planer-bare/193kg#product_additional_details_container",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-planers/makita-dkp181z-18v-82mm-lxt-brushless-planer-bare-unit.htm",
-      "ITS": "https://its.co.uk/pd/DKP181Z-Makita-DKP181Z-18V-LXT-Brushless-Planer---Body-_MAKDKP181Z.htm"
+      "ITS": "https://its.co.uk/pd/DKP181Z-Makita-DKP181Z-18V-LXT-Brushless-Planer---Body-_MAKDKP181Z.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-planers/makita-dkp181z-lxt-18v-brushless-82mm-planer-body-only/"
     }
   },
   "makita-18v-brad-nailer": {
@@ -97,7 +100,8 @@
     "name": "18V LXT 18 Gauge Brad Nailer (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/DBN600Z-Makita-DBN600-18V-LXT-Second-Fix-Finishing-Nail-Gun---Body-_MAKDBN600Z.htm"
+      "ITS": "https://its.co.uk/pd/DBN600Z-Makita-DBN600-18V-LXT-Second-Fix-Finishing-Nail-Gun---Body-_MAKDBN600Z.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/makita-dbn600zj-18v-second-fix-nail-gun-in-makpak-case-body-only/"
     }
   },
   "makita-18v-orbital-sander": {
@@ -107,7 +111,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dbo180z-125mm-18v-li-ion-lxt-cordless-random-orbital-sander-bare/5839j#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/DBO180Z-Makita-DBO180Z-18V-LXT-125mm-Random-Orbital-Sander---Body-_MAKDBO180Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sanders/makita-dbo180z-18v-lxt-random-orbit-sander-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sanders/makita-dbo180z-18v-lxt-random-orbit-sander-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-sanders/makita-dbo180z-18v-lxt-125mm-random-orbit-sander-body-only/"
     }
   },
   "makita-18v-router": {
@@ -115,7 +120,8 @@
     "name": "18V LXT Brushless Router Trimmer (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "Screwfix": "https://www.screwfix.com/p/makita-drt50zjx3-18v-li-ion-lxt-1-4-brushless-cordless-router-trimmer-bare/640ht"
+      "Screwfix": "https://www.screwfix.com/p/makita-drt50zjx3-18v-li-ion-lxt-1-4-brushless-cordless-router-trimmer-bare/640ht",
+      "Toolden": "https://www.toolden.co.uk/power-tools/wood-routers/makita-drt50zx4-lxt-18v-brushless-1-4-router-body-only/"
     }
   },
   "makita-18v-lxt-drill-driver-ddf486": {
@@ -123,7 +129,8 @@
     "name": "18V LXT Brushless Drill Driver (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-drills/makita-ddf486z-18v-brushless-lxt-drill-driver-naked.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-drills/makita-ddf486z-18v-brushless-lxt-drill-driver-naked.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-drill-drivers/makita-ddf486z-18v-lxt-brushless-drill-driver-body-only/"
     }
   },
   "makita-18v-lxt-combi-drill-dhp487": {
@@ -132,7 +139,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/Makita-DHP487Z-18V-LXT-Brushless-Combi-Drill---Body_MAKDHP487Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-drills/makita-dhp487z-18v-brushless-combi-drill-naked.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-drills/makita-dhp487z-18v-brushless-combi-drill-naked.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/makita-dhp487z-lxt-18v-brushless-combi-drill-body-only/"
     }
   },
   "makita-18v-lxt-drill-driver-ddf487": {
@@ -146,7 +154,8 @@
     "name": "40V XGT Brushless Combi Drill (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/HP001G-Makita-HP001GZ-40V-XGT-Brushless-Combi-Drill---Body-_MAKHP001GZ.htm"
+      "ITS": "https://its.co.uk/pd/HP001G-Makita-HP001GZ-40V-XGT-Brushless-Combi-Drill---Body-_MAKHP001GZ.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-combi-drills/makita-hp001gz-40v-max-xgt-brushless-combi-drill-body-only/"
     }
   },
   "makita-18v-lxt-impact-driver-dtd172": {
@@ -154,7 +163,8 @@
     "name": "18V LXT Brushless Impact Driver (Body Only)",
     "brand": "Makita",
     "retailers": {
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-impact-drivers/makita-dtd172z-18v-lxt-brushless-impact-driver-naked.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-impact-drivers/makita-dtd172z-18v-lxt-brushless-impact-driver-naked.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-impact-drivers/makita-dtd172z-lxt-18v-brushless-impact-driver-body-only/"
     }
   },
   "makita-18v-lxt-impact-wrench-dtw300": {

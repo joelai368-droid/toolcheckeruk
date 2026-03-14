@@ -202,6 +202,9 @@ async function main() {
   const dryRun = args.includes('--dry-run');
   const noCommit = args.includes('--no-commit');
 
+  // Optional: restrict scraping to a single retailer key (exact match in mappings)
+  const retailerFilter = args.includes('--retailer') ? args[args.indexOf('--retailer') + 1] : null;
+
   const mappingFile = getMappingFileFromArgs(process.argv.slice(2));
   const mapping = loadMapping(mappingFile);
   const slugs = slugFilter ? [slugFilter] : Object.keys(mapping);
@@ -231,7 +234,12 @@ async function main() {
 
     console.log(`\n[${slug}]`);
 
-    const priceData = await scrapeProduct(slug, entry, existing, dryRun);
+    // If --retailer is set, temporarily restrict retailers for this run
+    const effectiveEntry = retailerFilter
+      ? { ...entry, retailers: entry.retailers?.[retailerFilter] ? { [retailerFilter]: entry.retailers[retailerFilter] } : {} }
+      : entry;
+
+    const priceData = await scrapeProduct(slug, effectiveEntry, existing, dryRun);
 
     if (!priceData) continue;
 

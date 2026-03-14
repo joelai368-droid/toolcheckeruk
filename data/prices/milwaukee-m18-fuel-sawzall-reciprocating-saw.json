@@ -1,21 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-sawzall-reciprocating-saw",
   "model": "M18 FSZ-0",
-  "lastScraped": "2026-03-13T22:06:33.867Z",
+  "lastScraped": "2026-03-14T06:00:17.990Z",
   "retailers": {
     "Toolstation": {
       "price": 189.98,
       "inStock": true,
       "name": "Milwaukee M18FSZ-0 FUEL™ SAWZALL™ Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18fsz-0-fuel-sawzall/pAC781",
-      "lastScraped": "2026-03-13T22:06:35.442Z"
+      "lastScraped": "2026-03-14T06:00:19.771Z"
     },
     "ITS": {
       "price": 161.99,
       "inStock": true,
       "name": "Milwaukee M18 FSZ-0 18V FUEL Brushless SAWZALL Reciprocating Saw - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-fsz-0x-18v-fuel-brushless-sawzall-reciprocating-saw-body-case-_milm18fsz0x.htm",
-      "lastScraped": "2026-03-13T22:06:36.869Z"
+      "lastScraped": "2026-03-14T06:00:20.964Z"
+    },
+    "Big Red Power Tools": {
+      "price": 189,
+      "inStock": true,
+      "name": "Milwaukee M18FSZ-0 M18 FUEL Sawzall",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fsz-0",
+      "lastScraped": "2026-03-14T06:00:21.298Z"
     }
   }
 }

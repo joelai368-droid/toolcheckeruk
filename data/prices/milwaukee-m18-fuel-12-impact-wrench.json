@@ -1,21 +1,21 @@
 {
   "slug": "milwaukee-m18-fuel-12-impact-wrench",
   "model": "M18 FIW2F12-0",
-  "lastScraped": "2026-03-13T22:16:53.392Z",
+  "lastScraped": "2026-03-14T06:01:02.913Z",
   "retailers": {
     "ITS": {
       "price": 119.99,
       "inStock": true,
       "name": "Milwaukee M18 FIW2F12-0 18V FUEL Brushless Compact 1/2\" Impact Wrench (Friction Ring) - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-fiw2f12-0-18v-fuel-brushless-compact-1-2-impact-wrench-friction-ring-body-_milm18fiw2f120.htm",
-      "lastScraped": "2026-03-13T22:16:54.451Z"
+      "lastScraped": "2026-03-14T06:01:05.253Z"
     },
     "Screwfix": {
       "price": 139.99,
       "inStock": true,
       "name": "Milwaukee M18FIW2F12-0 FUEL 18V Li-Ion RedLithium Brushless Cordless Impact Wrench - Bare (949CX)",
       "url": "https://www.screwfix.com/p/milwaukee-m18fiw2f12-0-fuel-18v-li-ion-redlithium-brushless-cordless-impact-wrench-bare/949cx#product_additional_details_container",
-      "lastScraped": "2026-03-13T22:16:55.525Z"
+      "lastScraped": "2026-03-14T06:01:06.052Z"
     }
   }
 }

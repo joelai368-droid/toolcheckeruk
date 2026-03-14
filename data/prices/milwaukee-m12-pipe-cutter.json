@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m12-pipe-cutter",
   "model": "M12 PCSS-0",
-  "lastScraped": "2026-03-13T22:10:03.936Z",
+  "lastScraped": "2026-03-14T06:04:05.426Z",
   "retailers": {
     "Screwfix": {
       "price": 133.99,
       "inStock": true,
       "name": "Milwaukee M12PCSS-0 12V Li-Ion RedLithium  Cordless Pipe Cutter - Bare (781VT)",
       "url": "https://www.screwfix.com/p/milwaukee-m12pcss-0-12v-li-ion-redlithium-cordless-pipe-cutter-bare/781vt#product_additional_details_container",
-      "lastScraped": "2026-03-13T22:10:04.997Z"
+      "lastScraped": "2026-03-14T06:04:06.302Z"
     },
     "Toolstation": {
       "price": 134.98,
       "inStock": true,
       "name": "Milwaukee M12 PCSS-0 Pipe Cutter Stainless Steel Body only",
       "url": "https://www.toolstation.com/milwaukee-m12-pcss-0-pipe-cutter-stainless-steel/p96931",
-      "lastScraped": "2026-03-13T22:10:05.503Z"
+      "lastScraped": "2026-03-14T06:04:06.735Z"
     },
     "ITS": {
       "price": 134.99,
       "inStock": true,
       "name": "Milwaukee M12 PCSS-0 12V Pipe Cutter for Stainless Steel and Copper 12-28mm - Body",
       "url": "https://its.co.uk/pd/M12-PCSS-0-Milwaukee-M12-PCSS-0-12V-Pipe-Cutter-for-Stainless-Steel-and-Copper-12-28mm---Body-_MILM12PCSS0.htm",
-      "lastScraped": "2026-03-13T22:10:06.401Z"
+      "lastScraped": "2026-03-14T06:04:07.566Z"
     },
     "Powertool Mate": {
       "price": 121.99,
       "inStock": true,
       "name": "Milwaukee M12PCSS-0 12v Stainless Steel Pipe Cutter - Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m12pcss-0-12v-stainless-steel-pipe-cutter-naked.htm",
-      "lastScraped": "2026-03-13T22:10:07.260Z"
+      "lastScraped": "2026-03-14T06:04:08.777Z"
     }
   }
 }

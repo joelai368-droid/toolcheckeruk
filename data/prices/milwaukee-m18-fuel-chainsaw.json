@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-chainsaw",
   "model": "M18 FCHSC-0",
-  "lastScraped": "2026-03-13T22:08:43.333Z",
+  "lastScraped": "2026-03-14T06:02:44.026Z",
   "retailers": {
     "Screwfix": {
       "price": 239.99,
       "inStock": true,
       "name": "Milwaukee M18 FCHSC-0 FUEL 18V Li-Ion RedLithium High Output Brushless Cordless 30cm Chainsaw - Bare (434RV)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-fchsc-0-fuel-18v-li-ion-redlithium-high-output-brushless-cordless-30cm-chainsaw-bare/434rv#product_additional_details_container",
-      "lastScraped": "2026-03-13T22:08:44.174Z"
+      "lastScraped": "2026-03-14T06:02:44.884Z"
     },
     "ITS": {
       "price": 239.99,
       "inStock": true,
       "name": "Milwaukee M18 FCHSC-0 18V FUEL Chainsaw with 30cm Bar - Body",
       "url": "https://its.co.uk/pd/M18-FCHSC-Milwaukee-M18-FCHSC-0-18V-FUEL-Chainsaw-with-30cm-Bar---Body-_MILM18FCHSC0.htm",
-      "lastScraped": "2026-03-13T22:08:45.748Z"
+      "lastScraped": "2026-03-14T06:02:46.548Z"
     },
     "Powertool Mate": {
       "price": 246.99,
       "inStock": true,
       "name": "Milwaukee M18FCHSC-0 18V Fuel Compact Chainsaw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/home-and-garden/milwaukee-m18fchsc-0-18v-m18-fuel-compact-chainsaw-bare-unit.htm",
-      "lastScraped": "2026-03-13T22:08:46.639Z"
+      "lastScraped": "2026-03-14T06:02:47.437Z"
     }
   }
 }

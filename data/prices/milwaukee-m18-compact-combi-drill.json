@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-compact-combi-drill",
   "model": "M18 BPD-0",
-  "lastScraped": "2026-03-13T22:16:39.902Z",
+  "lastScraped": "2026-03-14T06:00:59.905Z",
   "retailers": {
     "ITS": {
       "price": 60,
       "inStock": true,
       "name": "Milwaukee M18 BPD 18V Combi Drill - Body with Case",
       "url": "https://its.co.uk/pd/M18BPD-0C-Milwaukee-M18-BPD-18V-Combi-Drill---Body-with-Case-_MILM18BPD0C.htm",
-      "lastScraped": "2026-03-13T22:16:41.122Z"
+      "lastScraped": "2026-03-14T06:01:02.045Z"
     }
   }
 }

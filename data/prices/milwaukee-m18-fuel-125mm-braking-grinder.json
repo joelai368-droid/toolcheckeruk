@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-fuel-125mm-braking-grinder",
   "model": "M18 FSAGF125XPDB-0",
-  "lastScraped": "2026-03-13T22:07:20.628Z",
+  "lastScraped": "2026-03-14T06:01:16.206Z",
   "retailers": {
     "Screwfix": {
       "price": 169.97,
       "inStock": true,
       "name": "Milwaukee M18 FSAGF125XPDB-0X 18V Li-Ion RedLithium High Output 5\" Brushless Cordless Angle Grinder - Bare (253VT)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-fsagf125xpdb-0x-18v-li-ion-redlithium-high-output-5-brushless-cordless-angle-grinder-bare/253vt#product_additional_details_container",
-      "lastScraped": "2026-03-13T22:07:21.076Z"
+      "lastScraped": "2026-03-14T06:01:17.205Z"
     },
     "Toolstation": {
       "price": 159.98,
       "inStock": true,
       "name": "Milwaukee M18 FSAGF125XPDB-0X FUEL 125mm Braking Flathead Small Angle Grinder Gen II Body only",
       "url": "https://www.toolstation.com/milwaukee-m18-fsagf125xpdb-0x-fuel-125mm-braking-flathead-small-angle-grinder-gen-ii/p87570",
-      "lastScraped": "2026-03-13T22:07:21.988Z"
+      "lastScraped": "2026-03-14T06:01:17.643Z"
     },
     "ITS": {
       "price": 169.98,
       "inStock": true,
       "name": "Milwaukee M18 FSAGF125XPDB-0X 18V FUEL Brushless 125mm FlatHead Angle Grinder - Body with Case",
       "url": "https://its.co.uk/pd/M18FSAGF125XPDB-0X-Milwaukee-M18-FSAGF125XPDB-0X-18V-FUEL-Brushless-125mm-Flat-Head-Angle-Grinder---_MILM18FSAGF125XPDB0X.htm",
-      "lastScraped": "2026-03-13T22:07:22.904Z"
+      "lastScraped": "2026-03-14T06:01:18.464Z"
     },
     "Powertool Mate": {
       "price": 153.99,
       "inStock": true,
       "name": "Milwaukee M18FSAGF125XPDB-0X 125 mm Flat Head Grinder",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m18fsagf125xpdb-0x-125-mm-flat-head-grinder.htm",
-      "lastScraped": "2026-03-13T22:07:23.742Z"
+      "lastScraped": "2026-03-14T06:01:19.305Z"
     }
   }
 }

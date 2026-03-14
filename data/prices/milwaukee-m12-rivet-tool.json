@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m12-rivet-tool",
   "model": "M12 BPRT-0",
-  "lastScraped": "2026-03-13T22:10:00.718Z",
+  "lastScraped": "2026-03-14T06:04:01.988Z",
   "retailers": {
     "Screwfix": {
       "price": 159.99,
       "inStock": true,
       "name": "Milwaukee M12 BPRT-0 12V Li-Ion RedLithium  Cordless Rivet Gun - Bare (393HR)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-bprt-0-12v-li-ion-redlithium-cordless-rivet-gun-bare/393hr#product_additional_details_container",
-      "lastScraped": "2026-03-13T22:10:01.638Z"
+      "lastScraped": "2026-03-14T06:04:02.810Z"
     },
     "Toolstation": {
       "price": 179.98,
       "inStock": true,
       "name": "Milwaukee M12BPRT-201X Pop Rivet Tool 1 x 2.0Ah",
       "url": "https://www.toolstation.com/milwaukee-m12bprt-201x-pop-rivet-tool/p19389",
-      "lastScraped": "2026-03-13T22:10:02.197Z"
+      "lastScraped": "2026-03-14T06:04:03.693Z"
     },
     "ITS": {
       "price": 155.99,
       "inStock": true,
       "name": "Milwaukee M12 BPRT-0 12V Sub Compact Rivet Gun - Body",
       "url": "https://its.co.uk/pd/M12BPRT-0-Milwaukee-M12-BPRT-0-1V2-Sub-Compact-Rivet-Gun---Body-_MILM12BPRT0.htm",
-      "lastScraped": "2026-03-13T22:10:03.074Z"
+      "lastScraped": "2026-03-14T06:04:04.569Z"
     },
     "Powertool Mate": {
       "price": 124.99,
       "inStock": true,
       "name": "Milwaukee M12BPRT-0 12v Pop Rivet Tool Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m12-bprt-0-pop-rivet-tool-12v-bare-unit.htm",
-      "lastScraped": "2026-03-13T22:10:03.936Z"
+      "lastScraped": "2026-03-14T06:04:05.425Z"
     }
   }
 }

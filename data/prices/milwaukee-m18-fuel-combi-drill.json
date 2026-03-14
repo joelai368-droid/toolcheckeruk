@@ -1,21 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-combi-drill",
   "model": "M18 FPD3-0",
-  "lastScraped": "2026-03-13T22:16:51.138Z",
+  "lastScraped": "2026-03-14T06:00:01.874Z",
   "retailers": {
     "ITS": {
       "price": 139.99,
       "inStock": true,
       "name": "Milwaukee M18 FPD3-0 18V FUEL Brushless Combi Drill - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-fpd3-0x-18v-fuel-brushless-combi-drill-body-_milm18fpd30.htm",
-      "lastScraped": "2026-03-13T22:16:52.227Z"
+      "lastScraped": "2026-03-14T06:00:03.184Z"
     },
     "Powertool Mate": {
       "price": 119.99,
       "inStock": true,
       "name": "Milwaukee M18FPD3-0 18v Fuel Combi Drill Naked - NEW GEN",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m18fpd3-0-18v-fuel-combi-drill-naked-new-gen.htm",
-      "lastScraped": "2026-03-13T22:16:53.123Z"
+      "lastScraped": "2026-03-14T06:00:04.288Z"
+    },
+    "Big Red Power Tools": {
+      "price": 119.99,
+      "inStock": true,
+      "name": "Milwaukee M18FPD3-0 M18 FUEL Percussion Drill",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fpd3-0",
+      "lastScraped": "2026-03-14T06:00:04.849Z"
     }
   }
 }

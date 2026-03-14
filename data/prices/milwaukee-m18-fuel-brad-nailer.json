@@ -1,21 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-brad-nailer",
   "model": "M18 FN18GS-0",
-  "lastScraped": "2026-03-13T22:06:54.478Z",
+  "lastScraped": "2026-03-14T06:00:53.419Z",
   "retailers": {
     "ITS": {
       "price": 311.99,
       "inStock": true,
       "name": "Milwaukee M18 FN18GS-0X 18V FUEL Brushless Straight Finish Nailer 18 Gauge - Body",
       "url": "https://its.co.uk/pd/M18-FN18GS-0-Milwaukee-M18-FN18GS-0X-18V-FUEL-Brushless-Straight-Finish-Nailer-18-Gauge---Body-_MILM18FN18GS0.htm",
-      "lastScraped": "2026-03-13T22:06:56.549Z"
+      "lastScraped": "2026-03-14T06:00:55.189Z"
     },
     "Powertool Mate": {
       "price": 277.99,
       "inStock": true,
       "name": "Milwaukee M18FN18GS-0 18v M18 Fuel 18G Finish Nailer Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-nail-guns/milwaukee-m18fn18gs-0-18v-m18-fuel-18g-finish-nailer-bare-unit.htm",
-      "lastScraped": "2026-03-13T22:06:57.584Z"
+      "lastScraped": "2026-03-14T06:00:56.056Z"
+    },
+    "Big Red Power Tools": {
+      "price": 335,
+      "inStock": true,
+      "name": "Milwaukee M18FN18GS-0 M18 FUEL 18 Gauge Finish Nailer",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fn18gs-0",
+      "lastScraped": "2026-03-14T06:00:57.065Z"
     }
   }
 }

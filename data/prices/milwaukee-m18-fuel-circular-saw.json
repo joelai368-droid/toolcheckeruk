@@ -1,14 +1,21 @@
 {
   "slug": "milwaukee-m18-fuel-circular-saw",
   "model": "M18 FCS66-0",
-  "lastScraped": "2026-03-13T22:06:27.286Z",
+  "lastScraped": "2026-03-14T06:00:11.914Z",
   "retailers": {
     "ITS": {
       "price": 287.99,
       "inStock": true,
       "name": "Milwaukee M18 FCS66-0C 18V FUEL Brushless 190mm Circular Saw - Body",
       "url": "https://its.co.uk/pd/M18FCS66-0C-Milwaukee-M18-FCS66-0C-18V-FUEL-Brushless-190mm-Circular-Saw---Body-_MILM18FCS660C.htm",
-      "lastScraped": "2026-03-13T22:06:30.746Z"
+      "lastScraped": "2026-03-14T06:00:14.359Z"
+    },
+    "Big Red Power Tools": {
+      "price": 269,
+      "inStock": false,
+      "name": "Milwaukee M18FCS66-0 M18 FUEL 66mm Circular Saw",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fcs66-0",
+      "lastScraped": "2026-03-14T06:00:15.026Z"
     }
   }
 }

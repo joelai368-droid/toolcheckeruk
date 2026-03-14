@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m18-fuel-narrow-crown-stapler",
   "model": "M18 FNCS18GS-0",
-  "lastScraped": "2026-03-13T22:08:31.755Z",
+  "lastScraped": "2026-03-14T06:02:33.027Z",
   "retailers": {
     "Screwfix": {
       "price": 339.99,
       "inStock": true,
       "name": "Milwaukee M18FNCS18GS-0X 9.5mm 18V Li-Ion RedLithium Brushless Second Fix Cordless Nail Gun - Bare (612XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18fncs18gs-0x-9-5mm-18v-li-ion-redlithium-brushless-second-fix-cordless-nail-gun-bare/612xh",
-      "lastScraped": "2026-03-13T22:08:32.601Z"
+      "lastScraped": "2026-03-14T06:02:33.511Z"
     },
     "Toolstation": {
       "price": 349.98,
       "inStock": true,
       "name": "Milwaukee M18 FNCS18GS-0X FUEL 63mm Narrow Crown Stapler Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18-fncs18gs-0x-fuel-63mm-narrow-crown-stapler/p28260",
-      "lastScraped": "2026-03-13T22:08:33.063Z"
+      "lastScraped": "2026-03-14T06:02:34.242Z"
     },
     "Powertool Mate": {
       "price": 349.99,
       "inStock": true,
       "name": "Milwaukee M18FNCS18GS-0X 18V Fuel Narrow Crown Stapler (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-nail-guns/milwaukee-m18fncs18gs-0x-18v-fuel-crown-stapler-body-with-box.htm",
-      "lastScraped": "2026-03-13T22:08:34.723Z"
+      "lastScraped": "2026-03-14T06:02:36.209Z"
     }
   }
 }

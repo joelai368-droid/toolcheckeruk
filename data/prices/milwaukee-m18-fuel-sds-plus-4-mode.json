@@ -1,21 +1,21 @@
 {
   "slug": "milwaukee-m18-fuel-sds-plus-4-mode",
   "model": "M18 FH-0",
-  "lastScraped": "2026-03-13T22:07:30.233Z",
+  "lastScraped": "2026-03-14T06:01:26.246Z",
   "retailers": {
     "Toolstation": {
       "price": 229.98,
       "inStock": true,
       "name": "Milwaukee M18FH-0 FUEL™ 4-mode SDS+ Hammer Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18fh-0-fuel-4-mode-sds-hammer/pAC782",
-      "lastScraped": "2026-03-13T22:07:31.454Z"
+      "lastScraped": "2026-03-14T06:01:27.657Z"
     },
     "ITS": {
       "price": 215.99,
       "inStock": true,
       "name": "Milwaukee M18 FH-0 18V FUEL Brushless SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/M18-FH-0-Milwaukee-M18-FH-0-18V-FUEL-Brushless-SDSplus-Drill---Body-_MILM18FH0.htm",
-      "lastScraped": "2026-03-13T22:07:32.275Z"
+      "lastScraped": "2026-03-14T06:01:28.549Z"
     }
   }
 }

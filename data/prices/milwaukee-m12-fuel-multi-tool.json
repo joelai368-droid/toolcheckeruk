@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m12-fuel-multi-tool",
   "model": "M12 FMT-0",
-  "lastScraped": "2026-03-13T22:09:47.950Z",
+  "lastScraped": "2026-03-14T06:03:50.031Z",
   "retailers": {
     "Screwfix": {
       "price": 159.99,
       "inStock": true,
       "name": "Milwaukee M12FMT-0 FUEL 12V Li-Ion RedLithium Brushless Cordless Multi-Tool - Bare (697XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m12fmt-0-fuel-12v-li-ion-redlithium-brushless-cordless-multi-tool-bare/697xh#product_additional_details_container",
-      "lastScraped": "2026-03-13T22:09:48.969Z"
+      "lastScraped": "2026-03-14T06:03:50.680Z"
     },
     "ITS": {
       "price": 119.99,
       "inStock": true,
       "name": "Milwaukee M12 FMT-0 12V FUEL Brushless Multi Tool - Body",
       "url": "https://its.co.uk/pd/Milwaukee-M12-FMT-12V-FUEL-Brushless-Multi-Tool---Body-Only_MILM12FMT0.htm",
-      "lastScraped": "2026-03-13T22:09:49.797Z"
+      "lastScraped": "2026-03-14T06:03:51.415Z"
     },
     "Powertool Mate": {
       "price": 126.99,
       "inStock": true,
       "name": "Milwaukee M12FMT-0 12V Fuel Brushless Multi-Tool (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-multi-tools/milwaukee-m12fmt-0x-fuel-brushless-multi-tool-bare-unit-in-case.htm",
-      "lastScraped": "2026-03-13T22:09:50.755Z"
+      "lastScraped": "2026-03-14T06:03:52.709Z"
     }
   }
 }

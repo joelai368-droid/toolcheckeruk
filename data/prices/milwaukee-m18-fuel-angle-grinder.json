@@ -1,21 +1,30 @@
 {
   "slug": "milwaukee-m18-fuel-angle-grinder",
   "model": "M18 FHSAG125XPDB-0",
-  "lastScraped": "2026-03-13T22:06:41.825Z",
+  "lastScraped": "2026-03-14T06:00:26.276Z",
   "retailers": {
     "Toolstation": {
       "price": 239.98,
       "inStock": true,
       "name": "Milwaukee M18FHSAG125XPDB2-0X FUEL™Braking Grinder with Paddle Switch (Gen 2) Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18fhsag125xpdb2-0x-fuelbraking-grinder-with-paddle-switch-gen-2/pAC793",
-      "lastScraped": "2026-03-13T22:06:42.346Z"
+      "lastScraped": "2026-03-14T06:00:26.843Z"
     },
     "ITS": {
       "price": 227.99,
       "inStock": true,
       "name": "Milwaukee M18 FHSAG125XPDB2-0X 18V FUEL Brushless 125mm Angle Grinder - Body & Case",
       "url": "https://its.co.uk/pd/milwaukee-m18-fhsag125xpdb2-0x-18v-fuel-brushless-125mm-angle-grinder-body-case-_milm18fhsag125xpdb20x.htm",
-      "lastScraped": "2026-03-13T22:06:43.205Z"
+      "lastScraped": "2026-03-14T06:00:27.725Z"
+    },
+    "Big Red Power Tools": {
+      "price": 274,
+      "inStock": false,
+      "name": "Milwaukee M18FHSAG125XPDB-0 M18 FUEL 125mm High Performance FIXTEC Braking Angle Grinder with Paddle Switch",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fhsag125xpdb-0",
+      "lastScraped": "2026-03-13T22:58:14.126Z",
+      "scrapeError": "Timeout fetching https://www.bigredpowertools.co.uk/milwaukee-m18fhsag125xpdb-0",
+      "lastAttempted": "2026-03-14T06:00:43.302Z"
     }
   }
 }

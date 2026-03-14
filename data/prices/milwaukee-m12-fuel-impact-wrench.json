@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m12-fuel-impact-wrench",
   "model": "M12 FIWF12-0",
-  "lastScraped": "2026-03-13T22:09:02.370Z",
+  "lastScraped": "2026-03-14T06:03:02.698Z",
   "retailers": {
     "ITS": {
       "price": 99.98,
       "inStock": true,
       "name": "Milwaukee M12 FIWF12-0 12V FUEL Brushless 1/2'' Impact Wrench - Body",
       "url": "https://its.co.uk/pd/M12FIWF12-0-Milwaukee-M12-FIWF12-0-12V-FUEL-Brushless-12-Impact-Wrench---Body-_MILM12FIWF120.htm",
-      "lastScraped": "2026-03-13T22:09:05.021Z"
+      "lastScraped": "2026-03-14T06:03:05.288Z"
     }
   }
 }

@@ -1,28 +1,28 @@
 {
   "slug": "milwaukee-m12-c-charger",
   "model": "M12 C",
-  "lastScraped": "2026-03-13T22:10:48.124Z",
+  "lastScraped": "2026-03-14T06:04:46.296Z",
   "retailers": {
     "Screwfix": {
       "price": 77.99,
       "inStock": true,
       "name": "Milwaukee M12 C4 12V Li-Ion RedLithium 4-Bay Multi-Charger (960HF)",
       "url": "https://www.screwfix.com/p/milwaukee-m12-c4-12v-li-ion-redlithium-4-bay-multi-charger/960hf",
-      "lastScraped": "2026-03-13T22:10:49.055Z"
+      "lastScraped": "2026-03-14T06:04:47.109Z"
     },
     "Toolstation": {
       "price": 64.98,
       "inStock": true,
       "name": "Milwaukee M12TC2-0 M12™ Compact Charger",
       "url": "https://www.toolstation.com/milwaukee-m12tc2-0-m12-compact-charger/pAC906",
-      "lastScraped": "2026-03-13T22:10:49.504Z"
+      "lastScraped": "2026-03-14T06:04:47.521Z"
     },
     "ITS": {
       "price": 22.99,
       "inStock": true,
       "name": "Milwaukee M12 C12C 12V Battery Charger",
       "url": "https://its.co.uk/pd/M12-C12C-Milwaukee-M12-C12C-12v-Battery-Charger-_MIL240C12C.htm",
-      "lastScraped": "2026-03-13T22:10:50.212Z"
+      "lastScraped": "2026-03-14T06:04:48.257Z"
     }
   }
 }

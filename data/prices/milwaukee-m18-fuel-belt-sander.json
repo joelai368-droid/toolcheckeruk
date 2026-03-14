@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-fuel-belt-sander",
   "model": "M18 FBTS75-0",
-  "lastScraped": "2026-03-13T22:08:27.978Z",
+  "lastScraped": "2026-03-14T06:02:29.959Z",
   "retailers": {
     "Powertool Mate": {
       "price": 222.99,
       "inStock": true,
       "name": "Milwaukee M18FBTS75-0 18v Fuel Belt Sander Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-sanders/milwaukee-m18fbts75-0-18v-fuel-belt-sander-naked.htm",
-      "lastScraped": "2026-03-13T22:08:31.754Z"
+      "lastScraped": "2026-03-14T06:02:33.026Z"
     }
   }
 }

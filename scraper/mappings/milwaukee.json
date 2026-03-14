@@ -233,7 +233,8 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-tled-0-18v-li-ion-redlithium-cordless-led-work-torch-bare/281hp#product_additional_details_container",
       "Toolstation": "https://www.toolstation.com/milwaukee-m18tled-0-trueview-led-work-light/p71966",
       "ITS": "https://its.co.uk/pd/M18TLED-0-Milwaukee-M18-TLED-0-18V-TRUEVIEW-LED-Torch---Body-_MILM18TLED0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m18tled-18v-led-torch-light-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m18tled-18v-led-torch-light-body-only.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18tled-0"
     }
   },
   "milwaukee-m18-fuel-blower": {
@@ -252,7 +253,8 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-bi-0-18v-li-ion-redlithium-cordless-inflator-bare/230ge#product_additional_details_container",
       "Toolstation": "https://www.toolstation.com/milwaukee-m18-bi-0-inflator/p96180",
       "ITS": "https://its.co.uk/pd/M18-BI-0-Milwaukee-M18-BI-0-Inflator---Body-_MILM18BI0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwakee-m18bi-0-18v-inflator-naked.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwakee-m18bi-0-18v-inflator-naked.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18bi-0"
     }
   },
   "milwaukee-m18-fuel-bandsaw-85mm": {
@@ -345,14 +347,16 @@
     "name": "M18 FUEL ONE-KEY 3/4\" High Torque Impact Wrench (Body Only)",
     "retailers": {
       "ITS": "https://its.co.uk/pd/milwaukee-m18-onefhiwf34-0x-18v-fuel-one-key-brushless-3-4-impact-wrench-body-_milm18onefhiwf340.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m18onefhiwf34-0-fuel-18v-2033nm-one-key-3-4-impact-wrench-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m18onefhiwf34-0-fuel-18v-2033nm-one-key-3-4-impact-wrench-body-only.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18onefhiwf34-0"
     }
   },
   "milwaukee-m18-onekey-1-impact-wrench": {
     "model": "M18 ONEFHIWF12-0",
     "name": "M18 FUEL ONE-KEY 1\" High Torque Impact Wrench (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M18-ONEFHIWF12-0-Milwaukee-M18-ONEFHIWF12-18V-FUEL-Brushless-ONE-KEY-12-Impact-Wrench-with-Friction-_MILM18ONEFHIWF120.htm"
+      "ITS": "https://its.co.uk/pd/M18-ONEFHIWF12-0-Milwaukee-M18-ONEFHIWF12-18V-FUEL-Brushless-ONE-KEY-12-Impact-Wrench-with-Friction-_MILM18ONEFHIWF120.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18onefhiwf12-0"
     }
   },
   "milwaukee-m18-fuel-sds-max-hammer": {
@@ -417,7 +421,8 @@
     "model": "M18 BLTRC-0X",
     "name": "M18 FUEL Threaded Rod Cutter (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M18-BLTRC-0X-Milwaukee-M18-BLTRC-0X-18V-Brushless-Threaded-Rod-Cutter---Body-_MILM18BLTRC0X.htm"
+      "ITS": "https://its.co.uk/pd/M18-BLTRC-0X-Milwaukee-M18-BLTRC-0X-18V-Brushless-Threaded-Rod-Cutter---Body-_MILM18BLTRC0X.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18bltrc-0x"
     }
   },
   "milwaukee-m18-fuel-packout-vacuum": {
@@ -470,7 +475,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-al-0-18v-li-ion-redlithium-cordless-led-rover-area-light-bare/315fp#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/M18AL-0-Milwaukee-M18-AL-0-18V-LED-Area-Light---Body-_MILM18AL0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m18al-0-18v-trueview-led-area-light-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m18al-0-18v-trueview-led-area-light-body-only.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18al-0"
     }
   },
   "milwaukee-m18-dab-radio": {
@@ -493,7 +499,8 @@
     "model": "M18 BTP-0",
     "name": "M18 Transfer Pump (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M18BTP0-Milwaukee-M18-BTP-0-18V-Compact-Transfer-Pump---Body-_MILM18BTP0.htm"
+      "ITS": "https://its.co.uk/pd/M18BTP0-Milwaukee-M18-BTP-0-18V-Compact-Transfer-Pump---Body-_MILM18BTP0.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18btp-0"
     }
   },
   "milwaukee-m18-fuel-pipe-threader": {
@@ -764,7 +771,8 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-hb5-5-18v-5-5ah-li-ion-redlithium-high-output-battery/871hf",
       "Toolstation": "https://www.toolstation.com/milwaukee-m18-battery/p31200",
       "ITS": "https://its.co.uk/pd/M18-HB55-Milwaukee-M18-HB55-55Ah-18V-High-Output-Li-Ion-Battery-_MILM18HB55.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/brand-new-milwaukee-m18-hb5-5-m18-5-5ah-redlithium-ion-high-output-battery.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/brand-new-milwaukee-m18-hb5-5-m18-5-5ah-redlithium-ion-high-output-battery.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18hb5-5"
     }
   },
   "milwaukee-m18-b6-battery": {
@@ -779,14 +787,16 @@
     "model": "M18 HB8",
     "name": "M18 8.0Ah HIGH OUTPUT Battery",
     "retailers": {
-      "Toolstation": "https://www.toolstation.com/milwaukee-m18-redlithium-forge-battery/pAC778"
+      "Toolstation": "https://www.toolstation.com/milwaukee-m18-redlithium-forge-battery/pAC778",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18hb8"
     }
   },
   "milwaukee-m18-hb12-battery": {
     "model": "M18 HB12",
     "name": "M18 12.0Ah HIGH OUTPUT Battery",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M18-HB12-Milwaukee-M18-HB12-120Ah-18V-High-Output-Li-Ion-Battery-_MILM18HB12.htm"
+      "ITS": "https://its.co.uk/pd/M18-HB12-Milwaukee-M18-HB12-120Ah-18V-High-Output-Li-Ion-Battery-_MILM18HB12.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18hb12"
     }
   },
   "milwaukee-m12-b2-battery": {

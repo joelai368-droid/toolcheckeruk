@@ -482,7 +482,8 @@
     "model": "M12 FIWF12-0",
     "name": "M12 FUEL 1/2\" Stubby Impact Wrench (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M12FIWF12-0-Milwaukee-M12-FIWF12-0-12V-FUEL-Brushless-12-Impact-Wrench---Body-_MILM12FIWF120.htm"
+      "ITS": "https://its.co.uk/pd/M12FIWF12-0-Milwaukee-M12-FIWF12-0-12V-FUEL-Brushless-12-Impact-Wrench---Body-_MILM12FIWF120.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fiwf12-0"
     }
   },
   "milwaukee-m12-fuel-combi-drill": {
@@ -490,14 +491,16 @@
     "name": "M12 FUEL Combi Drill (Body Only)",
     "retailers": {
       "ITS": "https://its.co.uk/pd/FPD2-Milwaukee-FPD2-0X-M12-Fuel-Brushless-Combi-Drill-with-Case-_MILM12FPD20X.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m12fpd2-0-12v-fuel-new-gen-combi-drill-naked.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m12fpd2-0-12v-fuel-new-gen-combi-drill-naked.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fpd2-0"
     }
   },
   "milwaukee-m12-fuel-drill-driver": {
     "model": "M12 FDD-0",
     "name": "M12 FUEL Sub Compact Drill Driver (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M12-FDD-0-Milwaukee-M12-FDD-0-12V-FUEL-Brushless-Sub-Compact-Drill-Driver---Body-_MILM12FDD0.htm"
+      "ITS": "https://its.co.uk/pd/M12-FDD-0-Milwaukee-M12-FDD-0-12V-FUEL-Brushless-Sub-Compact-Drill-Driver---Body-_MILM12FDD0.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fdd-0"
     }
   },
   "milwaukee-m12-fuel-installation-drill": {
@@ -505,7 +508,8 @@
     "name": "M12 FUEL Installation Drill/Driver 4-in-1 (Body Only)",
     "retailers": {
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m12fddxkit-0x-12v-m12-fuel-4in1-drill-driver-naked.htm",
-      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fddxkit-202x-12v-2-x-2-0ah-li-ion-redlithium-brushless-cordless-4-in-1-drill-driver/969xh"
+      "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fddxkit-202x-12v-2-x-2-0ah-li-ion-redlithium-brushless-cordless-4-in-1-drill-driver/969xh",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fddxkit-0x"
     }
   },
   "milwaukee-m12-sub-compact-drill-driver": {
@@ -521,7 +525,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fid2-0-fuel-12v-li-ion-redlithium-brushless-cordless-impact-driver-bare/458vt#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/milwaukee-m12-fid2-0x-12v-fuel-brushless-impact-driver-body-_milm12fid20x.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-m12fid2-0-12v-fuel-new-gen-impact-driver-naked.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-m12fid2-0-12v-fuel-new-gen-impact-driver-naked.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fid2-0"
     }
   },
   "milwaukee-m12-fuel-surge-impact-driver": {
@@ -537,7 +542,8 @@
     "model": "M12 FIW38-0",
     "name": "M12 FUEL 3/8\" Stubby Impact Wrench (Body Only)",
     "retailers": {
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fiw38-0-12v-fuel-3-8-impact-wrench-body-only-4932480946-packout-soc.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fiw38-0-12v-fuel-3-8-impact-wrench-body-only-4932480946-packout-soc.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fiw38-0"
     }
   },
   "milwaukee-m12-fuel-14-ratchet": {
@@ -545,7 +551,8 @@
     "name": "M12 FUEL 1/4\" High Speed Ratchet (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-fhir14-0-fuel-12v-li-ion-redlithium-brushless-cordless-high-speed-ratchet-bare/856ge",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fhir14-0-m12-fuel-high-speed-1-4-ratchet-bare-unit.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fhir14-0-m12-fuel-high-speed-1-4-ratchet-bare-unit.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fhir14-0"
     }
   },
   "milwaukee-m12-fuel-38-ratchet": {
@@ -555,7 +562,8 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-fir38-0-fuel-12v-li-ion-redlithium-brushless-cordless-sub-compact-ratchet-bare/438ge",
       "Toolstation": "https://www.toolstation.com/milwaukee-m12-fir38-0-fuel-38-ratchet/p27673",
       "ITS": "https://its.co.uk/pd/M12FIR38-0-Milwaukee-M12-FIR38-0-12V-FUEL-Brushless-38-Ratchet---Body-_MILM12FIR380.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/m12fir38-0-m12-fuel-3-8-impact-ratchet.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/m12fir38-0-m12-fuel-3-8-impact-ratchet.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fir38-0"
     }
   },
   "milwaukee-m12-fuel-12-ratchet": {
@@ -564,7 +572,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-fir12-0-fuel-12v-li-ion-redlithium-brushless-cordless-sub-compact-ratchet-bare/939ge",
       "Toolstation": "https://www.toolstation.com/milwaukee-m12-fir12-0-fuel-12-ratchet/p80496",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fir12-0-12v-1-2-fuel-ratchet-bare-unit.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-wrenches-ratchets/milwaukee-m12fir12-0-12v-1-2-fuel-ratchet-bare-unit.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fir12-0"
     }
   },
   "milwaukee-m12-fuel-hackzall": {
@@ -572,7 +581,8 @@
     "name": "M12 FUEL Hackzall Reciprocating Saw (Body Only)",
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-chz-0-fuel-12v-li-ion-redlithium-brushless-cordless-reciprocating-saw-bare/468fj#product_additional_details_container",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-reciprocating-saws/milwaukee-m12chz-0-12v-fuel-hackzall-bare-unit.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-reciprocating-saws/milwaukee-m12chz-0-12v-fuel-hackzall-bare-unit.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12chz-0"
     }
   },
   "milwaukee-m12-fuel-cut-off-tool": {
@@ -581,14 +591,16 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fcot-0-fuel-76mm-12v-li-ion-redlithium-brushless-cordless-cut-off-tool-bare/400xh#product_additional_details_container",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m12fcot-0-m12-fuel-cut-off-tool.htm",
-      "ITS": "https://its.co.uk/pd/M12FCOT0-Milwaukee-M12-FCOT-0-12V-FUEL-Brushless-76mm-Multi-Material-Cut-Off-Tool---Body-_MILM12FCOT0.htm"
+      "ITS": "https://its.co.uk/pd/M12FCOT0-Milwaukee-M12-FCOT-0-12V-FUEL-Brushless-76mm-Multi-Material-Cut-Off-Tool---Body-_MILM12FCOT0.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fcot-0"
     }
   },
   "milwaukee-m12-fuel-jigsaw": {
     "model": "M12 FJS-0",
     "name": "M12 FUEL Jigsaw (Body Only)",
     "retailers": {
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-jigsaws/milwaukee-m12fjs-0-12v-fuel-bodygrip-jigsaw-naked.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-jigsaws/milwaukee-m12fjs-0-12v-fuel-bodygrip-jigsaw-naked.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fjs-0"
     }
   },
   "milwaukee-m12-fuel-bandsaw": {
@@ -597,7 +609,8 @@
     "retailers": {
       "ITS": "https://its.co.uk/pd/M12FBS64-0C-Milwaukee-M12-FBS64-0C-12V-FUEL-Brushless-64mm-Band-Saw---Body-with-Case-_MILM12FBS640C.htm",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-bandsaws/milwaukee-m12fbs64-0c-m12-fuel-64mm-band-saw-bare-unit-in-case.htm",
-      "Toolstation": "https://www.toolstation.com/milwaukee-m12fbs64-0c-fuel-sub-compact-band-saw/p61200"
+      "Toolstation": "https://www.toolstation.com/milwaukee-m12fbs64-0c-fuel-sub-compact-band-saw/p61200",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fbs64-0c"
     }
   },
   "milwaukee-m12-fuel-multi-tool": {
@@ -606,14 +619,16 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fmt-0-fuel-12v-li-ion-redlithium-brushless-cordless-multi-tool-bare/697xh#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/Milwaukee-M12-FMT-12V-FUEL-Brushless-Multi-Tool---Body-Only_MILM12FMT0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-multi-tools/milwaukee-m12fmt-0x-fuel-brushless-multi-tool-bare-unit-in-case.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-multi-tools/milwaukee-m12fmt-0x-fuel-brushless-multi-tool-bare-unit-in-case.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fmt-0"
     }
   },
   "milwaukee-m12-fuel-sds-plus-drill": {
     "model": "M12 CH-0",
     "name": "M12 FUEL SDS Plus Hammer Drill (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M12CH-0-Milwaukee-M12-CH-0-12V-FUEL-Brushless-SDSplus-Drill---Body-_MILM12CH0.htm"
+      "ITS": "https://its.co.uk/pd/M12CH-0-Milwaukee-M12-CH-0-12V-FUEL-Brushless-SDSplus-Drill---Body-_MILM12CH0.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12ch-0"
     }
   },
   "milwaukee-m12-soldering-iron": {
@@ -632,7 +647,8 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12fdgs-0-12v-li-ion-redlithium-brushless-cordless-straight-die-grinder-bare/591xh#product_additional_details_container",
       "Toolstation": "https://www.toolstation.com/milwaukee-m12fdgs-0-fuel-straight-die-grinder/p39097",
       "ITS": "https://its.co.uk/pd/M12-FDGS-0-Milwaukee-M12-FDGS-0-12V-FUEL-Brushless-Straight-Die-Grinder---Body-_MILM12FDGS0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m12fdgs-0-12v-1-4-straight-die-grinder-body-only-available-now.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-grinders-disc-cutters/milwaukee-m12fdgs-0-12v-1-4-straight-die-grinder-body-only-available-now.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12fdgs-0"
     }
   },
   "milwaukee-m12-rivet-tool": {
@@ -743,7 +759,8 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-b2-12v-2-0ah-li-ion-redlithium-battery/577fj",
       "Toolstation": "https://www.toolstation.com/milwaukee-m12-battery/p13495",
       "ITS": "https://its.co.uk/pd/M12B2PK2-Milwaukee-M12-B2-20Ah-12V-Li-Ion-Battery---Pack-of-2-_MILM12B2PK2.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12-2-0ah-energy-pack-in-ptm-bag-2-x-m12b2-2-0ah-batteries-charger-wit.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12-2-0ah-energy-pack-in-ptm-bag-2-x-m12b2-2-0ah-batteries-charger-wit.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12b2"
     }
   },
   "milwaukee-m12-b4-battery": {
@@ -753,7 +770,8 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-b4-12v-4-0ah-li-ion-redlithium-battery/703fj#product_additional_details_container",
       "Toolstation": "https://www.toolstation.com/milwaukee-m12-battery/p98839",
       "ITS": "https://its.co.uk/pd/M12B4PK2-Milwaukee-M12-B4-40Ah-12V-Li-Ion-Battery---Pack-of-2-_MILM12B4PK2.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12b4-12v-4-0ah-lithium-ion-battery.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12b4-12v-4-0ah-lithium-ion-battery.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12b4"
     }
   },
   "milwaukee-m12-b6-battery": {
@@ -763,7 +781,8 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-b6-12v-6-0ah-li-ion-redlithium-battery/674fj#product_additional_details_container",
       "Toolstation": "https://www.toolstation.com/milwaukee-m12-battery/p10704",
       "ITS": "https://its.co.uk/pd/milwaukee-m12-b6-6-0ah-12v-li-ion-battery-pack-of-2-_milm12b6pk2.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12b6-12v-6-0ah-li-ion-battery-twin-pack.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m12b6-12v-6-0ah-li-ion-battery-twin-pack.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m12b6"
     }
   },
   "milwaukee-m12-c-charger": {
@@ -772,7 +791,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m12-c4-12v-li-ion-redlithium-4-bay-multi-charger/960hf",
       "Toolstation": "https://www.toolstation.com/milwaukee-m12tc2-0-m12-compact-charger/pAC906",
-      "ITS": "https://its.co.uk/pd/M12-C12C-Milwaukee-M12-C12C-12v-Battery-Charger-_MIL240C12C.htm"
+      "ITS": "https://its.co.uk/pd/M12-C12C-Milwaukee-M12-C12C-12v-Battery-Charger-_MIL240C12C.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-c12c"
     }
   },
   "milwaukee-m18-fc-charger": {

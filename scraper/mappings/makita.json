@@ -409,7 +409,8 @@
     "name": "18V LXT 3.0Ah Lithium-Ion Battery",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/BL1830B-Makita-BL1830B-30Ah-18V-LXT-Li-Ion-Battery-_MAKBL1830B.htm"
+      "ITS": "https://its.co.uk/pd/BL1830B-Makita-BL1830B-30Ah-18V-LXT-Li-Ion-Battery-_MAKBL1830B.htm",
+      "Toolden": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl1830-18v-3-0ah-lxt-lithium-ion-battery/"
     }
   },
   "makita-18v-4ah-battery": {
@@ -417,7 +418,8 @@
     "name": "18V LXT 4.0Ah Lithium-Ion Battery",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/BL1840B-Makita-BL1840B-40Ah-18V-LXT-Li-Ion-Battery-_MAKBL1840B.htm"
+      "ITS": "https://its.co.uk/pd/BL1840B-Makita-BL1840B-40Ah-18V-LXT-Li-Ion-Battery-_MAKBL1840B.htm",
+      "Toolden": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl1840-18v-4-0ah-lxt-lithium-ion-battery/"
     }
   },
   "makita-18v-5ah-battery": {
@@ -434,7 +436,8 @@
     "name": "18V LXT 6.0Ah Lithium-Ion Battery",
     "brand": "Makita",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/BL1860B-Makita-BL1860B-60Ah-18V-LXT-Li-Ion-Battery-_MAKBL1860B.htm"
+      "ITS": "https://its.co.uk/pd/BL1860B-Makita-BL1860B-60Ah-18V-LXT-Li-Ion-Battery-_MAKBL1860B.htm",
+      "Toolden": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl1860-18v-lxt-6-0ah-li-ion-battery/"
     }
   },
   "makita-40v-25ah-battery": {
@@ -443,7 +446,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/191B36-3-Makita-BL4025-25Ah-40V-XGT-Li-Ion-Battery-_MAKBL4025.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl4025-40vmax-2-5ah-xgt-li-ion-battery.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl4025-40vmax-2-5ah-xgt-li-ion-battery.htm",
+      "Toolden": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl4025-40v-max-xgt-2-5ah-li-ion-battery/"
     }
   },
   "makita-40v-4ah-battery": {
@@ -452,7 +456,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/191B26-6-Makita-BL4040-40Ah-40V-XGT-Li-Ion-Battery-_MAKBL4040.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-191b26-6-bl4040-40v-li-ion-4-0ah-xgt-battery.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-191b26-6-bl4040-40v-li-ion-4-0ah-xgt-battery.htm",
+      "Toolden": "https://www.toolden.co.uk/accessories/makita-bl4040-40v-max-xgt-li-ion-4-0ah-xgt-battery/"
     }
   },
   "makita-40v-5ah-battery": {
@@ -461,7 +466,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/BL4050F-Makita-BL4050-50Ah-40V-XGT-Li-Ion-Battery-_MAKBL4050F.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl4050-40v-max-xgt-5ah-li-ion-battery.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl4050-40v-max-xgt-5ah-li-ion-battery.htm",
+      "Toolden": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl4050f-40v-max-xgt-5-0ah-battery/"
     }
   },
   "makita-18v-single-charger": {
@@ -470,7 +476,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/DC18RC-Makita-DC18RC-144V---18V--LXT-Battery-Charger---240V-_MAK240DC18RC.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl1860-18v-lxt-6-0ah-li-ion-battery-and-dc18rc-7-2v-18v-lxt-multi-voltage.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl1860-18v-lxt-6-0ah-li-ion-battery-and-dc18rc-7-2v-18v-lxt-multi-voltage.htm",
+      "Toolden": "https://www.toolden.co.uk/accessories/batteries-chargers/chargers/makita-dc18rc-lxt-14-4-18v-fast-charger/"
     }
   },
   "makita-18v-dual-charger": {
@@ -480,7 +487,8 @@
     "retailers": {
       "ITS": "https://its.co.uk/pd/DC18RD-Makita-DC18RD-144V---18V--Dual-Port-Battery-Charger---240V-_MAK240DC18RD.htm",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-dc18rd-18v-lxt-twin-port-charger.htm",
-      "Screwfix": "https://www.screwfix.com/p/makita-dc18rd-14-4-18v-li-ion-lxt-twin-charger/773kg"
+      "Screwfix": "https://www.screwfix.com/p/makita-dc18rd-14-4-18v-li-ion-lxt-twin-charger/773kg",
+      "Toolden": "https://www.toolden.co.uk/accessories/batteries-chargers/chargers/makita-dc18rd-ltx-14-4-18v-twin-fast-charger/"
     }
   },
   "makita-40v-charger": {
@@ -489,7 +497,8 @@
     "brand": "Makita",
     "retailers": {
       "ITS": "https://its.co.uk/pd/Makita-DC40RA-40V-MAX-XGT-Fast-Charger_MAKDC40RA.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/40v-range/batteries-and-chargers/makita-dc40ra-191e08-6-40v-max-lithium-ion-rapid-fast-battery-charger-adp10-adap.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/40v-range/batteries-and-chargers/makita-dc40ra-191e08-6-40v-max-lithium-ion-rapid-fast-battery-charger-adp10-adap.htm",
+      "Toolden": "https://www.toolden.co.uk/accessories/batteries-chargers/chargers/makita-dc40ra-191e08-6-40v-max-li-ion-xgt-fast-charger-240v/"
     }
   }
 }

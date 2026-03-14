@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-fuel-surge-impact-driver",
   "model": "M12 FQID-0",
-  "lastScraped": "2026-03-14T11:54:00.579Z",
+  "lastScraped": "2026-03-14T12:46:08.276Z",
   "retailers": {
     "Screwfix": {
       "price": 144.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M12FQID-0 12V Fuel Sub Compact SURGE Hydraulic Impact Driver (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-m12fqid-0-12v-m12-fuel-sub-compact-surge-hydraulic-impact-driver-bare-.htm",
       "lastScraped": "2026-03-14T11:54:03.855Z"
+    },
+    "Big Red Power Tools": {
+      "price": 139,
+      "inStock": true,
+      "name": "Milwaukee M12FQID-0 M12 FUEL SURGE Hydraulic Impact Driver",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12fqid-0",
+      "lastScraped": "2026-03-14T12:46:11.135Z"
     }
   }
 }

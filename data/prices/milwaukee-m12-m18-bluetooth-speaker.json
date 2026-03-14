@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-m18-bluetooth-speaker",
   "model": "M12-18 JSSP-0",
-  "lastScraped": "2026-03-14T11:53:37.159Z",
+  "lastScraped": "2026-03-14T12:46:16.775Z",
   "retailers": {
     "ITS": {
       "price": 119.99,
@@ -9,6 +9,13 @@
       "name": "Milwaukee M12-18JSSP Bluetooth Speaker - Body",
       "url": "https://its.co.uk/pd/M12-18-JSSP-0-Milwaukee-M12-18JSSP-Bluetooth-Speaker---Body-_MILM1218JSSP0.htm",
       "lastScraped": "2026-03-14T11:53:40.787Z"
+    },
+    "Big Red Power Tools": {
+      "price": 219.29,
+      "inStock": false,
+      "name": "Milwaukee M12-18JSSP-0 M12-M18 Jobsite Bluetooth Speaker",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12-18jssp-0",
+      "lastScraped": "2026-03-14T12:46:18.305Z"
     }
   }
 }

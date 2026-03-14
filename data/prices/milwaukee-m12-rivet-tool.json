@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-rivet-tool",
   "model": "M12 BPRT-0",
-  "lastScraped": "2026-03-14T11:54:43.421Z",
+  "lastScraped": "2026-03-14T12:46:22.255Z",
   "retailers": {
     "Screwfix": {
       "price": 159.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M12BPRT-0 12v Pop Rivet Tool Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m12-bprt-0-pop-rivet-tool-12v-bare-unit.htm",
       "lastScraped": "2026-03-14T11:54:46.433Z"
+    },
+    "Big Red Power Tools": {
+      "price": 129,
+      "inStock": true,
+      "name": "Milwaukee M12BPRT-0 M12 Pop Riveter",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12bprt-0",
+      "lastScraped": "2026-03-14T12:46:27.423Z"
     }
   }
 }

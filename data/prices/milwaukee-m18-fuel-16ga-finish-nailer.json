@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fuel-16ga-finish-nailer",
   "model": "M18 FN16GA-0",
-  "lastScraped": "2026-03-14T11:52:38.280Z",
+  "lastScraped": "2026-03-14T12:46:56.543Z",
   "retailers": {
     "Screwfix": {
       "price": 399.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee Fuel M18FN16GA-0X 16G Angled Finish Nailer 2-Mode In HD Case",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-nail-guns/milwaukee-fuel-m18fn16ga-0x-16g-angled-finish-nailer-2-mode-in-hd-case.htm",
       "lastScraped": "2026-03-14T11:52:41.553Z"
+    },
+    "Big Red Power Tools": {
+      "price": 319,
+      "inStock": true,
+      "name": "Milwaukee M18FN16GA-0 M18 FUEL 16 Gauge Angled Finish Nailer",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18fn16ga-0",
+      "lastScraped": "2026-03-14T12:46:58.299Z"
     }
   }
 }

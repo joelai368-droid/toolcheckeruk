@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-pipe-cutter",
   "model": "M12 PCSS-0",
-  "lastScraped": "2026-03-14T11:54:46.434Z",
+  "lastScraped": "2026-03-14T12:46:20.889Z",
   "retailers": {
     "Screwfix": {
       "price": 133.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M12PCSS-0 12v Stainless Steel Pipe Cutter - Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m12pcss-0-12v-stainless-steel-pipe-cutter-naked.htm",
       "lastScraped": "2026-03-14T11:54:51.104Z"
+    },
+    "Big Red Power Tools": {
+      "price": 139,
+      "inStock": true,
+      "name": "Milwaukee M12PCSS-0 M12 Stainless Steel Pipe Cutter",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12pcss-0",
+      "lastScraped": "2026-03-14T12:46:22.006Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-underbody-light",
   "model": "M12 UCL-0",
-  "lastScraped": "2026-03-14T11:54:53.939Z",
+  "lastScraped": "2026-03-14T12:46:31.764Z",
   "retailers": {
     "Screwfix": {
       "price": 149.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M12UCL-0 12v Under Carriage Light Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m12ucl-0-12v-under-carriage-light-naked.htm",
       "lastScraped": "2026-03-14T11:54:57.675Z"
+    },
+    "Big Red Power Tools": {
+      "price": 145,
+      "inStock": true,
+      "name": "Milwaukee M12UCL-0 M12 TrueView Undercarriage Light",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12ucl-0",
+      "lastScraped": "2026-03-14T12:46:34.903Z"
     }
   }
 }

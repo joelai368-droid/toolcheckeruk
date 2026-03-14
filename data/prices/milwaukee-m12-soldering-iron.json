@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-soldering-iron",
   "model": "M12 SI-0",
-  "lastScraped": "2026-03-14T11:54:36.058Z",
+  "lastScraped": "2026-03-14T12:46:27.675Z",
   "retailers": {
     "Screwfix": {
       "price": 69.99,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M12SI-0 12V Cordless Soldering Iron (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m12si-0-m12-si-0-cordless-soldering-iron-12v-bare-unit.htm",
       "lastScraped": "2026-03-14T11:54:40.185Z"
+    },
+    "Big Red Power Tools": {
+      "price": 64.99,
+      "inStock": true,
+      "name": "Milwaukee M12SI-0 M12 Soldering Iron",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12si-0",
+      "lastScraped": "2026-03-14T12:46:29.513Z"
     }
   }
 }

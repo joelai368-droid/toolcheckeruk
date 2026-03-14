@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-b2-battery",
   "model": "M18 B2",
-  "lastScraped": "2026-03-14T11:55:00.609Z",
+  "lastScraped": "2026-03-14T12:46:39.574Z",
   "retailers": {
     "Screwfix": {
       "price": 49.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M18B2 18V 2.0Ah RedLithium-Ion Batteries (Twin Pack)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m18b2-18v-2-0ah-lithium-ion-battery-twin-pack-body-only.htm",
       "lastScraped": "2026-03-14T11:55:03.885Z"
+    },
+    "Big Red Power Tools": {
+      "price": 39,
+      "inStock": true,
+      "name": "Milwaukee M18B2 M18 2.0Ah Red Lithium-Ion Battery",
+      "url": "https://www.bigredpowertools.co.uk/m18b2-m18-2-0ah-red-lithium-ion-battery",
+      "lastScraped": "2026-03-14T12:46:40.817Z"
     }
   }
 }

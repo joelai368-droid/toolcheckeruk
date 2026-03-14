@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-led-torch",
   "model": "M12 TLED-0",
-  "lastScraped": "2026-03-14T11:54:51.104Z",
+  "lastScraped": "2026-03-14T12:46:13.093Z",
   "retailers": {
     "Screwfix": {
       "price": 29.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M12TLED 12V LED Torch (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m12tled-12v-led-torch-body-only.htm",
       "lastScraped": "2026-03-14T11:54:53.938Z"
+    },
+    "Big Red Power Tools": {
+      "price": 29.99,
+      "inStock": true,
+      "name": "Milwaukee M12TLED-0 M12 LED Torch",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12tled-0",
+      "lastScraped": "2026-03-14T12:46:16.528Z"
     }
   }
 }

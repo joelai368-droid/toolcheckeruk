@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-inflator",
   "model": "M12 BI-0",
-  "lastScraped": "2026-03-14T11:54:57.676Z",
+  "lastScraped": "2026-03-14T12:46:11.376Z",
   "retailers": {
     "Screwfix": {
       "price": 89.99,
@@ -30,6 +30,13 @@
       "name": "Milwaukee M12BI-0 12V Compact Inflator (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwaukee-m12bi-0-12v-m12-compact-inflator-bare-unit.htm",
       "lastScraped": "2026-03-14T11:55:00.608Z"
+    },
+    "Big Red Power Tools": {
+      "price": 79,
+      "inStock": true,
+      "name": "Milwaukee M12BI-0 M12 Sub-Compact Inflator",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12bi-0",
+      "lastScraped": "2026-03-14T12:46:12.827Z"
     }
   }
 }

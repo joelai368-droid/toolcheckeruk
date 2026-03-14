@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m12-m18-sc-charger",
   "model": "M12-18 SC",
-  "lastScraped": "2026-03-14T11:55:35.276Z",
+  "lastScraped": "2026-03-14T12:46:18.543Z",
   "retailers": {
     "ITS": {
       "price": 120,
@@ -9,6 +9,13 @@
       "name": "Milwaukee M12-18SC 12V - 18V Super Charger",
       "url": "https://its.co.uk/pd/Milwaukee-M12-18-SC-12V---18V-Super-Fast-Charger_MILM1218SC.htm",
       "lastScraped": "2026-03-14T11:55:37.454Z"
+    },
+    "Big Red Power Tools": {
+      "price": 145,
+      "inStock": false,
+      "name": "Milwaukee M12-18SC M12-M18 Multi Super Charger",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12-18sc",
+      "lastScraped": "2026-03-14T12:46:20.637Z"
     }
   }
 }

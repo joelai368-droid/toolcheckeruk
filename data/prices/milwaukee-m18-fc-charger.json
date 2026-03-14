@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-fc-charger",
   "model": "M18 FC",
-  "lastScraped": "2026-03-14T11:55:30.321Z",
+  "lastScraped": "2026-03-14T12:46:50.654Z",
   "retailers": {
     "Toolstation": {
       "price": 39.98,
@@ -9,6 +9,13 @@
       "name": "Milwaukee Fast Charger M12 - M18",
       "url": "https://www.toolstation.com/milwaukee-fast-charger/p18266",
       "lastScraped": "2026-03-14T11:55:32.755Z"
+    },
+    "Big Red Power Tools": {
+      "price": 35,
+      "inStock": true,
+      "name": "Milwaukee M12-18FC M12-M18 Multi Rapid Charger",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m12-18fc",
+      "lastScraped": "2026-03-14T12:46:54.433Z"
     }
   }
 }

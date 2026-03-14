@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-area-light",
   "model": "M18 TAL-0",
-  "lastScraped": "2026-03-14T11:53:28.714Z",
+  "lastScraped": "2026-03-14T12:46:35.152Z",
   "retailers": {
     "Toolstation": {
       "price": 119.98,
@@ -9,6 +9,13 @@
       "name": "Milwaukee M18TAL-0 Radius Area Light Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18tal-0-radius-area-light/p71375",
       "lastScraped": "2026-03-14T11:53:32.694Z"
+    },
+    "Big Red Power Tools": {
+      "price": 119,
+      "inStock": false,
+      "name": "Milwaukee M18TAL-0 M18 Task Area Light",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18tal-0",
+      "lastScraped": "2026-03-14T12:46:39.320Z"
     }
   }
 }

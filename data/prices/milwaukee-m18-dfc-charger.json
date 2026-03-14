@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-dfc-charger",
   "model": "M18 DFC",
-  "lastScraped": "2026-03-14T11:55:32.755Z",
+  "lastScraped": "2026-03-14T12:46:48.852Z",
   "retailers": {
     "Screwfix": {
       "price": 99.97,
@@ -23,6 +23,13 @@
       "name": "Milwaukee M18DFC-0 Dual Bay Simultaneous Rapid Charger",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/milwaukee-m18dfc-0-dual-bay-simultaneous-rapid-charger.htm",
       "lastScraped": "2026-03-14T11:55:35.276Z"
+    },
+    "Big Red Power Tools": {
+      "price": 99,
+      "inStock": true,
+      "name": "Milwaukee M18DFC M18 Dual Bay Rapid Charger",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18dfc",
+      "lastScraped": "2026-03-14T12:46:50.395Z"
     }
   }
 }

@@ -1,6 +1,6 @@
 # URL Coverage Report
 
-Generated: 2026-03-14T12:36:23.090Z
+Generated: 2026-03-14T12:45:58.934Z
 
 ## Summary
 
@@ -24,8 +24,8 @@ Generated: 2026-03-14T12:36:23.090Z
 | ITS | 169 |
 | Screwfix | 135 |
 | Powertool Mate | 123 |
+| Big Red Power Tools | 61 |
 | Toolstation | 41 |
-| Big Red Power Tools | 21 |
 
 ## Tools missing mappings (top 50)
 

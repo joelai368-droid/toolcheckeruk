@@ -46,7 +46,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-dtm52z-18v-li-ion-lxt-brushless-cordless-multi-tool-bare/767xj",
       "ITS": "https://its.co.uk/pd/MAKDTM52Z-Makita-DTM52Z-18V-LXT-Brushless-Multi-Tool---Body-_MAKDTM52Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-multi-tools/makita-dtm52z-18v-brushless-lxt-multi-tool-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-multi-tools/makita-dtm52z-18v-brushless-lxt-multi-tool-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-multi-cutter-tools/makita-dtm52z-lxt-18v-brushless-multi-tool-body-only/"
     }
   },
   "makita-18v-reciprocating-saw": {
@@ -56,7 +57,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-djr186z-18v-li-ion-lxt-cordless-reciprocating-saw-bare/8334r#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/DJR186Z-Makita-DJR186Z-18V-LXT-Reciprocating-Saw---Body-_MAKDJR186Z.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-reciprocating-saws/makita-djr186z-18v-lxt-reciprocating-saw-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-reciprocating-saws/makita-djr186z-18v-lxt-reciprocating-saw-body-only.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-reciprocating-saws/makita-djr186z-18v-lxt-reciprocating-saw-body-only/"
     }
   },
   "makita-18v-jigsaw": {
@@ -66,7 +68,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/makita-djv182z-18v-li-ion-lxt-brushless-cordless-jigsaw-bare/8926j#product_additional_details_container",
       "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-jigsaws/makita-djv182z-18v-lxt-brushless-jigsaw-body-only.htm",
-      "ITS": "https://its.co.uk/pd/DJV182Z-Makita-DJV182Z-18V-LXT-Brushless-Jigsaw---Body-_MAKDJV182Z.htm"
+      "ITS": "https://its.co.uk/pd/DJV182Z-Makita-DJV182Z-18V-LXT-Brushless-Jigsaw---Body-_MAKDJV182Z.htm",
+      "Toolden": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-jigsaws/makita-djv182z-lxt-18v-brushless-jigsaw-body-only/"
     }
   },
   "makita-18v-sds-plus-drill": {

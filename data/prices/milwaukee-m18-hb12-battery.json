@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m18-hb12-battery",
   "model": "M18 HB12",
-  "lastScraped": "2026-03-14T06:04:34.922Z",
+  "lastScraped": "2026-03-14T11:55:16.443Z",
   "retailers": {
     "ITS": {
       "price": 167.99,
       "inStock": true,
       "name": "Milwaukee M18 HB12 12.0Ah 18V High Output Li-Ion Battery",
       "url": "https://its.co.uk/pd/M18-HB12-Milwaukee-M18-HB12-120Ah-18V-High-Output-Li-Ion-Battery-_MILM18HB12.htm",
-      "lastScraped": "2026-03-14T06:04:35.919Z"
+      "lastScraped": "2026-03-14T11:55:17.533Z"
     }
   }
 }

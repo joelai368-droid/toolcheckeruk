@@ -1,35 +1,42 @@
 {
   "slug": "milwaukee-m18-fuel-first-fix-nailer",
   "model": "M18 FFN-0",
-  "lastScraped": "2026-03-14T06:00:57.066Z",
+  "lastScraped": "2026-03-14T11:51:30.800Z",
   "retailers": {
     "Screwfix": {
       "price": 394.99,
       "inStock": true,
       "name": "Milwaukee M18FFN-0C 3.3mm 18V Li-Ion RedLithium Brushless First Fix Cordless Nail Gun - Bare (711XH)",
       "url": "https://www.screwfix.com/p/milwaukee-m18ffn-0c-3-3mm-18v-li-ion-redlithium-brushless-first-fix-cordless-nail-gun-bare/711xh",
-      "lastScraped": "2026-03-14T06:00:57.608Z"
+      "lastScraped": "2026-03-14T11:51:31.290Z"
     },
     "Toolstation": {
       "price": 399.98,
       "inStock": true,
       "name": "Milwaukee M18FFN-0C FUEL Framing Nailer Body Only",
       "url": "https://www.toolstation.com/milwaukee-m18ffn-0c-fuel-framing-nailer/p74257",
-      "lastScraped": "2026-03-14T06:00:58.031Z"
+      "lastScraped": "2026-03-14T11:51:31.776Z"
     },
     "ITS": {
       "price": 359.99,
       "inStock": true,
       "name": "Milwaukee M18 FFN-0 18V FUEL Brushless First-Fix Framing Nail Gun - Body",
       "url": "https://its.co.uk/pd/milwaukee-m18-ffn-0-18v-fuel-brushless-first-fix-framing-nail-gun-body-only-_milm18ffn0nocase.htm",
-      "lastScraped": "2026-03-14T06:00:59.035Z"
+      "lastScraped": "2026-03-14T11:51:32.740Z"
     },
     "Powertool Mate": {
       "price": 453.99,
       "inStock": true,
       "name": "Milwaukee 18v Framing Nailer M18FFN-0C C/W 4932471605",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-nail-guns/milwaukee-18v-framing-nailer-naked-c-w-extended-magazine.htm",
-      "lastScraped": "2026-03-14T06:00:59.905Z"
+      "lastScraped": "2026-03-14T11:51:33.567Z"
+    },
+    "Big Red Power Tools": {
+      "price": 399,
+      "inStock": false,
+      "name": "Milwaukee M18FFN-0 M18 FUEL Framing Nailer",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18ffn-0",
+      "lastScraped": "2026-03-14T11:51:34.326Z"
     }
   }
 }

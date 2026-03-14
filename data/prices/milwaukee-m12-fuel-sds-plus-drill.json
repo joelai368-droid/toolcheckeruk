@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m12-fuel-sds-plus-drill",
   "model": "M12 CH-0",
-  "lastScraped": "2026-03-14T06:03:52.710Z",
+  "lastScraped": "2026-03-14T11:54:33.468Z",
   "retailers": {
     "ITS": {
       "price": 143.99,
       "inStock": true,
       "name": "Milwaukee M12 CH-0 12V FUEL Brushless SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/M12CH-0-Milwaukee-M12-CH-0-12V-FUEL-Brushless-SDSplus-Drill---Body-_MILM12CH0.htm",
-      "lastScraped": "2026-03-14T06:03:54.760Z"
+      "lastScraped": "2026-03-14T11:54:36.057Z"
     }
   }
 }

@@ -1,35 +1,35 @@
 {
   "slug": "milwaukee-m18-fuel-planer",
   "model": "M18 BP-0",
-  "lastScraped": "2026-03-14T06:00:46.431Z",
+  "lastScraped": "2026-03-14T11:51:13.714Z",
   "retailers": {
     "Screwfix": {
       "price": 169.98,
       "inStock": true,
       "name": "Milwaukee M18 BP-0 18V Li-Ion   Cordless Planer - Bare (291FJ)",
       "url": "https://www.screwfix.com/p/milwaukee-m18-bp-0-18v-li-ion-cordless-planer-bare/291fj#product_additional_details_container",
-      "lastScraped": "2026-03-14T06:00:47.439Z"
+      "lastScraped": "2026-03-14T11:51:14.886Z"
     },
     "ITS": {
       "price": 174.98,
       "inStock": true,
       "name": "Milwaukee M18 BP-0 18V 82mm Planer - Body",
       "url": "https://its.co.uk/pd/M18BP-0-Milwaukee-M18-BP-0-18V-82mm-Planer---Body-_MILM18BP0.htm",
-      "lastScraped": "2026-03-14T06:00:48.321Z"
+      "lastScraped": "2026-03-14T11:51:15.598Z"
     },
     "Powertool Mate": {
       "price": 159.99,
       "inStock": true,
       "name": "Milwaukee M18BP-0 18V 82mm Cordless Planer (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-planers/milwaukee-m18bp-0-18v-82mm-cordless-planer-body-only.htm",
-      "lastScraped": "2026-03-14T06:00:49.151Z"
+      "lastScraped": "2026-03-14T11:51:16.442Z"
     },
     "Big Red Power Tools": {
       "price": 169,
       "inStock": true,
       "name": "Milwaukee M18BP-0 M18 Compact Planer",
       "url": "https://www.bigredpowertools.co.uk/milwaukee-m18bp-0",
-      "lastScraped": "2026-03-14T06:00:50.175Z"
+      "lastScraped": "2026-03-14T11:51:22.312Z"
     }
   }
 }

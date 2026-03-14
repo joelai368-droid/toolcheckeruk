@@ -1,14 +1,14 @@
 {
   "slug": "milwaukee-m12-sub-compact-drill-driver",
   "model": "M12 BDD-0",
-  "lastScraped": "2026-03-14T06:03:13.863Z",
+  "lastScraped": "2026-03-14T11:53:55.332Z",
   "retailers": {
     "ITS": {
       "price": 77.99,
       "inStock": true,
       "name": "Milwaukee M12 BDD-0 12V Compact Drill Driver - Body",
       "url": "https://its.co.uk/pd/M12-BDD-0-Milwaukee-M12-BDD-0-12V-Compact-Drill-Driver---Body-_MILM12BDD0.htm",
-      "lastScraped": "2026-03-14T06:03:15.114Z"
+      "lastScraped": "2026-03-14T11:53:56.780Z"
     }
   }
 }

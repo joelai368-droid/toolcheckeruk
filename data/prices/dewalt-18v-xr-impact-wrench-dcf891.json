@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-impact-wrench-dcf891",
   "model": "DCF891N",
-  "lastScraped": "2026-03-13T21:51:42.821Z",
+  "lastScraped": "2026-03-14T16:56:16.044Z",
   "retailers": {
     "Screwfix": {
       "price": 205.2,
@@ -23,6 +23,16 @@
       "name": "Dewalt DCF891N  18V XR B/LESS 1/2\" Compact Wrench High Torque Naked Hog Ring",
       "url": "https://www.powertoolmate.co.uk/dewalt-18v-xr-b-less-1-2-compact-wrench-high-torque-naked-hog-ring.htm",
       "lastScraped": "2026-03-13T21:48:26.593Z"
+    },
+    "Toolden": {
+      "price": 209.99,
+      "inStock": true,
+      "name": "DeWalt DCF891N 18V 1/2\" Brushless High Torque Compact Wrench (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/dewalt-dcf891n-18v-1-2-brushless-high-torque-compact-wrench-body-only/",
+      "lastScraped": "2026-03-14T16:56:19.474Z",
+      "priceIncVat": 209.99,
+      "priceExVat": 174.99,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/dewalt-dcf891n-18v-1-2-brushless-high-torque-compact-wrench-body-only/"
     }
   }
 }

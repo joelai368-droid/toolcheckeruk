@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-lxt-impact-driver-dtd172",
   "model": "DTD172Z",
-  "lastScraped": "2026-03-13T21:53:31.272Z",
+  "lastScraped": "2026-03-14T16:56:19.230Z",
   "retailers": {
     "Powertool Mate": {
       "price": 116.99,
@@ -9,6 +9,17 @@
       "name": "Makita DTD172Z 18v LXT Brushless Impact Driver Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-impact-drivers/makita-dtd172z-18v-lxt-brushless-impact-driver-naked.htm",
       "lastScraped": "2026-03-13T18:34:32.263Z"
+    },
+    "Toolden": {
+      "price": 123.47,
+      "inStock": false,
+      "name": "Makita DTD172Z LXT 18V Brushless Impact Driver (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-impact-drivers/makita-dtd172z-lxt-18v-brushless-impact-driver-body-only/",
+      "lastScraped": "2026-03-14T16:56:22.386Z",
+      "priceIncVat": 123.47,
+      "priceExVat": 102.89,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-impact-drivers/makita-dtd172z-lxt-18v-brushless-impact-driver-body-only/"
     }
   }
 }

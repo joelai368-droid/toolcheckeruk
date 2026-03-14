@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-random-orbital-sander",
   "model": "DCW210N",
-  "lastScraped": "2026-03-13T21:51:42.824Z",
+  "lastScraped": "2026-03-14T16:56:49.003Z",
   "retailers": {
     "Screwfix": {
       "price": 124.99,
@@ -16,6 +16,16 @@
       "name": "Dewalt DCW210N 18V XR Brushless 125mm Random Orbital Sander - Body",
       "url": "https://its.co.uk/pd/DCW210N-XJ-Dewalt-DCW210N-18V-XR-Brushless-125mm-Random-Orbital-Sander---Body-_DEWDCW210N.htm",
       "lastScraped": "2026-03-13T21:49:07.274Z"
+    },
+    "Toolden": {
+      "price": 129.79,
+      "inStock": true,
+      "name": "DeWalt DCW210N 18V XR Brushless 125mm Random Orbital Sander (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-sanders/DeWalt-dcw210n-18v-xr-li-ion-brushless-125mm-random-orbital-sander-body-only/",
+      "lastScraped": "2026-03-14T16:56:55.591Z",
+      "priceIncVat": 129.79,
+      "priceExVat": 108.16,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-sanders/DeWalt-dcw210n-18v-xr-li-ion-brushless-125mm-random-orbital-sander-body-only/"
     }
   }
 }

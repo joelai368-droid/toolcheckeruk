@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-5ah-battery",
   "model": "BL1850B",
-  "lastScraped": "2026-03-13T21:53:38.503Z",
+  "lastScraped": "2026-03-14T16:57:36.086Z",
   "retailers": {
     "ITS": {
       "price": 69.98,
@@ -9,6 +9,16 @@
       "name": "Makita BL1850B 5.0Ah 18V LXT Li-Ion Battery",
       "url": "https://its.co.uk/pd/BL1850B-Makita-BL1850B-50Ah-18V-LXT-Li-Ion-Battery-_MAKBL1850B.htm",
       "lastScraped": "2026-03-13T18:35:52.667Z"
+    },
+    "Toolden": {
+      "price": 67.99,
+      "inStock": true,
+      "name": "Makita BL1850 18V 5.0Ah LXT Lithium-Ion Battery",
+      "url": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl1850-18v-5-0ah-lxt-lithium-ion-battery/",
+      "lastScraped": "2026-03-14T16:57:39.499Z",
+      "priceIncVat": 67.99,
+      "priceExVat": 56.66,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl1850-18v-5-0ah-lxt-lithium-ion-battery/"
     }
   }
 }

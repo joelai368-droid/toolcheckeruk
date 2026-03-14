@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-impact-driver",
   "model": "DCF887N",
-  "lastScraped": "2026-03-13T21:51:42.816Z",
+  "lastScraped": "2026-03-14T16:55:40.816Z",
   "retailers": {
     "Screwfix": {
       "price": 79.99,
@@ -23,6 +23,16 @@
       "name": "DeWalt DCD996N 18V XR Brushless Combi Drill & DCF887N 18V XR Brushless Impact Driver (Bare Units)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-powertool-kits/dewalt-dcd996n-18v-brushless-combi-drill-dcf887n-18v-xr-brushless-impact-driver-.htm",
       "lastScraped": "2026-03-13T21:47:43.920Z"
+    },
+    "Toolden": {
+      "price": 71.99,
+      "inStock": true,
+      "name": "DeWalt DCF887N XR 18V Brushless 3 Speed Impact Driver (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-drivers/DeWalt-dcf887n-18v-xr-brushless-3-speed-impact-driver-body-only/",
+      "lastScraped": "2026-03-14T16:55:42.941Z",
+      "priceIncVat": 71.99,
+      "priceExVat": 59.99,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-drivers/DeWalt-dcf887n-18v-xr-brushless-3-speed-impact-driver-body-only/"
     }
   }
 }

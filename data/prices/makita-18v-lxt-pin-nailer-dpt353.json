@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-lxt-pin-nailer-dpt353",
   "model": "DPT353Z",
-  "lastScraped": "2026-03-13T21:53:32.440Z",
+  "lastScraped": "2026-03-14T16:57:13.115Z",
   "retailers": {
     "ITS": {
       "price": 407.99,
@@ -23,6 +23,16 @@
       "name": "Makita DPT353Z 35mm 18V Li-Ion LXT  Second Fix Cordless Pin Nail Gun - Bare (531XJ)",
       "url": "https://www.screwfix.com/p/makita-dpt353z-35mm-18v-li-ion-lxt-second-fix-cordless-pin-nail-gun-bare/531xj#product_additional_details_container",
       "lastScraped": "2026-03-13T21:53:35.382Z"
+    },
+    "Toolden": {
+      "price": 437.26,
+      "inStock": true,
+      "name": "Makita DPT353Z LXT 18V Pin Nailer (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/makita-dpt353z-lxt-18v-pin-nailer-body-only/",
+      "lastScraped": "2026-03-14T16:57:16.504Z",
+      "priceIncVat": 437.26,
+      "priceExVat": 364.38,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/makita-dpt353z-lxt-18v-pin-nailer-body-only/"
     }
   }
 }

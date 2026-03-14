@@ -1,7 +1,7 @@
 {
   "slug": "makita-40v-xgt-combi-drill",
   "model": "HP001GZ",
-  "lastScraped": "2026-03-13T21:53:31.271Z",
+  "lastScraped": "2026-03-14T16:56:16.384Z",
   "retailers": {
     "ITS": {
       "price": 159.98,
@@ -9,6 +9,16 @@
       "name": "Makita HP001GZ 40V XGT Brushless Combi Drill - Body",
       "url": "https://its.co.uk/pd/HP001G-Makita-HP001GZ-40V-XGT-Brushless-Combi-Drill---Body-_MAKHP001GZ.htm",
       "lastScraped": "2026-03-13T18:34:26.812Z"
+    },
+    "Toolden": {
+      "price": 144.99,
+      "inStock": true,
+      "name": "Makita HP001GZ 40V Max XGT Brushless Combi Drill (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-combi-drills/makita-hp001gz-40v-max-xgt-brushless-combi-drill-body-only/",
+      "lastScraped": "2026-03-14T16:56:19.230Z",
+      "priceIncVat": 144.99,
+      "priceExVat": 120.82,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-combi-drills/makita-hp001gz-40v-max-xgt-brushless-combi-drill-body-only/"
     }
   }
 }

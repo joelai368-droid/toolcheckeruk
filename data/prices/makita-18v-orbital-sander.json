@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-orbital-sander",
   "model": "DBO180Z",
-  "lastScraped": "2026-03-13T21:53:31.269Z",
+  "lastScraped": "2026-03-14T16:56:03.385Z",
   "retailers": {
     "Screwfix": {
       "price": 79.99,
@@ -23,6 +23,16 @@
       "name": "Makita DBO180Z 18V LXT Random Orbit Sander (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-sanders/makita-dbo180z-18v-lxt-random-orbit-sander-body-only.htm",
       "lastScraped": "2026-03-13T18:34:19.718Z"
+    },
+    "Toolden": {
+      "price": 93.47,
+      "inStock": true,
+      "name": "Makita DBO180Z 18V LXT 125mm Random Orbit Sander (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-sanders/makita-dbo180z-18v-lxt-125mm-random-orbit-sander-body-only/",
+      "lastScraped": "2026-03-14T16:56:06.482Z",
+      "priceIncVat": 93.47,
+      "priceExVat": 77.89,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-sanders/makita-dbo180z-18v-lxt-125mm-random-orbit-sander-body-only/"
     }
   }
 }

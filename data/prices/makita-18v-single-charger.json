@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-single-charger",
   "model": "DC18RC",
-  "lastScraped": "2026-03-13T21:53:38.505Z",
+  "lastScraped": "2026-03-14T16:57:52.482Z",
   "retailers": {
     "ITS": {
       "price": 16.99,
@@ -16,6 +16,16 @@
       "name": "Makita BL1860 18V LXT 6.0Ah Li-Ion Battery and DC18RC 7.2V-18V LXT Multi-Voltage Compact Charger",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl1860-18v-lxt-6-0ah-li-ion-battery-and-dc18rc-7-2v-18v-lxt-multi-voltage.htm",
       "lastScraped": "2026-03-13T18:36:10.727Z"
+    },
+    "Toolden": {
+      "price": 17.96,
+      "inStock": true,
+      "name": "Makita DC18RC LXT 14.4-18V Fast Charger",
+      "url": "https://www.toolden.co.uk/accessories/batteries-chargers/chargers/makita-dc18rc-lxt-14-4-18v-fast-charger/",
+      "lastScraped": "2026-03-14T16:57:55.629Z",
+      "priceIncVat": 17.96,
+      "priceExVat": 14.97,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/batteries-chargers/chargers/makita-dc18rc-lxt-14-4-18v-fast-charger/"
     }
   }
 }

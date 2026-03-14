@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-dual-charger",
   "model": "DCB132",
-  "lastScraped": "2026-03-13T21:51:45.256Z",
+  "lastScraped": "2026-03-14T16:57:51.578Z",
   "retailers": {
     "Screwfix": {
       "price": 109.99,
@@ -16,6 +16,16 @@
       "name": "Dewalt DCB132 XR Universal Dual Port Charger",
       "url": "https://its.co.uk/pd/DCB132-Dewalt-DCB132-54v-XR-FLEXVOLT-Dual-Port-Charger-_DEW240DCB132.htm",
       "lastScraped": "2026-03-13T21:50:07.119Z"
+    },
+    "Toolden": {
+      "price": 121.96,
+      "inStock": true,
+      "name": "DeWalt DCB132-GB XR Flexvolt Universal 4A Dual Port Charge",
+      "url": "https://www.toolden.co.uk/accessories/batteries-chargers/chargers/DeWalt-dcb132-gb-xr-flexvolt-dual-port-charger/",
+      "lastScraped": "2026-03-14T16:57:54.929Z",
+      "priceIncVat": 121.96,
+      "priceExVat": 101.63,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/batteries-chargers/chargers/DeWalt-dcb132-gb-xr-flexvolt-dual-port-charger/"
     }
   }
 }

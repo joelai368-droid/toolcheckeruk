@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-planer",
   "model": "DCP580N",
-  "lastScraped": "2026-03-13T21:51:42.819Z",
+  "lastScraped": "2026-03-14T16:56:03.095Z",
   "retailers": {
     "Screwfix": {
       "price": 144.99,
@@ -23,6 +23,16 @@
       "name": "DeWalt DCP580N 18V XR Brushless 82mm Planer (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-planers/dewalt-dcp580n-18v-xr-brushless-planer-body-only.htm",
       "lastScraped": "2026-03-13T21:48:06.608Z"
+    },
+    "Toolden": {
+      "price": 149.99,
+      "inStock": true,
+      "name": "DeWalt DCP580N 18V XR Brushless 82mm Planer (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-planers/DeWalt-dcp580n-brushless-xr-18v-82mm-cordless-planer-body-only/",
+      "lastScraped": "2026-03-14T16:56:06.772Z",
+      "priceIncVat": 149.99,
+      "priceExVat": 124.99,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-planers/DeWalt-dcp580n-brushless-xr-18v-82mm-cordless-planer-body-only/"
     }
   }
 }

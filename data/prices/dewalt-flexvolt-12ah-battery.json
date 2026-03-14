@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-flexvolt-12ah-battery",
   "model": "DCB548",
-  "lastScraped": "2026-03-13T21:51:45.255Z",
+  "lastScraped": "2026-03-14T16:57:45.314Z",
   "retailers": {
     "Screwfix": {
       "price": 249.99,
@@ -23,6 +23,16 @@
       "name": "DeWalt DCB548 18V/54V XR Flexvolt 12.0Ah Li-ion Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/batteries-and-chargers/dewalt-dcb548-18v-54v-xr-12-0ah-4-0ah-li-ion-flexvolt-battery-pack.htm",
       "lastScraped": "2026-03-13T21:50:01.345Z"
+    },
+    "Toolden": {
+      "price": 196.27,
+      "inStock": true,
+      "name": "Dewalt DCB548 18V/54V XR FlexVolt 12Ah Li-ion Battery",
+      "url": "https://www.toolden.co.uk/accessories/dewalt-dcb548-18v-54v-xr-flexvolt-12ah-li-ion-battery/",
+      "lastScraped": "2026-03-14T16:57:48.467Z",
+      "priceIncVat": 196.27,
+      "priceExVat": 163.56,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/dewalt-dcb548-18v-54v-xr-flexvolt-12ah-li-ion-battery/"
     }
   }
 }

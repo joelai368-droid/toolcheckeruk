@@ -1,7 +1,7 @@
 {
   "slug": "makita-twin-18v-lxt-plunge-saw",
   "model": "DSP600Z",
-  "lastScraped": "2026-03-13T21:53:31.277Z",
+  "lastScraped": "2026-03-14T16:56:56.514Z",
   "retailers": {
     "Screwfix": {
       "price": 384.99,
@@ -9,6 +9,16 @@
       "name": "Makita DSP600ZJ 36V Li-Ion LXT 165mm Brushless Cordless Plunge Saw - Bare (484FG)",
       "url": "https://www.screwfix.com/p/makita-dsp600zj-36v-li-ion-lxt-165mm-brushless-cordless-plunge-saw-bare/484fg",
       "lastScraped": "2026-03-13T18:35:06.849Z"
+    },
+    "Toolden": {
+      "price": 457.1,
+      "inStock": true,
+      "name": "Makita DSP600ZJ Twin 18V LXT 165mm Cordless Plunge Saw in a Makpac Case (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-plunge-saws/makita-dsp600zj-twin-18v-lxt-165mm-cordless-plunge-saw-in-a-makpac-case-body-only/",
+      "lastScraped": "2026-03-14T16:56:59.738Z",
+      "priceIncVat": 457.1,
+      "priceExVat": 380.92,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-plunge-saws/makita-dsp600zj-twin-18v-lxt-165mm-cordless-plunge-saw-in-a-makpac-case-body-only/"
     }
   }
 }

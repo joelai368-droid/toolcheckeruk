@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-multi-tool",
   "model": "DCS355N",
-  "lastScraped": "2026-03-13T21:51:42.818Z",
+  "lastScraped": "2026-03-14T16:55:49.738Z",
   "retailers": {
     "Screwfix": {
       "price": 89.99,
@@ -9,6 +9,16 @@
       "name": "DEWALT DCS355N-XJ 18V Li-Ion XR Brushless Cordless Oscillating Multi-Tool - Bare (1210G)",
       "url": "https://www.screwfix.com/p/dewalt-dcs355n-xj-18v-li-ion-xr-brushless-cordless-oscillating-multi-tool-bare/1210g",
       "lastScraped": "2026-03-13T21:47:51.000Z"
+    },
+    "Toolden": {
+      "price": 99.17,
+      "inStock": true,
+      "name": "DeWalt DCS355N 18V XR Cordless Multi Tool (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-multi-cutter-tools/dewalt-dcs355n-18v-cordless-xr-multi-tool-with-29-accessories/",
+      "lastScraped": "2026-03-14T16:55:52.976Z",
+      "priceIncVat": 99.17,
+      "priceExVat": 82.64,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-multi-cutter-tools/DeWalt-dcs355n-18v-cordless-xr-multi-tool-with-29-accessories/"
     }
   }
 }

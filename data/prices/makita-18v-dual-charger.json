@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-dual-charger",
   "model": "DC18RD",
-  "lastScraped": "2026-03-13T21:53:38.506Z",
+  "lastScraped": "2026-03-14T16:57:55.629Z",
   "retailers": {
     "ITS": {
       "price": 119.99,
@@ -23,6 +23,16 @@
       "name": "Makita DC18RD 14.4/18V Li-Ion LXT Twin Charger (773KG)",
       "url": "https://www.screwfix.com/p/makita-dc18rd-14-4-18v-li-ion-lxt-twin-charger/773kg",
       "lastScraped": "2026-03-13T21:53:42.359Z"
+    },
+    "Toolden": {
+      "price": 99.99,
+      "inStock": true,
+      "name": "Makita DC18RD LXT 14.4-18V Twin Fast Charger",
+      "url": "https://www.toolden.co.uk/accessories/batteries-chargers/chargers/makita-dc18rd-ltx-14-4-18v-twin-fast-charger/",
+      "lastScraped": "2026-03-14T16:58:02.324Z",
+      "priceIncVat": 99.99,
+      "priceExVat": 83.32,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/makita-dc18rd-lxt-14-4-18v-twin-fast-charger/"
     }
   }
 }

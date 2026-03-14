@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-impact-driver",
   "model": "DTD153Z",
-  "lastScraped": "2026-03-13T21:53:31.263Z",
+  "lastScraped": "2026-03-14T16:55:36.556Z",
   "retailers": {
     "Screwfix": {
       "price": 114.99,
@@ -23,6 +23,16 @@
       "name": "Makita DTD153Z 18V Brushless Compact Impact Driver (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-impact-drivers/makita-dtd153z-18v-compact-brushless-impact-driver-body-only.htm",
       "lastScraped": "2026-03-13T18:33:47.950Z"
+    },
+    "Toolden": {
+      "price": 64.99,
+      "inStock": true,
+      "name": "Makita DTD153Z LXT 18V Brushless Impact Driver (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/impact-drivers/makita-dtd153z-brushless-impact-driver-18v-body-only/",
+      "lastScraped": "2026-03-14T16:55:37.945Z",
+      "priceIncVat": 64.99,
+      "priceExVat": 54.16,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/impact-drivers/makita-dtd153z-brushless-impact-driver-18v-body-only/"
     }
   }
 }

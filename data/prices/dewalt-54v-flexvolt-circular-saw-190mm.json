@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-54v-flexvolt-circular-saw-190mm",
   "model": "DCS578N",
-  "lastScraped": "2026-03-13T21:51:42.822Z",
+  "lastScraped": "2026-03-14T16:56:29.351Z",
   "retailers": {
     "ITS": {
       "price": 279.98,
@@ -9,6 +9,16 @@
       "name": "Dewalt DCS578N 54V XR FLEXVOLT Brushless 190mm Circular Saw - Body",
       "url": "https://its.co.uk/pd/DCS578N-Dewalt-DCS578N-54V-XR-FLEXVOLT-Brushless-190mm-Circular-Saw---Body-_DEWDCS578N.htm",
       "lastScraped": "2026-03-13T21:48:39.949Z"
+    },
+    "Toolden": {
+      "price": 259.99,
+      "inStock": true,
+      "name": "DeWalt DCS578N-XJ 54V FlexVolt 190mm Circular Saw (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-circular-saws/dewalt-dcs578n-xj-54v-flexvolt-190mm-circular-saw-body-only/",
+      "lastScraped": "2026-03-14T16:56:32.401Z",
+      "priceIncVat": 259.99,
+      "priceExVat": 216.66,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-circular-saws/dewalt-dcs578n-xj-54v-flexvolt-190mm-circular-saw-body-only/"
     }
   }
 }

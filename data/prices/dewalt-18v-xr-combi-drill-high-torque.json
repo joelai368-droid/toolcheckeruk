@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-combi-drill-high-torque",
   "model": "DCD805N",
-  "lastScraped": "2026-03-13T21:52:39.281Z",
+  "lastScraped": "2026-03-14T16:56:09.651Z",
   "retailers": {
     "ITS": {
       "price": 104.99,
@@ -9,6 +9,17 @@
       "name": "Dewalt DCD805N 18V XR G3 Brushless Combi Drill - Body",
       "url": "https://its.co.uk/pd/DCD805N-Dewalt-DCD805N-18V-XR-Powerstack-Brushless-Combi-Drill---Body-_DEWDCD805N.htm",
       "lastScraped": "2026-03-13T21:52:40.487Z"
+    },
+    "Toolden": {
+      "price": 120.99,
+      "inStock": false,
+      "name": "DeWalt DCD805N POWERSTACK™ 18V XR Brushless Combi Drill (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/dewalt-dcd805n-powerstack-18v-xr-brushless-combi-drill-body-only/",
+      "lastScraped": "2026-03-14T16:56:12.804Z",
+      "priceIncVat": 120.99,
+      "priceExVat": 100.82,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/dewalt-dcd805n-powerstack-18v-xr-brushless-combi-drill-body-only/"
     }
   }
 }

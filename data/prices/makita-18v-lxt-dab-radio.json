@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-lxt-dab-radio",
   "model": "DMR115",
-  "lastScraped": "2026-03-13T21:53:38.500Z",
+  "lastScraped": "2026-03-14T16:57:19.336Z",
   "retailers": {
     "ITS": {
       "price": 167.99,
@@ -9,6 +9,17 @@
       "name": "Makita DMR115 FM/DAB+ Jobsite Radio with Bluetooth - Black Body",
       "url": "https://its.co.uk/pd/DMR115B-Makita-DMR115-FMDAB--Jobsite-Radio-with-Bluetooth---Black-Body-_MAKDMR115B.htm",
       "lastScraped": "2026-03-13T18:35:34.996Z"
+    },
+    "Toolden": {
+      "price": 190.77,
+      "inStock": false,
+      "name": "Makita MR007GZ02 12V-40V DAB/DAB+ Job Site Bluetooth Radio (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-radios/makita-dmr115-dab-dab-job-site-bluetooth-radio/",
+      "lastScraped": "2026-03-14T16:57:26.481Z",
+      "priceIncVat": 190.77,
+      "priceExVat": 158.97,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/jobsite-radios/makita-mr007gz02-12v-40v-dab-dab-job-site-bluetooth-radio-body-only/"
     }
   }
 }

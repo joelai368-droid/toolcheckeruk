@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-circular-saw",
   "model": "DCS391N",
-  "lastScraped": "2026-03-13T21:51:42.817Z",
+  "lastScraped": "2026-03-14T16:55:42.942Z",
   "retailers": {
     "Screwfix": {
       "price": 99.99,
@@ -23,6 +23,16 @@
       "name": "DeWalt DCS391N 18V XR 165mm Circular Saw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-circular-plunge-saws/dewalt-dcs391n-18v-xr-165mm-circular-saw-body-only.htm",
       "lastScraped": "2026-03-13T21:47:46.882Z"
+    },
+    "Toolden": {
+      "price": 123.85,
+      "inStock": true,
+      "name": "DeWalt DCS391N-XJ 18V XR Cordless 165mm Circular Saw (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-circular-saws/dewalt-dcs391n-xj-18v-xr-cordless-165mm-circular-saw-body-only/",
+      "lastScraped": "2026-03-14T16:55:46.253Z",
+      "priceIncVat": 123.85,
+      "priceExVat": 103.21,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-circular-saws/dewalt-dcs391n-xj-18v-xr-cordless-165mm-circular-saw-body-only/"
     }
   }
 }

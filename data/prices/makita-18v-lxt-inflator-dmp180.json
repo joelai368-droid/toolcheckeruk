@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-lxt-inflator-dmp180",
   "model": "DMP180Z",
-  "lastScraped": "2026-03-13T21:53:38.501Z",
+  "lastScraped": "2026-03-14T16:57:26.481Z",
   "retailers": {
     "Screwfix": {
       "price": 57.99,
@@ -23,6 +23,16 @@
       "name": "Makita DMP180Z 18V LXT Inflator Bare Unit",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/home-and-garden/makita-dmp180z-18v-lxt-inflator-bare-unit.htm",
       "lastScraped": "2026-03-13T18:35:40.740Z"
+    },
+    "Toolden": {
+      "price": 68.49,
+      "inStock": true,
+      "name": "Makita DMP180Z 18V LXT Cordless Inflator Pump (Body Only)",
+      "url": "https://www.toolden.co.uk/automotive/makita-dmp180z-18v-lxt-cordless-inflator-pump-body-only/",
+      "lastScraped": "2026-03-14T16:57:29.446Z",
+      "priceIncVat": 68.49,
+      "priceExVat": 57.07,
+      "canonicalUrl": "https://www.toolden.co.uk/automotive/makita-dmp180z-18v-lxt-cordless-inflator-pump-body-only/"
     }
   }
 }

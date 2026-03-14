@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-guide-rail-1500mm",
   "model": "DWS5022",
-  "lastScraped": "2026-03-13T21:51:42.823Z",
+  "lastScraped": "2026-03-14T16:56:39.057Z",
   "retailers": {
     "Screwfix": {
       "price": 74.99,
@@ -9,6 +9,16 @@
       "name": "DEWALT DWS5022-XJ 1 x 1500mm Guide Rail (36782)",
       "url": "https://www.screwfix.com/p/dewalt-dws5022-xj-1-x-1500mm-guide-rail/36782",
       "lastScraped": "2026-03-13T21:48:50.474Z"
+    },
+    "Toolden": {
+      "price": 70.9,
+      "inStock": true,
+      "name": "DeWalt DWS5022-XJ Plunge Saw Guide Rail 1.5m",
+      "url": "https://www.toolden.co.uk/accessories/power-tool-accessories/guide-rails/DeWalt-plunge-saw-guide-rail-1-5m/",
+      "lastScraped": "2026-03-14T16:56:42.592Z",
+      "priceIncVat": 70.9,
+      "priceExVat": 59.08,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/power-tool-accessories/guide-rails/DeWalt-plunge-saw-guide-rail-1-5m/"
     }
   }
 }

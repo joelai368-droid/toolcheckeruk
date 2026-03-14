@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-router",
   "model": "DRT50Z",
-  "lastScraped": "2026-03-13T21:53:31.270Z",
+  "lastScraped": "2026-03-14T16:56:06.483Z",
   "retailers": {
     "Screwfix": {
       "price": 249.99,
@@ -9,6 +9,16 @@
       "name": "Makita DRT50ZJX3 18V Li-Ion LXT 1/4\" Brushless Cordless Router / Trimmer - Bare (640HT)",
       "url": "https://www.screwfix.com/p/makita-drt50zjx3-18v-li-ion-lxt-1-4-brushless-cordless-router-trimmer-bare/640ht",
       "lastScraped": "2026-03-13T18:34:20.572Z"
+    },
+    "Toolden": {
+      "price": 149.99,
+      "inStock": true,
+      "name": "Makita DRT50ZX4 LXT 18V Brushless 1/4\" Router (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/wood-routers/makita-drt50zx4-lxt-18v-brushless-1-4-router-body-only/",
+      "lastScraped": "2026-03-14T16:56:09.916Z",
+      "priceIncVat": 149.99,
+      "priceExVat": 124.99,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/wood-routers/makita-drt50zx4-lxt-18v-brushless-1-4-router-body-only/"
     }
   }
 }

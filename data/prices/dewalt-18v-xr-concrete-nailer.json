@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-concrete-nailer",
   "model": "DCN890N",
-  "lastScraped": "2026-03-13T21:52:40.843Z",
+  "lastScraped": "2026-03-14T16:56:59.811Z",
   "retailers": {
     "ITS": {
       "price": 659.99,
@@ -16,6 +16,17 @@
       "name": "DeWalt DCN890N 18v XR Concrete Nailer Bare Unit",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-nail-guns/dewalt-dcn890n-18v-xr-concrete-nailer-bare-unit.htm",
       "lastScraped": "2026-03-13T21:52:42.908Z"
+    },
+    "Toolden": {
+      "price": 671.62,
+      "inStock": false,
+      "name": "DeWalt DCN890N XR 18V Cordless Angled Concrete Nail Gun (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/dewalt-dcn890n-xr-18v-cordless-angled-concrete-nail-gun-body-only/",
+      "lastScraped": "2026-03-14T16:57:02.900Z",
+      "priceIncVat": 671.62,
+      "priceExVat": 559.68,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/dewalt-dcn890n-xr-18v-cordless-angled-concrete-nail-gun-body-only/"
     }
   }
 }

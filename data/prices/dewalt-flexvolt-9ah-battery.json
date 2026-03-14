@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-flexvolt-9ah-battery",
   "model": "DCB547",
-  "lastScraped": "2026-03-13T21:51:45.255Z",
+  "lastScraped": "2026-03-14T16:57:38.486Z",
   "retailers": {
     "Screwfix": {
       "price": 179.89,
@@ -23,6 +23,16 @@
       "name": "DeWalt DCB547 18V/54V XR Flexvolt 9.0Ah Li-Ion Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/batteries-and-chargers/dewalt-dcb547-18v-54v-xr-flexvolt-9-0ah-li-ion-battery.htm",
       "lastScraped": "2026-03-13T21:49:58.067Z"
+    },
+    "Toolden": {
+      "price": 154.99,
+      "inStock": true,
+      "name": "DeWalt DCB547 XR 9.0Ah Flexvolt 18/54V Battery",
+      "url": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/dewalt-dcb547-xr-9-0ah-flexvolt-18-54v-battery/",
+      "lastScraped": "2026-03-14T16:57:45.313Z",
+      "priceIncVat": 154.99,
+      "priceExVat": 129.16,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/dewalt-dcb547-xr-9-0ah-flexvolt-18-54v-battery/"
     }
   }
 }

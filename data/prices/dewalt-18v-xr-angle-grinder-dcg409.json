@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-angle-grinder-dcg409",
   "model": "DCG409N",
-  "lastScraped": "2026-03-13T21:51:42.823Z",
+  "lastScraped": "2026-03-14T16:56:42.592Z",
   "retailers": {
     "Screwfix": {
       "price": 239.99,
@@ -9,6 +9,17 @@
       "name": "DEWALT DCG409VSNT-XJ 18V Li-Ion XR 4.9\" Brushless Cordless Angle Grinder - Bare (632FU)",
       "url": "https://www.screwfix.com/p/dewalt-dcg409vsnt-xj-18v-li-ion-xr-4-9-brushless-cordless-angle-grinder-bare/632fu",
       "lastScraped": "2026-03-13T21:48:53.628Z"
+    },
+    "Toolden": {
+      "price": 169.5,
+      "inStock": false,
+      "name": "DeWalt DCG409N 18V XR Flexvolt Advantage 125mm Angle Grinder (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-grinders-and-polishers/cordless-angle-grinders/dewalt-dcg409n-18v-xr-flexvolt-advantage-125mm-angle-grinder-body-only/",
+      "lastScraped": "2026-03-14T16:56:45.687Z",
+      "priceIncVat": 169.5,
+      "priceExVat": 141.25,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-grinders-and-polishers/cordless-angle-grinders/dewalt-dcg409n-18v-xr-flexvolt-advantage-125mm-angle-grinder-body-only/"
     }
   }
 }

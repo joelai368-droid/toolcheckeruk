@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-collated-screwgun",
   "model": "DCF620N",
-  "lastScraped": "2026-03-13T21:51:42.826Z",
+  "lastScraped": "2026-03-14T16:57:15.747Z",
   "retailers": {
     "Screwfix": {
       "price": 159.99,
@@ -23,6 +23,16 @@
       "name": "Dewalt DCF620N 18V XR Collated Brushless Drywall Screwdriver Screw Gun",
       "url": "https://www.powertoolmate.co.uk/power-tools/cordless-drywall-collated-guns/dewalt-dcf620n-xr-18v-collated-brushless-drywall-screwdriver-screw-gun-dcf6202-c.htm",
       "lastScraped": "2026-03-13T21:49:33.637Z"
+    },
+    "Toolden": {
+      "price": 113.43,
+      "inStock": true,
+      "name": "DeWalt DCF620N 18V Brushless Loose Drywall Screwdriver in a TSTAK Case (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-screwdrivers/dewalt-dcf620n-18v-brushless-loose-drywall-screwdriver-in-a-tstak-case-body-only/",
+      "lastScraped": "2026-03-14T16:57:19.008Z",
+      "priceIncVat": 113.43,
+      "priceExVat": 94.52,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills-drivers/cordless-screwdrivers/dewalt-dcf620n-18v-brushless-loose-drywall-screwdriver-in-a-tstak-case-body-only/"
     }
   }
 }

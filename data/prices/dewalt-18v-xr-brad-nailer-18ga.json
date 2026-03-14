@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-brad-nailer-18ga",
   "model": "DCN681N",
-  "lastScraped": "2026-03-13T21:51:42.824Z",
+  "lastScraped": "2026-03-14T16:56:56.654Z",
   "retailers": {
     "Screwfix": {
       "price": 384.97,
@@ -23,6 +23,16 @@
       "name": "Dewalt DCN681N 18V Cordless XR Brushless 18Ga Narrow Crown Stapler (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-nail-guns/dewalt-dcn681n-18v-cordless-xr-brushless-18ga-narrow-crown-stapler-body-only.htm",
       "lastScraped": "2026-03-13T21:49:14.694Z"
+    },
+    "Toolden": {
+      "price": 311.29,
+      "inStock": true,
+      "name": "DeWalt DCN681N-XJ 18V XR Brushless Gauge Crown Stapler (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/dewalt-dcn681n-xj-18v-xr-brushless-gauge-crown-stapler-body-only/",
+      "lastScraped": "2026-03-14T16:56:59.810Z",
+      "priceIncVat": 311.29,
+      "priceExVat": 259.41,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/dewalt-dcn681n-xj-18v-xr-brushless-gauge-crown-stapler-body-only/"
     }
   }
 }

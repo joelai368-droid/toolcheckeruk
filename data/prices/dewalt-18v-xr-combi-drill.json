@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-combi-drill",
   "model": "DCD796N",
-  "lastScraped": "2026-03-13T21:52:36.560Z",
+  "lastScraped": "2026-03-14T16:55:38.740Z",
   "retailers": {
     "ITS": {
       "price": 64.98,
@@ -16,6 +16,16 @@
       "name": "DeWalt DCD796N 18V XR Brushless Compact Combi Drill (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-drills/dewalt-dcd796n-18v-xr-brushless-compact-combi-drill-body-only.htm",
       "lastScraped": "2026-03-13T21:52:39.020Z"
+    },
+    "Toolden": {
+      "price": 69.99,
+      "inStock": true,
+      "name": "DeWalt DCD796N 18V XR Brushless Combi Drill (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-combi-drills/DeWalt-dcd796n-18v-xr-brushless-combi-drill-body-only/",
+      "lastScraped": "2026-03-14T16:55:40.815Z",
+      "priceIncVat": 69.99,
+      "priceExVat": 58.32,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-combi-drills/DeWalt-dcd796n-18v-xr-brushless-combi-drill-body-only/"
     }
   }
 }

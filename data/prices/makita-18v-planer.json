@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-planer",
   "model": "DKP181Z",
-  "lastScraped": "2026-03-13T21:53:31.268Z",
+  "lastScraped": "2026-03-14T16:55:56.917Z",
   "retailers": {
     "Screwfix": {
       "price": 219.99,
@@ -23,6 +23,16 @@
       "name": "Makita DKP181Z 18V LXT Brushless Planer - Body",
       "url": "https://its.co.uk/pd/DKP181Z-Makita-DKP181Z-18V-LXT-Brushless-Planer---Body-_MAKDKP181Z.htm",
       "lastScraped": "2026-03-13T18:34:11.851Z"
+    },
+    "Toolden": {
+      "price": 235.02,
+      "inStock": true,
+      "name": "Makita DKP181Z LXT 18V Brushless 82mm Planer (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-planers/makita-dkp181z-lxt-18v-brushless-82mm-planer-body-only/",
+      "lastScraped": "2026-03-14T16:56:00.425Z",
+      "priceIncVat": 235.02,
+      "priceExVat": 195.85,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-planers/makita-dkp181z-lxt-18v-brushless-82mm-planer-body-only/"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-3speed-impact-driver",
   "model": "DCF850N",
-  "lastScraped": "2026-03-13T21:51:42.820Z",
+  "lastScraped": "2026-03-14T16:56:12.805Z",
   "retailers": {
     "Screwfix": {
       "price": 139.89,
@@ -23,6 +23,16 @@
       "name": "Dewalt DCF850N 18v XR Powerstack Brushless Impact Driver Body Only",
       "url": "https://www.powertoolmate.co.uk/dewalt-dcf850n-18v-xr-powerstack-brushless-impact-driver-body-only.htm",
       "lastScraped": "2026-03-13T21:48:23.224Z"
+    },
+    "Toolden": {
+      "price": 110.21,
+      "inStock": true,
+      "name": "DeWalt DCF850N 18V Brushless Impact Driver (Body Only)",
+      "url": "https://www.toolden.co.uk/cordless-impact-drivers/dewalt-dcf850n-18v-brushless-impact-driver-body-only/",
+      "lastScraped": "2026-03-14T16:56:16.043Z",
+      "priceIncVat": 110.21,
+      "priceExVat": 91.84,
+      "canonicalUrl": "https://www.toolden.co.uk/cordless-impact-drivers/dewalt-dcf850n-18v-brushless-impact-driver-body-only/"
     }
   }
 }

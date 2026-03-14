@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-belt-sander",
   "model": "DCW220N",
-  "lastScraped": "2026-03-13T21:51:42.824Z",
+  "lastScraped": "2026-03-14T16:56:55.591Z",
   "retailers": {
     "Screwfix": {
       "price": 259.99,
@@ -9,6 +9,16 @@
       "name": "DEWALT DCW220NT-XJ 2.95\" 18V Li-Ion XR Brushless Cordless Belt Sander - Bare (732RL)",
       "url": "https://www.screwfix.com/p/dewalt-dcw220nt-xj-2-95-18v-li-ion-xr-brushless-cordless-belt-sander-bare/732rl",
       "lastScraped": "2026-03-13T21:49:09.483Z"
+    },
+    "Toolden": {
+      "price": 273.08,
+      "inStock": true,
+      "name": "DeWalt DCW220NT-XJ 18V XR 75mm Brushless Belt Sander in a T-Stak Case (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-sanders/dewalt-dcw220nt-xj-18v-xr-75mm-brushless-belt-sander-in-a-t-stak-case-body-only/",
+      "lastScraped": "2026-03-14T16:56:56.653Z",
+      "priceIncVat": 273.08,
+      "priceExVat": 227.57,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-woodworking-tools/cordless-sanders/dewalt-dcw220nt-xj-18v-xr-75mm-brushless-belt-sander-in-a-t-stak-case-body-only/"
     }
   }
 }

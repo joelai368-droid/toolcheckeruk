@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-mitre-saw-184mm",
   "model": "DCS365N",
-  "lastScraped": "2026-03-13T21:51:42.822Z",
+  "lastScraped": "2026-03-14T16:56:35.926Z",
   "retailers": {
     "Screwfix": {
       "price": 389.89,
@@ -16,6 +16,16 @@
       "name": "Dewalt DCS365N 18V XR 184mm Sliding Mitre Saw - Body",
       "url": "https://its.co.uk/pd/DCS365-Dewalt-DCS365-18V-XR-184mm-Compound-Mitre-Saw---Body-_DEWDCS365N.htm",
       "lastScraped": "2026-03-13T21:48:48.028Z"
+    },
+    "Toolden": {
+      "price": 349.58,
+      "inStock": true,
+      "name": "DeWalt DCS365N 18V XR 184mm XPS Slide Mitre Saw (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-mitre-saws/dewalt-dcs365n-18v-xr-184mm-xps-slide-mitre-saw-body-only/",
+      "lastScraped": "2026-03-14T16:56:39.056Z",
+      "priceIncVat": 349.58,
+      "priceExVat": 291.32,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-mitre-saws/dewalt-dcs365n-18v-xr-184mm-xps-slide-mitre-saw-body-only/"
     }
   }
 }

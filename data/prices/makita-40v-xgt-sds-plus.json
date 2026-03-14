@@ -1,7 +1,7 @@
 {
   "slug": "makita-40v-xgt-sds-plus",
   "model": "HR003GZ",
-  "lastScraped": "2026-03-13T21:53:31.275Z",
+  "lastScraped": "2026-03-14T16:56:42.202Z",
   "retailers": {
     "ITS": {
       "price": 314.99,
@@ -9,6 +9,16 @@
       "name": "Makita HR003GZ 40V XGT Brushless SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/HR003G-Makita-HR003GZ-40V-XGT-Brushless-SDSplus-Drill---Body-_MAKHR003GZ.htm",
       "lastScraped": "2026-03-13T18:34:55.722Z"
+    },
+    "Toolden": {
+      "price": 330.78,
+      "inStock": true,
+      "name": "Makita HR003GZ 40V Max XGT Brushless SDS-Plus Hammer Drill (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-sds-hammer-drills/makita-hr003gz-40v-max-xgt-brushless-sds-plus-hammer-drill-body-only/",
+      "lastScraped": "2026-03-14T16:56:45.326Z",
+      "priceIncVat": 330.78,
+      "priceExVat": 275.65,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-sds-hammer-drills/makita-hr003gz-40v-max-xgt-brushless-sds-plus-hammer-drill-body-only/"
     }
   }
 }

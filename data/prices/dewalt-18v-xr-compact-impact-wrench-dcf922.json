@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-compact-impact-wrench-dcf922",
   "model": "DCF922N",
-  "lastScraped": "2026-03-13T21:51:42.821Z",
+  "lastScraped": "2026-03-14T16:56:19.475Z",
   "retailers": {
     "Screwfix": {
       "price": 164.99,
@@ -23,6 +23,16 @@
       "name": "Dewalt DCF922N 18v Brushless 1/2\" Impact Wrench BODY ONLY",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-wrenches-ratchets/dewalt-dcf922n-18v-brushless-1-2-impact-wrench-body-only.htm",
       "lastScraped": "2026-03-13T21:48:30.868Z"
+    },
+    "Toolden": {
+      "price": 166.92,
+      "inStock": true,
+      "name": "DeWalt DCF922N-XJ 18V 1/2\" Compact Brushless Impact Wrench (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/dewalt-dcf922n-xj-18v-1-2-compact-brushless-impact-wrench-body-only/",
+      "lastScraped": "2026-03-14T16:56:22.971Z",
+      "priceIncVat": 166.92,
+      "priceExVat": 139.1,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/dewalt-dcf922n-xj-18v-1-2-compact-brushless-impact-wrench-body-only/"
     }
   }
 }

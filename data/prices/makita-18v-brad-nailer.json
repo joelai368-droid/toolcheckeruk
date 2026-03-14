@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-brad-nailer",
   "model": "DBN600Z",
-  "lastScraped": "2026-03-13T21:53:31.269Z",
+  "lastScraped": "2026-03-14T16:56:00.425Z",
   "retailers": {
     "ITS": {
       "price": 389.99,
@@ -9,6 +9,17 @@
       "name": "Makita DBN600 18V LXT Second Fix Finishing Nail Gun - Body",
       "url": "https://its.co.uk/pd/DBN600Z-Makita-DBN600-18V-LXT-Second-Fix-Finishing-Nail-Gun---Body-_MAKDBN600Z.htm",
       "lastScraped": "2026-03-13T18:34:15.242Z"
+    },
+    "Toolden": {
+      "price": 504.77,
+      "inStock": false,
+      "name": "Makita DBN600ZJ 18V Second Fix Nail Gun in Makpak Case (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/makita-dbn600zj-18v-second-fix-nail-gun-in-makpak-case-body-only/",
+      "lastScraped": "2026-03-14T16:56:03.385Z",
+      "priceIncVat": 504.77,
+      "priceExVat": 420.64,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/makita-dbn600zj-18v-second-fix-nail-gun-in-makpak-case-body-only/"
     }
   }
 }

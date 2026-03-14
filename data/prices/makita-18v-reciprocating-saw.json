@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-reciprocating-saw",
   "model": "DJR186Z",
-  "lastScraped": "2026-03-13T21:53:31.267Z",
+  "lastScraped": "2026-03-14T16:55:47.919Z",
   "retailers": {
     "Screwfix": {
       "price": 89.98,
@@ -23,6 +23,16 @@
       "name": "Makita DJR186Z 18V LXT Reciprocating Saw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-reciprocating-saws/makita-djr186z-18v-lxt-reciprocating-saw-body-only.htm",
       "lastScraped": "2026-03-13T18:34:00.269Z"
+    },
+    "Toolden": {
+      "price": 91.39,
+      "inStock": true,
+      "name": "Makita DJR186Z 18V LXT Reciprocating Saw (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-reciprocating-saws/makita-djr186z-18v-lxt-reciprocating-saw-body-only/",
+      "lastScraped": "2026-03-14T16:55:50.786Z",
+      "priceIncVat": 91.39,
+      "priceExVat": 76.16,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-reciprocating-saws/makita-djr186z-18v-lxt-reciprocating-saw-body-only/"
     }
   }
 }

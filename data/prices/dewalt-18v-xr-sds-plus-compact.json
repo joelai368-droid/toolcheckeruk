@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-sds-plus-compact",
   "model": "DCH133N",
-  "lastScraped": "2026-03-13T21:51:42.821Z",
+  "lastScraped": "2026-03-14T16:56:22.972Z",
   "retailers": {
     "Toolstation": {
       "price": 129.98,
@@ -16,6 +16,16 @@
       "name": "Dewalt DCH133N 18V XR Brushless SDS+ Hammer Drill - Body",
       "url": "https://its.co.uk/pd/dewalt-dch133n-18v-xr-brushless-sds-hammer-drill-body-_dewdch133n.htm",
       "lastScraped": "2026-03-13T21:48:31.754Z"
+    },
+    "Toolden": {
+      "price": 116.08,
+      "inStock": true,
+      "name": "DeWalt DCH133N 18V Brushless SDS+ Hammer Drill (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/dewalt-dch133n-18v-brushless-sds-hammer-drill-body-only/",
+      "lastScraped": "2026-03-14T16:56:26.074Z",
+      "priceIncVat": 116.08,
+      "priceExVat": 96.73,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/dewalt-dch133n-18v-brushless-sds-hammer-drill-body-only/"
     }
   }
 }

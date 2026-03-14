@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-lxt-impact-wrench-34-dtw700",
   "model": "DTW700Z",
-  "lastScraped": "2026-03-13T21:53:31.273Z",
+  "lastScraped": "2026-03-14T16:56:25.696Z",
   "retailers": {
     "Screwfix": {
       "price": 259.99,
@@ -23,6 +23,16 @@
       "name": "Makita DTW700Z 18V LXT Brushless Impact Wrench (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw700z-18v-brushless-impact-wrench-body-only.htm",
       "lastScraped": "2026-03-13T18:34:38.152Z"
+    },
+    "Toolden": {
+      "price": 188.42,
+      "inStock": true,
+      "name": "Makita DTW700Z 18V Brushless 1/2\" Impact Wrench (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/makita-dtw700z-18v-brushless-1-2-impact-wrench-body-only/",
+      "lastScraped": "2026-03-14T16:56:28.809Z",
+      "priceIncVat": 188.42,
+      "priceExVat": 157.02,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/makita-dtw700z-18v-brushless-1-2-impact-wrench-body-only/"
     }
   }
 }

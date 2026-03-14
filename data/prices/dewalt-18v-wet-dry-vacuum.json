@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-wet-dry-vacuum",
   "model": "DCV584L",
-  "lastScraped": "2026-03-13T21:51:42.825Z",
+  "lastScraped": "2026-03-14T16:57:09.053Z",
   "retailers": {
     "Powertool Mate": {
       "price": 159.99,
@@ -16,6 +16,16 @@
       "name": "Dewalt DCV584L 18V XR Hybrid L-Class Wet & Dry Vacuum - Body",
       "url": "https://its.co.uk/pd/DCV584L-Dewalt-DCV584L-18V-L-Class-Mains-Compatible-Vacuum---Body-_DEW240DCV584L.htm",
       "lastScraped": "2026-03-13T21:49:28.049Z"
+    },
+    "Toolden": {
+      "price": 174.85,
+      "inStock": true,
+      "name": "DeWalt DCV584L 18V XR L-Class Wet & Dry Vacuum (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-vacuums-dust-extractors/DeWalt-dcv584l-xr-flexvolt-54v-vacuum-body-only/",
+      "lastScraped": "2026-03-14T16:57:12.560Z",
+      "priceIncVat": 174.85,
+      "priceExVat": 145.71,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-vacuums-dust-extractors/DeWalt-dcv584l-xr-flexvolt-54v-vacuum-body-only/"
     }
   }
 }

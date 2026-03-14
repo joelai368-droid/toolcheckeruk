@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-multi-tool",
   "model": "DTM52Z",
-  "lastScraped": "2026-03-13T21:53:31.266Z",
+  "lastScraped": "2026-03-14T16:55:44.240Z",
   "retailers": {
     "Screwfix": {
       "price": 149.99,
@@ -23,6 +23,16 @@
       "name": "Makita DTM52Z 18V Brushless LXT Multi-Tool - Body Only",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-multi-tools/makita-dtm52z-18v-brushless-lxt-multi-tool-body-only.htm",
       "lastScraped": "2026-03-13T18:33:57.097Z"
+    },
+    "Toolden": {
+      "price": 169.99,
+      "inStock": true,
+      "name": "Makita DTM52Z LXT 18V Brushless Multi-Tool (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-multi-cutter-tools/makita-dtm52z-lxt-18v-brushless-multi-tool-body-only/",
+      "lastScraped": "2026-03-14T16:55:47.918Z",
+      "priceIncVat": 169.99,
+      "priceExVat": 141.66,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-multi-cutter-tools/makita-dtm52z-lxt-18v-brushless-multi-tool-body-only/"
     }
   }
 }

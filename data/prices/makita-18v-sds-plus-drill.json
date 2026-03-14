@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-sds-plus-drill",
   "model": "DHR242Z",
-  "lastScraped": "2026-03-13T21:53:31.268Z",
+  "lastScraped": "2026-03-14T16:55:53.904Z",
   "retailers": {
     "Screwfix": {
       "price": 179.99,
@@ -23,6 +23,16 @@
       "name": "Makita DHR242Z 18V LXT Brushless SDS+ Drill - Body",
       "url": "https://its.co.uk/pd/DHR242Z-Makita-DHR242Z-18V-LXT-Brushless-SDSplus-Drill---Body-_MAKDHR242Z.htm",
       "lastScraped": "2026-03-13T18:34:08.925Z"
+    },
+    "Toolden": {
+      "price": 166.49,
+      "inStock": true,
+      "name": "Makita DHR242Z 18V 24mm Brushless SDS+ Rotary Hammer (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-sds-hammer-drills/makita-dhr242z-18v-24mm-brushless-sds-rotary-hammer-body-only/",
+      "lastScraped": "2026-03-14T16:55:56.916Z",
+      "priceIncVat": 166.49,
+      "priceExVat": 138.74,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-sds-hammer-drills/makita-dhr242z-18v-24mm-brushless-sds-rotary-hammer-body-only/"
     }
   }
 }

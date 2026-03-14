@@ -1,7 +1,7 @@
 {
   "slug": "makita-40v-4ah-battery",
   "model": "BL4040",
-  "lastScraped": "2026-03-13T21:53:38.504Z",
+  "lastScraped": "2026-03-14T16:57:46.156Z",
   "retailers": {
     "ITS": {
       "price": 179.99,
@@ -16,6 +16,17 @@
       "name": "Makita 191B26-6 BL4040 40V Li-ion 4.0ah XGT Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-191b26-6-bl4040-40v-li-ion-4-0ah-xgt-battery.htm",
       "lastScraped": "2026-03-13T18:36:04.228Z"
+    },
+    "Toolden": {
+      "price": 140.81,
+      "inStock": false,
+      "name": "Makita BL4040 40V Max XGT Li-ion 4.0Ah XGT Battery",
+      "url": "https://www.toolden.co.uk/accessories/makita-bl4040-40v-max-xgt-li-ion-4-0ah-xgt-battery/",
+      "lastScraped": "2026-03-14T16:57:49.539Z",
+      "priceIncVat": 140.81,
+      "priceExVat": 117.34,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/makita-bl4040-40v-max-xgt-li-ion-4-0ah-xgt-battery/"
     }
   }
 }

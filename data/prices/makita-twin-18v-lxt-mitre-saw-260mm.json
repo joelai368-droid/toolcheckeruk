@@ -1,7 +1,7 @@
 {
   "slug": "makita-twin-18v-lxt-mitre-saw-260mm",
   "model": "DLS110Z",
-  "lastScraped": "2026-03-13T21:53:31.276Z",
+  "lastScraped": "2026-03-14T16:56:55.447Z",
   "retailers": {
     "ITS": {
       "price": 899.99,
@@ -9,6 +9,16 @@
       "name": "Makita DLS110Z 36V (Twin 18V) 260mm Brushless Slide Compound Mitre Saw - Body & DEBWST06 Saw Stand",
       "url": "https://its.co.uk/pd/makita-dls110z-36v-twin-18v-260mm-brushless-slide-compound-mitre-saw-body-debwst06-saw-stand-_makdls110wst.htm",
       "lastScraped": "2026-03-13T18:35:06.150Z"
+    },
+    "Toolden": {
+      "price": 824.69,
+      "inStock": true,
+      "name": "Makita DLS110Z Twin 18V LXT Brushless 260mm Slide Compound Mitre Saw (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-mitre-saws/makita-dls110z-twin-18v-lxt-brushless-260mm-slide-compound-mitre-saw-body-only/",
+      "lastScraped": "2026-03-14T16:56:56.513Z",
+      "priceIncVat": 824.69,
+      "priceExVat": 687.24,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-mitre-saws/makita-dls110z-twin-18v-lxt-brushless-260mm-slide-compound-mitre-saw-body-only/"
     }
   }
 }

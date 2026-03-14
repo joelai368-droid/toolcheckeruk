@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-second-fix-nailer",
   "model": "DCN660N",
-  "lastScraped": "2026-03-13T21:51:42.819Z",
+  "lastScraped": "2026-03-14T16:56:06.772Z",
   "retailers": {
     "Screwfix": {
       "price": 309.99,
@@ -23,6 +23,16 @@
       "name": "DeWalt DCN660N 18V XR 2nd Fix Brushless Nailer (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-nail-guns/dewalt-dcn660n-type-3-18v-xr-2nd-fix-brushless-nailer-body-only.htm",
       "lastScraped": "2026-03-13T21:48:10.010Z"
+    },
+    "Toolden": {
+      "price": 299.11,
+      "inStock": true,
+      "name": "DeWalt DCN660N-XJ 18V XR Brushless Second Fix Nail Gun (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/DeWalt-dcn660n-xj-18v-brushless-2nd-fix-nailer-body-only/",
+      "lastScraped": "2026-03-14T16:56:09.650Z",
+      "priceIncVat": 299.11,
+      "priceExVat": 249.26,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-nailers-and-staple-guns/DeWalt-dcn660n-xj-18v-brushless-2nd-fix-nailer-body-only/"
     }
   }
 }

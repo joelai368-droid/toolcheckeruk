@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-jigsaw",
   "model": "DCS334N",
-  "lastScraped": "2026-03-13T21:51:42.818Z",
+  "lastScraped": "2026-03-14T16:55:56.507Z",
   "retailers": {
     "Screwfix": {
       "price": 189.99,
@@ -23,6 +23,16 @@
       "name": "DeWalt DCS334N 18V XR Brushless Top Handle Jigsaw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-jigsaws/dewalt-dcs334n-18v-xr-brushless-top-handle-jigsaw-bare-unit.htm",
       "lastScraped": "2026-03-13T21:48:00.536Z"
+    },
+    "Toolden": {
+      "price": 139.3,
+      "inStock": true,
+      "name": "DeWalt DCS334N-XJ 18V XR Brushless Jigsaw (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-jigsaws/dewalt-dcs334n-xj-18v-xr-brushless-jigsaw-body-only/",
+      "lastScraped": "2026-03-14T16:55:59.679Z",
+      "priceIncVat": 139.3,
+      "priceExVat": 116.08,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-jigsaws/dewalt-dcs334n-xj-18v-xr-brushless-jigsaw-body-only/"
     }
   }
 }

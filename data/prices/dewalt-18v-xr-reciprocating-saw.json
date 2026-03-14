@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-xr-reciprocating-saw",
   "model": "DCS367N",
-  "lastScraped": "2026-03-13T21:51:42.818Z",
+  "lastScraped": "2026-03-14T16:55:52.976Z",
   "retailers": {
     "Screwfix": {
       "price": 169.99,
@@ -23,6 +23,16 @@
       "name": "DeWalt DCS367N 18V XR Brushless Compact Reciprocating Saw (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/cordless-reciprocating-saws/dewalt-dcs367n-18v-xr-brushless-compact-recip-saw-bare-unit.htm",
       "lastScraped": "2026-03-13T21:47:55.722Z"
+    },
+    "Toolden": {
+      "price": 165.41,
+      "inStock": true,
+      "name": "DeWalt DCS367N-XJ 18V XR Brushless Reciprocating Saw (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-reciprocating-saws/dewalt-dcs367n-xj-18v-xr-brushless-reciprocating-saw-body-only/",
+      "lastScraped": "2026-03-14T16:55:56.506Z",
+      "priceIncVat": 165.41,
+      "priceExVat": 137.84,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-reciprocating-saws/dewalt-dcs367n-xj-18v-xr-brushless-reciprocating-saw-body-only/"
     }
   }
 }

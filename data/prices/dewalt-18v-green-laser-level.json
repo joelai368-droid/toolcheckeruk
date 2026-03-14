@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-green-laser-level",
   "model": "DCE089D1G",
-  "lastScraped": "2026-03-13T21:51:42.826Z",
+  "lastScraped": "2026-03-14T16:57:12.560Z",
   "retailers": {
     "Screwfix": {
       "price": 399.99,
@@ -9,6 +9,16 @@
       "name": "DEWALT DCE089D1G-GB 12V 1 x 2.0Ah Li-Ion XR Green Self-Levelling Multi-Line Laser Level (9819K)",
       "url": "https://www.screwfix.com/p/dewalt-dce089d1g-gb-12v-1-x-2-0ah-li-ion-xr-green-self-levelling-multi-line-laser-level/9819k",
       "lastScraped": "2026-03-13T21:49:28.932Z"
+    },
+    "Toolden": {
+      "price": 389.15,
+      "inStock": true,
+      "name": "DeWalt DCE089D1G-GB 12V Self Levelling Green Multi Line Laser with 1x 2.0Ah Battery",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-measurement-inspection-tools/cordless-laser-levels/dewalt-dce089d1g-10-8v-self-levelling-multi-line-laser-green/",
+      "lastScraped": "2026-03-14T16:57:15.746Z",
+      "priceIncVat": 389.15,
+      "priceExVat": 324.29,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-measurement-inspection-tools/cordless-laser-levels/DeWalt-dce089d1g-10-8v-self-levelling-multi-line-laser-green/"
     }
   }
 }

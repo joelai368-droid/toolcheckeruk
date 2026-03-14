@@ -1,7 +1,7 @@
 {
   "slug": "dewalt-18v-5ah-battery",
   "model": "DCB184",
-  "lastScraped": "2026-03-13T21:51:45.254Z",
+  "lastScraped": "2026-03-14T16:57:28.971Z",
   "retailers": {
     "Screwfix": {
       "price": 54.99,
@@ -23,6 +23,16 @@
       "name": "DeWalt 18V 5.0Ah Energy Pack - 2 x DCB184 5.0Ah Batteries, DCB1104 Charger in PTM Bag",
       "url": "https://www.powertoolmate.co.uk/power-tools/dewalt-store/batteries-and-chargers/dewalt-18v-5-0ah-energy-pack-2-x-dcb184-5-0ah-batteries-dcb115-charger-in-ptm-ba.htm",
       "lastScraped": "2026-03-13T21:49:48.260Z"
+    },
+    "Toolden": {
+      "price": 59.84,
+      "inStock": true,
+      "name": "DeWalt DCB184-XJ 18V 5.0Ah XR Lithium-Ion Battery",
+      "url": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/DeWalt-dcb184-18v-5-0ah-xr-li-ion-battery/",
+      "lastScraped": "2026-03-14T16:57:32.344Z",
+      "priceIncVat": 59.84,
+      "priceExVat": 49.87,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/DeWalt-dcb184-18v-5-0ah-xr-li-ion-battery/"
     }
   }
 }

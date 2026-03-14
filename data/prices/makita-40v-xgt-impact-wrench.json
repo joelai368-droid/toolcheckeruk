@@ -1,7 +1,7 @@
 {
   "slug": "makita-40v-xgt-impact-wrench",
   "model": "TW001GZ",
-  "lastScraped": "2026-03-13T21:53:31.274Z",
+  "lastScraped": "2026-03-14T16:56:32.088Z",
   "retailers": {
     "ITS": {
       "price": 299.99,
@@ -9,6 +9,16 @@
       "name": "Makita TW001GZ 40V XGT Brushless 3/4\" Impact Wrench - Body",
       "url": "https://its.co.uk/pd/TW001GZ-Makita-TW001GZ-40V-XGT-Brushless-34-Impact-Wrench---Body-_MAKTW001GZ.htm",
       "lastScraped": "2026-03-13T18:34:43.758Z"
+    },
+    "Toolden": {
+      "price": 331.91,
+      "inStock": true,
+      "name": "Makita TW001GZ 40V Max XGT 3/4\" Brushless Impact Wrench (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-impact-ratchet/makita-tw001gz-40v-max-xgt-3-4-brushless-impact-wrench-body-only/",
+      "lastScraped": "2026-03-14T16:56:35.320Z",
+      "priceIncVat": 331.91,
+      "priceExVat": 276.59,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-impact-ratchet/makita-tw001gz-40v-max-xgt-3-4-brushless-impact-wrench-body-only/"
     }
   }
 }

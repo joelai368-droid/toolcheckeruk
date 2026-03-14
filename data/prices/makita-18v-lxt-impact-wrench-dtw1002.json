@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-lxt-impact-wrench-dtw1002",
   "model": "DTW1002Z",
-  "lastScraped": "2026-03-13T21:53:31.273Z",
+  "lastScraped": "2026-03-14T16:56:28.809Z",
   "retailers": {
     "Screwfix": {
       "price": 268.99,
@@ -23,6 +23,16 @@
       "name": "Makita DTW1002Z 18V LXT Brushless Impact Wrench (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/cordless-wrenches-ratchets/makita-dtw1002z-18v-lxt-brushless-impact-wrench-body-only.htm",
       "lastScraped": "2026-03-13T18:34:42.189Z"
+    },
+    "Toolden": {
+      "price": 290.43,
+      "inStock": true,
+      "name": "Makita DTW1002Z LXT 18V 1/2\" Brushless Impact Wrench (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/makita-dtw1002z-lxt-18v-1-2-brushless-impact-wrench-body-only/",
+      "lastScraped": "2026-03-14T16:56:32.087Z",
+      "priceIncVat": 290.43,
+      "priceExVat": 242.02,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-impact-wrenches/makita-dtw1002z-lxt-18v-1-2-brushless-impact-wrench-body-only/"
     }
   }
 }

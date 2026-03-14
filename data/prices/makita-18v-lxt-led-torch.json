@@ -1,7 +1,7 @@
 {
   "slug": "makita-18v-lxt-led-torch",
   "model": "DML812",
-  "lastScraped": "2026-03-13T21:53:35.382Z",
+  "lastScraped": "2026-03-14T16:57:16.505Z",
   "retailers": {
     "ITS": {
       "price": 79.99,
@@ -23,6 +23,17 @@
       "name": "Makita DML812 14.4/18V Li-Ion LXT Cordless Torch - Bare (784PY)",
       "url": "https://www.screwfix.com/p/makita-dml812-14-4-18v-li-ion-lxt-cordless-torch-bare/784py#product_additional_details_container",
       "lastScraped": "2026-03-13T21:53:38.499Z"
+    },
+    "Toolden": {
+      "price": 81.03,
+      "inStock": false,
+      "name": "Makita DML812 18V High Power Flashlight (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-lighting-torches/makita-dml812-18v-high-power-flashlight-body-only/",
+      "lastScraped": "2026-03-14T16:57:19.336Z",
+      "priceIncVat": 81.03,
+      "priceExVat": 67.52,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-lighting-torches/makita-dml812-18v-high-power-flashlight-body-only/"
     }
   }
 }

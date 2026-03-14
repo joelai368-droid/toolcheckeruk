@@ -1,7 +1,7 @@
 {
   "slug": "makita-twin-18v-lxt-mitre-saw-305mm",
   "model": "DLS211Z",
-  "lastScraped": "2026-03-13T21:53:31.276Z",
+  "lastScraped": "2026-03-14T16:56:48.632Z",
   "retailers": {
     "ITS": {
       "price": 959.99,
@@ -9,6 +9,16 @@
       "name": "Makita DLS211ZU 36V (Twin 18V) LXT 305mm Brushless Slide Compound Mitre Saw - Body",
       "url": "https://its.co.uk/pd/DLS211ZU-Makita-DLS211ZU-36V-Twin-18V-LXT-305mm-Brushless-Slide-Compound-Mitre-Saw---Body-_MAKDLS211ZU.htm",
       "lastScraped": "2026-03-13T18:35:02.714Z"
+    },
+    "Toolden": {
+      "price": 1071.1,
+      "inStock": true,
+      "name": "Makita DLS211ZU Twin 18V LXT Brushless 305mm Slide Compound Mitre Saw with AWS (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-mitre-saws/makita-dls211zu-twin-18v-lxt-brushless-305mm-slide-compound-mitre-saw-with-aws-body-only/",
+      "lastScraped": "2026-03-14T16:56:55.447Z",
+      "priceIncVat": 1071.1,
+      "priceExVat": 892.58,
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-saws/cordless-mitre-saws/makita-dls211zu-twin-18v-lxt-brushless-305mm-slide-compound-mitre-saw-with-aws-body-only/"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "slug": "makita-40v-5ah-battery",
   "model": "BL4050F",
-  "lastScraped": "2026-03-13T21:53:38.505Z",
+  "lastScraped": "2026-03-14T16:57:49.540Z",
   "retailers": {
     "ITS": {
       "price": 204.98,
@@ -16,6 +16,16 @@
       "name": "Makita BL4050F 40v Max XGT 5ah Li-ion Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/makita-store/batteries-and-chargers/makita-bl4050-40v-max-xgt-5ah-li-ion-battery.htm",
       "lastScraped": "2026-03-13T18:36:07.662Z"
+    },
+    "Toolden": {
+      "price": 174.99,
+      "inStock": true,
+      "name": "Makita BL4050F 40V Max XGT 5.0Ah Battery",
+      "url": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl4050f-40v-max-xgt-5-0ah-battery/",
+      "lastScraped": "2026-03-14T16:57:52.481Z",
+      "priceIncVat": 174.99,
+      "priceExVat": 145.82,
+      "canonicalUrl": "https://www.toolden.co.uk/accessories/batteries-chargers/batteries/makita-bl4050f-40v-max-xgt-5-0ah-battery/"
     }
   }
 }

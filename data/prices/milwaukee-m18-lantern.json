@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-lantern",
   "model": "M18 AL-0",
-  "lastScraped": "2026-03-14T11:53:32.695Z",
+  "lastScraped": "2026-03-14T13:04:58.944Z",
   "retailers": {
     "Screwfix": {
       "price": 87.79,
@@ -23,6 +23,10 @@
       "name": "Milwaukee M18AL-0 18V Trueview LED Area Light (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m18al-0-18v-trueview-led-area-light-body-only.htm",
       "lastScraped": "2026-03-14T11:53:35.239Z"
+    },
+    "Big Red Power Tools": {
+      "error": "HTTP 503",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18al-0"
     }
   }
 }

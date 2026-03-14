@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-led-torch",
   "model": "M18 TLED-0",
-  "lastScraped": "2026-03-14T11:52:12.806Z",
+  "lastScraped": "2026-03-14T13:04:59.383Z",
   "retailers": {
     "Screwfix": {
       "price": 29.99,
@@ -30,6 +30,10 @@
       "name": "Milwaukee M18TLED 18V LED Torch Light (Body Only)",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-lighting/milwaukee-m18tled-18v-led-torch-light-body-only.htm",
       "lastScraped": "2026-03-14T11:52:15.816Z"
+    },
+    "Big Red Power Tools": {
+      "error": "HTTP 503",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18tled-0"
     }
   }
 }

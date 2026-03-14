@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-inflator",
   "model": "M18 BI-0",
-  "lastScraped": "2026-03-14T11:52:18.169Z",
+  "lastScraped": "2026-03-14T13:04:58.481Z",
   "retailers": {
     "Screwfix": {
       "price": 153.99,
@@ -30,6 +30,10 @@
       "name": "Milwaukee M18BI-0 18v Inflator Naked",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-other/milwakee-m18bi-0-18v-inflator-naked.htm",
       "lastScraped": "2026-03-14T11:52:22.398Z"
+    },
+    "Big Red Power Tools": {
+      "error": "HTTP 503",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18bi-0"
     }
   }
 }

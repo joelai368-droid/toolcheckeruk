@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-threaded-rod-cutter",
   "model": "M18 BLTRC-0X",
-  "lastScraped": "2026-03-14T11:53:18.176Z",
+  "lastScraped": "2026-03-14T13:05:00.743Z",
   "retailers": {
     "ITS": {
       "price": 383.99,
@@ -9,6 +9,10 @@
       "name": "Milwaukee M18 BLTRC-0X 18V Brushless Threaded Rod Cutter - Body",
       "url": "https://its.co.uk/pd/M18-BLTRC-0X-Milwaukee-M18-BLTRC-0X-18V-Brushless-Threaded-Rod-Cutter---Body-_MILM18BLTRC0X.htm",
       "lastScraped": "2026-03-14T11:53:19.096Z"
+    },
+    "Big Red Power Tools": {
+      "error": "HTTP 500",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18bltrc-0x"
     }
   }
 }

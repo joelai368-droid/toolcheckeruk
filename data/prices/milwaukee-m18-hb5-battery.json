@@ -1,7 +1,7 @@
 {
   "slug": "milwaukee-m18-hb5-battery",
   "model": "M18 HB5",
-  "lastScraped": "2026-03-14T11:55:07.516Z",
+  "lastScraped": "2026-03-14T13:04:57.379Z",
   "retailers": {
     "Screwfix": {
       "price": 109.97,
@@ -30,6 +30,10 @@
       "name": "Milwaukee M18HB5 18V 5.5Ah RedLithium-Ion High Output Battery",
       "url": "https://www.powertoolmate.co.uk/power-tools/milwaukee/batteries-and-chargers/brand-new-milwaukee-m18-hb5-5-m18-5-5ah-redlithium-ion-high-output-battery.htm",
       "lastScraped": "2026-03-14T11:55:10.937Z"
+    },
+    "Big Red Power Tools": {
+      "error": "HTTP 503",
+      "url": "https://www.bigredpowertools.co.uk/milwaukee-m18hb5-5"
     }
   }
 }

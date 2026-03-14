@@ -25,6 +25,7 @@ const parsers = {
   'Powertool Mate': require('./parsers/powertoolmate'),
   'Machine Mart': require('./parsers/machinemart'),
   'Big Red Power Tools': require('./parsers/bigredpowertools'),
+  'Toolden': require('./parsers/toolden'),
 };
 
 const DEFAULT_MAPPING_FILE = path.join(__dirname, 'mappings/milwaukee.json');
@@ -102,13 +103,20 @@ async function scrapeRetailer(retailerName, url, parser) {
     }
 
     console.log(`    [${retailerName}] £${result.price.toFixed(2)} — ${result.inStock ? 'In Stock' : 'Out of Stock'}`);
-    return {
+    const scraped = {
       price: result.price,
       inStock: result.inStock,
       name: result.name,
       url,
       lastScraped: new Date().toISOString(),
     };
+
+    if (typeof result.priceIncVat === 'number') scraped.priceIncVat = result.priceIncVat;
+    if (typeof result.priceExVat === 'number') scraped.priceExVat = result.priceExVat;
+    if (typeof result.stockText === 'string' && result.stockText.trim()) scraped.stockText = result.stockText.trim();
+    if (typeof result.canonicalUrl === 'string' && result.canonicalUrl.trim()) scraped.canonicalUrl = result.canonicalUrl.trim();
+
+    return scraped;
   } catch (err) {
     console.log(`    [${retailerName}] Error: ${err.message}`);
     return { error: err.message, url };

@@ -20,6 +20,7 @@ const parsers = {
   'ITS': require('./parsers/its'),
   'Powertool Mate': require('./parsers/powertoolmate'),
   'Machine Mart': require('./parsers/machinemart'),
+  'Toolden': require('./parsers/toolden'),
 };
 
 const DEFAULT_MAPPING_FILE = path.join(__dirname, 'mappings/milwaukee.json');

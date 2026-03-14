@@ -1,14 +1,25 @@
 {
   "slug": "makita-18v-lxt-combi-drill",
   "model": "DHP486Z",
-  "lastScraped": "2026-03-13T21:53:31.262Z",
+  "lastScraped": "2026-03-14T16:39:17.333Z",
   "retailers": {
     "ITS": {
       "price": 129.98,
       "inStock": true,
       "name": "Makita DHP486Z 18V LXT Brushless Heavy Duty Combi Drill - Body",
       "url": "https://its.co.uk/pd/DHP486Z-Makita-DHP486Z-18V-LXT-Brushless-Heavy-Duty-Combi-Drill---Body-_MAKDHP486Z.htm",
-      "lastScraped": "2026-03-13T18:33:43.733Z"
+      "lastScraped": "2026-03-14T16:38:50.612Z"
+    },
+    "Toolden": {
+      "price": 129.71,
+      "inStock": false,
+      "name": "Makita DHP486Z 18V LXT Brushless Combi Drill (Body Only)",
+      "url": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-combi-drills/makita-dhp486z-18v-lxt-brushless-combi-drill-body-only/",
+      "lastScraped": "2026-03-14T16:39:18.599Z",
+      "priceIncVat": 129.71,
+      "priceExVat": 108.09,
+      "stockText": "Out of stock",
+      "canonicalUrl": "https://www.toolden.co.uk/power-tools/cordless-power-tools/cordless-drills/cordless-combi-drills/makita-dhp486z-18v-lxt-brushless-combi-drill-body-only/"
     }
   }
 }

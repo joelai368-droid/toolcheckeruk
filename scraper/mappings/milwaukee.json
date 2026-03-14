@@ -4,7 +4,8 @@
     "name": "M18 FUEL Combi Drill (Body Only)",
     "retailers": {
       "ITS": "https://its.co.uk/pd/milwaukee-m18-fpd3-0x-18v-fuel-brushless-combi-drill-body-_milm18fpd30.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m18fpd3-0-18v-fuel-combi-drill-naked-new-gen.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-drills/milwaukee-m18fpd3-0-18v-fuel-combi-drill-naked-new-gen.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18fpd3-0"
     }
   },
   "milwaukee-m18-fuel-impact-driver": {
@@ -14,21 +15,24 @@
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18fid3-0-fuel-18v-li-ion-redlithium-brushless-cordless-impact-driver-bare/461cx",
       "Toolstation": "https://www.toolstation.com/milwaukee-m18-fid3-0-fuel-gen-4-impact-driver/p17964",
       "ITS": "https://its.co.uk/pd/milwaukee-m18-fid3-0x-18v-fuel-brushless-1-4-impact-driver-body-_milm18fid30.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-18v-fid3-impact-driver-naked-new-gen.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-impact-drivers/milwaukee-18v-fid3-impact-driver-naked-new-gen.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18fid3-0"
     }
   },
   "milwaukee-m18-fuel-sds-plus-drill": {
     "model": "M18 CHX-0",
     "name": "M18 FUEL SDS Plus Hammer Drill (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M18CHX-0-18v-M18-FUEL-SDSplus-Drill---Body-_MILM18CHX0.htm"
+      "ITS": "https://its.co.uk/pd/M18CHX-0-18v-M18-FUEL-SDSplus-Drill---Body-_MILM18CHX0.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18chx-0"
     }
   },
   "milwaukee-m18-fuel-circular-saw": {
     "model": "M18 FCS66-0",
     "name": "M18 FUEL 190mm Circular Saw (Body Only)",
     "retailers": {
-      "ITS": "https://its.co.uk/pd/M18FCS66-0C-Milwaukee-M18-FCS66-0C-18V-FUEL-Brushless-190mm-Circular-Saw---Body-_MILM18FCS660C.htm"
+      "ITS": "https://its.co.uk/pd/M18FCS66-0C-Milwaukee-M18-FCS66-0C-18V-FUEL-Brushless-190mm-Circular-Saw---Body-_MILM18FCS660C.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18fcs66-0"
     }
   },
   "milwaukee-m18-fuel-reciprocating-saw": {
@@ -55,7 +59,8 @@
     "retailers": {
       "Toolstation": "https://www.toolstation.com/milwaukee-m18fjs-0-fuel-jigsaw/pAC787",
       "ITS": "https://its.co.uk/pd/M18FJS-0-Milwaukee-M18-FJS-0X-18V-FUEL-Brushless-Top-Handle-Jigsaw---Body-_MILM18FJS0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-jigsaws/milwaukee-m18fjs0-m18-fuel-li-ion-jigsaw-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-jigsaws/milwaukee-m18fjs0-m18-fuel-li-ion-jigsaw-body-only.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18fjs-0"
     }
   },
   "milwaukee-m18-fuel-angle-grinder": {
@@ -63,7 +68,8 @@
     "name": "M18 FUEL 125mm Angle Grinder with Paddle Switch (Body Only)",
     "retailers": {
       "Toolstation": "https://www.toolstation.com/milwaukee-m18fhsag125xpdb2-0x-fuelbraking-grinder-with-paddle-switch-gen-2/pAC793",
-      "ITS": "https://its.co.uk/pd/milwaukee-m18-fhsag125xpdb2-0x-18v-fuel-brushless-125mm-angle-grinder-body-case-_milm18fhsag125xpdb20x.htm"
+      "ITS": "https://its.co.uk/pd/milwaukee-m18-fhsag125xpdb2-0x-18v-fuel-brushless-125mm-angle-grinder-body-case-_milm18fhsag125xpdb20x.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18fhsag125xpdb-0"
     }
   },
   "milwaukee-m18-fuel-multi-tool": {
@@ -72,7 +78,8 @@
     "retailers": {
       "Toolstation": "https://www.toolstation.com/milwaukee-m18fmt-0-fuel-multi-tool/p46372",
       "ITS": "https://its.co.uk/pd/M18-FMT-Milwaukee-M18-FMT-0-18V-FUEL-Brushless-Multi-Tool---Body-Only-_MILM18FMT0NOCASE.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-multi-tools/milwaukee-m18fmt-0-fuel-18v-multi-tool-bare-unit.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-multi-tools/milwaukee-m18fmt-0-fuel-18v-multi-tool-bare-unit.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18fmt-0"
     }
   },
   "milwaukee-m18-fuel-planer": {
@@ -81,7 +88,8 @@
     "retailers": {
       "Screwfix": "https://www.screwfix.com/p/milwaukee-m18-bp-0-18v-li-ion-cordless-planer-bare/291fj#product_additional_details_container",
       "ITS": "https://its.co.uk/pd/M18BP-0-Milwaukee-M18-BP-0-18V-82mm-Planer---Body-_MILM18BP0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-planers/milwaukee-m18bp-0-18v-82mm-cordless-planer-body-only.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-planers/milwaukee-m18bp-0-18v-82mm-cordless-planer-body-only.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18bp-0"
     }
   },
   "milwaukee-m18-fuel-orbital-sander": {
@@ -90,7 +98,8 @@
     "retailers": {
       "Toolstation": "https://www.toolstation.com/milwaukee-m18bos125-125mm-random-orbital-sander/p39958",
       "ITS": "https://its.co.uk/pd/M18BOS125-0-Milwaukee-M18-BOS125-0-18V-125mm-Random-Orbit-Sander---Body-_MILM18BOS1250.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-sanders/m18bos125-0-m18-compact-125mm-random-orbital-sander.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-sanders/m18bos125-0-m18-compact-125mm-random-orbital-sander.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18bos125-0"
     }
   },
   "milwaukee-m18-fuel-brad-nailer": {
@@ -98,7 +107,8 @@
     "name": "M18 FUEL 18 Gauge Brad Nailer (Body Only)",
     "retailers": {
       "ITS": "https://its.co.uk/pd/M18-FN18GS-0-Milwaukee-M18-FN18GS-0X-18V-FUEL-Brushless-Straight-Finish-Nailer-18-Gauge---Body-_MILM18FN18GS0.htm",
-      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-nail-guns/milwaukee-m18fn18gs-0-18v-m18-fuel-18g-finish-nailer-bare-unit.htm"
+      "Powertool Mate": "https://www.powertoolmate.co.uk/power-tools/milwaukee/cordless-nail-guns/milwaukee-m18fn18gs-0-18v-m18-fuel-18g-finish-nailer-bare-unit.htm",
+      "Big Red Power Tools": "https://www.bigredpowertools.co.uk/milwaukee-m18fn18gs-0"
     }
   },
   "milwaukee-m18-fuel-first-fix-nailer": {

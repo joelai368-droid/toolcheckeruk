@@ -24,6 +24,7 @@ const parsers = {
   'ITS': require('./parsers/its'),
   'Powertool Mate': require('./parsers/powertoolmate'),
   'Machine Mart': require('./parsers/machinemart'),
+  'Big Red Power Tools': require('./parsers/bigredpowertools'),
 };
 
 const DEFAULT_MAPPING_FILE = path.join(__dirname, 'mappings/milwaukee.json');
